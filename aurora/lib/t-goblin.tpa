@@ -1,0 +1,377 @@
+ACTION_FOR_EACH bm IN ~mgo4a2~ ~mgo4a2e~ ~mgo4ca~ ~mgo4cae~ ~mgo4sp~ ~mgo4spe~ BEGIN
+  ACTION_IF FILE_EXISTS ~override/%bm%.bam~ BEGIN
+    MOVE ~override/%bm%.bam~ ~aurora/backup~
+  END
+END
+
+ACTION_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+  ACTION_FOR_EACH bm IN ~mgh2a4~ ~mgh2a4e~ ~mgh2aa1~ ~mgh2aa1e~ ~mgh2aa2~ ~mgh2aa2e~ ~mgh2agh~ ~mgh2aghe~ ~mgh2agu~ ~mgh2ague~ ~mgh2asc~ ~mgh2asce~ ~mgh2asd~ ~mgh2asde~ ~mgh2asl~ ~mgh2asle~ ~mgh2awk~ ~mgh2awke~ ~mgh2ma1~ ~mgh2ma1e~ ~mgh2ma2~ ~mgh2ma2e~ ~mgh2mgh~ ~mgh2mghe~ ~mgh2mgu~ ~mgh2mgue~ ~mgh2msc~ ~mgh2msce~ ~mgh2msd~ ~mgh2msde~ ~mgh2msl~ ~mgh2msle~ ~mgh2mwk~ ~mgh2mwke~ ~mgh2sa1~ ~mgh2sa1e~ ~mgh2sa2~ ~mgh2sa2e~ ~mgh2sgh~ ~mgh2sghe~ ~mgh2sgu~ ~mgh2sgue~ ~mgh2ssc~ ~mgh2ssce~ ~mgh2ssd~ ~mgh2ssde~ ~mgh2ssl~ ~mgh2ssle~ ~mgh2swk~ ~mgh2swke~ ~mgh3a4~ ~mgh3a4e~ ~mgh3aa1~ ~mgh3aa1e~ ~mgh3aa2~ ~mgh3aa2e~ ~mgh3agh~ ~mgh3aghe~ ~mgh3agu~ ~mgh3ague~ ~mgh3asc~ ~mgh3asce~ ~mgh3asd~ ~mgh3asde~ ~mgh3asl~ ~mgh3asle~ ~mgh3awk~ ~mgh3awke~ ~mgh3sa1~ ~mgh3sa1e~ ~mgh3sa2~ ~mgh3sa2e~ ~mgh3sgh~ ~mgh3sghe~ ~mgh3sgu~ ~mgh3sgue~ ~mgh3ssc~ ~mgh3ssce~ ~mgh3ssd~ ~mgh3ssde~ ~mgh3ssl~ ~mgh3ssle~ ~mgh3swk~ ~mgh3swke~ ~mgh3wa1~ ~mgh3wa1e~ ~mgh3wa2~ ~mgh3wa2e~ ~mgh3wgh~ ~mgh3wghe~ ~mgh3wgu~ ~mgh3wgue~ ~mgh3wsc~ ~mgh3wsce~ ~mgh3wsd~ ~mgh3wsde~ ~mgh3wsl~ ~mgh3wsle~ ~mgh3wwk~ ~mgh3wwke~ ~mwiga4~ ~mwiga4e~ ~mwigaa1~ ~mwigaa1e~ ~mwigaa2~ ~mwigaa2e~ ~mwigaa4~ ~mwigaa4e~ ~mwigaca~ ~mwigacae~ ~mwigagh~ ~mwigaghe~ ~mwigagu~ ~mwigague~ ~mwigasc~ ~mwigasce~ ~mwigasd~ ~mwigasde~ ~mwigasl~ ~mwigasle~ ~mwigasp~ ~mwigaspe~ ~mwigawk~ ~mwigawke~ ~mwigma1~ ~mwigma1e~ ~mwigma2~ ~mwigma2e~ ~mwigma4~ ~mwigma4e~ ~mwigmca~ ~mwigmcae~ ~mwigmgh~ ~mwigmghe~ ~mwigmgu~ ~mwigmgue~ ~mwigmsc~ ~mwigmsce~ ~mwigmsd~ ~mwigmsde~ ~mwigmsl~ ~mwigmsle~ ~mwigmsp~ ~mwigmspe~ ~mwigmwk~ ~mwigmwke~ ~mwigsa1~ ~mwigsa1e~ ~mwigsa2~ ~mwigsa2e~ ~mwigsa4~ ~mwigsa4e~ ~mwigsca~ ~mwigscae~ ~mwigsgh~ ~mwigsghe~ ~mwigsgu~ ~mwigsgue~ ~mwigssc~ ~mwigssce~ ~mwigssd~ ~mwigssde~ ~mwigssl~ ~mwigssle~ ~mwigssp~ ~mwigsspe~ ~mwigswk~ ~mwigswke~ BEGIN
+    ACTION_IF FILE_EXISTS ~override/%bm%.bam~ BEGIN
+      MOVE ~override/%bm%.bam~ ~aurora/backup~
+    END
+  END
+
+  COPY ~aurora/bamsoa/킳v.2da~ ~override/msh2.2da~ //Goblin Captain
+       ~aurora/bamsoa/킳va1.bam~ ~override/msh2a1.bam~
+       ~aurora/bamsoa/킳va1e.bam~ ~override/msh2a1e.bam~
+       ~aurora/bamsoa/킳va2.bam~ ~override/msh2a2.bam~
+       ~aurora/bamsoa/킳va2e.bam~ ~override/msh2a2e.bam~
+       ~aurora/bamsoa/킳vde.bam~ ~override/msh2de.bam~
+       ~aurora/bamsoa/킳vdee.bam~ ~override/msh2dee.bam~
+       ~aurora/bamsoa/킳vgh.bam~ ~override/msh2gh.bam~
+       ~aurora/bamsoa/킳vghe.bam~ ~override/msh2ghe.bam~
+       ~aurora/bamsoa/킳vgu.bam~ ~override/msh2gu.bam~
+       ~aurora/bamsoa/킳vgue.bam~ ~override/msh2gue.bam~
+       ~aurora/bamsoa/킳vsc.bam~ ~override/msh2sc.bam~
+       ~aurora/bamsoa/킳vsce.bam~ ~override/msh2sce.bam~
+       ~aurora/bamsoa/킳vsd.bam~ ~override/msh2sd.bam~
+       ~aurora/bamsoa/킳vsde.bam~ ~override/msh2sde.bam~
+       ~aurora/bamsoa/킳vsl.bam~ ~override/msh2sl.bam~
+       ~aurora/bamsoa/킳vsle.bam~ ~override/msh2sle.bam~
+       ~aurora/bamsoa/킳vtw.bam~ ~override/msh2tw.bam~
+       ~aurora/bamsoa/킳vtwe.bam~ ~override/msh2twe.bam~
+       ~aurora/bamsoa/킳vwk.bam~ ~override/msh2wk.bam~
+       ~aurora/bamsoa/킳vwke.bam~ ~override/msh2wke.bam~
+
+       ~aurora/bamsoa/킶a.2da~ ~override/msh1.2da~ //Goblin Shaman
+       ~aurora/bamsoa/킶aa1.bam~ ~override/msh1a1.bam~
+       ~aurora/bamsoa/킶aa1e.bam~ ~override/msh1a1e.bam~
+       ~aurora/bamsoa/킶aa2.bam~ ~override/msh1a2.bam~
+       ~aurora/bamsoa/킶aa2e.bam~ ~override/msh1a2e.bam~
+       ~aurora/bamsoa/킶aca.bam~ ~override/msh1ca.bam~
+       ~aurora/bamsoa/킶acae.bam~ ~override/msh1cae.bam~
+       ~aurora/bamsoa/킶ade.bam~ ~override/msh1de.bam~
+       ~aurora/bamsoa/킶adee.bam~ ~override/msh1dee.bam~
+       ~aurora/bamsoa/킶agh.bam~ ~override/msh1gh.bam~
+       ~aurora/bamsoa/킶aghe.bam~ ~override/msh1ghe.bam~
+       ~aurora/bamsoa/킶agu.bam~ ~override/msh1gu.bam~
+       ~aurora/bamsoa/킶ague.bam~ ~override/msh1gue.bam~
+       ~aurora/bamsoa/킶asc.bam~ ~override/msh1sc.bam~
+       ~aurora/bamsoa/킶asce.bam~ ~override/msh1sce.bam~
+       ~aurora/bamsoa/킶asd.bam~ ~override/msh1sd.bam~
+       ~aurora/bamsoa/킶asde.bam~ ~override/msh1sde.bam~
+       ~aurora/bamsoa/킶asl.bam~ ~override/msh1sl.bam~
+       ~aurora/bamsoa/킶asle.bam~ ~override/msh1sle.bam~
+       ~aurora/bamsoa/킶asp.bam~ ~override/msh1sp.bam~
+       ~aurora/bamsoa/킶aspe.bam~ ~override/msh1spe.bam~
+       ~aurora/bamsoa/킶atw.bam~ ~override/msh1tw.bam~
+       ~aurora/bamsoa/킶atwe.bam~ ~override/msh1twe.bam~
+       ~aurora/bamsoa/킶awk.bam~ ~override/msh1wk.bam~
+       ~aurora/bamsoa/킶awke.bam~ ~override/msh1wke.bam~
+
+       ~aurora/bamsoa/킶ma1.bam~ ~override/mgh2a1.bam~ //Svirfneblin Pale Axe
+       ~aurora/bamsoa/킶ma1e.bam~ ~override/mgh2a1e.bam~
+       ~aurora/bamsoa/킶ma2.bam~ ~override/mgh2a2.bam~
+       ~aurora/bamsoa/킶ma2e.bam~ ~override/mgh2a2e.bam~
+       ~aurora/bamsoa/킶ma4.bam~ ~override/mgh2a4.bam~
+       ~aurora/bamsoa/킶ma4e.bam~ ~override/mgh2a4e.bam~
+       ~aurora/bamsoa/킶mca.bam~ ~override/mgh2ca.bam~
+       ~aurora/bamsoa/킶mcae.bam~ ~override/mgh2cae.bam~
+       ~aurora/bamsoa/킶mde.bam~ ~override/mgh2de.bam~
+       ~aurora/bamsoa/킶mdee.bam~ ~override/mgh2dee.bam~
+       ~aurora/bamsoa/킶mgh.bam~ ~override/mgh2gh.bam~
+       ~aurora/bamsoa/킶mghe.bam~ ~override/mgh2ghe.bam~
+       ~aurora/bamsoa/킶mgu.bam~ ~override/mgh2gu.bam~
+       ~aurora/bamsoa/킶mgue.bam~ ~override/mgh2gue.bam~
+       ~aurora/bamsoa/킶msc.bam~ ~override/mgh2sc.bam~
+       ~aurora/bamsoa/킶msce.bam~ ~override/mgh2sce.bam~
+       ~aurora/bamsoa/킶msd.bam~ ~override/mgh2sd.bam~
+       ~aurora/bamsoa/킶msde.bam~ ~override/mgh2sde.bam~
+       ~aurora/bamsoa/킶msl.bam~ ~override/mgh2sl.bam~
+       ~aurora/bamsoa/킶msle.bam~ ~override/mgh2sle.bam~
+       ~aurora/bamsoa/킶msp.bam~ ~override/mgh2sp.bam~
+       ~aurora/bamsoa/킶mspe.bam~ ~override/mgh2spe.bam~
+       ~aurora/bamsoa/킶mtw.bam~ ~override/mgh2tw.bam~
+       ~aurora/bamsoa/킶mtwe.bam~ ~override/mgh2twe.bam~
+       ~aurora/bamsoa/킶mwk.bam~ ~override/mgh2wk.bam~
+       ~aurora/bamsoa/킶mwke.bam~ ~override/mgh2wke.bam~
+
+       ~aurora/bamsoa/킶na1.bam~ ~override/mgh3a1.bam~ //Svirfneblin Pale No Axe
+       ~aurora/bamsoa/킶na1e.bam~ ~override/mgh3a1e.bam~
+       ~aurora/bamsoa/킶na2.bam~ ~override/mgh3a2.bam~
+       ~aurora/bamsoa/킶na2e.bam~ ~override/mgh3a2e.bam~
+       ~aurora/bamsoa/킶na4.bam~ ~override/mgh3a4.bam~
+       ~aurora/bamsoa/킶na4e.bam~ ~override/mgh3a4e.bam~
+       ~aurora/bamsoa/킶nca.bam~ ~override/mgh3ca.bam~
+       ~aurora/bamsoa/킶ncae.bam~ ~override/mgh3cae.bam~
+       ~aurora/bamsoa/킶nde.bam~ ~override/mgh3de.bam~
+       ~aurora/bamsoa/킶ndee.bam~ ~override/mgh3dee.bam~
+       ~aurora/bamsoa/킶ngh.bam~ ~override/mgh3gh.bam~
+       ~aurora/bamsoa/킶nghe.bam~ ~override/mgh3ghe.bam~
+       ~aurora/bamsoa/킶ngu.bam~ ~override/mgh3gu.bam~
+       ~aurora/bamsoa/킶ngue.bam~ ~override/mgh3gue.bam~
+       ~aurora/bamsoa/킶nsc.bam~ ~override/mgh3sc.bam~
+       ~aurora/bamsoa/킶nsce.bam~ ~override/mgh3sce.bam~
+       ~aurora/bamsoa/킶nsd.bam~ ~override/mgh3sd.bam~
+       ~aurora/bamsoa/킶nsde.bam~ ~override/mgh3sde.bam~
+       ~aurora/bamsoa/킶nsl.bam~ ~override/mgh3sl.bam~
+       ~aurora/bamsoa/킶nsle.bam~ ~override/mgh3sle.bam~
+       ~aurora/bamsoa/킶nsp.bam~ ~override/mgh3sp.bam~
+       ~aurora/bamsoa/킶nspe.bam~ ~override/mgh3spe.bam~
+       ~aurora/bamsoa/킶ntw.bam~ ~override/mgh3tw.bam~
+       ~aurora/bamsoa/킶ntwe.bam~ ~override/mgh3twe.bam~
+       ~aurora/bamsoa/킶nwk.bam~ ~override/mgh3wk.bam~
+       ~aurora/bamsoa/킶nwke.bam~ ~override/mgh3wke.bam~
+
+       ~aurora/bamsoa/킶oa1.bam~ ~override/mwiga1.bam~ //Svirfneblin Dark Axe
+       ~aurora/bamsoa/킶oa1e.bam~ ~override/mwiga1e.bam~
+       ~aurora/bamsoa/킶oa2.bam~ ~override/mwiga2.bam~
+       ~aurora/bamsoa/킶oa2e.bam~ ~override/mwiga2e.bam~
+       ~aurora/bamsoa/킶oa4.bam~ ~override/mwiga4.bam~
+       ~aurora/bamsoa/킶oa4e.bam~ ~override/mwiga4e.bam~
+       ~aurora/bamsoa/킶oca.bam~ ~override/mwigca.bam~
+       ~aurora/bamsoa/킶ocae.bam~ ~override/mwigcae.bam~
+       ~aurora/bamsoa/킶ode.bam~ ~override/mwigde.bam~
+       ~aurora/bamsoa/킶odee.bam~ ~override/mwigdee.bam~
+       ~aurora/bamsoa/킶ogh.bam~ ~override/mwiggh.bam~
+       ~aurora/bamsoa/킶oghe.bam~ ~override/mwigghe.bam~
+       ~aurora/bamsoa/킶ogu.bam~ ~override/mwiggu.bam~
+       ~aurora/bamsoa/킶ogue.bam~ ~override/mwiggue.bam~
+       ~aurora/bamsoa/킶osc.bam~ ~override/mwigsc.bam~
+       ~aurora/bamsoa/킶osce.bam~ ~override/mwigsce.bam~
+       ~aurora/bamsoa/킶osd.bam~ ~override/mwigsd.bam~
+       ~aurora/bamsoa/킶osde.bam~ ~override/mwigsde.bam~
+       ~aurora/bamsoa/킶osl.bam~ ~override/mwigsl.bam~
+       ~aurora/bamsoa/킶osle.bam~ ~override/mwigsle.bam~
+       ~aurora/bamsoa/킶osp.bam~ ~override/mwigsp.bam~
+       ~aurora/bamsoa/킶ospe.bam~ ~override/mwigspe.bam~
+       ~aurora/bamsoa/킶otw.bam~ ~override/mwigtw.bam~
+       ~aurora/bamsoa/킶otwe.bam~ ~override/mwigtwe.bam~
+       ~aurora/bamsoa/킶owk.bam~ ~override/mwigwk.bam~
+       ~aurora/bamsoa/킶owke.bam~ ~override/mwigwke.bam~
+
+       ~aurora/bamsoa/킶pa1.bam~ ~override/mwi2a1.bam~ //Svirfneblin Dark No Axe
+       ~aurora/bamsoa/킶pa1e.bam~ ~override/mwi2a1e.bam~
+       ~aurora/bamsoa/킶pa2.bam~ ~override/mwi2a2.bam~
+       ~aurora/bamsoa/킶pa2e.bam~ ~override/mwi2a2e.bam~
+       ~aurora/bamsoa/킶pa4.bam~ ~override/mwi2a4.bam~
+       ~aurora/bamsoa/킶pa4e.bam~ ~override/mwi2a4e.bam~
+       ~aurora/bamsoa/킶pca.bam~ ~override/mwi2ca.bam~
+       ~aurora/bamsoa/킶pcae.bam~ ~override/mwi2cae.bam~
+       ~aurora/bamsoa/킶pde.bam~ ~override/mwi2de.bam~
+       ~aurora/bamsoa/킶pdee.bam~ ~override/mwi2dee.bam~
+       ~aurora/bamsoa/킶pgh.bam~ ~override/mwi2gh.bam~
+       ~aurora/bamsoa/킶pghe.bam~ ~override/mwi2ghe.bam~
+       ~aurora/bamsoa/킶pgu.bam~ ~override/mwi2gu.bam~
+       ~aurora/bamsoa/킶pgue.bam~ ~override/mwi2gue.bam~
+       ~aurora/bamsoa/킶psc.bam~ ~override/mwi2sc.bam~
+       ~aurora/bamsoa/킶psce.bam~ ~override/mwi2sce.bam~
+       ~aurora/bamsoa/킶psd.bam~ ~override/mwi2sd.bam~
+       ~aurora/bamsoa/킶psde.bam~ ~override/mwi2sde.bam~
+       ~aurora/bamsoa/킶psl.bam~ ~override/mwi2sl.bam~
+       ~aurora/bamsoa/킶psle.bam~ ~override/mwi2sle.bam~
+       ~aurora/bamsoa/킶psp.bam~ ~override/mwi2sp.bam~
+       ~aurora/bamsoa/킶pspe.bam~ ~override/mwi2spe.bam~
+       ~aurora/bamsoa/킶ptw.bam~ ~override/mwi2tw.bam~
+       ~aurora/bamsoa/킶ptwe.bam~ ~override/mwi2twe.bam~
+       ~aurora/bamsoa/킶pwk.bam~ ~override/mwi2wk.bam~
+       ~aurora/bamsoa/킶pwke.bam~ ~override/mwi2wke.bam~
+END ELSE BEGIN //ToB
+  COPY ~aurora/bamsoa~ ~override~
+  COPY ~aurora/bamtob~ ~override~
+END
+
+COPY_EXISTING ~mgo3a1.bam~ ~override~
+  z3 = SOURCE_SIZE
+BUT_ONLY
+
+COPY_EXISTING ~mgo4a1.bam~ ~override~
+  z4 = SOURCE_SIZE
+BUT_ONLY
+
+ACTION_IF (z3 != 70696) OR (z4 != 45025) BEGIN
+  COPY ~aurora/restore~ ~override~
+END
+
+COPY_EXISTING ~elehob01.cre~ ~override~ //Goblin Commando
+  PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+  PATCH_IF vl BEGIN
+    PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+    REPLACE_CRE_ITEM ~sw1h04~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ //Long Sword (was sw1h01 Bastard Sword)
+  END
+BUT_ONLY
+
+COPY_EXISTING ~icgob01.cre~ ~override~ //Goblins
+              ~icgob02.cre~ ~override~
+  PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+  PATCH_IF vl BEGIN
+    PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+    WRITE_SHORT 0x28 0xe400 //Animation ID (goblin_axe, was 0xe410 goblin_bow)
+    REMOVE_CRE_ITEM ~bow01~ ~dagg01~ ~sw1h07~
+    REPLACE_CRE_ITEM ~bow05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP TWOHANDED //Short Bow (was bow01 Composite Long Bow)
+    REPLACE_CRE_ITEM ~sw1h07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ //Short Sword
+  END
+BUT_ONLY
+
+COPY_EXISTING ~icgob04.cre~ ~override~ //Goblin Captain
+  PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+    PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+      WRITE_SHORT 0x28 0xea20 //Animation (goblin_captain)
+    END ELSE BEGIN //ToB
+      WRITE_SHORT 0x28 0x5252
+    END
+  END
+BUT_ONLY
+
+ACTION_IF FILE_EXISTS_IN_GAME ~fshorde2.cre~ THEN BEGIN //ToB
+  COPY_EXISTING ~fshorde2.cre~ ~override~ //Goblin
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      WRITE_SHORT 0x28 0xe400 //Animation ID (goblin_axe, was 0xe410 goblin_bow)
+      REPLACE_CRE_ITEM ~bow05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ //Short Bow (was bow01 Composite Long Bow)
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bptarget.cre~ THEN BEGIN //Big Picture
+  COPY_EXISTING ~bptarget.cre~ ~override~ //Target
+    PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+      WRITE_SHORT 0x28 0x7f38 //Animation ID (wizard_eye, was goblin_axe)
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~o!gobl.cre~ THEN BEGIN //BoM Item Pack
+  COPY_EXISTING ~o!gobl.cre~ ~override~ //Jerry
+    PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+      REPLACE_CRE_ITEM ~sw1h04~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ //Long Sword (was sw1h01 Bastard Sword)
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~tcsvir01.cre~ THEN BEGIN //Classic Adventures
+  COPY_EXISTING ~tcsvir01.cre~ ~override~ //Svirfneblin
+    PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+      WRITE_SHORT 0x28 0x5266 //Animation (svirfneblin_dark_noaxe)
+      WRITE_BYTE 0x2f 38 //Skin color (light dirt brown, was 7 light metallic green)
+      WRITE_BYTE 0x32 5 //Hair color (light silver, was 109 terracotta)
+      WRITE_BYTE 0x45 60 //Hide in shadows
+      WRITE_SHORT 0x46 ~-3~ //Base AC (was 10)
+      WRITE_SHORT 0x46 ~-3~ //Effective AC (was 10)
+      WRITE_BYTE 0x54 8 //Save vs. death (was 9)
+      WRITE_BYTE 0x55 9 //Save vs. wands (was 11)
+      WRITE_BYTE 0x56 8 //Save vs. polymorph (was 10)
+      WRITE_BYTE 0x57 9 //Save vs. breath (was 11)
+      WRITE_BYTE 0x58 10 //Save vs. spells (was 12)
+      WRITE_BYTE 0x5d 45 //Resist magic
+      WRITE_BYTE 0x5e 45 //Resist magic fire
+      WRITE_BYTE 0x5f 45 //Resist magic cold
+      WRITE_BYTE 0x64 100 //Detect illusion
+      WRITE_BYTE 0x66 8 //Lore
+      SAY INITIAL_MEETING @439 //Hello there. [T-SVN01A]
+      SAY MORALE @447 //Farewell. [T-SVN03A]
+      SAY UNHAPPY_BREAKING_POINT @249 //Farewell. [T-SVN03A]
+      SAY BATTLE_CRY1 @443 //Get 'em! [T-SVN02A]
+      SAY BATTLE_CRY2 @444 //I will cut you down to size! [T_SVN02B]
+      SAY ATTACK1 ~~ [T-SVN04A]
+      SAY DAMAGE ~~ [T-SVN05A]
+      SAY DYING ~~ [T-SVN06A]
+      SAY HURT @449 //I am hurt! [T-SVN07]
+      SAY SELECT_COMMON1 @439 //Hello there. [T-SVN01A]
+      SAY SELECT_COMMON2 @440 //Yes. [T-SVN01B]
+      SAY SELECT_COMMON3 @441 //Come and talk a while. [T-SVN01C]
+      SAY SELECT_COMMON4 @442 //Oh ho ho ho! [T-SVN01D]
+      SAY DIALOGUE_HOSTILE @450 //You're heading for a good beating, you are! [T-SVN08]
+      SAY CRITICAL_HIT @451 //Well look at that! [T-SVN09]
+      SAY CRITICAL_MISS @452 //No... [T-SVN10]
+      SAY SPELL_DISRUPTED @452 //No... [T-SVN10]
+      WRITE_BYTE 0x23f 13 //Morale (was 12)
+      WRITE_BYTE 0x240 6 //Morale break (was 7)
+      WRITE_BYTE 0x242 30 //Morale recovery (was 60)
+      WRITE_ASCII 0x250 ~agsvir01~ #8 //Class script  
+      ADD_MEMORIZED_SPELL ~spwi106~ #0 ~wizard~ //Blindness
+      ADD_MEMORIZED_SPELL ~spwi201~ #1 ~wizard~ //Blur
+      ADD_MEMORIZED_SPELL ~spwi622~ #5 ~wizard~ //Conjure Earth Elemental
+      ADD_CRE_ITEM ~agblun01~ #0 #0 #0 ~UNDROPPABLE~ ~WEAPON1~ //Svirfneblin Club
+      ADD_CRE_ITEM ~t-ring05~ #0 #0 #0 ~UNSTEALABLE~ ~LRING RRING~ //Svirfneblin Ring
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~f_medgaz.itm~ THEN BEGIN //Drizzt Saga
+  COPY_EXISTING ~f_medgaz.itm~ ~override~ //Medusa Gaze
+    PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+      WRITE_SHORT 0x1c 0 //Item type
+      WRITE_ASCII 0x3a ~spwi111b~ #8 //Inventory icon
+      READ_LONG 0x64 hf //Extended header offset
+      READ_SHORT 0x68 hc //Extended header count
+      FOR (i = 0; i < hc; i += 1) BEGIN //Cycle through headers
+        WRITE_BYTE (0x38 * i + hf) 2 //Attack type (projectile)
+        WRITE_ASCII (0x38 * i + hf + 4) ~spwi111b~ #8 //Use icon 1
+        WRITE_SHORT (0x38 * i + hf + 0x14) 0 //THAC0 bonus
+        WRITE_SHORT (0x38 * i + hf + 0x16) 0 //Die sides
+      END
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~dsgobchf.cre~ THEN BEGIN //DSotSC
+  COPY_EXISTING ~dsgobchf.cre~ ~override~ //Goblin Chief
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+        WRITE_SHORT 0x28 0xea20 //Animation (goblin_captain)
+      END ELSE BEGIN //ToB
+        WRITE_SHORT 0x28 0x5252
+      END
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~lhgobc1.cre~ THEN BEGIN //Epic Endeavors
+  COPY_EXISTING ~lhgobc1.cre~ ~override~ //Goblin Captain
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+        WRITE_SHORT 0x28 0xea20 //Animation (goblin_captain)
+      END ELSE BEGIN //ToB
+        WRITE_SHORT 0x28 0x5252
+      END
+    END
+  BUT_ONLY
+
+  COPY_EXISTING ~lhgobm1.cre~ ~override~ //Goblin Commando
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      WRITE_SHORT 0x28 0xe400 //Animation ID (goblin_axe, was 0xe410 goblin_bow)
+      REPLACE_CRE_ITEM ~sw1h04~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ //Long Sword (was sw1h01 Bastard Sword)
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~tupungcs.cre~ THEN BEGIN //NEJ2
+  COPY_EXISTING ~icgob05.cre~ ~override~ //Goblin
+    PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+      REPLACE_CRE_ITEM ~bow06~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP TWOHANDED //Short Bow +1 (was bow04 Long Bow +1)
+    END
+  BUT_ONLY
+
+  COPY_EXISTING ~tupungcs.cre~ ~override~ //Goblin
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      SAY NAME1 ~Pung~ //Fix invalid reference
+      REPLACE_CRE_ITEM ~ax1h01~ #0 #0 #0 ~UNDROPPABLE~ ~WEAPON1~ EQUIP //Battle Axe
+      ADD_CRE_ITEM ~ringtom~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~ //Ring of Fading (was in weapon1)
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~arenago5.cre~ THEN BEGIN //RoT
+  COPY_EXISTING ~arenago5.cre~ ~override~ //Goblin
+                ~arenago6.cre~ ~override~
+                ~arengo13.cre~ ~override~
+                ~arengo14.cre~ ~override~
+                ~arengo15.cre~ ~override~
+                ~iwdgob1.cre~ ~override~
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      REPLACE_CRE_ITEM ~bow05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP TWOHANDED //Short Bow (was bow01 Composite Long Bow)
+    END
+  BUT_ONLY
+END

@@ -1,0 +1,102 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~fw0125.are~ BEGIN
+  OUTER_SPRINT tsu ~_~ //Underscore (Tutu)
+END ELSE BEGIN
+  OUTER_SPRINT tsu ~~
+END
+
+OUTER_SPRINT cp @425 //Copying and patching
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY nwg BEGIN //Define new CRE gold amounts
+  ~%tsu%arkion~ => 100
+  ~%tsu%ardrou~ => 10
+  ~%tsu%berrun~ => 58
+  ~%tsu%brevli~ => 5
+  ~%tsu%brielb~ => 200
+  ~%tsu%gurke~ => 20
+  ~%tsu%nalin~ => 59
+  ~%tsu%oublek~ => 500
+  ~%tsu%perdue%~ => 75
+  ~%tsu%pheirk%~ => 38
+  ~%tsu%scar~ => 526
+  ~%tsu%sonner~ => 150
+  ~%tsu%wenric~ => 170
+  ~bw05dami~ => 380
+  ~bw05dw01~ => 100
+  ~bw05robe~ => 100
+  ~calwere2~ => 20
+  ~cbldbuck~ => 32
+  ~clfmox~ => 0
+  ~cmgabby~ => 300
+  ~cmgsmeag~ => 4
+  ~cmlstr1~ => 10
+  ~ddcapt01~ => 45
+  ~j#pirat1~ => 20
+  ~jarlaxle~ => 25
+  ~o#crnev~ => 14
+  ~pgbarry~ => 170
+  ~pgkmom~ => 20
+  ~ppsime~ => 50
+  ~pstutor6~ => 20
+  ~rylock~ => 5
+  ~suelhan~ => 100
+  ~x#belgin~ => 300
+  ~yschearl~ => 150
+END
+
+ACTION_PHP_EACH nwg AS nme => gld BEGIN //Adjust CRE gold amounts accordingly
+  ACTION_IF FILE_EXISTS_IN_GAME ~%nme%.cre~ BEGIN
+    COPY_EXISTING ~%nme%.cre~ ~override~
+      PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+        WRITE_LONG 0x1c gld //Gold carried
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~%tsu%keldda.dlg~ BEGIN
+  OUTER_SPRINT ygg @392 //You will get but 2,000 gold
+  COPY_EXISTING ~%tsu%keldda.dlg~ ~override~ //Fix inaccuracy in Kelddath's dialogue
+    PATCH_IF SOURCE_SIZE > 0x34 BEGIN
+      READ_LONG 0x0c st_off //States offset
+      READ_LONG (st_off + 3 * 0x10) kr //String reference
+      READ_STRREF (st_off + 3 * 0x10) kt //State text
+      PATCH_IF (~%kt%~ STRING_CONTAINS_REGEXP ~%ygg%~ = 0) BEGIN
+        INNER_ACTION BEGIN
+          STRING_SET_EVALUATE ~%kr%~ @389 //'Tis a great service you have done the people of this area, but it merely makes up for your previous acts of violence within these walls. You will get but the gold I have with me, and then you will leave my sight! Be thankful the guard does not place you in chains as your reward!
+        END
+      END
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~%tsu%scar.dlg~ BEGIN
+  OUTER_SPRINT sct @393 //triple
+  COPY_EXISTING ~%tsu%scar.dlg~ ~override~ //Fix inaccuracy in Scar's dialogue
+    PATCH_IF SOURCE_SIZE > 0x34 BEGIN
+      READ_LONG 0x0c st_off //States offset
+      READ_LONG (st_off + 16 * 0x10) kr //String reference
+      READ_STRREF (st_off + 16 * 0x10) kt //State text
+      PATCH_IF (~%kt%~ STRING_CONTAINS_REGEXP ~%sct%~ = 0) BEGIN
+        INNER_ACTION BEGIN
+          STRING_SET_EVALUATE ~%kr%~ @390 //I'm impressed! You are as good as your word and obviously very deadly in your work. I'll give you the wage you deserve: double our original agreement. I want to keep in touch with you, especially if the Iron Throne is up to what you say it is.
+        END
+      END
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~x#winski.dlg~ BEGIN
+  OUTER_SPRINT xwd @394 //Thousand gold
+  COPY_EXISTING ~x#winski.dlg~ ~override~ //Fix typo in Winski's dialogue
+    PATCH_IF SOURCE_SIZE > 0x34 BEGIN
+      READ_LONG 0x14 tr_off //Transitions offset
+      READ_LONG (tr_off + 13 * 0x20 + 0x4) kr //String reference
+      READ_STRREF (tr_off + 13 * 0x20 + 0x4) kt //Transition text
+      PATCH_IF (~%kt%~ STRING_CONTAINS_REGEXP ~^%xwd%~ = 0) BEGIN
+        INNER_ACTION BEGIN
+          STRING_SET_EVALUATE ~%kr%~ @391 //A thousand gold, and she is yours!
+        END
+      END
+    END
+  BUT_ONLY
+END

@@ -1,0 +1,235 @@
+IF
+  Die()
+  Global("agaenemy","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("agaenemy","GLOBAL",0)
+END
+
+IF
+  OR(2)
+    Dead("agasleep")
+    Exists("agasleep")
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+
+IF
+  !StateCheck(Myself,STATE_CHARMED)
+  Global("agtenemy","GLOBAL",1)
+  !Global("agaenemy","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("agaenemy","GLOBAL",1)
+    Enemy()
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+  !StateCheck(Myself,STATE_CHARMED)
+  Global("agaenemy","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  OnCreation()
+  OR(2)
+    TimeLT(6)
+    TimeGT(21)
+THEN
+  RESPONSE #100
+    JumpToPoint([2996.812])
+    SetGlobal("agaurinv","LOCALS",1)
+    Deactivate(Myself)
+END
+
+//Aurora walks to market at dawn if not active
+IF
+  Time(6)
+  Global("agaurinv","LOCALS",1)
+THEN
+  RESPONSE #100
+    Activate(Myself)
+    MoveToPointNoInterrupt([2780.1955])
+    Face(15)
+    SetGlobal("agaurinv","LOCALS",0)
+END
+
+//Aurora jumps to market after dawn if not active
+IF
+  !TimeLT(7)
+  !TimeGT(21)
+  Global("agaurinv","LOCALS",1)
+THEN
+  RESPONSE #100
+    Activate(Myself)
+    JumpToPoint([2780.1955])
+    Face(15)
+    SetGlobal("agaurinv","LOCALS",0)
+END
+
+//Aurora walks home at dusk
+IF
+  !See(NearestEnemyOf())
+  Time(22)
+  Global("agaurinv","LOCALS",0)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([2996.812])
+    SetGlobal("agaurinv","LOCALS",1)
+    Deactivate(Myself)
+END
+
+//Aurora jumps home after dusk
+IF
+  OR(2)
+    TimeLT(6)
+    TimeGT(22)
+  Global("agaurinv","LOCALS",0)
+THEN
+  RESPONSE #100
+    JumpToPoint([2996.812])
+    SetGlobal("agaurinv","LOCALS",1)
+    Deactivate(Myself)
+END
+
+IF
+  Global("ag_items","GLOBAL",1)
+  Global("ag_aurnoloop","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_aurnoloop","GLOBAL",1)
+    AddJournalEntry(@260,QUEST)
+END
+
+IF
+  Global("ag_items","GLOBAL",6)
+  Global("ag_aurnoloop","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_aurnoloop","GLOBAL",2)
+    EraseJournalEntry(@260) 
+    AddJournalEntry(@261,QUEST_DONE)
+END
+
+IF
+  Global("ag_atimer2","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("ag_atimer1","GLOBAL",600)
+    SetGlobal("ag_atimer2","GLOBAL",2)
+END
+
+IF
+  Global("ag_atimer2","GLOBAL",2)
+  GlobalTimerExpired("ag_atimer1","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("ag_atimer2","GLOBAL",0)
+END
+
+IF
+  HPPercentLT(Myself,10)
+  !HasItem("potn52",Myself)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  HPPercentLT(Myself,50)
+  !GlobalTimerNotExpired("agc","LOCALS")
+  HasItem("potn52",Myself)
+THEN
+  RESPONSE #100
+    UseItem("potn52",Myself)
+    SetGlobalTimer("agc","LOCALS",6)
+END
+
+IF
+  StateCheck(Myself,STATE_POISONED)
+  !GlobalTimerNotExpired("agc","LOCALS")
+  HasItem("potn20",Myself)
+THEN
+  RESPONSE #100
+    UseItem("potn20",Myself)
+    SetGlobalTimer("agc","LOCALS",6)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Shout(99)
+    Shout(124)
+    SetGlobal("agaenemy","GLOBAL",1)
+    Enemy()
+END
+
+IF
+  StealFailed([0])
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    StartDialogOverride("agsteal1",LastTrigger)
+END
+
+IF
+  OR(4)
+    !Allegiance(Myself,ENEMY)
+    !IsActive(Myself)
+    StateCheck(Myself,STATE_INVISIBLE)
+    StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !GlobalTimerNotExpired("agc","LOCALS")
+  HasItem("potn11",Myself)
+THEN
+  RESPONSE #100
+    UseItem("potn11",Myself)
+    SetGlobalTimer("agc","LOCALS",6)
+END
+
+IF
+  !GlobalGT("agasw","LOCALS",0)
+  !GlobalTimerNotExpired("agc","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agc","LOCALS",6)
+    SetGlobal("agasw","LOCALS",1)
+    Spell(Myself,4900)
+END
+
+IF
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  GlobalTimerNotExpired("agc","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  !GlobalTimerNotExpired("agc","LOCALS")
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

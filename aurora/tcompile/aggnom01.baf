@@ -1,0 +1,74 @@
+IF
+  Detect([GOODCUTOFF])
+  HPPercentLT(Myself,25)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastHeardBy(),30)
+    Hide()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  HaveSpell(WIZARD_BLUR)
+  !GlobalTimerNotExpired("ags","LOCALS")
+  !StateCheck(Myself,STATE_BLUR)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("ags","LOCALS",6)
+    Spell(Myself,WIZARD_BLUR)
+END
+
+IF
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  HaveSpell(WIZARD_BLINDNESS)
+  !GlobalTimerNotExpired("ags","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+  CheckStatLT(LastSeenBy(),50,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("ags","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_BLINDNESS)
+END
+
+IF
+  GlobalTimerNotExpired("ags","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  !GlobalTimerNotExpired("ags","LOCALS")
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

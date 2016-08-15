@@ -1,0 +1,6 @@
+IF
+  Global("HendakReleased","AR0406",3)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_hend","GLOBAL",1)
+END

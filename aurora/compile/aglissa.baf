@@ -1,0 +1,11 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("agaurora")
+    CreateCreature("lissa",[2990.1875],0)
+    ActionOverride("lissa",MoveToPoint([2850.1900]))
+    Wait(2)
+    ActionOverride("lissa",StartDialogNoSet("agaurora"))
+    EndCutSceneMode()
+END

@@ -1,0 +1,41 @@
+µav /goblin_captain
+***
+                 SOUND
+ATTACK           t-gbc03a t-gbc04a
+ATTACK           0 0
+AWAKE            ***
+AWAKE            0
+CAST             ***
+CAST             0
+CONJURE          ***
+CONJURE          0
+DAMAGE           t-gbc07a t-gbc08a
+DAMAGE           0 0
+DIE              t-gbc09a t-gbc10a
+DIE              0 0
+HEAD_TURN        ***
+HEAD_TURN        0
+READY            ***
+READY            0
+SHOOT            ***
+SHOOT            0
+TWITCH           ***
+TWITCH           0
+WALK             ***
+WALK             0
+ATTACK_SLASH     t-gbc04a t-gbc04b
+ATTACK_SLASH     0 0
+ATTACK_BACKSLASH t-gbc04a t-gbc04b
+ATTACK_BACKSLASH 0 0
+ATTACK_JAB       t-gbc03a t-gbc03b
+ATTACK_JAB       0 0
+EMERGE           ***
+EMERGE           0
+HIDE             ***
+HIDE             0
+SLEEP            ***
+SLEEP            0
+Battle_Cry       t-gbc01a t-gbc02a
+Battle_Cry       0 0
+Selection        t-gbc01a t-gbc02a
+Selection        0 0

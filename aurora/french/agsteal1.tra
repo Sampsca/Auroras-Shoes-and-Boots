@@ -1,0 +1,17 @@
+@1 = ~\[Intelligence\] - Je n'apprécie pas ces accusations infondées. Ou défendez-vous à vos clients d'inspecter les marchandises avant de faire un achat ? Tenez, reprenez votre petite babiole.~
+@2 = ~\[Sagesse\] - Faites preuve d'un peu de bon sens avant de formuler des hypothèses aussi impertinentes. Je voulais simplement m'assurer que la qualité de vos marchandises est bien en accord avec mes exigences. Tenez, je vous rends ceci.~ 
+@3 = ~\[Charisme\] - Tout doux, l'ami. Je voulais simplement admirer cet objet remarquable de plus près et le prendre en main quelques secondes. Tenez, je vous le rends.~
+@4 = ~\[Savoir\] - Calmez-vous. J'étais tout simplement en train de m'imprégner de l'histoire que renferme cet objet. Tenez, vous pouvez le reprendre.~ 
+@5 = ~\[Réputation\] - Hmph ! Je vais gentiment vous rappeler que vous êtes en train de vous adresser à un citoyen intègre. Pour la petite histoire, j'examinais simplement vos marchandises. Reprenez cette babiole maintenant et cessez de répandre de tels mensonges.~ ~\[Réputation\] - Hmph ! Je vais gentiment vous rappeler que vous êtes en train de vous adresser à une citoyenne intègre. Pour la petite histoire, j'examinais simplement vos marchandises. Reprenez cette babiole maintenant et cessez de répandre de tels mensonges.~ 
+@6 = ~\[Réputation\] - Avez-vous vraiment *décidé* de m'énerver ? Je vous suggère de ravaler vos paroles et de surveiller votre langue si vous voulez la conserver.~
+@7 = ~(Tenter de s'enfuir)~
+@8 = ~Hmph. Vous vous en tirerez avec un avertissement pour cette fois.~
+@9 = ~Courez tant que vous voulez, voleur ! Je vais signaler votre tentative éhontée de vol à l'étalage !~ ~Courez tant que vous voulez, voleuse ! Je vais signaler votre tentative éhontée de vol à l'étalage !~
+@10 = ~C'en est assez ! Plus d'excuses !~
+@11 = ~Cependant, sachez que je vais vous avoir à l'oeil à partir de maintenant.~
+@12 = ~Bah ! Mon indulgence vous sauve une fois de plus, mais vous avez intérêt à ne plus tenter ce genre de chose à l'avenir !~
+@13 = ~Bien ! Mais souvenez-vous de ce que je vous ai dit, c'était le dernier avertissement !~
+@14 = ~Je vais signaler votre tentative pathétique de vol, vous pouvez compter là-dessus. Disparaissez de ma vue maintenant !~
+@15 = ~Oh, voleur ! Etes-vous en train d'essayer de piquer mes marchandises ?~ ~Oh, voleuse ! Etes-vous en train d'essayer de piquer mes marchandises ?~
+@16 = ~Quelle insolence ! Vous avez vraiment essayé de me voler une fois de plus !~
+@17 = ~Pour la dernière fois, je ne me laisserai pas voler par quelqu'un de votre genre ! Rendez-moi ma marchandise immédiatement !~

@@ -1,0 +1,188 @@
+//Choosing what to say when:
+
+//Enemies are near
+IF
+  LOS(NearestEnemyOf(LastSummonerOf(Myself)),25)
+THEN
+  RESPONSE #100
+    DisplayStringNoName(LastSummonerOf(Myself),@0) //There is a brief sound of dismay and a sense of something vacating the area.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@1) //Nothing else happens, and you are left with the distinct impression that the boots disapprove of violence, at least when it happens near them.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//Party member is incapacitated
+IF
+  OR(6)
+    StateCheck(Player1,CD_STATE_NOTVALID)
+    StateCheck(Player2,CD_STATE_NOTVALID)
+    StateCheck(Player3,CD_STATE_NOTVALID)
+    StateCheck(Player4,CD_STATE_NOTVALID)
+    StateCheck(Player5,CD_STATE_NOTVALID)
+    StateCheck(Player6,CD_STATE_NOTVALID)
+THEN 
+  RESPONSE #100
+    DisplayStringNoName(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@31) //Apparently, someone is in no condition to be transported.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//In Underdark, Planar Prison or similar
+IF
+  OR(28)
+    AreaCheck("AR0516")
+    AreaCheck("AR0517")
+    AreaCheck("AR0518")
+    AreaCheck("AR0519")
+    AreaCheck("AR0520")
+    AreaCheck("AR0521")
+    AreaCheck("AR2100")
+    AreaCheck("AR2101")
+    AreaCheck("AR2102")
+    AreaCheck("AR2200")
+    AreaCheck("AR2201")
+    AreaCheck("AR2202")
+    AreaCheck("AR2203")
+    AreaCheck("AR2204")
+    AreaCheck("AR2205")
+    AreaCheck("AR2206")
+    AreaCheck("AR2207")
+    AreaCheck("AR2208")
+    AreaCheck("AR2209")
+    AreaCheck("AR2210")
+    AreaCheck("AR2300")
+    AreaCheck("AR2400")
+    AreaCheck("AR2401")
+    AreaCheck("AR2402")
+    AreaCheck("D0AR01")
+    AreaCheck("LKXTEM")
+    AreaCheck("LKXDEM")
+    AreaCheck("RR#010")
+THEN
+  RESPONSE #100
+    DisplayStringNoName(LastSummonerOf(Myself),@5) //The boots will be no help here.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@4) //There is a brief sound of dismay and a sense of something getting out of the area as fast as it possibly can.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//In Spellhold or similar
+IF
+  OR(19)
+    AreaCheck("AR1500")
+    AreaCheck("AR1501")
+    AreaCheck("AR1502")
+    AreaCheck("AR1503")
+    AreaCheck("AR1504")
+    AreaCheck("AR1505")
+    AreaCheck("AR1506")
+    AreaCheck("AR1507")
+    AreaCheck("AR1508")
+    AreaCheck("AR1509")
+    AreaCheck("AR1510")
+    AreaCheck("AR1511")
+    AreaCheck("AR1512")
+    AreaCheck("AR1513")
+    AreaCheck("AR1514")
+    AreaCheck("AR1515")
+    AreaCheck("AR1516")
+    AreaCheck("RR#001")
+    AreaCheck("Z#1507")
+THEN
+  RESPONSE #100
+    DisplayStringNoName(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@3) //Evidently, the magic here is stronger than anything the boots possess.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//In AzenMod, Domains of Dread, FFT etc.
+IF
+  OR(23)
+    AreaCheck("AR02JC")
+    AreaCheck("AR03JC")
+    AreaCheck("ARDEM")
+    AreaCheck("ARDEM1")
+    AreaCheck("ARISH8")
+    AreaCheck("YS0370")
+    AreaCheck("YS0371")
+    AreaCheck("YS0410")
+    AreaCheck("YS0411")
+    AreaCheck("YS0412")
+    AreaCheck("YS0413")
+    AreaCheck("YS0414")
+    AreaCheck("YS0415")
+    AreaCheck("YS0416")
+    AreaCheck("YS0417")
+    AreaCheck("YS0418")
+    AreaCheck("YS0419")
+    AreaCheck("YS0420")
+    AreaCheck("YS0421")
+    AreaCheck("YS0422")
+    AreaCheck("YS0423")
+    AreaCheck("YS0424")
+    AreaCheck("YS0425")
+THEN
+  RESPONSE #100
+    DisplayStringNoName(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@36) //You get the impression the boots are not familiar enough with this area to transport you out of it.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//In TotDG
+IF
+  OR(8)
+    AreaCheck("ARLDV1")
+    AreaCheck("ARLDV2")
+    AreaCheck("ARLDV3")
+    AreaCheck("ARLDV4")
+    AreaCheck("ARLDV5")
+    AreaCheck("ARLDV6")
+    AreaCheck("ARLDV7")
+    AreaCheck("ARLDV8")
+THEN
+  RESPONSE #100
+    DisplayStringNoName(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@32) //Colorful essences stopped the process of teleportation.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//Brynnlaw
+IF
+  OR(13)
+    AreaCheck("AR1600")
+    AreaCheck("AR1601")
+    AreaCheck("AR1603")
+    AreaCheck("AR1604")
+    AreaCheck("AR1605")
+    AreaCheck("AR1606")
+    AreaCheck("AR1607")
+    AreaCheck("AR1608")
+    AreaCheck("AR1609")
+    AreaCheck("AR1610")
+    AreaCheck("AR1611")
+    AreaCheck("AR1612")
+    AreaCheck("AR1613")
+THEN
+  RESPONSE #100
+    SetGlobal("AGBootBryn","GLOBAL",1)
+    StartDialogueNoSet(LastSummonerOf(Myself))
+END
+
+//Going to the bars anywhere else in a non-combat situation
+IF
+  !StateCheck(LastSummonerOf(Myself),CD_STATE_NOTVALID)
+THEN 
+  RESPONSE #100
+    SetGlobal("AGBarGo","GLOBAL",1)
+    StartDialogueNoSet(LastSummonerOf(Myself))
+END

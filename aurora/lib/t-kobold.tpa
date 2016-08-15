@@ -1,0 +1,98 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~fw0125.are~ BEGIN //Tutu
+  OUTER_SPRINT tsu ~_~
+END ELSE BEGIN
+  OUTER_SPRINT tsu ~~
+END
+
+ACTION_FOR_EACH ~arf~ IN ~_arow08~ ~_arowkc~ ~arow08~ ~arowkc~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%arf%.itm~ BEGIN
+    COPY_EXISTING ~%arf%.itm~ ~override~ //Arrows of Fire
+      PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+        READ_LONG  0x64 hf //Header offset
+        READ_SHORT 0x68 hc //Header count
+        READ_LONG  0x6a fx //Feature offset
+        FOR (i1 = 0; i1 < hc; i1 += 1) BEGIN //Search for ranged ability header
+          READ_BYTE (hf + i1 * 0x38) tp //Type
+          PATCH_IF tp = 2 BEGIN //If ranged ability
+            WRITE_SHORT (hf + 0xe + i1 * 0x38) 30 //Range
+            WRITE_SHORT (hf + 0x14 + i1 * 0x38) 0 //THAC0 bonus
+            WRITE_SHORT (hf + 0x1a + i1 * 0x38) 0 //Damage bonus
+            READ_SHORT  (hf + 0x1e + i1 * 0x38) bc //Abilities count
+            READ_SHORT  (hf + 0x20 + i1 * 0x38) bx //Abilities offset
+            FOR (i2 = 0; i2 < bc; i2 += 1) BEGIN //Search through effects for fire damage
+              READ_SHORT (fx + (bx + i2) * 0x30) pc //Opcode
+              READ_SHORT (fx + 0x0a + (bx + i2) * 0x30) dt //Damage type
+              PATCH_IF (pc = 12) AND (dt = 8) BEGIN //If fire damage
+                WRITE_BYTE (fx + 0xd + (bx + i2) * 0x30) 1 //Resistance (do not bypass)
+                WRITE_LONG (fx + 0x1c + (bx + i2) * 0x30) 1 //Dice thrown
+                WRITE_LONG (fx + 0x20 + (bx + i2) * 0x30) 2 //Die size
+                WRITE_LONG (fx + 0x24 + (bx + i2) * 0x30) 0 //Saving throw
+              END
+            END
+          END
+        END
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_FOR_EACH ~kbc~ IN ~_kobcomm~ ~cbemkobl~ ~chevil01~ ~dw#kbacm~ ~dw#mulkc~ ~elekob01~ ~kobcom01~ ~kobcom02~ ~kobcomm~ ~swsfoll1~ ~swsfoll6~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%kbc%.cre~ BEGIN
+    COPY_EXISTING ~%kbc%.cre~ ~override~ //Kobold Commandos
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        READ_LONG 0x14 xv //XP Value
+        PATCH_IF xv > 15 BEGIN
+          WRITE_LONG 0x14 15
+        END
+        WRITE_BYTE 0x52 19 //THAC0
+        WRITE_BYTE 0x53 1 //Attacks per round
+        WRITE_BYTE 0x54 14 //Save vs. death
+        WRITE_BYTE 0x55 16 //Save vs. wands
+        WRITE_BYTE 0x56 15 //Save vs. polymorph
+        WRITE_BYTE 0x57 17 //Save vs. breath
+        WRITE_BYTE 0x58 17 //Save vs. spells
+        WRITE_BYTE 0x6e 0 //Large swords
+        WRITE_BYTE 0x6f 2 //Small swords
+        WRITE_BYTE 0x70 2 //Bows
+        WRITE_BYTE 0x235 1 //Level 2
+        REMOVE_CRE_ITEM ~_arow01~ ~_arow08~ ~_arowkc~ ~arow01~ ~arow08~ ~arowkc~
+        REPLACE_CRE_ITEM ~%tsu%arow08~ #2 #0 #0 ~NONE~ ~QUIVER1~
+        REPLACE_CRE_ITEM ~%tsu%arow01~ #20 #0 #0 ~NONE~ ~QUIVER2~
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_FOR_EACH ~kbp~ IN ~kobcap01~ ~kobcap02~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%kbp%.cre~ BEGIN
+    COPY_EXISTING ~%kbp%.cre~ ~override~ //Kobold Captains
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        READ_LONG 0x14 xv //XP Value
+        PATCH_IF xv > 15 BEGIN
+          WRITE_LONG 0x14 15
+        END
+        WRITE_BYTE 0x52 17 //THAC0
+        WRITE_BYTE 0x53 1 //Attacks per round
+        WRITE_BYTE 0x54 13 //Save vs. death
+        WRITE_BYTE 0x55 15 //Save vs. wands
+        WRITE_BYTE 0x56 14 //Save vs. polymorph
+        WRITE_BYTE 0x57 16 //Save vs. breath
+        WRITE_BYTE 0x58 16 //Save vs. spells
+        WRITE_BYTE 0x6e 0 //Large swords
+        WRITE_BYTE 0x6f 3 //Small swords
+        WRITE_BYTE 0x70 2 //Bows
+        WRITE_BYTE 0x234 3 //Level 1
+        WRITE_BYTE 0x235 1 //Level 2
+        WRITE_BYTE 0x273 0x7a //Class (kobold)
+        REMOVE_CRE_ITEM ~arow01~ ~arow06~ ~arow10~
+        REPLACE_CRE_ITEM ~%tsu%arow06~ #1 #0 #0 ~NONE~ ~QUIVER1~
+        REPLACE_CRE_ITEM ~%tsu%arow10~ #2 #0 #0 ~NONE~ ~QUIVER2~
+        REPLACE_CRE_ITEM ~%tsu%arow01~ #20 #0 #0 ~NONE~ ~QUIVER3~
+      END
+    BUT_ONLY
+  END
+END

@@ -1,0 +1,16 @@
+ACTION_FOR_EACH dlm IN ~_ardrou~ ~_arkion~ ~_berrun~ ~_brevli~ ~_brielb~ ~_dynahj~ ~_forthe~ ~_garrij~ ~_gurke~ ~_jaheij~ ~_kivanj~ ~_nalin~ ~_oublek~ ~_pheirk~ ~_quaylj~ ~_scar~ ~_xanj~ ~_xzarj~ ~ardrou~ ~arkion~ ~b!gavinj~ ~bdcoun01~ ~berrun~ ~brevli~ ~brielb~ ~bw05dami~ ~bw05dw01~ ~bw05robe~ ~clfmox~ ~cmlordas~ ~cmlstr1~ ~dsgilian~ ~dsjeremy~ ~dsthomic~ ~dynahj~ ~dynaj~ ~forthe~ ~garrij~ ~gurke~ ~j#pirat1~ ~jaheij~ ~jaheiraj~ ~killian~ ~kivanj~ ~kprang02~ ~lavallin~ ~m#priest~ ~mwbohul~ ~nalin~ ~o#crnev~ ~oublek~ ~pehllus~ ~pheirk~ ~pheirkas~ ~quaylj~ ~rylock~ ~scar~ ~sudryad~ ~tcbrevli~ ~u!kgen~ ~wish~ ~xanj~ ~xzarj~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%dlm%.dlg~ BEGIN
+    PRINT ~%cp% %dlm%.dlg ...~ //Copying and patching
+    SILENT
+    COPY_EXISTING ~%dlm%.dlg~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x34) BEGIN
+        DECOMPILE_DLG_TO_D
+        REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~GivePartyGold(~ ~GiveGoldForce(~
+        COMPILE_D_TO_DLG
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END
+
+PRINT @426 //Ignore any "INSTALLED WITH WARNINGS" message - this is expected for this component.

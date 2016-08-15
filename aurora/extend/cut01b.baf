@@ -1,0 +1,24 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")
+    Face(0)
+    ApplySpell("CSThief3",CUTSCENE_POWERWORD_KILL)
+    Face(14)
+    ApplySpell("CSThief1",CUTSCENE_POWERWORD_KILL)
+    ApplySpell("CSThief4",CUTSCENE_POWERWORD_KILL)
+    ApplySpell("CSThief2",CUTSCENE_POWERWORD_KILL)
+    SetGlobal("CutScene01","AR0700",1)
+    StartCutScene("cut01c")
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSGayl")
+    Wait(1)
+    MoveToPoint([2671.1220])
+    DestroySelf()
+END

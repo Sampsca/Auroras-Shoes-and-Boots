@@ -1,0 +1,1420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <style type="text/css">
+/*<![CDATA[*/
+<!-- body {
+margin: 0;
+padding: 0;
+cursor: default;
+text-align: center;
+color: #000;
+background: #e3e3db url('images/shsbkgd.jpg');
+}
+#wrap {
+text-align: left;
+margin: 0 auto;
+margin-top: 20px;
+width: 88%;
+font-family: Verdana, Tahoma, Arial, sans-serif;
+font-size: 12px;
+color: #333;
+}
+#header {
+text-align: center;
+background: #e5e5e5;
+border: 1px solid #781808;
+border-top: 5px solid #781808;
+border-bottom: 5px solid #781808;
+padding: 5px 0 13px 0;
+}
+#header .about {
+margin: 7px 0 0 0;
+padding: 0;
+font-style: italic;
+color: #555;
+}
+#header .menu {
+font-weight: bold;
+margin: 0;
+color: #999;
+}
+#header .menu a:link,
+#header .menu a:visited {
+color: #333;
+}
+#footer {
+text-align: center;
+background: #e5e5e5;
+border: 1px solid #781808;
+border-top: 5px solid #781808;
+border-bottom: 5px solid #781808;
+font-size: 75%;
+padding: 5px 0 13px 0;
+}
+#maindiv {
+margin: 0 auto;
+margin-top: -20px;
+width: 80%;
+}
+#maindiv .content {
+counter-increment: kman;
+counter-reset: h2;
+background-color: #e8e8e6;
+padding: 0 0 25px 0;
+margin: 50px auto;
+border-width: 1px 1px 4px 10px;
+border-style: solid;
+border-color: #781808;
+position: relative;
+display: block;
+}
+#maindiv .content::before {
+content: counter(kman, lower-roman);
+font-size: 100%;
+font-weight: bold;
+text-align: center;
+color: #eee;
+background-color: #781808;
+width: 35px;
+top: 0px;
+left: 0px;
+display: block;
+}
+#maindiv .important {
+font-size: 95%;
+font-family: Verdana;
+text-align: left;
+background-color: #F1F1F1;
+border-top: solid 1px #aaa;
+border-bottom: solid 1px #aaa;
+border-left: solid 6px #aaa;
+border-right: solid 6px #aaa;
+padding: 10px;
+margin: 20px auto;
+width: 80%;
+line-height: 160%;
+}
+#maindiv .important::before {
+display: none;
+}
+#maindiv .important p {
+font-size: 100%;
+text-indent: 0px;
+margin: 5px 0 10px 0;
+}
+#maindiv .important ol {
+margin: -10px 0 0 20px;
+}
+#maindiv .important ul {
+margin: -10px 0 0 15px;
+}
+#maindiv p {
+font-size: 100%;
+font-style: normal;
+line-height: 150%;
+padding: 0px;
+margin: 10px auto;
+width: 90%;
+display: block;
+}
+#maindiv address {
+font-size: 95%;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+color: #BBB;
+background-color: #781808;
+padding: 3px 0px 0px;
+margin: 0px;
+width: 100%;
+position: absolute;
+bottom: -1px;
+left: 0px;
+display: block;
+text-align: right;
+}
+#maindiv address a:active {
+color: #fff;
+text-decoration: line-through;
+border: none;
+}
+#maindiv address a:focus,
+#maindiv address a:hover {
+text-decoration: none;
+color: #F1F1F1;
+border: 0;
+}
+#maindiv address a:link,
+#maindiv address a:visited {
+font-weight: bold;
+text-decoration: underline;
+background-color: transparent;
+color: #eaeaea !important;
+padding-right: 5px;
+padding-left: 6px;
+}
+#maindiv ol {
+margin: -10px 0 0 35px;
+*margin-left: 70px;
+}
+#maindiv ol li {
+line-height: 150%;
+}
+#maindiv ul {
+margin: -10px 0 0 30px;
+*margin-left: 65px;
+}
+#maindiv ul li {
+list-style-type: square;
+line-height: 150%;
+}
+.t1 {
+font-weight: bold;
+width: 26%;
+text-align: right;
+clear: right;
+float: left;
+*float: none;
+*margin-left: 65px;
+line-height: 22px;
+}
+.t2 {
+text-align: left;
+width: 73%;
+float: right;
+*float: none;
+line-height: 22px;
+}
+a:hover,
+a:active {
+color: #222;
+border-bottom: 1px solid black;
+}
+a:link,
+a:visited {
+color: #781808;
+font-weight: bold;
+text-decoration: none;
+}
+h1 {
+font-size: 225%;
+color: #444;
+padding: 5px 0 5px 0;
+margin: 0;
+width: 100%;
+}
+h2 {
+display: block;
+font-family: Verdana, Trebuchet MS, Arial, serif;
+text-align: left;
+text-indent: 30px;
+padding: 0px;
+margin: 20px 0 0 0;
+border-bottom: dotted 2px #d0d0d0;
+border-top: dotted 2px #d0d0d0;
+background: #deded9;
+font-size: 160%;
+}
+h2::first-letter {
+color: #781808;
+background-color: transparent;
+}
+h3,
+h4,
+h5 {
+margin: 10px 40px 10px 40px;
+padding: 0;
+}
+h3 {
+font-size: 125%;
+font-style: italic;
+}
+h4 {
+font-size: 125%;
+}
+h5 {
+font-size: 100%;
+}
+h6 {
+width: 100%;
+margin: 10px 0 15px 0;
+background-color: #ECECEC;
+text-align: left;
+text-indent: 30px;
+font-size: 100%;
+font-style: italic;
+padding-top: 1px;
+padding-bottom: 1px;
+border-bottom: solid 1px #bbb;
+border-top: solid 1px #bbb;
+}
+hr {
+margin: 10px 0 10px 0;
+padding: 0;
+height: 1px;
+border: 0;
+color: #aaa;
+background-color: #aaa;
+}
+hr.floatfix {
+clear: both;
+color: #e8e8e6;
+background-color: #e8e8e6;
+*margin: 0;
+*padding: 0;
+}
+ul.c1 {margin-left: 32px;}
+-->
+/*]]>*/
+  </style>
+  <title>Spellhold Studios - Aurora's Shoes and Boots</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="images/shsweb.ico" rel="icon" type="image/bmp" />
+</head>
+<body>
+<div id="wrap"> <a name="top" id="top"></a>
+<div id="header">
+<h1> Aurora's Shoes and Boots </h1>
+<strong>Un mod de Spellhold Studios pour Baldur's Gate II : <acronym title=
+"Shadows of Amn">SoA</acronym>/<acronym title="Throne of Bhaal">ToB</acronym>,
+Baldur's Gate Trilogy et <acronym title="Baldur's Gate 'To Two'">Tutu</acronym></strong>
+<hr />
+<p class="about"> Auteurs : Bookwyrme, Miloch, GeN1e et
+bien d'autres (<a href="#credits">voir ci-dessous</a>)
+</p>
+<p class="about"> <a href="http://www.spellholdstudios.net/ie/aurora">Site
+internet du mod</a> &bull; <a href="http://www.shsforums.net/index.php?showforum=418">Forum
+du mod</a> &bull;&nbsp;<a href=
+"http://www.shsforums.net/index.php?autocom=downloads&amp;showfile=831">Download</a>
+&bull; Version 5 </p>
+<hr />
+<p class="menu"> <a href="#intro">Introduction</a>
+&middot; <a href="#compat">Compatibilit&eacute;</a>
+&middot; <a href="#installation">Installation</a>
+&middot; <a href="#compo">Composants</a>
+&middot; <a href="#faq">FAQ</a> &middot; <a href="#trouble">D&eacute;pannage</a>
+&middot; <a href="#items">Objets</a> &middot; <a href="#credits">Cr&eacute;dits</a>
+&middot; <a href="#version">Historique des versions</a> </p>
+</div>
+<div id="maindiv"><!-- ================== I n t r o d u c t i o n ================== -->
+<a name="intro" id="intro"></a>
+<div class="content">
+<h2> Introduction </h2>
+<p> <img src="images/auroral.jpg" alt="Aurora" align="right" height="170" width="110" />
+Avez-vous d&eacute;j&agrave; d&eacute;sir&eacute;
+qu'Athkatla soit un peu plus vivante ? Voulu savoir comment Biff
+s'&eacute;tait retrouv&eacute; avec le surnom d'inculte ?
+Souhait&eacute; que les marchands aient plus de deux lignes de
+dialogue chacun ? Qu'ils aient leur propre vie ?<br />
+<br />
+Avez-vous d&eacute;j&agrave; souhait&eacute; pouvoir acheter des Bottes
+de Rapidit&eacute; qui auraient l'air un peu plus, comment dire,
+pimpantes ? Pens&eacute; &agrave; acheter des Bottes Roses de
+Furtivit&eacute; &agrave; Imoen ? Voulu que le Nuage Puant qui se forme
+autour de votre groupe&nbsp;apr&egrave;s plusieurs jours de voyage sans
+prendre de bain trouve un but vraiment <em>utile </em>?<br />
+<br />
+Ne perdez plus votre temps &agrave; souhaiter tout cela ! </p>
+<p> <strong>Maintenant qu'Aurora est l&agrave;, vous
+pouvez avoir acc&egrave;s &agrave; toutes ces choses et plus
+encore !</strong> </p>
+<p> Aurora's Shoes and Boots ajoute plus d'une vingtaine de nouvelles
+paires de bottes, &agrave; la fois utiles et styl&eacute;es. De plus,
+Aurora elle-m&ecirc;me est l&agrave; pour ajouter un peu de piment dans
+la vie d'Athkatla. Elle discutera avec vous&nbsp; des nobles comme
+des gens du peuple, vous fournissant des informations excitantes
+(&agrave; d&eacute;faut d'&ecirc;tre toujours exactes) sur leurs vies
+quotidiennes.</p>
+<p><img src="images/karaeas.gif" alt="Karaea" align="right" height="60" width="38" />
+<img src="images/tomthals.gif" alt="Tomthal" align="right" height="60" width="38" />Vous ferez
+&eacute;galement la connaissance du vendeur de nuit de la
+boutique, Tomthal le gnome grincheux, condamn&eacute; &agrave;
+vivre &agrave; la surface par une mal&eacute;diction
+myst&eacute;rieuse, et de la repr&eacute;sentante itin&eacute;rante du magasin,
+Karaea, la soeur chaleureuse de Tomthal.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; Introduction</span> &bull;<a href="#top">Retour en haut</a></address>
+</div>
+<!-- ================== C o m p a t i b i l i t y ================== -->
+<a name="compat" id="compat"></a>
+<div class="content">
+<h2> Compatibilit&eacute; </h2>
+<p> Ce mod fonctionne avec <acronym title="Baldur's Gate II">BG2</acronym> :
+Shadows of Amn, avec ou sans l'extension Throne of Bhaal. Si vous
+n'avez pas install&eacute; Throne of Bhaal, vous manquerez certains
+objets disponibles uniquement dans cette
+partie du jeu. Assurez-vous que votre jeu utilise bien la
+derni&egrave;re version du patch. V&eacute;rifiez le fichier ReadMe
+traitant de votre patch dans votre r&eacute;pertoire de jeu et sur le
+site internet de <a href="http://www.bioware.com/support/games/">BioWare</a>
+si n&eacute;cessaire.</p>
+<p> Ce mod fonctionnera &eacute;galement avec tous les mods,
+y compris <a href="http://www.pocketplane.net/tutu/">Baldur's
+Gate Tutu</a> (et EasyTutu) et <a href=
+"http://www.shsforums.net/index.php?showforum=261">Baldur's Gate Trilogy</a>.
+Aurora et Tomthal n'appara&icirc;tront pas dans la version Tutu, mais Karaea
+sera de la partie.</p>
+<p> Aurora's Shoes est maintenant compatible avec la conversion
+totale <a href="http://ca.spellholdstudios.net">Classic Adventures</a>
+(Karaea voyage vers&nbsp;Port Ponant et les donjons de Suderham).
+En th&eacute;orie, le mod doit &eacute;galement &ecirc;tre
+compatible avec <a href="http://www.spellholdstudios.net/ie/rtt">Return
+to Trademeet</a> (Karaea retourne &eacute;galement
+&agrave; Franc-march&eacute;).</p>
+<p> Ce mod devrait figurer plut&ocirc;t tardivement dans l'ordre
+d'installation :&nbsp; id&eacute;alement apr&egrave;s les
+patchs et les fixpacks et avant les proc&eacute;dures finales de
+"biffing" (archivage). Il devrait
+aussi s'installer apr&egrave;s les autres mods qui ajoutent des
+cr&eacute;atures et apr&egrave;s tous les mods qui &eacute;crasent
+les ressources du jeu plut&ocirc;t que de les modifier.</p>
+<p>Si vous voulez que les (quelques) armes de ce mod soient
+affect&eacute;es par les "restrictions logiques des armes" du mod
+"Ashes of Embers", il importe peu que vous installiez Aurora's shoes
+avant ou apr&egrave;s <acronym title="Ashes of Embers">AoE</acronym>.
+Si vous voulez ces modifications d'armes dans <a href="http://www.gibberlings3.net/level1npcs/">Level 1 NPCs</a>,
+cependant, installez ce dernier apr&egrave;s Aurora.</p>
+<p> Nous <strong>recommandons fortement</strong> de
+commencer une nouvelle partie pour jouer &agrave; ce mod, ou vous
+allez passer &agrave; c&ocirc;t&eacute; d'une grande partie
+du contenu. Dans tous les cas, vous <strong>ne devez pas</strong>
+avoir visit&eacute; le quartier du pont ou Naskhel avant de jouer
+avec ce mod, ou vous pourriez subir des probl&egrave;mes de rupture de jeu.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; Compatibilit&eacute;</span> &bull;<a href="#top">Retour en haut</a></address>
+</div>
+<!-- ================== I n s t a l l a t i o n ================== -->
+<a name="installation" id="installation"></a>
+<div class="content">
+<h2> Installation </h2>
+<p><em><strong>Note :</strong> Si vous avez
+d&eacute;j&agrave; install&eacute; une version du mod,
+supprimez-la avant d'extraire la nouvelle version. Pour cela, lancez
+<strong>setup-aurora.exe</strong> (ou .command), d&eacute;sinstallez tous les
+composants pr&eacute;c&eacute;demment install&eacute;s et supprimez le
+r&eacute;pertoire Aurora. Lorsque vous installez ou
+d&eacute;sinstallez, ne fermez pas la fen&ecirc;tre <acronym title=
+"Disk Operating System">DOS</acronym> en
+cliquant sur le bouton <strong>X</strong> ! A la place,
+pressez le bouton <strong>Entr&eacute;e</strong>
+lorsque l'invite de commande vous le demande.</em> </p>
+<p>Vous pouvez extraire les fichiers de l'archive en utilisant <a href=
+"http://www.rarlab.com/download.htm">WinRAR</a>, <a href=
+"http://www.zipgenius.it/eng/?page_id=12">ZipGenius</a>
+ou tout autre utilitaire de d&eacute;compression de fichiers qui
+sache g&eacute;rer des fichiers .rar.</p>
+<p><strong>Windows</strong><br />
+Extrayez le contenu du mod vers le r&eacute;pertoire du jeu que
+vous voulez modifier (<acronym title="Baldur's Gate II">BG2</acronym>,
+<acronym title="Baldur's Gate Trilogy">BGT</acronym>
+ou EasyTutu). Si l'extraction se passe bien, vous devriez avoir un
+r&eacute;pertoire aurora contenant un fichier setup-aurora.exe dans
+votre r&eacute;pertoire de jeu. Pour l'installer, double-cliquez
+simplement sur <strong>setup-aurora.exe</strong> et suivez
+les instructions qui apparaissent &agrave; l'&eacute;cran.</p>
+<p>Lancez <strong>setup-aurora.exe</strong> dans
+votre r&eacute;pertoire de jeu pour r&eacute;installer,
+d&eacute;sinstaller ou changer des composants.</p>
+<p><strong>Mac OS X</strong><br />
+Extrayez le contenu du mod dans le r&eacute;pertoire du jeu que
+vous
+voulez modifier. Si l'extraction se passe bien, vous devriez avoir un
+r&eacute;pertoire aurora contenant un fichier setup-aurora.command
+dans
+votre r&eacute;pertoire de jeu. T&eacute;l&eacute;chargez
+la version OS
+X de <a href="http://weidu.org/%7Ethebigg/"><acronym title=
+"Weimer Dialogue Utility">WeiDU</acronym></a>
+(ou copiez l'ex&eacute;cutable d'un autre mod) et renommez-le
+<strong>setup-aurora</strong>. Copiez-le ainsi que le fichier
+<strong>setup-aurora.command</strong> dans le sous-r&eacute;pertoire Aurora
+dans le r&eacute;pertoire principal de votre jeu. Pour l'installer,
+double-cliquez simplement sur <strong>setup-aurora.command</strong> et suivez
+les instructions qui apparaissent &agrave; l'&eacute;cran.</p>
+<p><strong>Linux</strong><br />
+Extrayez le contenu du mod dans le r&eacute;pertoire du jeu que
+vous voulez modifier. T&eacute;l&eacute;chargez la
+derni&egrave;re version de Linux <a href="http://weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>
+et copiez WeiDU et WeInstall dans /usr/bin. Ensuite, ouvrez un terminal
+et placez-vous (cd) dans le r&eacute;pertoire d'installation de <acronym title="Baldur's Gate II">BG2</acronym>.</p>
+<p><em>Optionnel : lancez 'tolower' et r&eacute;pondez 'Y'
+aux deux questions. Vous pouvez &eacute;vitez de lancer la seconde
+version (linux.ini) si vous l'avez d&eacute;j&agrave; lanc&eacute;e au
+moins une fois dans le m&ecirc;me r&eacute;pertoire. Pour gagner du
+temps, l'archive a d&eacute;j&agrave; &eacute;t&eacute; trait&eacute;e
+par tolower, il n'y a donc pas d'obligation de lancer la
+premi&egrave;re option (Mettre en minuscule les noms de fichiers)
+non plus, si vous avez extrait uniquement ce mod depuis la
+derni&egrave;re fois que vous avez mis en minuscule le nom des fichiers. Si vous
+n'&ecirc;tes pas certain/e, lancer tolower et choisir les deux options
+est la solution la plus s&ucirc;re.</em> </p>
+<p>Lancez <strong>WeInstall setup-aurora</strong>
+dans votre r&eacute;pertoire de jeu pour installer le mod. Lancez
+ensuite <strong>wine BGMain.exe</strong> et commencez
+&agrave; jouer.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; Installation</span> &bull;<a href="#top">Retour
+en haut</a></address>
+</div>
+<!-- =================== C o m p o n e n t s ==================== -->
+<a name="compo" id="compo"></a>
+<div class="content">
+<h2>Composants </h2>
+<p>Tous les composants sont optionnels. Certains sont
+sp&eacute;cifiques &agrave; la plateforme comme
+indiqu&eacute;
+ci-dessous.</p>
+<p><strong>Aurora's Shoes and Boots</strong><br />
+C'est le composant principal d&eacute;crit ici. Cependant, vous
+n'avez pas besoin de l'installer si vous voulez seulement installer les
+autres options.</p>
+<p><strong>Les petits portraits pour les <acronym title=
+"Personnages Non-Joueurs"> PNJs</acronym></strong><br />
+<em>Requiert le composant principal</em><br />
+Ce composant propose deux options pour installer&nbsp;des portraits :<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Les marchands
+ajout&eacute;s par le mod, et quelques autres <acronym title=
+"Personnages Non-Joueurs">PNJs</acronym> avec
+lesquels le mod interagit.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Seulement les
+marchands Aurora, Tomthal et Karaea.<br />
+Bien entendu, vous pouvez passer outre les portraits si vous
+pr&eacute;f&eacute;rez.</p>
+<p><strong>Raccourcir la sc&egrave;ne de la bataille de Gorion</strong><br />
+<em>Non-<acronym title="Baldur's Gate II">BG2</acronym></em><br />
+Ce composant est principalement une commodit&eacute; pour tester le
+jeu, mais est &eacute;galement utile pour le joueur qui a vu le
+combat de Gorion trop souvent. Il va grandement le raccourcir, vous permettant
+de jouer pratiquement imm&eacute;diatement apr&egrave;s avoir
+quitt&eacute; Ch&acirc;teau-Suif. Tout le reste dans le jeu se
+d&eacute;roule comme si vous aviez attendu la fin du combat. S'il est
+combin&eacute; avec le composant "Passer Ch&acirc;teau-Suif" de <a href=
+"http://www.gibberlings3.net/scs/ease.php"> Sword Coast
+Stratagems</a>, vous pourrez explorer le pays apr&egrave;s
+quelques secondes.<br />
+</p>
+<p><strong>Raccourcir les intros de <acronym title="Baldur's Gate II">BG2</acronym></strong><br />
+<em>Non-<acronym title="Baldur's Gate 'To Two'">Tutu</acronym></em><br />
+Ce composant est principalement une commodit&eacute; pour tester le
+jeu, mais est &eacute;galement utile pour le joueur qui a vu la
+premi&egrave;re sc&egrave;ne dans le donjon d'Irenicus trop
+souvent. Il va la r&eacute;duire et passer le dialogue lin&eacute;aire avec
+Imoen, vous permettant de jouer imm&eacute;diatement. Tout le reste du jeu
+se d&eacute;roule comme si vous aviez assist&eacute; &agrave; tout cela.
+S'il est combin&eacute; avec <a href=
+"http://www.pocketplane.net/dbg/">Dungeon-Be-Gone</a>,
+vous pouvez vous retrouver &agrave; Athkatla en une
+poign&eacute;e de secondes, et vous n'avez plus qu'un pas
+&agrave; faire pour acqu&eacute;rir de nouvelles bottes, si
+vous pouvez vous les offrir. Ce composant poss&egrave;de trois
+options :<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Raccourcir la
+premi&egrave;re sc&egrave;ne dans le Donjon d'Irenicus.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Raccourcir la
+premi&egrave;re sc&egrave;ne ainsi que la s&eacute;quence
+de bataille entre Irenicus et les Mages Cagoul&eacute;s dans la
+Promenade de Waukyne.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Raccourcir les
+deux sc&egrave;nes pr&eacute;cit&eacute;es ainsi que la
+sc&egrave;ne avec les Mages Cagoul&eacute;s qui envoie le
+joueur &agrave; Spellhold apr&egrave;s les pourparlers avec
+Gaelan Bayle.&nbsp;</p>
+<br />
+<p><strong>Changer les prix d'achat des magasins</strong><br />
+Ce composant est une r&eacute;vision du mini mod de GeN1e "Store
+Prices". En jouant &agrave; plusieurs mods diff&eacute;rents
+pour Baldur's Gate,
+il a remarqu&eacute; une chose d&eacute;plaisante -
+pratiquement tous les mods ajoutent des ennemis qui
+poss&egrave;dent des butins tr&egrave;s on&eacute;reux. Si cela
+ne vient pas des cr&eacute;atures, ce sont les zones qui sont
+parsem&eacute;es de coffres plein de tr&eacute;sors. En jouant
+une combinaison de mega-mods, il avait environ 600 000
+pi&egrave;ces d'or au chapitre 6 ! Dans le jeu original, on a du
+mal &agrave; d&eacute;passer les 100 000 &agrave; ce niveau du jeu. Face
+&agrave; ce manque de d&eacute;fis, GeN1e commen&ccedil;a
+&agrave; perdre son int&eacute;r&ecirc;t pour le jeu. Afin
+d'&eacute;viter cela, il d&eacute;cida d'ignorer
+toute r&eacute;compense surajout&eacute;e, mais
+c'&eacute;tait difficile, car il
+ne se souvenait pas si chaque pi&egrave;ce provenait du jeu
+original et par cons&eacute;quent risquait d'en collecter plus que
+d&eacute;sir&eacute;.<br />
+<br />
+La seconde raison d'&ecirc;tre de ce composant : l'auteur est le style
+de personne qui (surprise !) essaie de rassembler le plus de choses
+possibles. Du moins, jusqu'&agrave; ce que cela devienne ennuyeux.
+Alors qu'il apprenait &agrave; modder, GeN1e se posa la
+question&nbsp;suivante : pourquoi ne pas cr&eacute;er un mod
+qui augmenterait consid&eacute;rablement les prix
+dans les magasins afin d'avoir un moyen de d&eacute;penser ces millions ?
+Il aimait l'id&eacute;e mais r&eacute;alisa rapidement que la
+m&eacute;thode serait grossi&egrave;re, bien qu'efficace. Alors
+pourquoi ne pas plut&ocirc;t baisser les prix de rachat ? Cela
+pourrait &eacute;liminer
+le besoin de ramasser tout et n'importe quoi - si une armure
+lourde ou des &eacute;p&eacute;es (des &eacute;p&eacute;es
+&agrave; deux mains +1 par exemple) ne rapportent que 10-20 pi&egrave;ces en les
+vendant &agrave; un marchand, il n'y a absolument aucun plaisir
+&agrave; les ramasser. Et m&ecirc;me mieux - en augmentant &agrave; la
+fois les prix d'achat et de vente, on rend de la valeur aux objets tout en la
+supprimant en ce qui concerne l'argent (l'inflation, pour ceux qui
+l'ignorent). Ou exactement l'inverse, si vous
+pr&eacute;f&eacute;rez :
+les objets ne co&ucirc;tent rien et seules les r&eacute;compenses en argent
+sont d'un r&eacute;el int&eacute;r&ecirc;t.<br />
+<br />
+Ce composant vous permet de r&eacute;duire les prix dans toutes les
+boutiques qui ach&egrave;tent des objets,&nbsp;jusqu'&agrave; 25% de
+leur co&ucirc;t initial, ou de les augmenter jusqu'&agrave; 300%. Cela
+affectera, bien entendu, les objets d'Aurora et ceux de tous les autres mods
+install&eacute;s avant celui-ci. La valeur recommand&eacute;e pour une
+installation de m&eacute;ga-mods typique est une r&eacute;duction
+&agrave; 67% (les deux tiers de la valeur originale).</p>
+<p><strong>Changer les prix de vente des magasins</strong><br />
+Comme au-dessus, ce composant provient &eacute;galement du mini-mod
+"Store Prices". Il vous permet de r&eacute;duire les prix auxquels
+un magasin vend ses objets jusqu'&agrave; 50% ou de les augmenter
+jusqu'&agrave; 500%. Cela affectera les objets d'Aurora et ceux de
+tout autre mod install&eacute; pr&eacute;c&eacute;demment. La
+valeur recommand&eacute;e pour une installation typique d'un
+m&eacute;ga-mod est une augmentation de 150%.</p>
+<p><strong>Changer les prix des gemmes et des bijoux</strong><br />
+Bas&eacute; sur le mini-mod "Store Prices" (mais non inclus dans
+celui-ci), ce composant vous permet de changer les prix des gemmes,
+des anneaux et colliers non-magiques. Comme ils sont gagn&eacute;s
+la plupart du temps en fouillant un cadavre, cela changera le total
+d'argent acquis. Il se cumulera avec les composants ci-dessus, s'ils
+sont &eacute;galement install&eacute;s. Le composant va
+r&eacute;duire les prix de toutes les gemmes et de tous les objets de
+joaillerie jusqu'&agrave; 10% ou les augmenter jusqu'&agrave; 200%. La
+valeur recommand&eacute;e pour une installation typique d'un
+m&eacute;ga-mod est une r&eacute;duction &agrave; 67% (puisqu'il s'agit d'un
+nouveau composant, cela demande confirmation).</p>
+<p><strong>Changer l'or des r&eacute;compenses de
+qu&ecirc;te</strong><br />
+Bas&eacute; sur le mini-mod "Store Prices" et sur <a href=
+"http://www.pocketplane.net/sim">Ding0 Experience Fixer</a>,
+ce composant vous permet de changer la quantit&eacute; d'or
+gagn&eacute;e en r&eacute;compense de qu&ecirc;te et via d'autres
+interactions avec les <acronym title="Personnages Non-Joueur">PNJs</acronym>.
+Il devrait fonctionner avec les qu&ecirc;tes du jeu standard comme avec
+la plupart du contenu ajout&eacute; par les mods, incluant Aurora. Il
+change les montants mentionn&eacute;s dans les dialogues ainsi que ceux
+obtenus r&eacute;ellement en r&eacute;compense. De plus, il corrige un
+comportement bugg&eacute; o&ugrave; certains <acronym title=
+"Personnages Non-Joueurs">PNJs</acronym>
+pouvaient ne pas avoir assez d'argent sous la main pour offrir la
+r&eacute;compense qu'ils avaient promis (&agrave; moins que cela ne
+fasse partie de leur dialogue). Ce composant est parfaitement
+compatible avec un des suivants (Changer l'or transport&eacute; par les
+cr&eacute;atures). Cependant, dans un souci d'efficacit&eacute;, cela
+n'affectera pas les r&eacute;compenses en dessous de 100 pi&egrave;ces d'or,
+et seulement quelques-unes&nbsp;de celles qui sont
+&eacute;gales &agrave; 100 pi&egrave;ces d'or (l&agrave; o&ugrave; le
+changement a un sens). Les choix varient de 10% &agrave; 90% des
+r&eacute;compenses de la qu&ecirc;te originale. Vous pouvez
+&eacute;galement choisir de ne pas modifier les r&eacute;compenses
+existantes mais de seulement impl&eacute;menter les correctifs
+d&eacute;crits ci-dessus.</p>
+<p><strong>Tr&eacute;sors al&eacute;atoires
+r&eacute;alistes</strong><br />
+De nombreuses cr&eacute;atures dans le jeu transportent des objets qui
+leur donnent des chances de faire apparaitre des tr&eacute;sors
+al&eacute;atoires de types vari&eacute;s. Plusieurs joueurs ont
+critiqu&eacute; le fait de r&eacute;cup&eacute;rer
+des parchemins magiques de haut niveau sur des gnolls, ogres et d'autres
+cr&eacute;atures typiquement non vers&eacute;es dans la magie,
+et m&ecirc;me analphab&egrave;tes dans certains cas. Ce composant
+change cet &eacute;tat de fait.
+Il emp&ecirc;che les cr&eacute;atures de certaines classes d'obtenir
+des parchemins, bien qu'elles puissent porter d'autres
+tr&eacute;sors al&eacute;atoires comme des gemmes ou des bijoux. Les
+cr&eacute;atures exclues sont les basilics, goules, revenants,
+momies, gnolls, tous les types d'ogre sauf les ogres-mages, spectateurs,
+trolls, ombres des roches, cr&eacute;atures de brume,
+&eacute;l&eacute;mentaires de feu et zombies. De surcro&icirc;t, les
+cr&eacute;atures invoqu&eacute;es et celles dot&eacute;es d'une intelligence
+inf&eacute;rieure &agrave; 10 sont &eacute;galement concern&eacute;es. Bien
+que ce seuil soit purement arbitraire, il a pour effet d'exclure la plus grande
+partie de la racaille humanoide (comme les
+kobolds et les orques) de la possession de parchemins, <em>sauf</em>
+s'ils sont lanceurs de sorts ou poss&egrave;dent d'autres signes
+d'instruction. Pour repr&eacute;senter cela, certaines
+cr&eacute;atures ont re&ccedil;u un bonus ou un malus mineur en
+intelligence pour rendre la caract&eacute;ristique plus
+appropri&eacute;e. Cela ne devrait pas avoir d'autre effet notable
+dans le jeu. <br />
+<br />
+Ce composant corrige &eacute;galement le poids et d'autres
+probl&egrave;mes avec les tables de tr&eacute;sors al&eacute;atoires.
+Par exemple, les cr&eacute;atures "pauvres" ne devraient jamais
+poss&eacute;der des parchemins qui valent plus de 100 pi&egrave;ces
+d'or. Plusieurs options sont possibles pour l'installation :<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Suppression des
+tr&eacute;sors al&eacute;atoires dupliqu&eacute;s<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Seules les
+cr&eacute;atures intelligentes ont des parchemins al&eacute;atoires<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Les deux, 1 et 2
+(sans perte de tr&eacute;sors)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Les deux, 1 et 2
+(25% de perte de tr&eacute;sors)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Les deux, 1 et 2
+(50% de perte de tr&eacute;sors)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Les deux, 1 et 2
+(75% de perte de tr&eacute;sors)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Suppression de
+tous les tr&eacute;sors al&eacute;atoires<br />
+<br />
+Avec la premi&egrave;re option (inclue &eacute;galement dans les
+options 3 &agrave; 6), toutes les cr&eacute;atures avec plus d'un
+tr&eacute;sor al&eacute;atoire ne vont garder que le dernier
+dans leurs inventaires. Au mieux, cela constituait une r&eacute;compense bien
+trop grande pour les cr&eacute;atures affect&eacute;es. Au pire, il
+est possible qu'il s'agisse d'une erreur, dans la mesure o&ugrave;
+certaines cr&eacute;atures font r&eacute;f&eacute;rence
+&agrave; un objet unique en plus d'un exemplaire sans aucune raison apparente.
+Les exceptions a cette r&egrave;gle sont les dragons et les liches, qui
+peuvent poss&eacute;der plusieurs tr&eacute;sors
+al&eacute;atoires, comme on peut s'y attendre. <br />
+<br />
+La seconde option (inclue &eacute;galement dans les options 3 &agrave;
+6) constitue la particularit&eacute; principale d&eacute;crite
+au-dessus. La troisi&egrave;me option est une combinaison des deux
+premi&egrave;res et est probablement l'option a choisir pour les
+jeux avec un faible nombre de mods. <br />
+<br />
+Les options quatre &agrave; six combinent les deux
+caract&eacute;ristiques. En plus, elles donnent une chance de "perte"
+des tr&eacute;sors al&eacute;atoires. Avec l'option 4, une
+cr&eacute;ature sur 4 qui poss&eacute;dait un tr&eacute;sor
+al&eacute;atoire n'en aura plus. L'option 5 augmente ce chiffre
+&agrave; 1 chance sur 2, tandis que la probabilit&eacute; passe
+&agrave; trois chances sur quatre avec l'option 6. Ces options sont
+vraisemblablement adapt&eacute;es pour de grandes installations de
+m&eacute;ga-mods. L'option 7 est la plus extr&ecirc;me, supprimant tous
+les tr&eacute;sors al&eacute;atoires dans le jeu. Notez qu'aucune de
+ces options ne modifie les tr&eacute;sors <em>sp&eacute;cifiques</em>
+que les cr&eacute;atures auront toujours. Cela affecte uniquement
+les tr&eacute;sors <em>al&eacute;atoires</em> qui
+varient d'une partie &agrave; l'autre. <br />
+<br />
+Ce composant requiert au minimum trois lignes disponibles soit dans la
+table des tr&eacute;sors al&eacute;atoires (rndtreas.2da), soit dans la
+table des objets magiques al&eacute;atoires (rndmagic.2da), bien qu'il
+s'installe partiellement si les tables sont pleines. La seule
+configuration connue o&ugrave; cela s'applique est quand <a href=
+"http://www.spellholdstudios.net/ie/ctb">Check the Bodies</a> est
+install&eacute; <em>apr&egrave;s</em>
+<acronym title="Baldur's Gate Trilogy"> BGT</acronym>.
+L'ordre recommand&eacute;, cependant, est d'installer <acronym title=
+"Check the Bodies">CtB</acronym> <em>avant</em>
+<acronym title="Baldur's Gate Trilogy">BGT</acronym>.
+</p>
+<p><strong>Changer l'or transport&eacute; par les
+cr&eacute;atures</strong><br />
+Bas&eacute; sur le mini-mod "Store Prices" (mais non inclus dans
+celui-ci), ce composant vous permet de changer la quantit&eacute; d'or
+transport&eacute;e par les cr&eacute;atures, que vous pouvez
+donc r&eacute;colter en fouillant leur corps. En l'installant, vous
+pourrez r&eacute;duire la quantit&eacute; d'or d'une
+cr&eacute;ature
+jusqu'&agrave; 10%, ou l'augmenter jusqu'&agrave; 200%. La valeur
+recommand&eacute;e pour une installation typique de m&eacute;ga-mods est
+une r&eacute;duction de 50% (bien qu'&eacute;tant un nouveau composant,
+cela demande confirmation). Il va aussi affecter les quantit&eacute;s
+d'or al&eacute;atoires d&eacute;livr&eacute;es par les tables de
+tr&eacute;sor et est compl&egrave;tement compatible avec le
+composant pr&eacute;c&eacute;dent &agrave; ce niveau.</p>
+<p><strong>Version papier des Horreurs casqu&eacute;es et de Bataille</strong><br />
+<em>Non-<acronym title="Baldur's Gate II">BG2</acronym>
+(sauf en cas de mod)</em><br />
+Une ramification du composant "Tr&eacute;sors al&eacute;atoires
+r&eacute;alistes", cette option rend les redoutables armures
+anim&eacute;es plus proches de leur incarnation dans le jeu de
+r&ocirc;le sur table. Elles sont maintenant immunis&eacute;es
+&agrave; l'absorption de capacit&eacute;, &agrave; l'absorption de
+niveau, &agrave; l'immobilisation, &agrave; la peur et aux autres sorts
+bas&eacute;s sur l'esprit. Comme elles poss&egrave;dent la capacit&eacute; de
+<em>Marcher dans les Airs</em>,
+elles ne sont pas g&ecirc;n&eacute;es par des sorts comme glisse et
+toile d'araign&eacute;e. Les horreurs sont immunis&eacute;es
+aux projectiles magiques, Boules de Feu, Eclair et Temp&ecirc;te de
+Glace, ainsi qu'aux sorts n&eacute;cromantiques. Elles voient les
+&ecirc;tres invisibles naturellement. Les horreurs utilisent des armes &agrave;
+distance, principalement des arbal&egrave;tes. Elles peuvent
+&eacute;galement enchanter leurs armes de
+m&ecirc;l&eacute;es avec une flamme magique, bien que les armes en
+elles-m&ecirc;mes soient habituellement normales. En plus, les Horreurs de
+Bataille poss&egrave;dent des habilit&eacute;s apparent&eacute;es &agrave;
+la magie telles que le Projectile Magique ou la Porte Dimensionnelle.<br />
+<br />
+Ce composant va affecter les Horreurs de Bataille et
+Casqu&eacute;es que l'on trouve dans
+<acronym title="Baldur's Gate 'To Two'">Tutu</acronym>
+et <acronym title="Baldur's Gate Trilogy">BGT</acronym>.
+Il affectera &eacute;galement le Proph&egrave;te du Malheur et
+certains protecteurs de la Tour de Durlag (comme discut&eacute; <a href=
+"http://www.shsforums.net/index.php?s=&amp;showtopic=24602&amp;view=findpost&amp;p=283506">ici</a>).
+Il est compatible avec les changements que <a href=
+"http://www.gibberlings3.net/scs/"><acronym title="Sword Coast Strategems">SCS</acronym></a>
+apporte aux horreurs, qui sont d'une nature diff&eacute;rente. Il
+ne sera pas pris en compte par <acronym title="Baldur's Gate II">BG2</acronym>,
+sauf s'il d&eacute;tecte un mod qui ajoute des horreurs, comme <a href=
+"http://www.pocketplane.net/quest">Quest Pack</a>
+ou <a href="http://www.shsforums.net/index.php?showtopic=24405">Planar Sphere</a>.
+Les Horreurs auront des animations sp&eacute;cifiques si vous avez
+install&eacute; une version ToB. Sinon, nous recommandons d'installer
+le composant <a href="http://www.shsforums.net/index.php?showtopic=36581">Flaming
+Swords</a> de One Pixel Productions, pour que les horreurs puissent avoir des
+armes anim&eacute;es de mani&egrave;re ad&eacute;quate. Ce mod peut &ecirc;tre
+install&eacute; avant ou apr&egrave;s ce composant, cela ne change rien.</p>
+<p><strong>Commandos Kobolds R&eacute;alistes</strong><br />
+Une subdivision du composant "Tr&eacute;sors al&eacute;atoires
+r&eacute;alistes", cette option rend ces petites fripouilles
+malhonn&ecirc;tes un peu plus r&eacute;alistes, comme discut&eacute; <a href=
+"http://forums.gibberlings3.net/index.php?s=&amp;showtopic=14927&amp;view=findpost&amp;p=127944">ici
+</a>. Comme les commandos Kobolds n'ont pas d'&eacute;quivalent dans la version
+papier de Donjons et Dragons,&nbsp; ce composant
+leur donne des valeurs plus proches des gardes du corps Kobolds qu'on y
+retrouve<acronym title="Paper-and-Pencil"></acronym>.
+En bref,&nbsp;les Fl&egrave;ches de Feu sont modifi&eacute;es pour les rendre
+conformes &agrave; leur description par d&eacute;faut et ce que
+l'on pourrait attendre d'un projectile enflamm&eacute; non magique. Elles ne
+font plus qu'1d2 d&eacute;g&acirc;ts suppl&eacute;mentaire de feu qui
+n'est pas sujet &agrave; un jet de sauvegarde. Les commandos
+n'auront que deux fl&egrave;ches enflamm&eacute;es (bien qu'ils aient
+des carquois remplis de fl&egrave;ches normales), donc il vous
+appartient de tuer les petites fripouilles (autrefois malhonn&ecirc;tes) le
+plus vite possible. En compensation, les kobolds gagnent une
+l&eacute;g&egrave;re am&eacute;lioration de leurs jets de
+sauvegarde et de leurs bonus de comp&eacute;tence (deux &eacute;toiles en
+&eacute;p&eacute;es courtes et arcs courts) comme c'est le cas
+pour les guerriers de niveau un. Ce composant est compatible avec les commandos
+kobolds modifi&eacute;s ou ajout&eacute;s par <a href=
+"http://www.gibberlings3.net/scs/"> <acronym title="Sword Coast Strategems">SCS</acronym></a>
+et les autres mods.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; Composants</span> &bull;<a href="#top">Retour en haut</a></address>
+</div>
+<!-- ================== F A Q ================== --> <a name="faq" id="faq"></a>
+<div class="content">
+<h2>Foire Aux Questions </h2>
+<p><strong>Q : Qui est Aurora ? Que fait-elle &agrave;
+Athkatla ?</strong><br />
+
+R&nbsp;: Aurora est une guerri&egrave;re &agrave; la retraite qui adore les
+chaussures. Elle a pass&eacute; ses jeunes ann&eacute;es
+&agrave; combiner son go&ucirc;t pour l'aventure avec son amour
+des chaussures, combattant partout o&ugrave; se faisait ressentir le
+besoin d'embaucher une fine lame et achetant de nouvelles et exotiques
+chaussures (quand ses finances le lui permettaient). En fin de compte,
+ressentant le besoin d'une vie plus s&eacute;dentaire, elle loua
+une &eacute;choppe dans le quartier du Pont &agrave; Athkatla et
+ouvrit sa propre
+boutique de chaussures. Gr&acirc;ce son vaste savoir et sa
+familiarit&eacute; avec des
+pays lointains, elle est capable de vendre des objets uniques,
+introuvables ailleurs.</p>
+<p>Sa passion pour les ragots est pratiquement &agrave; la
+hauteur de son amour pour les chaussures, et elle sera heureuse de
+partager des informations sur la ville avec tous ceux qui voudront
+l'&eacute;couter.</p>
+<p><strong>Q : Attendez, comment Tomthal et Karaea
+sont-ils impliqu&eacute;s dans tout ceci ?</strong><br />
+
+R : Aurora ne peut pas &ecirc;tre dans sa boutique de chaussures
+tout le temps. Pendant la nuit, Tomthal fait tourner le magasin. C'est un
+Svirfneblin contraint de vivre &agrave; la surface par une
+mal&eacute;diction.</p>
+<p>Karaea est sa soeur, une joyeuse marchande itin&eacute;rante que
+vous pourrez rencontrer &agrave; Franc-March&eacute; et,
+peut-&ecirc;tre &eacute;galement &agrave; Nashkel et &agrave;
+Amkethran. Alors qu'Aurora et Tomthal dorment tous deux quand ils ne
+gardent pas la boutique, Karaea a appris la capacit&eacute; de
+r&ecirc;verie d'un ancien ami elfe. La nuit, elle m&eacute;dite
+dans un jardin priv&eacute; mais vendra des objets si vous la
+r&eacute;veillez.
+</p>
+<p><strong>Q : Est-il question d'une qu&ecirc;te ?</strong><br />
+
+R : Oui et Non. Aurora, Tomthal et/ou Karaea pourraient demander un
+service ou deux &agrave; votre groupe.</p>
+<p><strong>Q : Qu'en est-il des nouvelles zones ?</strong><br />
+
+R : C'est amusant que vous posiez la question. La rumeur
+pr&eacute;tend
+qu'il y a des bandes de gobelins qui parcourent la r&eacute;gion -
+certains se planquent peut-&ecirc;tre m&ecirc;me dans de
+nouvelles grottes qu'une &eacute;quipe intr&eacute;pide pourrait
+d&eacute;couvrir.
+Vous pourriez &eacute;galement trouver le domicile priv&eacute;
+des marchands&nbsp;dans leurs districts respectifs.</p>
+<p><strong>Q : De combien de dialogues parle-t-on au
+juste? </strong><br />
+
+R : Aurora connait une vingtaine de potins (si vous lui demandez), un ou
+deux dialogues sp&eacute;cifiques &agrave; chaque <acronym title=
+"Personnages non-joueurs">PNJ</acronym> de
+Bioware et une poign&eacute;e de dialogues avec le <acronym title=
+"Personnage Joueur">PJ</acronym>. Tomthal et Karaea ont une quantit&eacute;
+moindre de dialogue, mais il est sp&eacute;cifique &agrave; chacun.</p>
+<p>Il y a &eacute;galement quelques petits ajouts
+"intermods", si vous avez install&eacute; <a href=
+"http://www.teambg.eu/forum/index.php?topic=942.0">MTS Crappack</a> ou
+<a href="http://www.shsforums.net/index.php?showforum=579">Tales
+of the Deep Gardens</a>. En d&eacute;finitive, il y aura des
+ajouts disponibles &agrave; travers <a href="http://www.gibberlings3.net/crossmod/">Crossmod</a>,
+incluant des &eacute;changes avec Solaufein, Kelsey, Hubelpot et
+d'autres.</p>
+<p><strong>Q : Et de combien de paires de chaussures ?</strong><br />
+
+R : Il y a plus de trente paires de bottes de styles divers.
+Vous pouvez acheter la plupart aupr&egrave;s des marchands, ou les
+m&eacute;langer avec d'autres bottes pour cr&eacute;er des
+chaussures de qualit&eacute; sup&eacute;rieure. Vous pourriez&nbsp;
+&eacute;galement tomber sur d'autres objets.</p>
+<p><strong>Q : Pourquoi ne suis-je pas en mesure de
+trouver tous les objets ?</strong><br />
+
+R : Essaie encore, petit scarab&eacute;e ;). Quelques-uns des
+objets sont vraiment al&eacute;atoires et une partie d'entre eux
+sont plut&ocirc;t rares. D&eacute;faire les ennemis en grande
+quantit&eacute; pourrait porter ses fruits. D'autres objets sont
+obtenus seulement dans des circonstances sp&eacute;cifiques ou sur
+certaines plateformes. D'autres objets encore apparaissent dans les
+magasins autres que celui d'Aurora - ceux-l&agrave; sont
+&eacute;galement al&eacute;atoires.</p>
+<p><strong>Q : Comment faire si je ne veux pas d'une
+vendeuse bavarde ?</strong><br />
+
+R : Si vous ne voulez pas discuter avec Aurora et que vous ne voulez pas
+l'&eacute;couter parler avec les <acronym title="Personnages non-joueurs">PNJ</acronym>,
+dites-lui que vous ne voulez plus l'entendre, plus jamais, et le
+dialogue prendra la forme d'un vendeur classique. Vous pouvez aussi
+vous excuser pour lui avoir dit de se taire et vous pourrez alors
+entendre d'autres potins de sa part, si vous le voulez.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; FAQ</span> &bull;<a href="#top">Retour
+en haut</a></address>
+</div>
+<!-- ============== T r o u b l e s h o o t i n g =============== -->
+<a name="trouble" id="trouble"></a>
+<div class="content">
+<h2> D&eacute;pannage </h2>
+<p>Voici des conseils d'ordre g&eacute;n&eacute;ral si vous rencontrez
+des probl&egrave;mes pour faire fonctionner le jeu, que ce soit
+avec ou sans mods. Souvent, les erreurs sont li&eacute;es au moteur du jeu
+ou &agrave; la mani&egrave;re d'installer ou de jouer. Le jeu
+recommande de supprimer tous les fichiers des r&eacute;pertoires /cache /temp
+et /tempsave dans le r&eacute;pertoire du jeu pour voir si cela
+r&eacute;sout le probl&egrave;me avant tout autre
+d&eacute;pannage.</p>
+<p>
+<strong>Sympt&ocirc;me : le jeu se bloque ou provoque un retour sur le bureau
+de Windows</strong><br />
+Quand ceci se produit, le jeu affiche parfois une erreur d'assertion
+("assertion error") dans une fen&ecirc;tre pop-up mais ce n'est pas
+toujours le cas. Pour que le message d'erreur complet s'affiche, ouvrez
+le fichier <strong>baldur.ini</strong> (qui se trouve dans le
+r&eacute;pertoire du jeu) avec un &eacute;diteur de texte (par exemple
+le bloc-notes). Si vous &ecirc;tes sous Windows Vista et n'arrivez pas
+&agrave; &eacute;diter&nbsp;ce fichier ou &agrave; sauvegarder vos
+modifications, consultez<a href=
+"http://forums.bioware.com/viewtopic.html?topic=662080&amp;forum=10">&nbsp;ce sujet</a> pour plus d'informations.
+</p>          
+<p>Dans la section [Program Options] de ce fichier, tapez <strong>Logging On=1</strong>
+(&agrave; moins que cette instruction ne soit d&eacute;j&agrave;
+pr&eacute;sente). Il est &eacute;galement int&eacute;ressant de
+v&eacute;rifier que l'instruction <strong>Debug Mode=1</strong> est bien
+pr&eacute;sente, ce qui permet d'activer la <a href=
+"http://iesdp.gibberlings3.net/clua/bg2.htm">Console CLUA</a>
+pour d&eacute;boguer et effectuer des tests. Sauvegardez le fichier et
+refermez-le. Lancez &agrave; nouveau le jeu et tentez de reproduire
+l'erreur. Cherchez ensuite dans le r&eacute;pertoire du jeu le fichier
+<strong>Baldur.err</strong> et ouvrez-le avec un &eacute;diteur de texte de
+fa&ccedil;on &agrave; analyser son contenu.
+</p>
+<p><span style="font-weight: bold;">Sympt&ocirc;me
+: Le jeu crashe sans la pr&eacute;sence de logs dans baldur.err et montre soit
+un &eacute;cran noir, soit une fen&ecirc;tre pop-up indiquant une
+erreur &agrave; l'offset 005ca8a8&nbsp;&nbsp;</span></p>
+<p>Cela indique g&eacute;n&eacute;ralement un
+probl&egrave;me d'animation. V&eacute;rifiez que vous avez la
+derni&egrave;re version du mod. Si vous avez install&eacute;
+d'autres mods ensuite et avez ce probl&egrave;me, installez le fix
+disponible <a href=
+"http://www.shsforums.net/index.php?app=downloads&amp;showfile=884">ici</a>.</p>
+<p><span style="font-weight: bold;">ERROR: error
+copying [aurora/bam/somefile.bam]</span><br style="font-weight: bold;" />
+<span style="font-weight: bold;">ERROR: [SOMEFILE.CRE]
+-&gt; [override/SOMEFILE.CRE] Patching failed (COPY)</span><br />
+<span style="font-weight: bold;">Stopping installation
+because of error. (sans aucun autre message d'erreur)</span><br />
+Ce genre de messages d&eacute;pourvus de valeur informative dans ce
+genre peuvent indiquer que vous &ecirc;tes en train d'installer le
+mod sur un disque dur avec un taux de transfert de donn&eacute;es
+bas ou qu'un programme antivirus est actif pendant l'installation (ce
+qui peut aussi affecter&nbsp;le transfert de donn&eacute;es). Essayez
+d'installer le mod sur un disque interne avec la protection antivirus
+d&eacute;sactiv&eacute;e pendant l'installation. Si vous
+n'&ecirc;tes pas certain, d&eacute;connectez-vous d'internet
+pendant l'installation (soit en d&eacute;branchant votre c&acirc;ble r&eacute;seau,
+soit en d&eacute;connectant votre adaptateur wifi) et fermez <strong>tous</strong>
+les programmes qui r&eacute;sident dans la m&eacute;moire
+pendant l'installation. Pour obtenir une liste de ceux-ci, allez dans
+D&eacute;marrage -&gt; Ex&eacute;cuter et tapez <strong>msconfig</strong>
+l&agrave; o&ugrave; il est indiqu&eacute; "Ouvrir".
+Ensuite, cliquez sur OK. Quand l'utilitaire de configuration du
+syst&egrave;me appara&icirc;t, cliquez sur le bouton de
+d&eacute;marrage. Les seuls programmes qui sont
+r&eacute;ellement n&eacute;cessaires d'&ecirc;tre
+charg&eacute;s en m&eacute;moire au d&eacute;marrage sont
+ceux qui sont li&eacute;s &agrave; votre puce graphique
+(typiquement ATI ou NVIDIA). D&eacute;cochez tout le reste,
+red&eacute;marrez et essayez &agrave; nouveau d'installer les
+mods. Il y a des probl&egrave;mes bien document&eacute;s
+li&eacute;s &agrave; l'installation de mods quand l'antivirus
+Avast est activ&eacute;, d'o&ugrave;, v&eacute;rifiez bien
+que tous les composants d'Avast sont compl&egrave;tement
+d&eacute;sactiv&eacute;s. <span style="font-weight: bold;"></span></p>
+<p><strong>Assertion failed in ChDimm.cpp at line #7641</strong><br />
+Exp: pBiffHeader-&gt;dwFileType != mmioFOURCC('B', 'I', 'F', 'C')<br />
+Msg: c:\{path}\bg2\cd#\DATA\BIFNAME.BIF: attempted to use compressed
+BIF from CD, check free hard drive space </p>
+<p>Parfois, le BIF r&eacute;f&eacute;renc&eacute; peut exister, mais
+le jeu s'attend &agrave; le trouver dans le r&eacute;pertoire principal
+\data ou dans \cache\data. Le copier depuis le r&eacute;pertoire
+cd# (ou du CD lui-m&ecirc;me) va marcher quelques fois. Pour les autres
+fois, vous aurez besoin de <a href=
+"http://www.gibberlings3.net/tools/dltcep.php"><acronym title=
+"Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>
+pour d&eacute;compresser le BIF. Pour ce faire, utilisez <strong>Extraction
+&gt; Uncompress BIF</strong>.
+Le BIF d&eacute;compress&eacute; devrait se trouver dans votre
+r&eacute;pertoire principal \data. Relancez le jeu et regardez si
+cela r&eacute;sout le probl&egrave;me.</p>
+<p><strong>Assertion failed in ObjCreatureAI.cpp at line
+#16055 </strong><br />
+Exp: FALSE<br />
+Msg: AR#### missing Exit#### </p>
+<p>Habituellement, cela indique que vous avez
+install&eacute; le mod et utilis&eacute; une partie sauvegard&eacute;e dans
+laquelle vous avez d&eacute;j&agrave; visit&eacute; une zone
+modifi&eacute;e par le mod.
+Vous devez utiliser une sauvegarde ant&eacute;rieure &agrave; celle-ci,
+ou mieux, commencer une nouvelle partie.</p>
+<p><span style="font-weight: bold;">BEHHIV01.CRE is
+corrupt: below minimum length</span><br />
+Les messages de cette nature indiquent
+g&eacute;n&eacute;ralement que vous &ecirc;tes en train
+d'installer votre mod sur Shadows of Amn plut&ocirc;t que sur
+Thorne of Bhaal. Certains mods plus anciens utilisent une commande
+ALLOW_MISSING pour cr&eacute;er des fichiers de 0 octets (bytes) qui ne sont
+pas pr&eacute;sents. Vous pouvez ignorer ces messages sans souci.
+Vous ne verrez jamais ces fichiers et le mod n'essaiera pas de les
+patcher.</p>
+<p><strong>Autres Probl&egrave;mes</strong><br />
+Si vous avez plus d'un gros mod install&eacute;,
+r&eacute;f&eacute;rez-vous s'il vous plait &agrave; la <a href=
+"http://www.shsforums.net/index.php?showtopic=41036">
+FAQ sur les m&eacute;gamods</a>
+pour plus de conseils en d&eacute;pannage. Si rien de tout ceci ne
+r&eacute;sout vos probl&egrave;mes, ou que vous avez des
+probl&egrave;mes sp&eacute;cifiques &agrave; un mod, merci de remonter
+le probl&egrave;me dans le <a href=
+"http://www.shsforums.net/index.php?showforum=418">forum</a>
+du mod. Incluez dans votre message le contenu du fichier <acronym title=
+"Weimer Dialogue Utility">WeiDU</acronym>.log,
+ou attachez-le au message s'il est trop volumineux.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; D&eacute;pannage</span> &bull;<a href="#top">Back
+to top</a></address>
+</div>
+<!-- ================== I t e m s ================== --> <a name="items" id="items"></a>
+<div class="content">
+<h2> Objets </h2>
+<p><strong>Bottes et Chaussures</strong><br />
+<img src="images/agibt01l.gif" alt="Bottes d'Endurance" height="38" width="34" />
+<img src="images/agibt02l.gif" alt="Bottes Hautement stylis&eacute;es" height="40" width="40" />
+<img src="images/agibt03l.gif" alt="Bottes de la Marche P&eacute;nible" height="40" width="38" />
+<img src="images/agibt04l.gif" alt="Bottes de Bravoure" height="40" width="38" />
+<img src="images/agibt05l.gif" alt="Bottes de Bataille" height="40" width="37" />
+<img src="images/agibt38l.gif" alt="Bottes du Bar" height="40" width="33" />
+<img src="images/agibt06l.gif" alt="Bottes de Bar" height="40" width="33" />
+<img src="images/agibt07l.gif" alt="Bottes d'Ennui" height="40" width="38" />
+<img src="images/agibt08l.gif" alt="Ces Bottes sont Faites pour Marcher" height="31" width="40" />
+<img src="images/agibt09l.gif" alt="H&eacute;morragie de Mensonges d'Amour" height="28" width="40" />
+<img src="images/agibt10l.gif" alt="Chaussures de Danse" height="24" width="40" />
+<img src="images/agibt11l.gif" alt="B&ecirc;tes aux Longues Jambes" height="36" width="35" />
+<img src="images/agibt12l.gif" alt="Bottes sans Vergogne" height="22" width="40" />
+<img src="images/agibt13l.gif" alt="Bottes du sans Reproches" height="30" width="40" />
+<img src="images/agibt14l.gif" alt="Un Bout de Chemin dans les Chaussures d'un Autre" height="28" width="40" />
+<img src="images/agibt15l.gif" alt="Pieds Puants" height="40" width="29" />
+<img src="images/agibt16l.gif" alt="Bottes de Visite" height="40" width="35" />
+<img src="images/agibt17l.gif" alt="Bottes pour Rafraichir la M&eacute;moire" height="33" width="40" />
+<img src="images/agibt18l.gif" alt="Bottes du Leopard" height="36" width="36" />
+<img src="images/agibt19l.gif" alt="Bottes &eacute;l&eacute;gantes du Gu&eacute;par" height="39" width="34" />
+<img src="images/agibt20l.gif" alt="Mocassins de Marv le Fou" height="15" width="40" />
+<img src="images/agibt21l.gif" alt="Bottes vertes pour tous les Jours" height="38" width="34" />
+<img src="images/agibt22l.gif" alt="Bottes Jaunes pour tous les Jours" height="38" width="34" />
+<img src="images/agibt23l.gif" alt="Bottes Bleues pour tous les Jours" height="38" width="34" />
+<img src="images/agibt24l.gif" alt="Mocassins Verts" height="34" width="40" />
+<img src="images/agibt25l.gif" alt="Bottes vertes &agrave; Lacets" height="39" width="33" />
+<img src="images/agibt26l.gif" alt="Bottes Roses de Furtivit&eacute;" height="33" width="39" />
+<img src="images/agibt27l.gif" alt="Bottes de Folie D&eacute;vastatrice" height="36" width="38" />
+<img src="images/agibt28l.gif" alt="Bottes Gnomiques" height="34" width="41" />
+<img src="images/agibt29l.gif" alt="Bottes Gobelines" height="31" width="40" />
+<img src="images/agibt30l.gif" alt="Bottes Elfe Noir" height="33" width="39" />
+<img src="images/agibt31l.gif" alt="Bottes Daemonfey" height="33" width="40" />
+<img src="images/agibt32l.gif" alt="Bottes de Guerre" height="40" width="37" />
+<img src="images/agibt33l.gif" alt="Bottes de l'Amour Rapide" height="39" width="34" />
+<img src="images/agibt34l.gif" alt="Bottes gnomiques Puantes" height="24" width="41" />
+<img src="images/agibt35l.gif" alt="Bottes de Protection Triple" height="38" width="34" />
+<img src="images/agibt36l.gif" alt="Bottes Elfe noir de la Nuit" height="33" width="39" />
+<img src="images/agibt37l.gif" alt="Nobles Bottes du D&eacute;mon" height="33" width="40" /> </p>
+<p><strong>Autres Objets</strong><br />
+<img src="images/agiam01l.gif" alt="Amulette Orn&eacute;e" height="31" width="28" />
+<img src="images/agibc01l.gif" alt="Broche de Tempus" height="30" width="32" />
+<img src="images/agibe01l.gif" alt="Groseilles" height="32" width="34" />
+<img src="images/agibn01l.gif" alt="Tas d'Os" height="27" width="51" />
+<img src="images/agibr01l.gif" alt="Bracelet de Sagesse" height="23" width="34" />
+<img src="images/agiea01l.gif" alt="Boucle d'Oreille Unique" height="30" width="23" />
+<img src="images/agiea02l.gif" alt="Boucles d'Oreille en chapelet de Dents" height="30" width="21" />
+<img src="images/agigm01l.gif" alt="Rubis" height="26" width="31" />
+<img src="images/agigm02l.gif" alt="Rubis Etoil&eacute;" height="24" width="29" />
+<img src="images/agigm03l.gif" alt="Gemme Oeil de Tigre" height="22" width="25" />
+<img src="images/agigm04l.gif" alt="Obsidienne Flocon de neige" height="22" width="29" />
+<img src="images/agigm05l.gif" alt="Gemme Am&eacute;thyste" height="26" width="29" />
+<img src="images/agigm06l.gif" alt="Gemme Topaze" height="19" width="30" />
+<img src="images/agigm07l.gif" alt="Gemme d'Ambre" height="24" width="29" />
+<img src="images/agigm08l.gif" alt="Opale de Feu" height="26" width="27" />
+<img src="images/agigm09l.gif" alt="Opale pr&eacute;cieuse &agrave; bandes de couleurs" height="26" width="24" />
+<img src="images/agihl01l.gif" alt="Casque du Nord" height="32" width="28" />
+<img src="images/agiio01l.gif" alt="Pierre Ioun Noisette" height="25" width="23" />
+<img src="images/agipt01l.gif" alt="Lotion pour Mains" height="32" width="22" />
+<img src="images/agipt02l.gif" alt="Baume Musculaire" height="32" width="22" />
+<img src="images/agipt03l.gif" alt="Gogondy de Force-Granite" height="32" width="15" />
+<img src="images/agipt04l.gif" alt="Gogondy de Force-Grenat" height="32" width="18" />
+<img src="images/agipt05l.gif" alt="Vin de Fraise" height="32" width="18" />
+<img src="images/agipt06l.gif" alt="Elixir Excellent" height="32" width="22" />
+<img src="images/agirn01l.gif" alt="Anneau Orn&eacute;" height="20" width="31" />
+<img src="images/agilk01l.gif" alt="Passe-Partout en Bronze" height="23" width="27" />
+<img src="images/agilk02l.gif" alt="Ensemble de Passe-partout en Fer" height="32" width="26" />
+<img src="images/agims01l.gif" alt="Masque d'Evasion" height="20" width="29" />
+<img src="images/agitimel.gif" alt="Horloge Antique" height="29" width="24" />
+<img src="images/agijm01l.gif" alt="Beurre de Pomme" height="25" width="21" />
+<img src="images/agijm02l.gif" alt="Confiture de M&ucirc;res Sauvages" height="25" width="21" />
+<img src="images/agijm03l.gif" alt="Confiture de Myrtilles" height="25" width="21" />
+<img src="images/agijm04l.gif" alt="Confiture de Baies Nourrici&egrave;res" height="25" width="21" />
+<img src="images/agijm05l.gif" alt="Confiture d'Airelles" height="25" width="21" />
+<img src="images/agijm06l.gif" alt="Confiture de M&ucirc;res" height="25" width="21" />
+<img src="images/agijm07l.gif" alt="Confiture de Framboises" height="25" width="21" />
+<img src="images/agijm08l.gif" alt="Confiture de Fraises" height="25" width="21" />
+<img src="images/agijm09l.gif" alt="Confiture de Gojis" height="25" width="21" />
+<img src="images/agipi01l.gif" alt="Tarte aux Groseilles" height="32" width="47" />
+<img src="images/agibd01l.gif" alt="Pain et Confiture" height="36" width="46" />
+<img src="images/agint01l.gif" alt="Notes d&eacute;chir&eacute;es" height="35" width="41" />
+<img src="images/imisc02l.gif" alt="Miroir" height="40" width="44" />
+<img src="images/imisc03l.gif" alt="Petite Boite" height="31" width="34" />
+<img src="images/agibx01l.gif" alt="Boite &agrave; Chaussures en Ch&ecirc;ne" height="44" width="51" />
+<img src="images/agibx02l.gif" alt="Boite &agrave; Chaussures en Acajou" height="44" width="51" />
+<img src="images/agibx03l.gif" alt="Boite &agrave; Chaussures en Eb&egrave;ne" height="44" width="51" />
+<img src="images/agisw03l.gif" alt="Rapi&egrave;re d'acide +2" height="63" width="36" />
+<img src="images/agiax02l.gif" alt="Hache de Bataille +2, Mangeuse d'Armure" height="52" width="56" />
+<img src="images/agiax01l.gif" alt="Pioche Svirfnebeline" height="52" width="57" />
+<img src="images/agibl01l.gif" alt="Massue Svirfnebeline" height="50" width="47" />
+<img src="images/agibl02l.gif" alt="Blackjack" height="46" width="51" />
+<img src="images/agisw01l.gif" alt="Ep&eacute;e Longue Orn&eacute;e de Bijoux +3" height="49" width="51" />
+<img src="images/agisw04l.gif" alt="Coutelas de Pirate +2" height="44" width="46" />
+<img src="images/agisw05l.gif" alt="Ep&eacute;e Batarde +2, Lame de Glace" height="57" width="59" />
+<img src="images/agist01l.gif" alt="Baton d'Essaim d'Insectes +2" height="60" width="60" />
+<img src="images/agish01l.gif" alt="Bouclier du Chevalier +1" height="60" width="42" />
+<img src="images/agish02l.gif" alt="Bouclier Miroitant +1" height="60" width="42" />
+<img src="images/agicl01l.gif" alt="Cape Verte" height="60" width="51" />
+<img src="images/agicl02l.gif" alt="Robe verte" height="60" width="36" /></p>
+<p>
+<strong>Nouvelles animations de cr&eacute;atures</strong><br />
+<img src="images/0x5264.gif" alt="Svirfneblin (Pale, No Axe)" height="38" width="33" />
+<img src="images/0x5266.gif" alt="Svirfneblin (Dark, No Axe)" height="38" width="33" />
+<img src="images/0x5263.gif" alt="Svirfneblin (Pale, Axe)" height="49" width="41" />
+<img src="images/0x5265.gif" alt="Svirfneblin (Dark, Axe)" height="49" width="41" />
+<img src="images/0x5257.gif" alt="Goblin Shaman" height="47" width="47" />
+<img src="images/0x5252.gif" alt="Goblin Chief" height="56" width="59" />
+<img src="images/0x5262.gif" alt="Worg" height="49" width="58" />
+<img src="images/0x547b.gif" alt="Myrlochar" height="66" width="60" /><br />
+<img src="images/0x5037.gif" alt="Earth Elemental" height="89" width="115" />
+<img src="images/0x5242.gif" alt="Cambion" height="94" width="80" />
+<img src="images/0x5243.gif" alt="Alu-Fiend" height="102" width="104" />
+<img src="images/0x5279.gif" alt="Helmed Horror" height="115" width="78" />
+<img src="images/0x527a.gif" alt="Battle Horror" height="114" width="78" />
+</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; Objets</span> &bull;<a href="#top">Retour en haut</a></address>
+</div>
+<!-- ================== C r e d i t s ================== -->
+<a name="credits" id="cr&eacute;dits"></a>
+<div class="content">
+<h2> Cr&eacute;dits </h2>
+<span class="t1">Ecriture :</span> <span class="t2">Bookwyrme et K'aeloree</span><br />
+<span class="t1">Codage :</span> <span class="t2">GeN1e
+et Miloch</span><br />
+<span class="t1">Aide au codage :</span> <span class="t2">berelinde et SConrad</span><br />
+<span class="t1">Dessin des objets :</span> <span class="t2">Miloch (avec quelques id&eacute;es de
+Flysoup, Moinesse et Diablo)</span><br />
+<span class="t1">Aide sur la zone :</span> <span class="t2">Yovaneth</span><br />
+<span class="t1">Macros :</span> <span class="t2">Ascension64,
+Gort et Nythrun</span><br />
+<span class="t1">Portrait :</span> <span class="t2">Nyx
+(<a href="http://nyxi.deviantart.com/">Site Web</a>)</span><br />
+<span class="t1">Ecriture des dialogues :</span> <span class="t2">Bookwyrme,
+Caelellowynn et Miloch</span><br />
+<span class="t1">Voix :</span> <span class="t2">berelinde,
+Riviera et Ascension64</span><br />
+<span class="t1">Concept initial :</span> <span class="t2">MajorTomSawyer,
+Jyzabyl et Bookwyrme</span><br />
+<span class="t1">Lecture de la Beta :</span> <span class="t2">Riviera et
+Finduilas</span><br />
+<span class="t1">Test de la version Alpha :</span> <span class="t2">Lava
+Del'Vortel et @vGur</span><br />
+<span class="t1">Traduction fran&ccedil;aise :</span>
+<span class="t2">Aldiemus (des d'Oghmatiques)</span><br />
+<span class="t1">H&eacute;bergement :</span> <span class="t2"><a href=
+"http://www.spellholdstudios.net/">Spellhold Studios</a>
+(<a href="http://www.shsforums.net">Forums</a>)</span><br />
+<span class="t1">Rendre le projet "r&eacute;el" :</span>
+<span class="t2">Hoppy, Jarno Mikkola, melkor_morgoth75, OneEyedPhoenix et
+d'autres</span>
+<hr class="floatfix" />
+<h5> Programmes/outils utilis&eacute;s pour la cr&eacute;ation :</h5>
+<br />
+<ul class="version-list c1">
+  <li><a href="http://audacity.sourceforge.net/">Audacity</a>
+par Dominic Mazzoni et d'autres</li>
+  <li><a href="http://www.teambg.eu/?page=tools&amp;cat=32">BAM
+Workshop</a> par Glenn Flansburg</li>
+  <li><a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title=
+  "Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>
+par Avenger</li>
+  <li><a href="http://www.editpadpro.com/editpadclassic.html">EditPad
+Classic</a> par Jan Goyvaerts</li>
+  <li><a href="http://iesdp.gibberlings3.net/"><acronym title=
+  "Infinity Engine Structures Description Project">IESDP</acronym></a>
+maintenu par igi</li>
+  <li><a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near
+Infinity</a> par Jon Olav Hauglid et d'autres</li>
+  <li><a href="http://www.rarewares.org/ogg-oggdec.php">Oggdec</a>
+  par John33</li>
+  <li><a href="http://www.pspad.com/en/">PSPad</a> par Jan Fiala</li>
+  <li><a href="http://www.sheilsoft.com/psp.htm">Sheilsoft
+    <acronym title="Paint Shop Pro">PSP</acronym>
+Scripts</a> par Howard Dickson</li>
+  <li><a href="http://www.pocketplane.net/mambo/index.php?option=com_content&amp;task=blogcategory&amp;id=137&amp;Itemid=96">TisPack</a>
+par Per Olofsson</li>
+  <li><a href="http://weidu.org/main.html#weidu"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>
+par Wes Weimer et the bigg</li>
+</ul>
+<p>Aurora's Shoes and Boots est un copyright &copy; 2009
+Bookwyrme et Miloch. Ce travail (incluant l'int&eacute;gralit&eacute; du
+code et de la documentation) est d&eacute;pos&eacute; sous la licence <a href=
+"http://creativecommons.org/licenses/by-nc/3.0/">Creative
+Commons Attribution-Noncommercial 3.0 Unported License</a>. Vous
+&ecirc;tes libres de partager (copier, distribuer et transmettre)
+et de modifier (adapter) ce travail, sauf &agrave; des fins
+commerciales. Voyez la <a href=
+"http://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative
+Commons Public License</a> pour plus de d&eacute;tails. Les
+auteurs vous demandent de les cr&eacute;diter l&agrave;
+o&ugrave; cela doit &ecirc;tre fait, et de les informer sur
+tous les changements ou adaptations sur le <a href=
+"http://www.shsforums.net/index.php?showforum=418">forum</a>
+du mod. Tous les autres copyrights et marques
+d&eacute;pos&eacute;es sont la propri&eacute;t&eacute;
+de leurs propri&eacute;taires respectifs.</p>
+<address> <span class="footer">Aurora's Shoes
+&gt; Cr&eacute;dits</span> &bull;<a href="#top">Retour en haut</a></address>
+</div>
+<!-- ================== V e r s i o n H i s t o r y ================== -->
+<a name="version" id="version"></a>
+<div class="content">
+<h2> Historique des Versions </h2>
+<h6> Version 5: 1 F&eacute;vrier 2010 </h6>
+<ul>
+  <li>Correction des bugs d'animation _LOW qui causaient des crashs de zones au
+  chargement</li>
+  <li>Correction de p&eacute;pins mineurs dans les fonctions de zones qui
+  causaient des corruptions de portes et d'objets.</li>
+  <li>Correction de la routine de script d'objets al&eacute;atoires.</li>
+  <li>Correction des r&eacute;f&eacute;rences aux zones de Xulaye dans les
+  scripts des Bottes de Bar.</li>
+  <li>Retrait des traces des objets "empileurs d'animation"
+  pr&eacute;c&eacute;dents.</li>
+  <li>Renommage de certaines ressources pour &eacute;viter des conflits avec
+  AjocMod<br />
+ </li>
+</ul>
+<h6> Version 4: 20 janvier 2010</h6>
+<ul>
+  <li>Aurora a plus de dialogues ! Elle est un peu plus "maligne" quand
+on en vient au vol, mais ce serait spoiler que d'en dire plus...</li>
+  <li>Ajout de la traduction fran&ccedil;aise (par Aldiemus des d'Oghmatiques).</li>
+  <li>Ajout de banters intermods avec Kelsey, Solaufein, Hubelpot et Fade.</li>
+  <li>Encodage des sons en format WAVC plut&ocirc;t qu'OGG pour sauver du temps
+  et de l'espace d'installation.</li>
+  <li>Ajout d'une rencontre gobelin/gnome pour Classic Adventures</li>
+  <li>Ajout de sons sp&eacute;cifiques pour les gobelins, les
+svirfneblins, les cambions et les d&eacute;mons de Icewind Dale et
+Neverwinter Nights.</li>
+  <li>&nbsp;Changement des animations de gobelins et de gnomes pour
+utiliser des espaces d&eacute;di&eacute;s plut&ocirc;t qu'un empilement
+(utilisant le sch&eacute;ma Infinity Animations des ex&eacute;cutables
+ToB).</li>
+  <li>Changement des bottes fey'ri pour invoquer soit un cambion guerrier/mage,
+  soit un alu-d&eacute;mon guerrier/clerc.</li>
+  <li>Ajout des animations et des sons d'Icewind Dale pour les
+&eacute;l&eacute;mentaires de terre, les worgs, les horreurs
+casqu&eacute;es et de bataille.</li>
+  <li>Correction du probl&egrave;me de crash du composant des Horreurs
+  Casqu&eacute;es.</li>
+  <li>R&eacute;vision des macros de correction
+des zones pour &eacute;viter des probl&egrave;mes au Bois de Lars.</li>
+  <li>Correction optimis&eacute;e gr&acirc;ce &agrave; l'&eacute;vitement du
+  regexp co&ucirc;teux en temps.</li>
+  <li>Ajout de l'option pour abr&eacute;ger la cin&eacute;matique de Spellhold
+  dans le composant "Raccourcir les intros de BG2".</li>
+  <li>Correction de la documentation concernant la
+compatibilit&eacute;, les probl&egrave;mes d'antivirus et les
+installations pour seulement SoA.</li>
+  <li>Correction de p&eacute;pins mineurs dans les dialogues
+  d'am&eacute;lioration des objets.</li>
+  <li>L&eacute;g&egrave;re r&eacute;duction de la disponibilit&eacute; des
+  objets dans Tutu apr&egrave;s requ&ecirc;te.</li>
+  <li>Karaea se d&eacute;place d&eacute;sormais de Nashkel vers la Porte de
+  Baldur, quand c'est coh&eacute;rent.</li>
+  <li>Am&eacute;lioration de la correction des espaces de
+cr&eacute;ature dans le composant "Tr&eacute;sors al&eacute;atoires
+r&eacute;alistes".</li>
+  <li>Correction de p&eacute;pins mineurs avec les animations de gobelins si
+  Drizzt Saga est install&eacute;.</li>
+  <li>Correction d'un p&eacute;pin potentiel avec les svirfneblins si un autre
+  mod leur donne des boucliers.</li>
+  <li>Am&eacute;lioration de la compatibilit&eacute; des Horreurs de Bataille
+  si SCS est install&eacute;.</li>
+  <li>D&eacute;placement des fichiers log et batch dans le sous-dossier
+  "batchlog".<br />
+ </li>
+</ul>
+<h6> Version 3: 22 Oct 2009 </h6>
+<ul>
+  <li>Correction du bug dans le dialogue de Lissa et la sous
+qu&ecirc;te des Ruines du Temple</li>
+  <li>Ajout de plus d'options pour le composant "Changer l'or des
+r&eacute;compenses de qu&ecirc;tes"</li>
+  <li>Am&eacute;lioration des composants de
+tr&eacute;sors al&eacute;atoires et d'or sur les
+cr&eacute;atures</li>
+  <li>Ajout de la compatibilit&eacute; avec Ashes of Embers
+sans d&eacute;pendance d'ordre lors de l'installation</li>
+  <li>Ajout du composant "Commandos Kobold r&eacute;alistes"</li>
+  <li>Mise au point du composant "Version papier des
+  Horreurs&nbsp;casqu&eacute;es et de Bataille"</li>
+</ul>
+<h6> Version 2: 3 Oct 2009 </h6>
+<ul>
+  <li>Ajout du composant "Changer l'or des r&eacute;compenses
+de qu&ecirc;tes"</li>
+  <li>Ajout du composant "Tr&eacute;sors
+al&eacute;atoires r&eacute;alistes"</li>
+  <li>Ajout du composant "Version papier des Horreurs&nbsp;casqu&eacute;es et
+  de Bataille"</li>
+  <li>Ajout de la compatibilit&eacute; avec <a href=
+  "http://ca.spellholdstudios.net">Classic Adventures</a>
+ </li>
+  <li>Correction de p&eacute;pins mineurs de
+compatibilit&eacute; avec <acronym title=
+"Never-Ending Journey Second Edition"><a href="http://vlad.blackwyrmlair.net/nejmain.html">NEJ2</a></acronym>
+et <acronym title="Region of Terror"><a href="http://www.spellholdstudios.net/ie/rot">RoT</a></acronym>
+ </li>
+  <li>Correction des entr&eacute;es dans la zone et le script
+de Karaea pour <acronym title="Baldur's Gate Trilogy">BGT</acronym>
+ </li>
+  <li>Am&eacute;lioration de l'utilisation du tag GABBER pour
+Aurora</li>
+  <li>Ajout de la possibilit&eacute; de s'excuser
+aupr&egrave;s d'Aurora si vous avez &eacute;t&eacute;
+impolis</li>
+</ul>
+<h6> Version 1: 2 Sep 2009 </h6>
+<ul>
+  <li>Mise au point des dialogues</li>
+  <li>Ajustement des objets et correction des
+probabilit&eacute;s</li>
+  <li>Recodage de l'aspect al&eacute;atoire des objets de
+qu&ecirc;te (pour que &ccedil;a marche vraiment :P)</li>
+</ul>
+<h6> Beta 1: 31 Ao&ucirc; 2009 </h6>
+<ul>
+  <li>Correction de quelques coquilles dans les dialogues et les
+variables</li>
+  <li>Am&eacute;lioration de la compatibilit&eacute; pour
+le composant "Raccourcir la sc&egrave;ne"</li>
+  <li>R&eacute;vision des routines de sommeil (&agrave;
+nouveau)</li>
+  <li>Correction des Bottes de Bar, du Blackjack et de l'Elixir
+Excellent</li>
+  <li>Introduction d'une paire de nouveaux objets</li>
+</ul>
+<h6> Alpha 3: 23 Ao&ucirc; 2009 </h6>
+<ul>
+  <li>Correction d'une montagne de bugs</li>
+  <li>Correction l&eacute;g&egrave;re de l'animation et
+des probl&egrave;mes de palette</li>
+  <li>Suppression de l'effet "Boule brillante" de
+l'immunit&eacute; aux illusions des svirfneblins</li>
+  <li>Ajout d'une s&eacute;lection de sons pour Aurora</li>
+  <li>R&eacute;vision des entr&eacute;es de la zone,
+recherche et &eacute;clairage des cartes</li>
+  <li>R&eacute;vision des routines de sommeil, des scripts et
+des dialogues</li>
+  <li>Ajout d'options suppl&eacute;mentaires au composant
+"Raccourcir les intros de <acronym title="Baldur's Gate II">
+BG2</acronym> "</li>
+  <li>Ajout du composant "Raccourcir la sc&egrave;ne de la
+bataille de Gorion"</li>
+</ul>
+<h6> Alpha 2: 13 Ao&ucirc; 2009 </h6>
+<ul>
+  <li>Correction de certains des objets les plus complexes (comme
+les consommables)</li>
+  <li>Ajout de code de dialogue dans le cas d'un vol &agrave;
+la tire sur un marchand dans le style de <a href=
+"http://www.shsforums.net/index.php?showforum=79">Rogue
+Rebalancing</a>, merci &agrave; aVENGER</li>
+  <li>Ajout d'un dialogue enchanteur si le <a href=
+  "http://www.shsforums.net/index.php?showtopic=30535">patch</a>
+d'Ascension64 est install&eacute;</li>
+  <li>Ajout des am&eacute;liorations d'objets</li>
+  <li>Ajout de nouvelles zones pour les gobelins et les marchands
+ </li>
+  <li>Ajout du myrlochar ("Araign&eacute;e d'&acirc;me"
+elfe noir)</li>
+  <li>Toutes les voix ont &eacute;t&eacute;
+re-masteris&eacute;es</li>
+  <li>Impl&eacute;mentation compl&egrave;te du sommeil,
+du r&eacute;veil et du passage de l'un &agrave; l'autre</li>
+  <li>Ajout de la v&eacute;rification de Throne of Bhaal pour
+les Bottes du Bar</li>
+</ul>
+<h6> Alpha 1: 8 Mai 2009 </h6>
+<ul>
+  <li>Version interne initiale</li>
+</ul>
+<address> <span class="footer">Aurora's Shoes
+&gt; Historiques des versions</span> &bull;<a href="#top">Retour en haut</a></address>
+</div>
+</div>
+</div>
+</body>
+</html>

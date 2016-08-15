@@ -1,0 +1,11 @@
+IF
+  Global("agitem2s","LOCALS",0)
+  Global("agitem2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("agitem2s","LOCALS",1)
+  RESPONSE #5
+    SetGlobal("agitem2s","LOCALS",1)
+    SetGlobal("agitem2","GLOBAL",1)
+    GiveItemCreate("t-ring03",Myself,0,0,0)
+END

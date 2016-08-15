@@ -1,0 +1,8 @@
+IF
+  Global("agmirr","AR3707",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Container 1",DestroyItem("misc02"))
+    ActionOverride("Container 1",CreateItem("misc02",0,0,0))
+    SetGlobal("agmirr","AR3707",1)
+END

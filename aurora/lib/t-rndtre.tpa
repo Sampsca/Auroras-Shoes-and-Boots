@@ -1,0 +1,363 @@
+<<<<<<<< .../aurora-inlined/ag_invalid_slots.txt
+Creature	Name	Slot	Offset	Invalid value
+>>>>>>>>
+
+<<<<<<<< .../aurora-inlined/ag_modded_rands.txt
+Creature	Name	Item retained	Remove style
+>>>>>>>>
+
+COPY ~.../aurora-inlined/ag_invalid_slots.txt~ ~aurora/batchlog~
+     ~.../aurora-inlined/ag_modded_rands.txt~  ~aurora/batchlog~
+
+DEFINE_ACTION_MACRO t-rndapp BEGIN
+  ACTION_IF (~%tsu%~ STRING_EQUAL ~_~ = 1) BEGIN
+    APPEND ~%r2d%.2da~ ~AG_AVER    _POTN08    _MISC23    _AMUL05    _MISC17    013        011        009        007        005        002        001        001        006        008        _MISC16    _MISC18    _MISC22    _AMUL06    _RING12
+AG_WELL    _POTN20    _MISC31    _AMUL08    _MISC20    034        _AMUL09    _MISC19    008        009        _RING11    AGGEM03    _POTN25    _RING14    _MISC26    _MISC25    AGGEM04    _MISC27    _MISC28    _AMUL04
+AG_WEAL    _POTN23    _AMUL13    _MISC37    _MISC35    _RING16    _AMUL07    _POTN32    047        038        029        _AMUL09    _RING10    _RING15    _POTN08    _RING13    _RING17    AGGEM06    _MISC36    _POTN17~   
+  END ELSE BEGIN
+    APPEND ~%r2d%.2da~ ~AG_AVER    POTN08     MISC23     AMUL05     MISC17     013        011        009        007        005        002        001        001        006        008        MISC16     MISC18     MISC22     AMUL06     RING12
+AG_WELL    POTN20     MISC31     AMUL08     MISC20     034        AMUL09     MISC19     008        009        RING11     AGGEM03    POTN25     RING14     MISC26     MISC25     AGGEM04    MISC27     MISC28     AMUL04
+AG_WEAL    POTN23     AMUL13     MISC37     MISC35     RING16     AMUL07     POTN32     047        038        029        AMUL09     RING10     RING15     POTN08     RING13     RING17     AGGEM06    MISC36     POTN17~  
+  END
+END
+
+DEFINE_PATCH_MACRO t-rndi BEGIN
+  READ_ASCII j3 rndi
+  TO_LOWER rndi
+  SNPRINT 3 rndp ~%rndi%~
+  PATCH_IF (~%rndp%~ STRING_EQUAL ~rnd~ = 1) BEGIN
+    rndc += 1
+    PATCH_IF ((rw < 7) OR (rj < 7)) AND (rgh > 0) AND (rgh < 6) BEGIN
+      PATCH_IF (~%rndi%~ STRING_EQUAL ~rndtre02~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndtre06~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndequ05~ = 1) BEGIN
+        WRITE_ASCIIE j3 ~rnd%sfx%0%t6%~ #8
+        SPRINT rndi ~rnd%sfx%0%t6%~
+        k2 = 1
+      END ELSE BEGIN
+        PATCH_IF (~%rndi%~ STRING_EQUAL ~rndtre03~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndtre07~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndequ06~ = 1) BEGIN
+          WRITE_ASCIIE j3 ~rnd%sfx%0%t7%~ #8
+          SPRINT rndi ~rnd%sfx%0%t7%~
+          k2 = 1
+        END ELSE BEGIN
+          PATCH_IF (~%rndi%~ STRING_EQUAL ~rndtre04~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndtre05~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndtre08~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndtre09~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndequ07~ = 1) OR (~%rndi%~ STRING_EQUAL ~rndequ08~ = 1) BEGIN
+            WRITE_ASCIIE j3 ~rnd%sfx%0%t8%~ #8
+            SPRINT rndi ~rnd%sfx%0%t8%~
+            k2 = 1
+          END
+        END
+      END
+    END
+    SPRINT rndj ~%rndi%~
+    SPRINT $rmv(EVALUATE_BUFFER ~%rndc%~) ~%rndi%~
+  END
+END
+
+DEFINE_PATCH_MACRO t-rndj BEGIN
+  PATCH_IF ((rgh != 1) AND (rndc > 1)) OR ((rndc > 0) AND (rgh = 2) AND (k2 = 1)) OR ((rndc > 0) AND (rgh > 2)) BEGIN
+    FOR (k1 = 1; k1 < (rndc + 1); k1 += 1) BEGIN
+      SPRINT rndi $rmv(EVALUATE_BUFFER ~%k1%~)
+      REMOVE_CRE_ITEM ~%rndi%~
+    END
+    PATCH_IF rgi < 4 BEGIN
+      PATCH_IF (~%rndj%~ STRING_EQUAL_CASE ~rndestaf~ = 1) BEGIN
+        SPRINT rndj ~rndequ04~
+      END
+      ADD_CRE_ITEM ~%rndj%~ #0 #0 #0 ~NONE~ ~INV~
+    END ELSE BEGIN
+      SPRINT rndj ~none~
+    END
+    INNER_ACTION BEGIN
+      SILENT
+      APPEND_OUTER ~aurora/batchlog/ag_modded_rands.txt~ ~%SOURCE_RES%	%nm%	%rndj%	%type%~
+      VERBOSE
+    END
+  END
+  PATCH_IF (rgh = 1) AND (k2 = 1) BEGIN
+    INNER_ACTION BEGIN
+      SILENT
+      APPEND_OUTER ~aurora/batchlog/ag_modded_rands.txt~ ~%SOURCE_RES%	%nm%	%rndj%	%type%~
+      VERBOSE
+    END
+  END
+END
+
+COPY_EXISTING ~%tsu%potn25.itm~ ~override~
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    WRITE_LONG 0x34 35 //Price
+  END
+BUT_ONLY
+
+ACTION_IF NOT(FILE_EXISTS_IN_GAME ~aggem03.itm~) BEGIN
+  INCLUDE ~aurora/lib/t-rndtbl.tpa~ //Fixes random treasure tables
+  COPY ~aurora/tbam/agdgem03.bam~ ~override~
+  COPY ~aurora/tbam/agggem03.bam~ ~override~
+  COPY ~aurora/tbam/agigem03.bam~ ~override~
+  COPY ~aurora/itm/aggem03.itm~ ~override~ //Tiger's Eye Gem
+    SAY NAME2 @278
+    SAY DESC @279
+  COPY ~aurora/tbam/agdgem04.bam~ ~override~
+  COPY ~aurora/tbam/agggem04.bam~ ~override~
+  COPY ~aurora/tbam/agigem04.bam~ ~override~
+  COPY ~aurora/itm/aggem04.itm~ ~override~ //Snowflake Obsidian
+    SAY NAME2 @280
+    SAY DESC @281
+  COPY ~aurora/tbam/agdgem05.bam~ ~override~
+  COPY ~aurora/tbam/agggem05.bam~ ~override~
+  COPY ~aurora/tbam/agigem05.bam~ ~override~
+  COPY ~aurora/itm/aggem05.itm~ ~override~ //Amethyst Gem
+    SAY NAME2 @282
+    SAY DESC @283
+  COPY ~aurora/tbam/agdgem06.bam~ ~override~
+  COPY ~aurora/tbam/agggem06.bam~ ~override~
+  COPY ~aurora/tbam/agigem06.bam~ ~override~
+  COPY ~aurora/itm/aggem06.itm~ ~override~ //Topaz Gem
+    SAY NAME2 @284
+    SAY DESC @285
+END ELSE BEGIN
+  COPY_EXISTING ~rndmagic.2da~ ~override~
+    COUNT_2DA_ROWS 20 rj
+  BUT_ONLY
+  COPY_EXISTING ~rndtreas.2da~ ~override~
+    COUNT_2DA_ROWS 20 rw
+  BUT_ONLY
+END
+
+ACTION_IF (rw < 7) AND (rgh > 0) AND (rgh < 6) BEGIN
+  OUTER_SET t6 = (rw + 1)
+  OUTER_SET t7 = (rw + 2)
+  OUTER_SET t8 = (rw + 3)
+  COPY_EXISTING ~rndtre02.itm~ ~override/rndtre0%t6%.itm~
+                ~rndtre03.itm~ ~override/rndtre0%t7%.itm~
+                ~rndtre04.itm~ ~override/rndtre0%t8%.itm~
+  OUTER_SPRINT r2d ~rndtreas~
+  LAUNCH_ACTION_MACRO t-rndapp
+  OUTER_SPRINT sfx ~tre~
+END ELSE BEGIN
+  ACTION_IF (rj < 7) AND (rgh > 0) AND (rgh < 6) BEGIN
+    OUTER_SET t6 = (rj + 1)
+    OUTER_SET t7 = (rj + 2)
+    OUTER_SET t8 = (rj + 3)
+    COPY_EXISTING ~rndtre02.itm~ ~override/rndmag0%t6%.itm~
+                  ~rndtre03.itm~ ~override/rndmag0%t7%.itm~
+                  ~rndtre04.itm~ ~override/rndmag0%t8%.itm~
+    OUTER_SPRINT r2d ~rndmagic~
+    LAUNCH_ACTION_MACRO t-rndapp
+    OUTER_SPRINT sfx ~mag~
+  END ELSE BEGIN
+    ACTION_IF (rgh > 0) AND (rgh < 6) BEGIN
+      OUTER_SPRINT agrnd @377
+      PRINT ~%rw% & %rj% %agrnd%~ //# rows exist in your rndtreas.2da and rndmagic.2da tables. You need 6 or fewer rows in one of the two for this component to work fully.
+    END
+  END
+END
+
+STRING_SET 2243 @362 //Gnoll Captain
+STRING_SET 2258 @363 //Hobgoblin Captain
+STRING_SET 2268 @364 //Hobgoblin Wizard
+STRING_SET 19694 @362 //Gnoll Captain
+
+ACTION_FOR_EACH ~gbl~ IN ~dragbr3~ ~g3gbber1~ ~g3gbber2~ ~g3gbber3~ ~%tsu%gibber~ ~gibber01~ ~gibbersu~ ~gibbmout~ ~gibmu01~ ~ttgibb~ ~uhcreat2~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%gbl%.cre~ BEGIN
+    COPY_EXISTING ~%gbl%.cre~ ~override~ //Gibberlings
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x235 1 //Level 2
+        WRITE_BYTE 0x271 1 //General (humanoid)
+        WRITE_BYTE 0x272 0x6d //Race (gibberling)
+        REMOVE_CRE_ITEM ~rndequ05~ ~rndtre02~ ~rndtre06~
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_FOR_EACH ~ghl~ IN ~%tsu%ghoul~ ~ghoul01~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%ghl%.cre~ BEGIN
+    COPY_EXISTING ~%ghl%.cre~ ~override~ //Ghouls
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x235 1 //Level 2
+        REMOVE_CRE_ITEM ~rndequ07~ ~rndtre01~ ~rndtre04~ ~rndtre08~
+        ADD_CRE_ITEM ~rndtre01~ #0 #0 #0 ~NONE~ ~INV~
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~dagnoll.cre~ BEGIN
+  COPY_EXISTING ~dagnoll.cre~ ~override~ //Gnoll
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      WRITE_BYTE 0x275 1 //Gender (male, was 6 summoned)
+    END
+  BUT_ONLY
+END
+
+ACTION_FOR_EACH ~gnl~ IN ~gnoll02~ ~gnoll03~ ~gnoll3~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%gnl%.cre~ BEGIN
+    COPY_EXISTING ~%gnl%.cre~ ~override~ //Gnolls
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        REMOVE_CRE_ITEM ~rndtre08~ ~rndtre02~ ~rndtre06~
+        ADD_CRE_ITEM ~rndtre02~ #0 #0 #0 ~NONE~ ~INV~
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_FOR_EACH ~bth~ IN ~%tsu%battho~ ~%tsu%doomsa~ ~%tsu%helmho~ ~d0batho~ ~dw#davho~ ~pshelm1~ ~pshelm2~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%bth%.cre~ BEGIN
+    COPY_EXISTING ~%bth%.cre~ ~override~ //Helmed Horrors
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        REMOVE_CRE_ITEM ~rndtre01~ ~rndtre04~ ~rndequ07~
+        REPLACE_CRE_ITEM ~%tsu%plat04~ #0 #0 #0 ~UNDROPPABLE~ ~ARMOR~
+        ADD_CRE_ITEM ~rndtre01~ #0 #0 #0 ~NONE~ ~INV~
+      END
+    BUT_ONLY
+  END
+END
+
+COPY_EXISTING ~hobcap01.cre~ ~override~ //Hobgoblin Captain
+  PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+  PATCH_IF vl BEGIN
+    PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+    REMOVE_CRE_ITEM ~scrl56~ ~potn08~
+    ADD_CRE_ITEM ~%tsu%potn08~ #1 #0 #0 ~NONE~ ~QITEM~
+  END
+BUT_ONLY
+
+ACTION_FOR_EACH ~xvt~ IN ~%tsk%obola_a~ ~%tsk%obola_b~ ~%tsk%obola_c~ ~%tsk%obola_d~ ~%tsk%obola_e~ ~%tsk%obold_a~ ~%tsk%obold_b~ ~%tsk%obold_c~ ~%tsk%obold_d~ ~%tsk%obold_e~ ~%tsu%kobold~ ~%tsu%kobold3~ ~%tsu%tasloi~ ~%tsu%xvart~ ~%tsu%xvart_a~ ~%tsu%xvart_b~ ~%tsu%xvart_c~ ~%tsu%xvart2~ ~%tsu%xvarth~ ~dakobold~ ~kobald01~ ~kobarc01~ ~pskob01~ ~pskob02~ ~sxvart~ ~tasloi01~ ~tasloi02~ ~tasloi03~ ~xvart01~ ~xvart02~ ~xvart03~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%xvt%.cre~ BEGIN
+    SILENT
+    COPY_EXISTING ~%xvt%.cre~ ~override~ //Kobolds, Tasloi, Xvarts
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x235 1 //Level 2
+        REMOVE_CRE_ITEM ~rndequ05~ ~rndtre01~ ~rndtre01~ ~rndtre02~ ~rndtre04~ ~rndtre06~
+        ADD_CRE_ITEM ~rndtre01~ #0 #0 #0 ~NONE~ ~INV~
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~sahangu.cre~ BEGIN
+  COPY_EXISTING ~plysala.cre~ ~override~ //Fire Salamander
+                ~sahangu.cre~ ~override~ //Anguiliian
+    PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+    PATCH_IF vl BEGIN
+      PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+      WRITE_BYTE 0x271 255 //General (monster, was 1 humanoid)
+      WRITE_BYTE 0x272 145 //Race (elemental, was 255 no_race)
+      WRITE_BYTE 0x273 187 //Class (elemental_fire, was 255 no_class)
+    END
+  BUT_ONLY
+END
+
+ACTION_FOR_EACH skl IN ~riftcr02~ ~sahskel~ ~skelwa02~ ~skelwa03~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%skl%.cre~ BEGIN
+    COPY_EXISTING ~%skl%.cre~ ~override~ //Skeletons
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x272 115 //Race (skeleton, was 1 human)
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_FOR_EACH ~gmg~ IN ~arenaho6~ ~arenaho7~ ~arenaho8~ ~arenaho9~ ~arenho10~ ~arenho12~ ~arenho13~ ~bpkuopre~ ~cbc8ctm1~ ~cllatp01~ ~cltalp01~ ~cwstia~ ~d0debt1~ ~dadrow13~ ~darorc1~ ~dcleric~ ~demmag~ ~demmau01~ ~dragred~ ~dragyell~ ~dw#remg4~ ~dw#ysdra~ ~firban01~ ~fshorde5~ ~fumin~ ~gorbat1~ ~gororc03~ ~hobsha01~ ~hobwiz01~ ~iwdorc4~ ~jztiana~ ~kobscr01~ ~kobsha01~ ~kpchap01~ ~legdor~ ~mwdolf~ ~orc03~ ~orc04~ ~orckiv01~ ~qloot2~ ~plshhg02~ ~sacorc03~ ~sacorc04~ ~sacorc07~ ~sacorc08~ ~scrlmer~ ~shthoff1~ ~tanally1~ ~tb#lotgc~ ~tb#lotrs~ ~tiana~ ~tirthold~ ~uhmer01~ ~ulorc~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%gmg%.cre~ BEGIN
+    SILENT
+    COPY_EXISTING ~%gmg%.cre~ ~override~ //Spellcasters
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x23a 12 //Intelligence
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END
+
+ACTION_FOR_EACH ~cmn~ IN ~amfem02~ ~amfem04~ ~amman02~ ~cb220bn1~ ~cb220bn2~ ~cb304tra~ ~cb304trb~ ~cb4300or~ ~cb4304or~ ~cb4310sw~ ~cb4311ar~ ~cbbgber1~ ~cbbgbera~ ~cbbgberw~ ~cbc8ctf1~ ~cbc8ctf2~ ~cbc8ctf3~ ~cbtriel0~ ~cbtriel1~ ~cbtriel2~ ~cbtriel3~ ~cbtriel4~ ~cbtriel5~ ~cbtriel6~ ~cbtriel7~ ~cbtriel8~ ~cbtriel9~ ~tobban03~ ~torgal~ ~torgal2~ ~torgal3~ ~tspick3~ ~tspick4~ ~wbmum~ ~xvart_d~ ~zyors1aa~ ~zyors1ab~ ~zyors1ac~ ~zyors1ad~ ~zyors1ae~ ~zyors1af~ ~zyors1ag~ ~zyors1ah~ ~zyors1ai~ ~zyors1aj~ ~zyors1ak~ ~zyors1al~ ~zyors1am~ ~zyors2aa~ ~zyors2ab~ ~zyors2ac~ ~zyors2ad~ ~zyors2ae~ ~zyors2af~ ~zyors2ag~ ~zyors2ah~ ~zyors2ai~ ~zyors2aj~ ~zyors2ak~ ~zyors2al~ ~zyors2am~ ~zyors3aa~ ~zyors3ab~ ~zyors3ac~ ~zyors3ad~ ~zyors3ae~ ~zyors3af~ ~zyors3ag~ ~zyors3ah~ ~zyors3ai~ ~zyors3aj~ ~zyors3ak~ ~zyors3al~ ~zyors3am~ ~zyors4aa~ ~zyors4ab~ ~zyors4ac~ ~zyors4ad~ ~zyors4ae~ ~zyors4af~ ~zyors4ag~ ~zyors4ah~ ~zyors4ai~ ~zyors4aj~ ~zyors4ak~ ~zyors4al~ ~zyors4am~ ~zyorsmaa~ ~zyorsmab~ ~zyorsmac~ ~zyorsmad~ ~zyorsmae~ ~zyorsmaf~ ~zyorsmag~ ~zyorsmah~ ~zyorsmai~ ~zyorsmaj~ ~zyorsmak~ ~zyorsmal~ ~zyorsmam~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%cmn%.cre~ BEGIN
+    SILENT
+    COPY_EXISTING ~%cmn%.cre~ ~override~ //Commoners, Humanoid rabble, etc.
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x23a 9 //Intelligence
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END
+
+PRINT @382 //This may take some time ...
+ACTION_FOR_EACH tcr IN ~#sfem01~ ~#sfem02~ ~#smay01~ ~#smer01~ ~#smer02~ ~#smer03~ ~#smfar02~ ~#smjeb01~ ~%tbg%basill~ ~%tbg%gorf~ ~%tsb%asilmut~ ~%tsb%asilnad~ ~%tsb%ullrush~ ~%tsd%uplica2~ ~%tsd%uplica3~ ~%tsd%uplica4~ ~%tsd%uplica5~ ~%tsd%uplica6~ ~%tsg%nollper~ ~%tsh%obelite~ ~%tsh%obgoa_a~ ~%tsh%obgoa_b~ ~%tsh%obgoa_c~ ~%tsh%obgoa_d~ ~%tsh%obgoa_e~ ~%tsh%obgob_a~ ~%tsh%obgob_b~ ~%tsh%obgob_c~ ~%tsh%obgob_d~ ~%tsh%obgob_e~ ~%tso%greberz~ ~%tso%grebjor~ ~%tso%gregr_b~ ~%tso%gregr_c~ ~%tso%gregr_d~ ~%tso%greha_b~ ~%tso%grema_a~ ~%tso%grema_b~ ~%tso%grema_c~ ~%tso%grema_d~ ~%tso%grema02~ ~%tso%grema03~ ~%tso%gremiri~ ~%tso%greunsh~ ~%tsu%ankheg~ ~%tsu%ankhegg~ ~%tsu%ankhegq~ ~%tsu%arghai~ ~%tsu%arghh~ ~%tsu%baruk~ ~%tsu%basilg~ ~%tsu%bhobgob~ ~%tsu%britik~ ~%tsu%carsto~ ~%tsu%darryl~ ~%tsu%darryl2~ ~%tsu%dopdop~ ~%tsu%dopkie~ ~%tsu%dopmer~ ~%tsu%doppgr~ ~%tsu%dopple~ ~%tsu%doppsm~ ~%tsu%etterc~ ~%tsu%etterc1~ ~%tsu%flind~ ~%tsu%garkla~ ~%tsu%gdopp7~ ~%tsu%gdopp71~ ~%tsu%gdopp72~ ~%tsu%gdopp73~ ~%tsu%gdopp74~ ~%tsu%gdopp75~ ~%tsu%geltik~ ~%tsu%glart~ ~%tsu%gnoll~ ~%tsu%gnoll_a~ ~%tsu%gnoll_b~ ~%tsu%gnoll_c~ ~%tsu%gnoll_d~ ~%tsu%gnoll_e~ ~%tsu%gnoll5~ ~%tsu%gnoll5a~ ~%tsu%gnolld~ ~%tsu%grael~ ~%tsu%hakt~ ~%tsu%hobgo5~ ~%tsu%hobgob~ ~%tsu%hobgoba~ ~%tsu%hobgobc~ ~%tsu%hobjoia~ ~%tsu%ichary~ ~%tsu%igibber~ ~%tsu%ihobgob~ ~%tsu%ingot~ ~%tsu%itasloi~ ~%tsu%ixvart~ ~%tsu%kahrk~ ~%tsu%karan3~ ~%tsu%larry~ ~%tsu%larze~ ~%tsu%malkax~ ~%tsu%nexlit~ ~%tsu%ogre~ ~%tsu%ogre02~ ~%tsu%ogreco~ ~%tsu%ogregr~ ~%tsu%ogreha~ ~%tsu%ogrema~ ~%tsu%ogres~ ~%tsu%oopah2~ ~%tsu%parda3~ ~%tsu%rahvin~ ~%tsu%sakul~ ~%tsu%sewerf1~ ~%tsu%sewerf4~ ~%tsu%tam~ ~%tsu%tersus~ ~%tsu%ughh~ ~%tsu%winthr3~ ~%tsu%zargal~ ~%tsu%zekar~ ~0xalcdg~ ~1xavie2~ ~1xqe25~ ~1xqf1~ ~1xqf2~ ~1xqf3~ ~1xqtb1~ ~1xskii2~ ~1xspr~ ~3310com~ ~3316nob1~ ~3316nob2~ ~3324nob1~ ~3324nob2~ ~3324nob3~ ~acduecl1~ ~acduefi1~ ~acduefi2~ ~acduefi3~ ~acduefi4~ ~acduefi5~ ~acduesm1~ ~acduesm2~ ~acduesm3~ ~acelite1~ ~acelite2~ ~acghost~ ~acgrothi~ ~acnecro1~ ~acnecro2~ ~acoghma1~ ~acplot01~ ~acplot03~ ~acplot04~ ~acplot05~ ~acplot06~ ~acplot07~ ~acplot08~ ~acqxfiax~ ~acqxfixb~ ~acqxzah2~ ~acreg~ ~acrevi~ ~acrevi2~ ~adadop1b~ ~adangma2~ ~adimogen~ ~admerch~ ~adoli2~ ~aeextort~ ~aegnoll~ ~aemerhob~ ~aesold~ ~agband03~ ~agband04~ ~agband05~ ~agbandle~ ~agdeano~ ~agdeimos~ ~aggob03~ ~aggob04~ ~aggob05~ ~aggob06~ ~aggob07~ ~aggriev~ ~agoakbos~ ~agoakdw~ ~agoakdw2~ ~agoakdw4~ ~ahighma3~ ~alexm~ ~althur~ ~amcapt01~ ~amcust02~ ~amduel01~ ~amduel02~ ~amfem02~ ~amfem03~ ~amfem04~ ~amman02~ ~amman03~ ~ammerc07~ ~ammerc08~ ~ammerc09~ ~amsi~ ~amsmith~ ~ankheg01~ ~ankhgsum~ ~ann11~ ~anothug~ ~antenos~ ~ar18arch~ ~ar18fig~ ~aramir~ ~arenaa6~ ~arenaa7~ ~arenago1~ ~arenago2~ ~arenago3~ ~arenago4~ ~arenago7~ ~arenago8~ ~arenago9~ ~arenaho1~ ~arenaho2~ ~arenaho3~ ~arenaho4~ ~arenam1~ ~arenam2~ ~arenam3~ ~arenam4~ ~arenam5~ ~arenaor1~ ~arenaor2~ ~arenaor3~ ~arenaor4~ ~arenar1~ ~arenar2~ ~arengo10~ ~arengo11~ ~arengo12~ ~argrim~ ~arlaxm1~ ~arlaxm2~ ~arlaxm3~ ~arlaxm4~ ~arlaxm5~ ~arlaxm6~ ~arlaxn1~ ~arlaxn2~ ~arlaxn3~ ~arlaxn4~ ~arlaxn5~ ~arlaxn6~ ~arlaxt2~ ~arlaxt5~ ~arlaxt6~ ~army01~ ~arnfgt01~ ~arnwar07~ ~arnwar09~ ~b#tamoko~ ~b#tazok~ ~baronp~ ~barsail1~ ~barsail2~ ~basgrt01~ ~basill~ ~basles01~ ~bdact05~ ~bdact07~ ~bdact08~ ~bdact09~ ~bdbart01~ ~bdcoun02~ ~bdcoun03~ ~bdhigg01~ ~bdturm01~ ~bdturm02~ ~bdturm04~ ~beast~ ~beatrice~ ~behdir01~ ~beheld01~ ~behgas01~ ~behgau01~ ~behhiv01~ ~behobs01~ ~behold01~ ~behspe01~ ~behund01~ ~bernard~ ~bertrand~ ~bggreet~ ~bgigibb~ ~bginfo1~ ~bginfo2~ ~bgsell1~ ~bgsell2~ ~bgtav1a~ ~bgtav1b~ ~bgtavst1~ ~bgtavst2~ ~bgtavst3~ ~bgtavst4~ ~bhalf1~ ~bhcapt01~ ~bheye~ ~bhgaal01~ ~bhghoul1~ ~bhguard~ ~bhguard2~ ~bhlizgrd~ ~bhlizkng~ ~bhlizsha~ ~bhogre~ ~bhogrema~ ~bhoguard~ ~bhorc01~ ~bhorc01d~ ~bhsharg2~ ~bhtwen01~ ~biff~ ~binnkeep~ ~bmerch1~ ~bmthief~ ~bnoble1~ ~bnoble2~ ~bogre1~ ~bpdrpr18~ ~bpkuoarc~ ~bplizgrd~ ~bplizkng~ ~bplizman~ ~bplizsha~ ~bprost1~ ~bprost2~ ~bpsdwfgt~ ~bpsdwfth~ ~bpsfight~ ~bpskelar~ ~bpskully~ ~bpsthef2~ ~bpsthef3~ ~braiwa1~ ~braiwa4~ ~brebar1~ ~brefi7~ ~brefi8~ ~brefr1~ ~brefr2~ ~breg03~ ~bregg~ ~brelm~ ~brunos~ ~bryne~ ~bsailor1~ ~bsailor2~ ~bshop01~ ~bshop02~ ~bunkin~ ~bwench~ ~bystand1~ ~bystand2~ ~c#ajpros~ ~c6bran~ ~c6drow1~ ~c6eric~ ~c6eric3~ ~c6harp~ ~c6kalden~ ~c6keria~ ~c6levin~ ~c6nerit~ ~c6squire~ ~c6will~ ~caern~ ~caldar~ ~calimart~ ~calistel~ ~calshop1~ ~calshop2~ ~caltorn~ ~cb220bn1~ ~cb220bn2~ ~cb230bla~ ~cb230blb~ ~cb230blc~ ~cb230bld~ ~cb232ld1~ ~cb232ld2~ ~cb257hlf~ ~cb270ccb~ ~cb270ccf~ ~cb270ccg~ ~cb285ft1~ ~cb285ft4~ ~cb300co1~ ~cb300co2~ ~cb304tra~ ~cb304trb~ ~cb307sl1~ ~cb307sl2~ ~cb35assn~ ~cb4300ar~ ~cb4300ct~ ~cb4300or~ ~cb4304or~ ~cb4310sw~ ~cb4311ar~ ~cb585rng~ ~cb640ft4~ ~cbbdaw02~ ~cbbdfhjd~ ~cbbdfhje~ ~cbbgber1~ ~cbbgber2~ ~cbbgbera~ ~cbbgberb~ ~cbbgberc~ ~cbbgberd~ ~cbbgberw~ ~cbbgberx~ ~cbbgbery~ ~cbbgberz~ ~cbbyrn03~ ~cbbyrn66~ ~cbc8ctc3~ ~cbc8ctf1~ ~cbc8ctf3~ ~cbc8ctm1~ ~cbc8ctm2~ ~cbc8ctm3~ ~cbc8ctu3~ ~cbdriwz2~ ~cbdriwz3~ ~cbdrwhm2~ ~cbdrwhm3~ ~cbdrwhp3~ ~cbffcrw1~ ~cbffcrw2~ ~cbgeohar~ ~cbgonast~ ~cbharpy1~ ~cbharpy2~ ~cbharpya~ ~cbharpyb~ ~cbharpyc~ ~cbharpyd~ ~cbharpyw~ ~cbharpyx~ ~cbharpyy~ ~cbharpyz~ ~cbhlvlnt~ ~cbjohnln~ ~cbldbuck~ ~cblolth2~ ~cblybuck~ ~cbmalr6~ ~cbmalr7~ ~cbminto~ ~cbnobl1w~ ~cbnobl2w~ ~cbnobl3w~ ~cbnobl4w~ ~cbnrt001~ ~cbnrt002~ ~cbnrt003~ ~cbnrt004~ ~cbnrt005~ ~cbnrt010~ ~cbnrt020~ ~cbnrt025~ ~cbowen03~ ~cbowen66~ ~cbrrrpip~ ~cbrtbda2~ ~cbrtbda3~ ~cbrtbdb2~ ~cbrtbdb3~ ~cbrtbdc2~ ~cbrtbdc3~ ~cbrtbdd2~ ~cbrtbdd3~ ~cbrtbde2~ ~cbrtbde3~ ~cbrtbdg2~ ~cbrtbdg3~ ~cbrtbdh2~ ~cbrtbdh3~ ~cbrtbdi2~ ~cbrtbdi3~ ~cbrtbdj2~ ~cbrtbdj3~ ~cbrtbdk2~ ~cbrtbdk3~ ~cbrtrbda~ ~cbrtrbdb~ ~cbrtrbdc~ ~cbrtrbdd~ ~cbrtrbde~ ~cbrtrbdf~ ~cbrtrbdg~ ~cbrtrbdh~ ~cbrtrbdi~ ~cbrtrbdj~ ~cbrtrbdk~ ~cbsbin64~ ~cbsbtvra~ ~cbsbtvrb~ ~cbsbtvrf~ ~cbsbtvrh~ ~cbsbtvri~ ~cbsbtvrm~ ~cbsbtvro~ ~cbsbwt64~ ~cbsbwt67~ ~cbsccw01~ ~cbsccw02~ ~cbsccwen~ ~cbshdrun~ ~cbst0103~ ~cbst0166~ ~cbst0203~ ~cbst0266~ ~cbst0303~ ~cbst0366~ ~cbst0403~ ~cbst0466~ ~cbst0503~ ~cbst0566~ ~cbstks66~ ~cbsurayw~ ~cbtaxcol~ ~cbtaxtwc~ ~cbtreant~ ~cbtriel0~ ~cbtriel1~ ~cbtriel2~ ~cbtriel3~ ~cbtriel4~ ~cbtriel5~ ~cbtriel6~ ~cbtriel7~ ~cbtriel8~ ~cbtriel9~ ~cbvinnie~ ~cbwillet~ ~cbzomb02~ ~cbzombd2~ ~ccguard2~ ~cefgt01~ ~cefgt03~ ~chak~ ~chevil03~ ~chuyol~ ~clelun01~ ~clfjmp~ ~clmalg01~ ~cltcut03~ ~cltiva01~ ~cmggo1~ ~cmgnol01~ ~cmgnol02~ ~cmgnol03~ ~cmgnol04~ ~cmhob01~ ~cmhob03~ ~cmkfc01~ ~cmlog03~ ~cmlog04~ ~cmlordas~ ~cmninast~ ~cmogregu~ ~cmogrem1~ ~cmske03~ ~cmske04~ ~cmtusor~ ~cohrvale~ ~coksmth~ ~copcust2~ ~copcust3~ ~copgreet~ ~cor~ ~corgeig~ ~corsone~ ~cowenf1~ ~cowenf3~ ~cowled~ ~crthf03~ ~cuguard~ ~cultmo10~ ~cupris1~ ~cupris2~ ~cwshen~ ~cwssal~ ~cyclead~ ~cyclop~ ~cyclop2~ ~cyclop3~ ~cyclop4~ ~d0debt3~ ~d0guard4~ ~d0lender~ ~d0poor~ ~d0qpback~ ~d0qppotn~ ~d0qpsy01~ ~d0qpsy02~ ~d0qpsy03~ ~d0qpsy05~ ~d0qpsy06~ ~d0qpsy07~ ~d0qpsy08~ ~d0thug4~ ~dadrow3~ ~dagnoll~ ~danno~ ~darorc2~ ~darorc3~ ~dd1700wi~ ~ddhall01~ ~deadgnol~ ~degard~ ~delcia~ ~delei~ ~delnob01~ ~delnob02~ ~demfig01~ ~demfig02~ ~denak~ ~desmage~ ~dhalf1~ ~dharlot1~ ~dinanmum~ ~dinmum2~ ~dmark1~ ~dmask1~ ~docsol01~ ~docsol02~ ~dopcle01~ ~dopgre01~ ~dopple01~ ~dragbr1~ ~drakar~ ~drasus~ ~draug~ ~drow01~ ~drow02~ ~drow03~ ~drow04~ ~drow05~ ~drow06~ ~drow07~ ~druff1~ ~druff2~ ~drush~ ~dsailor1~ ~dsailor2~ ~dsarchdr~ ~dsgnollc~ ~dsgobchf~ ~dsgrunk~ ~dshalf01~ ~dshalf02~ ~dshalf03~ ~dshalfd2~ ~dshop01~ ~dsorc01~ ~dw#abrop~ ~dw#c3che~ ~dw#c3hb~ ~dw#mulka~ ~dw#oghob~ ~dw#refg1~ ~dw#trl01~ ~dw#trlbl~ ~dw#trlde~ ~dw#trlfr~ ~dw#trlgi~ ~dw#trlic~ ~dw#trlsi~ ~dw#tygol~ ~dw#vibeh~ ~dw#vider~ ~dw#vigol~ ~dw#vime1~ ~e3eriale~ ~e3sume~ ~egald1~ ~egald2~ ~egald3~ ~elehob01~ ~elotte~ ~ermag1~ ~ermag2~ ~ermag3~ ~ermag4~ ~esath~ ~esath2~ ~esath3~ ~escort2~ ~escort2a~ ~estroll4~ ~etter01~ ~ettin~ ~etting~ ~etting2~ ~f_gobele~ ~f_goblin~ ~f_harpy~ ~f_medusa~ ~f_orc~ ~ffbart~ ~ffcrowd1~ ~ffcrowd2~ ~ffcust05~ ~ffcust06~ ~ffcust07~ ~ffcust08~ ~ffcust09~ ~ffwench~ ~fhlal~ ~fhlali~ ~fhljos~ ~fhlxav~ ~firamb02~ ~firban04~ ~firban05~ ~firorc02~ ~frostgg~ ~frostgi~ ~frostgi2~ ~frostgi3~ ~frostgi4~ ~frostham~ ~fshorde1~ ~fshorde3~ ~fshorde4~ ~fshorde6~ ~ftown7~ ~fyual~ ~fyuam~ ~g3maid~ ~g3mrsgtu~ ~g3sailr1~ ~g3sailr2~ ~g3sailr3~ ~gaidan~ ~gaidan2~ ~gall~ ~gamguy~ ~garkid01~ ~garkid02~ ~gbhrep1e~ ~gbuch~ ~gemfar02~ ~gemjeb01~ ~gfigh05~ ~ggiantf1~ ~ggiantf2~ ~ggiantf3~ ~ggiantfr~ ~ghereg~ ~gholor01~ ~ghoul~ ~giantfr~ ~gibmut01~ ~gnlcap01~ ~gnleli01~ ~gnlfli01~ ~gnlsla01~ ~gnlvet01~ ~gnlwar01~ ~gnoblef1~ ~gnoblef2~ ~gnoblem1~ ~gnoblem2~ ~gnoll01~ ~gnoll02~ ~gnoll03~ ~gnoll3~ ~gnollhp1~ ~gnollsu~ ~goblinsp~ ~godxva1~ ~godxva2~ ~godxva3~ ~goliro01~ ~goljug01~ ~golkill2~ ~goralu01~ ~gorcamb~ ~gorcamb2~ ~gorcamb4~ ~gorcamb5~ ~gorch~ ~gorje~ ~gororc01~ ~gororc02~ ~gorwom01~ ~gorwom04~ ~gpfight1~ ~gphil02~ ~gpsimb~ ~gromg07~ ~gromg10~ ~gtcit1~ ~gtcit2~ ~guard1~ ~guard2~ ~guard3~ ~gzombie~ ~hacton~ ~hanobl1~ ~hanorc01~ ~hapip~ ~hawker01~ ~hedorc1~ ~hedorc2~ ~hedorc3~ ~hedorc4~ ~hedorc5~ ~hedorc6~ ~hendak~ ~hgkar01~ ~hgnya01~ ~hgsal01~ ~hgwar01~ ~hgwar02~ ~hist1~ ~hlfight~ ~hobarc01~ ~hobarc02~ ~hobarc03~ ~hobcap01~ ~hobeli01~ ~hobgo2~ ~hobgo3~ ~hobgo4~ ~hobgo6~ ~hobgob01~ ~hobgob03~ ~hobgob04~ ~hobgob05~ ~hobgod~ ~hobwar01~ ~horsesal~ ~icebeard~ ~icgob03~ ~icgob04~ ~icliz01~ ~icliz02~ ~icliz03~ ~icliz04~ ~icliz05~ ~icliz06~ ~icliz07~ ~idemon01~ ~imnbook1~ ~innwen~ ~iwdgob2~ ~izefia~ ~j#falpal~ ~j#im8wif~ ~j#kasset~ ~j#morrid~ ~j#pura~ ~j#rumil~ ~jade2~ ~jaga1~ ~jahei2~ ~jarev2~ ~jc~ ~jc_dem01~ ~jc_dem02~ ~jc_drak~ ~jc_drw01~ ~jc_drw03~ ~jc_drw04~ ~jc_drw05~ ~jc_drw06~ ~jc_mag01~ ~jc_ogr01~ ~jc_ogr02~ ~jc_ogr03~ ~jc_thf03~ ~jc_tr01~ ~jc_tr02~ ~jc_tr03~ ~jc_tr04~ ~jc_tr05~ ~jc_tr06~ ~jc_tr07~ ~jc_tr08~ ~jc_tr09~ ~jc_vam~ ~jc_wlfwe~ ~jenavi~ ~jugcol01~ ~jugdar01~ ~jzdad1~ ~jzhawker~ ~jzmaria~ ~jzrumar~ ~jzwilly~ ~k#orc~ ~kaysmg01~ ~kessen~ ~khellor~ ~kindast~ ~kobcap01~ ~kobscr01~ ~korpim~ ~kpbutl01~ ~kpcapt01~ ~kpcapt02~ ~kpcapt03~ ~kpdomo01~ ~kpglai04~ ~kpgrd01~ ~kplend01~ ~kpsold01~ ~kpsold06~ ~krdualwf~ ~krfight~ ~krshadf~ ~krysti~ ~kuoarc20~ ~kuocap01~ ~kuocle20~ ~kuolie01~ ~kuomag01~ ~kuomon01~ ~kuopri01~ ~kuorc~ ~kuowar20~ ~kuowhi01~ ~lacedo01~ ~landlord~ ~lando~ ~laron1~ ~laskal~ ~lavok01~ ~leander~ ~lenn~ ~lester~ ~lizdead~ ~lizking~ ~lk#nimes~ ~lk#xwz1~ ~m#ygspm1~ ~m#ygspm2~ ~m#ygspm3~ ~m#ygspm4~ ~m#ygspm5~ ~m#ygswm1~ ~m#yguna1~ ~madam~ ~maenc01~ ~maenc02~ ~maenc03~ ~mage18a~ ~mage18z~ ~marcus~ ~maria~ ~matrim~ ~maydobr~ ~mekimp01~ ~mekrat~ ~merchant~ ~messen~ ~mgass01~ ~mgass02~ ~mgass03~ ~mgcwe00~ ~mgket01~ ~mimic01~ ~minodar1~ ~minodar2~ ~mirlanda~ ~mistcd01~ ~mistho01~ ~mistpo01~ ~mistva01~ ~mistwa01~ ~morvin~ ~mourner2~ ~mourner4~ ~mourner7~ ~msold01~ ~mtown6~ ~mugger1~ ~mulahe~ ~mumgre01~ ~mummy01~ ~myband1~ ~mymugg1~ ~mymugg2~ ~mythug~ ~nanny~ ~nevm1~ ~nmonk~ ~nobl4~ ~nobl5~ ~nobl6~ ~noble1~ ~noble2~ ~noblem1~ ~noblem2~ ~noblem3~ ~noblew1~ ~noblew2~ ~noblew3~ ~nscom001~ ~nsflower~ ~nsmage01~ ~nsprey01~ ~nstief02~ ~ntdemon~ ~nthells1~ ~nthells2~ ~nthellsa~ ~nthobgod~ ~o!gobl~ ~o#crchri~ ~o#crlah~ ~o#crsoph~ ~o#crstg1~ ~o#crstg2~ ~o#damir~ ~o#khagg~ ~o#thadd~ ~oenmage1~ ~oenmage2~ ~oenmage3~ ~ogre01~ ~ogregr_a~ ~ogregr1~ ~ogregr2~ ~ogregr3~ ~ogregr4~ ~ogregrsu~ ~ogreha_a~ ~ogreha_c~ ~ogreha_d~ ~ogreha_e~ ~ogreha1~ ~ogreha2~ ~ogreha3~ ~ogreha4~ ~ogreha5~ ~ogrelesu~ ~ogrema01~ ~ogresu~ ~ogrhal01~ ~ogrill01~ ~ogrmag01~ ~olmwar40~ ~olmwar41~ ~olmwar42~ ~olmwar43~ ~olmwar44~ ~olmwar45~ ~olmwar46~ ~olmwar47~ ~olmwar51~ ~olmwar52~ ~olmwar53~ ~olmwar54~ ~olmwar55~ ~olmwar56~ ~olmwar57~ ~olmwar58~ ~olmwar59~ ~olmwar60~ ~olmwar61~ ~olmwar62~ ~olmwar63~ ~olmwar64~ ~olmwar65~ ~olmwar66~ ~olmwar67~ ~olmwar68~ ~olmwar69~ ~orc01~ ~orc02~ ~orc03~ ~orc04~ ~orc05~ ~orc06~ ~orc07~ ~orc10~ ~orcded~ ~orcsum~ ~oriana~ ~osmadi~ ~outorc1~ ~outorc5~ ~p#neiros~ ~parmonk~ ~parthf~ ~pashtrav~ ~pbhunt01~ ~pdwarf01~ ~pgnallem~ ~pgnalpoc~ ~pgnalter~ ~pgulga~ ~pibble~ ~pibble2~ ~pirbob01~ ~pircor02~ ~pirdoc01~ ~pirfsh01~ ~pirfsh02~ ~pirpir05~ ~pirpir12~ ~pkagal~ ~pkagalb~ ~pkfatty1~ ~pkfatty2~ ~pkfatxy2~ ~pkgard1~ ~pkgard2~ ~pkhohom1~ ~pkhohom2~ ~pkhohom3~ ~pkmarcus~ ~pkmess~ ~pkmess2~ ~pkorfa~ ~pkstore1~ ~pkstore2~ ~plfarm05~ ~plfarm06~ ~plshhg01~ ~plshom01~ ~plybass~ ~plyflind~ ~plyogre~ ~plysala~ ~postul2~ ~postul6~ ~potselca~ ~ppgirl2~ ~pplackey~ ~ppldr01~ ~pptown4~ ~prengoon~ ~psadv02~ ~psdmad02~ ~psdmad03~ ~pspain~ ~psqtpa1~ ~psqtpa2~ ~psqtpa3~ ~purang~ ~qloot3~ ~radeel~ ~ragefa~ ~re_ilona~ ~redilav~ ~reedle~ ~reevor~ ~reevor2~ ~remage01~ ~remage02~ ~remorhaz~ ~remorle~ ~renfeld~ ~renfield~ ~rengaa~ ~rethie02~ ~rethug01~ ~riatgate~ ~rigen01~ ~rock~ ~roend~ ~rorca01~ ~rorcl01~ ~rorcs01~ ~rskel02~ ~rskel03~ ~rumar~ ~sacorc01~ ~sacorc02~ ~sacorc05~ ~sacorc06~ ~sacorc10~ ~sacorc9~ ~sahangu~ ~sahlace~ ~sahzom01~ ~salvanas~ ~samia~ ~scdur~ ~scljyss~ ~scqar~ ~scroll01~ ~scsarles~ ~senorc01~ ~senorc02~ ~senorc03~ ~senorc04~ ~sensmsp2~ ~sevpat04~ ~sevpat05~ ~sewdue01~ ~sewdue02~ ~sewerm1~ ~sewrak01~ ~sewyag03~ ~shadcr1~ ~shadcr2~ ~shobsl01~ ~shop01~ ~shop02~ ~shop05~ ~shth01~ ~shth05~ ~shthass1~ ~shthdr01~ ~shthstor~ ~sk#noble~ ~skelar01~ ~skelar02~ ~skelet01~ ~skelwa02~ ~skelwa03~ ~slandor~ ~slhalf01~ ~slshop02~ ~slumm3~ ~slvic01~ ~slythe~ ~speselca~ ~spmugg~ ~spmugg1~ ~spmugg2~ ~spmugg3~ ~stage01~ ~strak~ ~sumeat1~ ~sumeat2~ ~sumeat3~ ~surayah~ ~surly~ ~suthess1~ ~t#mdomo~ ~takiyah~ ~talwar40~ ~talwar41~ ~talwar42~ ~talwar43~ ~talwar44~ ~talwar45~ ~talwar46~ ~talwar47~ ~talwar48~ ~talwar49~ ~talwar50~ ~tannar2~ ~tannar3~ ~tarnor~ ~tasloisu~ ~tavekee~ ~taxcoll~ ~tazok~ ~tb#kobol~ ~tb#lotga~ ~tb#lotgw~ ~tb#lotr~ ~tb#lotr1~ ~tb#lotra~ ~tb#lotrg~ ~tb#lotro~ ~tb#prsp~ ~tc1600m1~ ~tc2000h2~ ~tc2000mf~ ~tc2000nm~ ~tcalhel~ ~tcbalsag~ ~tcbane02~ ~tcbane03~ ~tcbart1~ ~tcbart3~ ~tcbor~ ~tcbrewer~ ~tcbugb01~ ~tcbugb02~ ~tccapmor~ ~tcderil~ ~tcdetrak~ ~tcdopp01~ ~tcdrak~ ~tcduerg1~ ~tcduerg6~ ~tcduerg7~ ~tcdurnn~ ~tcedenso~ ~tcfem01~ ~tcfhaly~ ~tcfinnoc~ ~tcfusci~ ~tcghoul~ ~tcghoull~ ~tcgnoll1~ ~tcgob01~ ~tcgobsha~ ~tchanj~ ~tcharlo1~ ~tchelpa1~ ~tchobwar~ ~tcinn01~ ~tcinn02~ ~tcinn03~ ~tckartmn~ ~tckobo1~ ~tckobol1~ ~tckobold~ ~tclatpa1~ ~tcliz01~ ~tcliz02~ ~tclizeng~ ~tclizgrd~ ~tclizkng~ ~tclizma1~ ~tclizma2~ ~tclizma3~ ~tclizman~ ~tclizmin~ ~tclizsha~ ~tclizssh~ ~tclizund~ ~tclovpr2~ ~tcmagman~ ~tcman9~ ~tcmask1~ ~tcmdorc1~ ~tcmdorc2~ ~tcmdorc3~ ~tcmer03~ ~tcmer04~ ~tcmer05~ ~tcmer06~ ~tcmmgus~ ~tcmmnob1~ ~tcmmnob2~ ~tcmmwom3~ ~tcnarcil~ ~tcnmask~ ~tcnmask2~ ~tcogre02~ ~tcogrem1~ ~tcogril1~ ~tcorc01~ ~tcorc02~ ~tcorc03~ ~tcorc04~ ~tcpbpf2~ ~tcpirat2~ ~tcpirat3~ ~tcpirat4~ ~tcpirate~ ~tcprat~ ~tcsahua3~ ~tcsahua5~ ~tcsahuak~ ~tcsahuap~ ~tcsahuaq~ ~tcsahuaw~ ~tcsailo1~ ~tcsailo2~ ~tcsailo3~ ~tcsailo4~ ~tcsailo5~ ~tcsailo6~ ~tcsakul~ ~tcsfc02~ ~tcskele1~ ~tcskele4~ ~tcslcl01~ ~tcslcl02~ ~tcslcre1~ ~tcslcrew~ ~tcslfgt4~ ~tcslmg01~ ~tcslmg02~ ~tcslthf1~ ~tcslthf2~ ~tctam~ ~tctaslo1~ ~tcturn~ ~tcwatch0~ ~tcwatch1~ ~tcwatch2~ ~tcwatch3~ ~tcwench2~ ~tcwench3~ ~tcwench4~ ~tcwench5~ ~tcwghar1~ ~tcwgman1~ ~tcwgnob1~ ~tcwight~ ~tcxvart~ ~telka~ ~telpit1~ ~teltief1~ ~teltief2~ ~tenmage1~ ~tenmage2~ ~tenmage3~ ~terrece~ ~thief5~ ~thork1~ ~thork2~ ~thork3~ ~thork4~ ~tief_w1~ ~tief_w2~ ~tobban03~ ~torgal~ ~torgal2~ ~torgal3~ ~townc01~ ~trcut02~ ~tresham1~ ~trevil01~ ~trftow01~ ~trhmer01~ ~trnobm02~ ~trolde01~ ~trolde02~ ~trolfr01~ ~trolfr02~ ~trolgi01~ ~trolgi02~ ~trolic01~ ~trolic02~ ~trolic03~ ~trolic04~ ~troll01~ ~troll02~ ~troll03~ ~trolsi01~ ~trolsi02~ ~trtavp01~ ~trtavp02~ ~trwen01~ ~ts5bad~ ~ts5door~ ~ts5grd~ ~ts5grd1~ ~ts5grd2~ ~ts5thf1~ ~ts5thf2~ ~ts5thf3~ ~ts5thf4~ ~ts5thf5~ ~ts5thf6~ ~ts5wiz~ ~tsama1~ ~tsdrunk1~ ~tsdrunk2~ ~tsdrunk3~ ~tsgrd02~ ~tsjflirt~ ~tspick1~ ~tspick2~ ~tspick3~ ~tspick4~ ~tspick5~ ~tspick6~ ~tspick7~ ~tspick8~ ~tswench1~ ~tupung~ ~tupungcs~ ~u#conlan~ ~ubogma01~ ~ubogma02~ ~ucmgdw03~ ~ucmghun2~ ~ucmghun3~ ~ucmghun4~ ~ucmgorc1~ ~ucmgorc2~ ~ucmgorc3~ ~ucmgorl~ ~ucmgsmeg~ ~udcom01~ ~uddoor05~ ~uddrow05~ ~uddrow07~ ~uhfem01~ ~uhfem02~ ~uhinn01~ ~uhinn02~ ~uhman02~ ~uhmay01~ ~uhmer01~ ~uhmer02~ ~uhmer03~ ~uhogre01~ ~uhogre02~ ~uhogre03~ ~uhogre04~ ~uhogre05~ ~ulogre2~ ~ulorc3~ ~ulorc4~ ~ulorc5~ ~umbhul01~ ~umbhul02~ ~unsee~ ~va#fsala~ ~va#kergo~ ~va#orc~ ~va#orog~ ~vakthf01~ ~victown3~ ~victown4~ ~walla~ ~wardabi1~ ~wardabi2~ ~wardnob1~ ~waylane~ ~wblance~ ~wbmum~ ~wcust02~ ~wcust03~ ~wcust05~ ~weenog~ ~wench1~ ~willia~ ~winthr2~ ~wmart1~ ~wtthork5~ ~wtthork6~ ~wwench~ ~wyvern01~ ~wyvgre01~ ~x#chop~ ~x#cru11~ ~x#dgnle1~ ~x#dgnle2~ ~x#dgnle3~ ~x#dgnle4~ ~x#dgnlg1~ ~x#dgnlg2~ ~x#dgnlg3~ ~x#dgnlg4~ ~xangiber~ ~xvart_d~ ~yaga03~ ~yaga05~ ~yscara01~ ~yscara02~ ~ysdivelf~ ~ysfire01~ ~ysfire02~ ~ysg2~ ~ysgp01~ ~yssold01~ ~yssold04~ ~yssold10~ ~yssold13~ ~yugalu01~ ~z#arch2~ ~z#archbv~ ~z#cw18~ ~z#mage2~ ~z#nob1~ ~z#nob2~ ~z#nob3~ ~z_2drok~ ~z_2scb~ ~z_2smb~ ~z_2spb~ ~z_2stb~ ~z_2tara~ ~z_2yanm~ ~z_alast~ ~z_bered~ ~z_berser~ ~z_bianca~ ~z_cyric~ ~z_dalmar~ ~z_danan~ ~z_darak~ ~z_davian~ ~z_dono~ ~z_dore~ ~z_drow1~ ~z_drow10~ ~z_drow11~ ~z_drow2~ ~z_drow3~ ~z_drow4~ ~z_drow5~ ~z_drow6~ ~z_drowf~ ~z_drowk~ ~z_duega2~ ~z_elf1~ ~z_elf2~ ~z_elf3~ ~z_elmi~ ~z_emir~ ~z_fmage~ ~z_gener1~ ~z_gnollf~ ~z_hmage~ ~z_mbard1~ ~z_mbard2~ ~z_mbard3~ ~z_mbard4~ ~z_mbard5~ ~z_mbard6~ ~z_mcler1~ ~z_mcler2~ ~z_mcler3~ ~z_mcler4~ ~z_mcler5~ ~z_mcler6~ ~z_mmage1~ ~z_mmage2~ ~z_mmage3~ ~z_mmage4~ ~z_mmage5~ ~z_mmage6~ ~z_mply1~ ~z_mply2~ ~z_mply3~ ~z_mply4~ ~z_mply5~ ~z_mply6~ ~z_soldnf~ ~z_tuluk~ ~z_whel1~ ~z_whel2~ ~z_whel3~ ~z_whel4~ ~z_white~ ~z_winif~ ~z_winni~ ~z_wmage~ ~z_yantie~ ~z_yantim~ ~zeela~ ~zyors1aa~ ~zyors1ab~ ~zyors1ac~ ~zyors1ad~ ~zyors1ae~ ~zyors1af~ ~zyors1ag~ ~zyors1ah~ ~zyors1ai~ ~zyors1aj~ ~zyors1ak~ ~zyors1al~ ~zyors1am~ ~zyors2aa~ ~zyors2ab~ ~zyors2ac~ ~zyors2ad~ ~zyors2ae~ ~zyors2af~ ~zyors2ag~ ~zyors2ah~ ~zyors2ai~ ~zyors2aj~ ~zyors2ak~ ~zyors2al~ ~zyors2am~ ~zyors3aa~ ~zyors3ab~ ~zyors3ac~ ~zyors3ad~ ~zyors3ae~ ~zyors3af~ ~zyors3ag~ ~zyors3ah~ ~zyors3ai~ ~zyors3aj~ ~zyors3ak~ ~zyors3al~ ~zyors3am~ ~zyors4aa~ ~zyors4ab~ ~zyors4ac~ ~zyors4ad~ ~zyors4ae~ ~zyors4af~ ~zyors4ag~ ~zyors4ah~ ~zyors4ai~ ~zyors4aj~ ~zyors4ak~ ~zyors4al~ ~zyors4am~ ~zyorsmaa~ ~zyorsmab~ ~zyorsmac~ ~zyorsmad~ ~zyorsmae~ ~zyorsmaf~ ~zyorsmag~ ~zyorsmah~ ~zyorsmai~ ~zyorsmaj~ ~zyorsmak~ ~zyorsmal~ ~zyorsmam~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%tcr%.cre~ BEGIN
+    SILENT
+    COPY_EXISTING ~%tcr%.cre~ ~override~
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        SPRINT sr ~%SOURCE_RES%~
+        READ_STRREF 0x8 nm //Name
+        READ_LONG 0x2b8 so //Slots offset
+        READ_LONG 0x2bc io //Items offset
+        READ_LONG 0x2c0 ic //Item count
+        rndc = 0 //Random count
+        k2 = 0
+        FOR (j1 = so; j1 < (so + 38 * 2); j1 += 2) BEGIN
+          READ_SSHORT j1 j2 ELSE (0 - 1) //Slot
+          PATCH_IF (j2 > (0 - 1)) AND (j2 < ic) BEGIN
+            j3 = j2 * 0x14 + io
+            LAUNCH_PATCH_MACRO t-rndi
+          END ELSE BEGIN
+            PATCH_IF (j2 > (ic - 1)) OR (j2 < (0 - 1)) BEGIN
+              WRITE_SHORT j1 (0 - 1)
+              sv = ((j1 - so) / 2)
+              INNER_ACTION BEGIN
+                SILENT
+                APPEND_OUTER ~aurora/batchlog/ag_invalid_slots.txt~ ~%sr%	%nm%	%sv%	%j1%	%j2%~
+                VERBOSE
+              END
+            END
+          END
+        END
+        PATCH_IF (rndc > 0) AND (rgh > 2) AND (rgh < 6) BEGIN
+          PATCH_RANDOM_SEED null //Initialize random item routine
+          PATCH_IF rgh = 3 BEGIN //25% chance
+            rgi = RANDOM(1 4)
+          END ELSE BEGIN
+            PATCH_IF rgh = 4 BEGIN //50% chance
+              rgi = RANDOM(3 4)
+            END ELSE BEGIN
+              PATCH_IF rgh = 5 BEGIN //75% chance
+                rgi = RANDOM(3 6)
+              END
+            END
+          END
+        END
+        SPRINT type ~Slots~
+        LAUNCH_PATCH_MACRO t-rndj
+        READ_LONG 0x2bc io //Items offset
+        READ_LONG 0x2c0 ic //Item count
+        rndc = 0 //Random count
+        k2 = 0
+        FOR (j1 = 0; j1 < (ic * 0x14); j1 += 0x14) BEGIN
+          j3 = io + j1
+          LAUNCH_PATCH_MACRO t-rndi
+        END
+        SPRINT type ~Items~
+        LAUNCH_PATCH_MACRO t-rndj
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END

@@ -1,0 +1,41 @@
+µaf /isair
+***
+                 SOUND
+ATTACK           t-isa05a t-isa05b
+ATTACK           0 0
+AWAKE            ***
+AWAKE            0
+CAST             ***
+CAST             0
+CONJURE          ***
+CONJURE          0
+DAMAGE           t-isa07 t-isa08
+DAMAGE           0 0
+DIE              t-isa09a t-isa09b
+DIE              0 0
+HEAD_TURN        ***
+HEAD_TURN        0
+READY            ***
+READY            0
+SHOOT            ***
+SHOOT            0
+TWITCH           ***
+TWITCH           0
+WALK             ***
+WALK             0
+ATTACK_SLASH     t-isa05a t-isa05b
+ATTACK_SLASH     0 0
+ATTACK_BACKSLASH t-isa04a t-isa04b
+ATTACK_BACKSLASH 0 0
+ATTACK_JAB       t-isa03a t-isa03b
+ATTACK_JAB       0 0
+EMERGE           ***
+EMERGE           0
+HIDE             ***
+HIDE             0
+SLEEP            ***
+SLEEP            0
+Battle_Cry       t-isa01a t-isa01b
+Battle_Cry       0 0
+Selection        t-isa02a t-isa02b
+Selection        0 0

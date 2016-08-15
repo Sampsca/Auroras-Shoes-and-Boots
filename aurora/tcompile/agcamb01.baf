@@ -1,0 +1,96 @@
+IF
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,50)
+  HaveSpell(WIZARD_VAMPIRIC_TOUCH)
+  !GlobalTimerNotExpired("agm","LOCALS")
+  Range(LastSeenBy(),10)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+  CheckStatLT(LastSeenBy(),50,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agm","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_VAMPIRIC_TOUCH)
+END
+
+IF
+  HPPercentLT(Myself,75)
+  HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+  !GlobalTimerNotExpired("agm","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agm","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+  HaveSpell(WIZARD_HORROR)
+  !GlobalTimerNotExpired("agm","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !General(LastSeenBy(),4)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agm","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_HORROR)
+END
+
+IF
+  HaveSpell(WIZARD_SLEEP)
+  !GlobalTimerNotExpired("agm","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !General(LastSeenBy(),4)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agm","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_SLEEP)
+END
+
+IF
+  HaveSpell(WIZARD_BLINDNESS)
+  !GlobalTimerNotExpired("agm","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_BLIND)
+  !HasBounceEffects(LastSeenBy())
+  CheckStatLT(LastSeenBy(),50,RESISTMAGIC)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agm","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_BLINDNESS)
+END
+
+IF
+  GlobalTimerNotExpired("agm","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  !GlobalTimerNotExpired("agm","LOCALS")
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

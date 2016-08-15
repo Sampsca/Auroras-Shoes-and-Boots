@@ -1,0 +1,62 @@
+<<<<<<<< .../aurora-inlined/ag_items.txt
+Item	Name	OrigPrice	NewPrice
+>>>>>>>>
+
+COPY ~.../aurora-inlined/ag_items.txt~ ~aurora/batchlog~
+
+COPY_EXISTING ~%tsu%misc1j.itm~ ~override~ //Glittering Beljuril Gemstone
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    WRITE_SHORT 0x1c 0x22 //Item type (gem, was misc)
+  END
+BUT_ONLY
+
+COPY_EXISTING ~ringjoia.itm~ ~override~ //Joia's Flamedance ring
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    WRITE_LONG 0x8 1028 //Unidentified name
+    WRITE_LONG 0xc 1028 //Identified name
+  END
+BUT_ONLY
+
+ACTION_FOR_EACH itm IN ~#sringf~ ~%tsr%ingjoia~ ~%tsu%amul04~ ~%tsu%amul05~ ~%tsu%amul06~ ~%tsu%amul07~ ~%tsu%amul08~ ~%tsu%amul09~ ~%tsu%amul10~ ~%tsu%amul11~ ~%tsu%amul12~ ~%tsu%amul13~ ~%tsu%book87~ ~%tsu%misc16~ ~%tsu%misc17~ ~%tsu%misc18~ ~%tsu%misc19~ ~%tsu%misc1j~ ~%tsu%misc20~ ~%tsu%misc21~ ~%tsu%misc22~ ~%tsu%misc23~ ~%tsu%misc24~ ~%tsu%misc25~ ~%tsu%misc26~ ~%tsu%misc27~ ~%tsu%misc28~ ~%tsu%misc29~ ~%tsu%misc2a~ ~%tsu%misc2b~ ~%tsu%misc2c~ ~%tsu%misc2d~ ~%tsu%misc2e~ ~%tsu%misc2f~ ~%tsu%misc2g~ ~%tsu%misc2h~ ~%tsu%misc2i~ ~%tsu%misc2j~ ~%tsu%misc2k~ ~%tsu%misc2l~ ~%tsu%misc2m~ ~%tsu%misc2n~ ~%tsu%misc30~ ~%tsu%misc31~ ~%tsu%misc32~ ~%tsu%misc33~ ~%tsu%misc34~ ~%tsu%misc35~ ~%tsu%misc36~ ~%tsu%misc37~ ~%tsu%misc38~ ~%tsu%misc39~ ~%tsu%misc40~ ~%tsu%misc41~ ~%tsu%misc42~ ~%tsu%misc43~ ~%tsu%misc44~ ~%tsu%misc45~ ~%tsu%ring10~ ~%tsu%ring11~ ~%tsu%ring12~ ~%tsu%ring13~ ~%tsu%ring14~ ~%tsu%ring15~ ~%tsu%ring16~ ~%tsu%ring17~ ~%tsu%ring18~ ~%tsu%ring19~ ~%tsu%ringjos~ ~acidgem~ ~ackeysto~ ~agamul01~ ~aggem01~ ~aggem02~ ~aggem03~ ~aggem04~ ~aggem05~ ~aggem06~ ~aggem07~ ~aggem08~ ~aggem09~ ~ardiam~ ~b!gring2~ ~bgamul13~ ~bgmisc45~ ~bgring12~ ~bgring16~ ~bhbpearl~ ~bkmoonx~ ~blackgem~ ~broring~ ~bw05crys~ ~bw05war2~ ~bw05ward~ ~c#aj020a~ ~c#aj020b~ ~c#aj02aa~ ~c#aj02ab~ ~c#aj02ac~ ~c#aj02ba~ ~c#aj02bb~ ~c#aj02bc~ ~c#aj02ca~ ~c#aj02cb~ ~c#aj02da~ ~c#aj02db~ ~c#amul02~ ~c#kranz~ ~c#q02004~ ~cbdrwrng~ ~cbmielik~ ~cbryberg~ ~cmkey01~ ~cmkey02~ ~compon09~ ~divring~ ~dmgem1~ ~dsamul02~ ~dsamul09~ ~dw#area~ ~dw#attac~ ~dw#basum~ ~dw#deseq~ ~dw#dispe~ ~dw#droba~ ~dw#fgmag~ ~dw#fminv~ ~dw#haste~ ~dw#magat~ ~dw#magme~ ~dw#move0~ ~dw#nodop~ ~dw#nohlp~ ~dw#noinv~ ~dw#nopre~ ~dw#noptn~ ~dw#noseq~ ~dw#prbig~ ~dw#ptnnd~ ~eidanrng~ ~eligem~ ~exitward~ ~f_dwkey~ ~fhring~ ~fireorb~ ~fish~ ~frozorb~ ~garing~ ~glowrock~ ~golring~ ~hermgem~ ~holygem~ ~keyarund~ ~keytilor~ ~lk#igem1~ ~m#bsgem~ ~m#lsgem~ ~m#rsgem~ ~m#wsgem~ ~m#yward~ ~m#ywardl~ ~macamul1~ ~macring1~ ~macring2~ ~markshdw~ ~misc4y~ ~misc5e~ ~misc6n~ ~misc6o~ ~misc6z~ ~misc8o~ ~misca9~ ~miscaa~ ~miscad~ ~miscae~ ~molneck~ ~newntg1~ ~newntg2~ ~newshp2~ ~newshp3~ ~nsamul~ ~ntring03~ ~otakoam~ ~p#dream~ ~p#ul11~ ~ring01~ ~ring37~ ~ring38~ ~ring43~ ~ring45~ ~riosesar~ ~soaitm39~ ~stargem~ ~tcamul04~ ~tcamul08~ ~tcmisc34~ ~tcring01~ ~telering~ ~timeward~ ~ttgem01~ ~ttgem02~ ~tttreas~ ~tukey~ ~v#ring~ ~wgneck~ ~x#cmoon~ ~x#xzmiri~ ~zyorofn1~ ~zyringn1~ ~zyringn2~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%itm%.itm~ BEGIN
+    SILENT
+    COPY_EXISTING ~%itm%.itm~ ~override~
+      PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+        READ_LONG 0x34 pr //Price
+        PATCH_IF pr > 3 BEGIN
+          READ_STRREF 0xc nn //Name
+          PATCH_IF cg = 2 BEGIN //If raising
+            npr = pr * nm / dn
+          END ELSE BEGIN
+            npr = pr / dn * nm
+          END
+          PATCH_IF (npr < 1000) AND (npr > 35) BEGIN //Round to nearest 5
+            npr = (npr / 5)
+            npr = (npr * 5)
+          END ELSE BEGIN
+            PATCH_IF (npr > 999) AND (npr < 10000) BEGIN //Round to nearest 25
+              npr = (npr / 25)
+              npr = (npr * 25)
+            END ELSE BEGIN
+              PATCH_IF npr > 9999 BEGIN //Round to nearest 50
+                npr = (npr / 50)
+                npr = (npr * 50)
+              END
+            END
+          END
+          WRITE_LONG 0x34 npr
+          INNER_ACTION BEGIN
+            APPEND_OUTER ~aurora/batchlog/ag_items.txt~ ~%SOURCE_RES%	%nn%	%pr%	%npr%~
+          END
+        END
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END
+
+COPY_EXISTING ~%tsu%book87.itm~ ~override~ //Balduran's Log Book
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    WRITE_SHORT 0x1c 0 //Item type (misc, was gem)
+  END
+BUT_ONLY

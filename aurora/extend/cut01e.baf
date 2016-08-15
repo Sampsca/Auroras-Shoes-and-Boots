@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")
+    DisplayStringHead("CSCowl1",2866) // This is an unsanctioned use of magical energy!
+    DisplayStringHead("CSCowl2",2868) // All involved will be held!  This disturbance is over!
+    ApplySpell("CSCowl5",CUTSCENE_POWERWORD_KILL)
+    ApplySpell("CSCowl2",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE)
+    CreateCreatureDoor("CSCOWL6",[2547.965],8) // Cowled Wizard
+    CreateCreatureDoor("CSCOWL7",[2504.840],0) // Cowled Wizard
+    ApplySpell("CSCowl1",CUTSCENE_POWERWORD_KILL)
+    CreateCreatureDoor("CSCOWL8",[2657.854],2) // Cowled Wizard
+    StartCutScene("Cut01f")
+END

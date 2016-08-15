@@ -1,0 +1,460 @@
+IF
+  HPLT(Myself,20)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  HasItem("potn52",Myself)
+THEN
+  RESPONSE #100
+    UseItem("potn52",Myself)
+    DisplayString(Myself,46150)
+    SetGlobalTimer("agn","LOCALS",6)
+END
+
+IF
+  HPLT(Myself,20)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !HasItem("potn52",Myself)
+  HasItem("potn10",Myself)
+  !StateCheck(Myself,4198457)
+THEN
+  RESPONSE #100
+    UseItem("potn10",Myself)
+    DisplayString(Myself,46150)
+    SetGlobalTimer("agn","LOCALS",6)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  HPLT(Myself,20)
+  !HasItem("potn52",Myself)
+  !HasItem("potn10",Myself)
+  Range(NearestEnemyOf(),5)
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(),30)
+    Hide()
+END
+
+IF
+  StateCheck(Myself,STATE_SILENCED)
+  Global("agv","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WIZARD_VOCALIZE)
+    SetGlobal("agv","LOCALS",1)
+END
+
+IF
+  !HPLT(Myself,20)
+  !StateCheck(Myself,4198457)
+  Detect([GOODCUTOFF])
+  !See(NearestEnemyOf())
+  HaveSpell(WIZARD_DETECT_INVISIBILITY)
+  !GlobalTimerNotExpired("agn","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(Myself,WIZARD_DETECT_INVISIBILITY)
+END
+
+IF
+  !HPLT(Myself,20)
+  !StateCheck(Myself,4198457)
+  Detect([GOODCUTOFF])
+  !See(NearestEnemyOf())
+  !HaveSpell(WIZARD_DETECT_INVISIBILITY)
+  !GlobalTimerNotExpired("agnhi","LOCALS")
+THEN
+  RESPONSE #75
+    SetGlobalTimer("agnhi","LOCALS",6)
+    ApplySpell(Myself,WIZARD_INVISIBILITY)
+    DisplayString(Myself,19944)
+  RESPONSE #25
+    SetGlobalTimer("agnhi","LOCALS",6)
+    DisplayString(Myself,17120)
+END
+
+IF
+  !See(NearestEnemyOf())
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  Global("agprep","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+    ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
+    ApplySpell(Myself,WIZARD_PROTECTION_FROM_THE_ELEMENTS)
+    ApplySpell(Myself,WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)
+    ApplySpell(Myself,WIZARD_SPELL_TURNING)
+    ApplySpell(Myself,WIZARD_FIRE_SHIELD_RED)
+    ApplySpell(Myself,WIZARD_BLUR)
+    ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+    SetGlobal("agprep","LOCALS",1)
+END
+
+IF
+  Global("agChCall","LOCALS",0)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,5771)
+    Wait(1)
+    CreateCreature("chwraith",[687.236],3)
+    CreateCreature("chwraith",[542.203],13)
+    CreateCreature("chwraith",[492.385],9)
+    CreateCreature("chwraith",[553.472],8)
+    SetGlobal("agChCall","LOCALS",1)
+    SetGlobal("agNebAct","LOCALS",1)
+END
+
+IF
+  Global("agNebAct","LOCALS",1)
+THEN
+  RESPONSE #100
+    UseItem("potn14",Myself)
+    DisplayString(Myself,46150)
+    SetGlobalTimer("agn","LOCALS",6)
+    MoveToPointNoInterrupt([296.488])
+    Wait(2)
+    SetGlobal("agNebAct","LOCALS",2)
+END
+
+IF
+  Global("agNebAct","LOCALS",2)
+  Global("agSetGig","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("agSetGig","LOCALS",1)
+    SetGlobalTimer("NebGiggling","GLOBAL",3)
+END
+
+IF
+  !HPLT(Myself,20)
+  GlobalTimerExpired("NebGiggling","GLOBAL")
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,5772)
+    SetGlobalTimer("NebGiggling","GLOBAL",3)
+END
+
+IF
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  Detect([PC])
+  !GlobalTimerNotExpired("agnhi","LOCALS")
+  !StateCheck(Myself,4198457)
+  !Range(LastSeenBy(),5)
+THEN
+  RESPONSE #75
+    SetGlobalTimer("agnhi","LOCALS",6)
+    ApplySpell(Myself,WIZARD_INVISIBILITY)
+    DisplayString(Myself,19944)
+  RESPONSE #25
+    SetGlobalTimer("agnhi","LOCALS",6)
+    DisplayString(Myself,17120)
+END
+
+IF
+  HaveSpell(WIZARD_PIERCE_SHIELD)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),1060841)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_PIERCE_SHIELD)
+END
+
+IF
+  HaveSpell(WIZARD_SUMMON_NISHRUU)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_SUMMON_NISHRUU)
+END
+
+IF
+  HaveSpell(WIZARD_BREACH)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),1060841)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_BREACH)
+END
+
+IF
+  HaveSpell(WIZARD_INVISIBLE_STALKER)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_INVISIBLE_STALKER)
+END
+
+IF
+  HaveSpell(WIZARD_DISPEL_MAGIC)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),1060841)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_DISPEL_MAGIC)
+END
+
+IF
+  HaveSpell(WIZARD_MAZE)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_MAZE)
+END
+
+IF
+  HaveSpell(WIZARD_POWER_WORD_STUN)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),1060841)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_POWER_WORD_STUN)
+END
+
+IF
+  HaveSpell(WIZARD_CONJURE_LESSER_EARTH_ELEMENTAL)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(Myself,WIZARD_CONJURE_LESSER_EARTH_ELEMENTAL)
+END
+
+IF
+  HaveSpell(WIZARD_POWER_WORD_SILENCE)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12225)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_POWER_WORD_SILENCE)
+END
+
+IF
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12265)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_HOLD_PERSON)
+END
+
+IF
+  HaveSpell(WIZARD_DOMINATION)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12265)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_DOMINATION)
+END
+
+IF
+  HaveSpell(WIZARD_CHAOS)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_CHAOS)
+END
+
+IF
+  HaveSpell(WIZARD_FEEBLEMIND)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),1060833)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_FEEBLEMIND)
+END
+
+IF
+  HaveSpell(WIZARD_CLOUDKILL)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_CLOUDKILL)
+END
+
+IF
+  HaveSpell(WIZARD_CONFUSION)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_CONFUSION)
+END
+
+IF
+  HaveSpell(WIZARD_SPIDER_SPAWN)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(Myself,WIZARD_SPIDER_SPAWN)
+END
+
+IF
+  HaveSpell(WIZARD_MONSTER_SUMMONING_2)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(Myself,WIZARD_MONSTER_SUMMONING_2)
+END
+
+IF
+  HaveSpell(WIZARD_MELF_METEOR)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_MELF_METEOR)
+END
+
+IF
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("agn","LOCALS")
+  !StateCheck(LastSeenBy(),12257)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agn","LOCALS",6)
+    Spell(NearestEnemyOf(),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  GlobalTimerNotExpired("agn","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  !GlobalTimerNotExpired("agn","LOCALS")
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

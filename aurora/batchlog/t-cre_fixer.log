@@ -1,0 +1,6 @@
+Creature	Item	Slot	Issue
+c6bruen	b#axh01	0x12	Weapon slot item does not exist
+c6bruen2	b#axh01	0x12	Weapon slot item does not exist
+jolus	bow04	0x14	Two-handed weapon equipped with off-hand item shld30
+p#seas1	N/A	0x12	Invalid weapon slot assignment
+p#seasn	N/A	0x12	Invalid weapon slot assignment

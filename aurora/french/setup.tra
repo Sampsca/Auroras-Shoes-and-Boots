@@ -1,0 +1,1367 @@
+@1 = ~Aurora's Shoes and Boots~
+@2 = ~Aurora~
+
+@3 = ~Cape verte~
+@4 = ~Cette cape verte, aux couleurs de la forêt, ne semble pas avoir de qualités particulières. En l'examinant de plus près, cependant, vous vous apercevez que quelqu'un a brodé un soleil doré, orné de la lettre "A", sur le devant.
+
+PARAMETRES :
+
+Poids : 3~ 
+
+@5 = ~Anneau Orné~
+@6 = ~Cet anneau d'or est serti d'une émeraude inhabituellement grande. Les mots suivants sont gravés à l'intérieur de l'anneau : "Pour le rayon de soleil de ma vie."
+
+PARAMETRES :
+
+Capacité d'équipement : charisme +1 
+Poids : 0~
+
+@7  = ~Boucle d'Oreille Unique~
+@8 = ~Cette grande boucle d'oreille en or a la forme du soleil et est sertie d'une émeraude brillante. L'autre boucle, si toutefois il s'agissait d'une paire, est manquante.
+
+PARAMETRES :
+
+Capacité d'équipement : protège contre les coups critiques
+Poids : 0~
+
+@9  = ~Mocassins Verts~
+@10 = ~Ces mocassins usés d'un vert pâle vous impressionnent tout de même par leur élégance. Un soleil doré est brodé sur chacun d'eux. Dotés d'une valeur principalement sentimentale pour leur propriétaire d'origine, ils ont été lancés à la tête d'un dragon, entraînés par le courant d'une rivière et portés par dieu sait qui au fil des années.
+
+PARAMETRES :
+
+Poids : 2~
+
+@11 = ~Boucle d'oreille~
+@12 = ~Epée Longue Ornée de Joyaux +3~
+@13 = ~La lame à double tranchant est longue de 90 centimètres et se termine en une pointe acérée. Cette arme savamment forgée semble efficace, elle n'est pas excessivement décorée, à l'exception de la grosse émeraude verte sur son pommeau.
+
+PARAMETRES :
+
+TAC0 : +3
+Dégâts : 1D8 +3
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+
+@14 = ~Aurora a gagné cette épée en défendant un petit village côtier contre les pirates. Elle a toujours refusé de lui donner un nom, prétendant qu'une épée célèbre promet toujours une mort précoce à son porteur, et le voue à l'oubli. Elle est enchantée et (plus intéressant) possède une grosse émeraude verte sur son pommeau.
+
+PARAMETRES :
+
+TAC0 : +3
+Dégâts : 1D8 +3
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+
+@15 = ~Pendentif Orné~
+@16 = ~Il s'agit d'un beau pendentif en or avec un médaillon en forme de soleil. Une émeraude éblouissante est sertie au milieu du médaillon, et la lettre "A" est gravée au dos.
+
+PARAMETRES :
+
+Poids : 1~
+
+@17 = ~Bottes d'Endurance~
+@18 = ~Personne n'informe jamais les aventuriers débutants sur les distances qu'ils auront à parcourir à pied. Cependant, des bottes adaptées peuvent faire toute la différence, et celles-ci sont conçues pour que vous attaquiez la dernière bataille de la journée avec autant d'énergie que la première.
+
+PARAMETRES :
+
+Capacité d'équipement : constitution +1
+Poids : 4~
+
+@19 = ~Bottes Hautement Stylées~
+@20 = ~Ces bottes ont été créées à la demande d'un barde désireux de se faire payer davantage après chaque représentation. Elles ont traversé de nombreux pays et sont passées dans de nombreuses mains. Tous ceux qui les ont portées s'accordent sur deux choses : elles sont diablement élégantes et font atrocement mal aux pieds.
+
+PARAMETRES :
+
+Capacité d'équipement : charisme +2, dextérité -2
+Poids : 3~
+
+@21 = ~Bottes de la Marche Pénible~
+@22 = ~Ces bottes ont été fabriquées il y a bien longtemps par un moine tourmenté par l'incapacité de ses compagnons à soutenir son rythme de marche. Incapable de les aider à voyager plus vite, il s'imposa la discipline de marcher à leur allure et, en fin de compte, créa ces bottes pour que les autres soient capables de le suivre.
+
+PARAMETRES :
+
+Capacité d'équipement : -2 à la vitesse de déplacement 
+Poids : 4~
+
+@23 = ~Bottes de Courage~
+@24 = ~Même les aventuriers les plus téméraires ont peur quelques fois. Tant qu'ils ne portent pas ces bottes, en tout cas. Aurora ne dira pas où elle les a obtenues, mais ces bottes procurent à leur porteur une protection contre toutes les formes de peur.
+
+PARAMETRES :
+
+Capacité d'équipement : protège contre la peur  
+Poids : 4~
+
+@25 = ~Bottes de Bataille~
+@26 = ~Rien ne vaut d'avoir un élément de surprise de son côté lorsque l'on combat, et c'est justement ce que ces bottes offrent à leur porteur. Elles ont été enchantées pour améliorer les capacités d'un combattant.
+
+PARAMETRES :
+
+Capacité d'équipement : TAC0 +2  
+Poids : 4~
+
+@27 = ~Bottes d'Ennui~
+@28 = ~Comme chaque aventurier le sait, il y a des jours où un peu d'ennui est le bienvenu. Aurora a fait faire ces bottes pour s'assurer que ces jours viendront. Une fois ces bottes enfilées, la journée deviendra ennuyeuse à coup sûr. Personne n'en attaquera le porteur. Bien entendu, il ne pourra pas attaquer non plus, mais si cela était possible, la journée ne serait plus ennuyeuse, n'est-ce pas ?
+
+PARAMETRES :
+
+Capacité d'équipement : Personne n'attaque le porteur. Ce dernier peut marcher, parler et se cacher, mais est incapable de réaliser toute autre action.
+  
+Poids : 4~
+
+@29 = ~Ces Bottes sont Faites pour la Marche~
+@30 = ~Parcourir de longues distances peut être fatigant. Cela devient encore plus dur lorsque l'un des membres du groupe est plus faible que les autres. Aurora a conçu ces chaussures pour permettre à leur porteur de parcourir les derniers kilomètres le séparant du repos.
+
+PARAMETRES :
+
+Capacité d'équipement : Fatigue réduite à 0. 
+Poids : 3~
+
+@31 = ~Hémorragie de Mensonges d'Amour~
+@32 = ~Dans ces chaussures, il est réellement possible de faire succomber quelqu'un à vos charmes.
+
+PARAMETRES :
+
+Spécial : lance Beauté de la Nature une fois par jour
+Poids: 2~
+
+@33 = ~Chaussures de danse~
+@34 = ~Dansez toute la nuit ! Dans ces chaussures aussi belles que confortables, vous n'aurez pas à vous soucier des ampoules ou de marcher sur les pieds de votre partenaire. Alors qu'attendez-vous ? Sortez et faites la fête !
+
+PARAMETRES :
+
+Capacité d'équipement : dextérité +2 
+Poids : 2~
+
+@35 = ~Bêtes aux Longues Jambes~
+@36 = ~Ces bottes permettent à leur porteur de se déplacer d'un adversaire à un autre à la vitesse de la pensée. Tout ce que le porteur a à faire, c'est de décider qui est sa prochaine cible. Se déplacer aussi vite fait baisser la puissance du prochain coup asséné.
+
+PARAMETRES :
+
+Capacité d'équipement : vitesse de déplacement fixée à 25, mais les coups ne font plus que 75% des dégâts
+Poids : 4~
+
+@37 = ~Bottes sans Vergogne~
+@38 = ~Personne n'ignore que de temps en temps un aventurier doit s'associer avec des voleurs, des meurtriers, des menteurs ou tout autre forme de rebut. Une réputation droite et intègre peut devenir un désavantage significatif en de telles occasions. Un meurtre à titre gratuit peut remédier à la situation, mais il est beaucoup plus simple et moins difficile à assumer pour votre conscience de porter ces bottes à la place.
+
+PARAMETRES :
+
+Capacité d'équipement : Réputation -2
+Poids : 2~
+
+@39 = ~Bottes Sans Reproches~
+@40 = ~Personne n'ignore que de temps en temps un aventurier doit traiter avec des paladins plus saints que moi tu meurs, des prêtres à la droiture irréprochable, des nobles vertueux ou tout autre personnage prétentieux. Une réputation d'efficacité impitoyable, bien que louable dans d'autres circonstances, peut devenir un désavantage significatif pendant ces rencontres. Une grosse donation au temple local peut faire une bonne partie du chemin pour améliorer ces relations, mais il est beaucoup plus aisé et moins coûteux de porter ces bottes à la place.
+
+PARAMETRES :
+
+Capacité d'équipement : Réputation +2
+Poids : 3~
+
+@41 = ~Un Bout de Chemin dans les Chaussures d'un Autre~
+@42 = ~Parfois, la seule chose dont un aventurier a besoin pour réussir, c'est d'avoir une bonne idée de la manière de penser du camp adverse. Ceci peut être acquis grâce à de longues années d'étude et d'expérience. Cela peut également se gagner en portant ces chaussures.
+
+PARAMETRES :
+
+Capacité d'équipement : Inverse l'alignement du porteur
+Poids : 2~
+
+@43 = ~Pieds Puants~
+@44 = ~Ses pieds puaient. Mais ils puaient vraiment. Après plusieurs années de remarques inamicales et de demandes qu'il s'assoie ailleurs, peu importe où, mais ailleurs, il a décidé de tirer avantage de la situation. On l'appelle toujours Pieds Puants, mais avec respect, désormais.
+
+PARAMETRES :
+
+Spécial : lance Nuage Puant une fois par jour
+Poids : 4~
+
+@45 = ~Bottes de Visite~
+@46 = ~Après avoir écouté les plaintes de sa mère à propos de l'odeur qu'Aurora et ses compagnons ramenaient avec eux à chaque visite, Aurora fit fabriquer plusieurs paires de ces bottes. A la différence des bottes habituelles, elles ne sentent pas mauvais après une journée de marche. En fait, elles permettent de passer directement de la rue à la maison sans avoir à se laver soigneusement auparavant.
+
+PARAMETRES :
+
+Spécial : lance Zone d'Air Pur une fois par jour
+Poids : 4~
+
+@47 = ~Bottes pour Rafraîchir la Mémoire~
+@48 = ~Un mage avec lequel Aurora a voyagé un temps se plaignait continuellement de ne pas avoir assez de doigts pour porter tous les anneaux susceptibles de l'aider, et que ses amulettes ne cessaient de s'emmêler. C'est donc pour lui qu'Aurora a fait faire ces bottes.
+
+PARAMETRES :
+
+Capacité d'équipement : permet de mémoriser 2 sorts de niveau 1 supplémentaires et 1 sort de niveau 2 supplémentaire
+Poids : 4
+Utilisable par :
+ Mage
+ Barde~
+
+@49 = ~Bottes du Léopard~
+@50 = ~Le porteur de ces bottes peut être assuré que quoi qu'il arrive de travers pendant la journée, au moins, il porte de superbes chaussures.
+
+PARAMETRES :
+
+Poids : 3~
+
+@51 = ~Bottes Elégantes du Guépard~
+@52 = ~Au départ, les Pattes du Guépard étaient la propriété d'assassins meurtriers qui prenaient plaisir à pourchasser leur proie. Ils se déplaçaient si vite que leurs cibles n'avaient bien souvent pas l'occasion de réagir, même en étant à cheval. Ils étaient très impressionnants, bien entendu, mais les assassins n'avaient aucun sens esthétique. C'est pourquoi Aurora a fait fabriquer une paire similaire mais avec un motif en peau de guépard plus élégant. Elles augmentent la vitesse du porteur tout en étant appréciable à l'oeil.
+
+PARAMETRES :
+
+Capacité d'équipement : vitesse de déplacement multipliée par 2
+Poids : 3~
+
+@53 = ~Mocassins de Marv le Fou~
+@54 = ~La phrase favorite de Marv le fou était "Vous n'êtes paranoïaque que si personne ne vous poursuit." Il était tellement persuadé d'être pourchassé par des légions d'ennemis qu'il a fabriqué ces mocassins pour l'aider à mener ses combats. Ils aident le porteur à repérer son ennemi avant que l'ennemi ne le repère. Malheureusement, ils transmettent également au porteur une partie de la célèbre nervosité de Marv.
+
+PARAMETRES :
+
+Spécial : Vitesse d'attaque réduite à zéro ; 40% de chance d'être sous l'effet de la panique pour 6 rounds.
+Poids : 2~
+
+@55 = ~Bottes vertes pour tous les Jours~
+@56 = ~Ce sont des bottes confortables et robustes destinées à être portées tous les jours. Aurora les a teintes dans sa couleur préférée, le vert, et les a conçues spécialement pour résister aux attaques perforantes.
+
+PARAMETRES :
+
+Capacité d'équipement : CA -2 contre les armes perforantes
+Poids : 4~
+
+@57 = ~Lotion pour Mains~
+@58 = ~Aurora ne jure que par cette lotion qu'elle utilisait quand elle était encore une aventurière. Elle permet de garder les mains douces et souples, évitant les maladresses causées par des gerçures trop importantes.
+
+PARAMETRES :
+
+Spécial : +1 à la dextérité pendant 6 tours
+Poids : 1~
+
+@59 = ~Bottes Roses de Furtivité~
+@60 = ~Ces bottes sont idéales pour ceux qui veulent se déplacer en silence. Aurora les a teintes spécifiquement à la demande d'Imoen.
+
+PARAMETRES :
+
+Capacités d'équipement :
+  +20% au déplacement silencieux
+  +15% pour se cacher dans l'ombre
+Poids : 4
+Utilisable par :
+ Voleur
+ Rôdeur
+ Moine~
+
+@61 = ~Baume Musculaire~
+@62 = ~Il s'agit d'un baume pour calmer la douleur ou pour les muscles tendus.
+
+PARAMETRES :
+
+Spécial: Fatigue réduite à 0
+Poids : 1~
+
+@63 = ~Les bijoux portés aux oreilles sont communs dans beaucoup de cultures. Quelques rares boucles d'oreille contiennent un enchantement qui leur confère diverses propriétés magiques. Ces boucles d'oreille sont très recherchées, spécialement par les aventuriers.~
+
+@64 = ~Chaussures~
+@65 = ~Les cordonniers fabriquent habituellement à la main des chaussures et mocassins comme ceux-là. Les chaussures communes sont faites à partir d'un patron, mais les bonnes chaussures sont faites sur mesure pour le pied d'un individu.
+
+PARAMETRES :
+
+Poids : 2~
+
+@66 = ~Bottes de Bar~
+@67 = ~Parfois, l'aventurier fatigué a besoin d'une bonne boisson forte et d'un bon lit moelleux dans lequel il pourra s'en remettre  par la suite. Tout ce que le porteur a à faire, c'est claquer trois fois les talons des bottes ensemble et tout le groupe sera transporté dans l'auberge de son choix.
+
+PARAMETRES :
+
+Spécial : Téléporte le groupe dans l'auberge de son choix (3 fois par jour)
+Poids : 4~
+
+@68 = ~Bottes à lacets verts~
+@69 = ~Aurora a demandé la fabrication de ces bottes très peu de temps après avoir perdu sa première paire de "bottes d'aventurier" - dès qu'elle a pu se les offrir, en fait. Lacer une paire de bottes aussi belle donne un bon départ à chaque jour, et elles procurent une aide supplémentaire en augmentant les défenses du porteur. Suite aux nombreux compliments de ses clients, Aurora a produit de nouvelles paires de ces bottes et les a distribuées plus largement.
+
+PARAMETRES :
+
+Capacité d'équipement : -1 à la CA, -1 aux jets de sauvegarde
+Poids : 4~
+ 
+@70 = ~Robe~
+@71 = ~Ceci est une robe légère ordinaire, faite de lin tissé avec des manches de la plus précieuse des soies. Il semble que ce vêtement soit fait pour toutes les occasions et s'accorde avec toutes les professions.
+
+PARAMETRES :
+
+Poids : 3~
+
+@72 = ~Robe verte~
+@73 = ~En récompense pour les services rendus en tant que guides et gardes, et en marque d'amitié, un magicien a enchanté ces robes pour les trois membres de sa garde rapprochée d'élite. Les robes fournissent une protection contre des formes de magie variées, et rendent le porteur plus agile. En plus, elles font ressortir la couleur des yeux du porteur.
+
+PARAMETRES : 
+
+Capacité d'équipement :
+  CA : base fixée à 4
+  +15 % de résistance magique
+  +1 à la dextérité
+Poids : 3~
+
+@74 = ~Bottes Jaunes de tous les Jours~
+@75 = ~Ce sont de confortables et solides bottes destinées à être portées tous les jours. Aurora a teinté celles-ci en jaune, et les a conçues spécifiquement pour les rendre résistantes aux attaques contondantes.
+
+PARAMETRES :
+
+Capacité d'équipement : CA -2 contre les armes contondantes
+Poids : 4~
+
+@76 = ~Bottes Bleues de tous les Jours~
+@77 = ~Ce sont de confortables et solides bottes destinées à être portées tous les jours. Aurora a teinté celles-ci en bleu foncé, et les a conçues spécifiquement pour les rendre résistantes aux attaques tranchantes.
+
+PARAMETRES :
+
+Capacité d'équipement : CA -2 contre les armes tranchantes
+Poids : 4~
+
+@78 = ~Boite à chaussures en poirier~
+@79 = ~Cette boite solide et légère est faite d'un bois dur aux fines nervures et ses arêtes sont renforcées par du fer. Elle est compacte et semble très pratique.~
+@80 = ~Aurora a conçu cette boite pour contenir ses nombreuses paires de chaussures et de bottes. Elle est solide, compacte et est constituée de poirier verni renforcé de fer. Elle a demandé à un ami magicien de la lui enchanter pour qu'elle s'ouvre sur un mini-plan restreint. Une grande quantité de bottes peut être placée dans la boite, son poids, par contre, reste le même.
+
+PARAMETRES :
+
+Capacité : 40 bottes ou chaussures
+Poids : 2~
+
+@81 = ~Rapière d'acide +2~
+@82 = ~Cette rapière ornée à la garde ronde est faite d'un alliage inhabituel de bronze et d'adamantite plus dur que l'acier. La garde, assombrie par le temps, est gravée à l'acide avec des motifs en or et en argent et rehaussée d'un blason inconnu. Bien que la lame puisse ronger tout ce qu'elle touche, l'arme en elle-même résiste à la corrosion. Personne ne sait d'où sort la lame à l'origine, mais elle figure dans de nombreux contes et légendes. Des pirates, des chasseurs de trésors et même des voleurs peu recommandables convoitent cette rapière depuis longtemps.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : 1D6 +1, +2 dégâts d'acide
+Type de dégâts : perforant
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : épée courte
+Type : arme à 1 main
+Force nécessaire : 5
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
+
+@83 = ~Coutelas de Pirate +2~
+@84 = ~Cette lame redoutable d'acier courbe appartint autrefois au célèbre Dhavrag le Noir, fléau de la Côte des Epées. Avec cette épée constamment à la main, le roi des pirates pilla de nombreux villages entre l'Amn et EauProfonde, la plupart du temps dans une rage furieuse. Malheureusement pour lui (et heureusement pour pratiquement tous les autres), il la perdit en la pariant dans un jeu de cartes et elle fut subtilisée durant la bagarre d'ivrognes qui s'ensuivit. Le coutelas est si tristement célèbre que le moindre contact peut provoquer la fuite de sa victime dans une terreur abjecte.
+
+PARAMETRES :
+
+Capacité d'équipement : dextérité +1
+Capacités spéciales :
+  10% de chance d'infliger Horreur à la cible
+  10% de chance de provoquer Rage Berserk chez le porteur
+
+TAC0 : +2
+Dégâts : 1D6 +2
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 8
+Non utilisable par :
+ Clerc
+ Mage~  
+
+@85 = ~Pierre Ionique Noisette~
+@86 = ~Le bretteur Aloysius D'Abetot voyagea autrefois à travers les Royaumes, des sommets enneigés aux déserts, cherchant à piller tout ce qui tomberait dans sa ligne de mire. Il comptait sur cette pierre porte-bonheur d'un autre monde pour conserver le crâne intact pendant ses pillages. Après un jour particulièrement bien rempli de rapines en tous genres, il s'assoupit dans le jardin d'une taverne avec une serveuse, la pierre à l'abri dans sa bourse (c'est ce qu'il pensait, du moins). Hélas, pendant sa sieste, la pierre a dû s'égarer, puisqu'il s'aperçut de sa disparition, ainsi que de celle de la serveuse, à son réveil. Bien qu'Aloysius et ses méfaits soient oubliés depuis longtemps, la pierre a changé de main pour transmettre sa chance à un nouveau maître. Etrangement, elle ressemble beaucoup à un gland.
+
+PARAMETRES :
+
+Capacités d'équipement : Chance +1 ; protège contre les coups critiques
+Poids : 1~
+
+@87 = ~Bottes de rapidité : "Les pattes du Guépard"
+Ces bottes enchantées furent un jour la propriété d'un ordre d'assassins meurtriers, aimant beaucoup traquer leur proie. Ils se déplaçaient à une vitesse telle que leurs cibles n'avaient souvent pas la possibilité de réagir, même lorsqu'elles chevauchaient. Avec le temps, la notoriété de l'ordre s'est répandue, et bien que son nom ne fut jamais connu, tout le monde apprit à craindre les derniers mots qu'entendaient leurs victimes : "Vous pouvez vous cacher, mais vous ne pouvez pas vous enfuir !"
+
+PARAMETRES :
+
+Capacité d'équipement : vitesse de déplacement multipliée par 2
+Poids : 4~
+
+@88 = ~Bottes d'évitement : "Instinct du chat"
+La magie contenue dans ces bottes est destinée spécifiquement à détecter les projectiles qui ciblent le porteur et l'aide à les éviter. Elles ont été commandées à la base par les instructeurs d'une académie d'archers, fatigués de souffrir "d'accidents" provoqués par les mains de leurs étudiants les moins expérimentés.
+
+PARAMETRES :
+
+Capacité d'équipement : CA -5 contre les armes de jet
+Poids : 4~
+
+@89 = ~Bottes de terre : "Présent de Talos"
+En des temps immémoriaux, la Forteresse de la Péninsule du Pic de l'Etoile fut placée sous le joug direct de Talos, après qu'un Héraut de la Tempête qu'il favorisait y fut tué. Talos promit que la cité serait détruite par des tremblements de terre, submergée par des raz-de-marée et que ses citoyens périraient dans les tempêtes. Une seule paire de ces bottes fut accordée pour s'assurer qu'une unique personne y survivrait, de manière à colporter l'histoire de son courroux. Plus tard, les voyageurs en quête de fortune dans la cité en ruine tombèrent sur un vieil homme, que la destruction incessante autour de lui avait rendu fou. Les bottes qu'il portait colporteraient dans des pays éloignés la légende de la cité consumée par la rage d'un Dieu. Au fil des années, d'autres ont trouvé ces bottes utiles, et ont demandé à des mages habiles d'en fabriquer d'autres paires.
+
+PARAMETRES :
+
+Capacité d'équipement : +50% de résistance à l'électricité
+Poids : 4~
+
+@90 = ~Bottes de folie dévastatrice~
+@91 = ~Bottes de folie dévastatrice : "Furie de Ruathym"
+Valthjof de Ruathym était un adepte chamane des hommes du nord. Il était si habile qu'il pouvait invoquer des animaux sauvages et infuser leur esprit dans des objets inanimés. Ainsi, il enchanta plusieurs paires de bottes pour l'équipage du drakkar le Serpent de Glace. Ces pillards saccagèrent les îles Sélénae au sud mais ne s'arrêtèrent pas là. A cause de la folie dévastatrice que leur conféraient les bottes, leur soif de sang ne s'étencha pas avant que chacun d'entre eux soit raide mort dans les coins les plus reculés des Royaumes.
+
+PARAMETRES :
+
+Spécial : 1 attaque supplémentaire par tour pendant 20 secondes
+Pénalités : CA +8 ; +6 aux jets de sauvegarde ; capacités et sorts de voleur désactivés
+Poids : 3~
+
+@92 = ~Bottes de vitesse de la Foudre : "Talon du Lâche"
+Ces bottes de vitesse modifiées ont été créées à l'origine avec l'intention d'augmenter la vitesse du porteur au-delà de l'effet des bottes de vitesse normales. Lorsqu'il les utilise, le porteur voit sa capacité de mouvement augmentée comme s'il était sous l'effet combiné des bottes de vitesse normales et d'un sort de hâte. Malheureusement, le porteur ne peut pas attaquer ni lancer de sorts. Leur surnom trahit leur utilisation la plus évidente: s'enfuir.
+
+PARAMETRES :
+
+Capacité d'équipement : capacité de mouvement fixée au maximum
+Pénalité : Incapacité d'attaquer ou de lancer un sort
+Poids : 3~
+
+@93 = ~la légende soutient que le mage qui a créé ces bottes magiques a piégé les esprits de véritables gargouilles dedans. Cependant, lorsque le magicien sans nom était en train de construire cette troisième paire de bottes, une des femelles d'une gargouille apparut et se vengea de lui.
+
+PARAMETRES :
+
+Capacité d'équipement : Immunisé aux attaques sournoises
+Spécial : Peau de pierre 2 fois par jour (2 peaux à chaque utilisation)
+Poids : 1~
+
+@94 = ~Installation d'Aurora's Shoes pour Tutu en cours.~
+@95 = ~Installation d'Aurora's Shoes pour Baldur's Gate Trilogy.~
+@96 = ~Installation d'Aurora's Shoes pour Baldur's Gate II.~
+@97 = ~Ce mod n'est pas compatible avec votre jeu. Merci de verifier vos repertoires d'installation et d'essayer a nouveau.~
+
+@98 = ~Bottes de Guerre~
+@99 = ~Ces bottes en plaques de métal solides sont émaillées de topaze. Elles ont été retaillées à partir des Bottes de Bravoure et des Bottes de Bataille. Ainsi, elles procurent à leur porteur une protection contre toutes les formes de peur. En plus, elles contiennent un enchantement qui confère à leur porteur un avantage supplémentaire sur ses opposants au coeur de la bataille.
+
+PARAMETRES :
+
+Capacité d'équipement : Protection contre la Peur
+TAC0 : +2
+Poids : 4~
+
+@100 = ~Vous verrez que mon épée est toujours aiguisée !~ [AGAU001] //ATTACK1 
+@101 = ~Jamais le temps de s'ennuyer !~ [AGAU002] //BATTLE_CRY1
+@102 = ~Avec ces bottes ? Vous n'avez aucune chance !~ [AGAU003] //BATTLE_CRY2
+@103 = ~Je n'ai pas perdu mon doigté !~ [AGAU004] //CRITICAL_HIT
+@104 = ~Mince !~ [AGAU005] //CRITICAL_MISS
+@105 = ~Ouf !~ [AGAU007] //DAMAGE
+@106 = ~Cours tant qu'il te reste tes jambes !~ [AGAU008] //DIALOGUE_HOSTILE
+@107 = ~C'était amusant.~ [AGAU009] //DYING
+@108 = ~Ugh ! Je me rouille.~ [AGAU006] //HURT
+@109 = ~Gagner les services de Sir Sarles pour le temple
+
+Unger Hilldark m'a dit que son dernier chargement d'Illithium avait été volé par un gnome du nom de Neb. Ungar ne peut pas récupérer l'illithium lui-même car la parole d'un duergar n'est pas prise en considération en Amn. Si je veux récupérer de l'illithium véritable, je vais devoir rendre justice auprès de ce bandit moi-même. Unger m'a dit que Neb avait acheté une maison dans le district du pont, indiquée comme "maison abandonnée" sur la carte. Le nom de "Neb" semble étrangement familier.~  
+@110 = ~Gagner les services de Sir Sarles pour le temple
+
+Je suis arrivé à obtenir les services de l'artiste Sire Sarles pour l'Eglise... bien que cela n'ait pas été facile. Il a demandé à utiliser de l'illithium pur, que j'ai dû obtenir auprès d'un gnome assassin du nom de Neb. En tout cas, la tâche est effectuée.~
+@111 = ~Filez de ma maison, vous voulez bien. Un honnête citoyen, je ne suis rien d'autre. Juste un gnome tentant de mener tranquillement sa vie.~
+@112 = ~C'est typique de cette ville. Je ne suis qu'un pauvre homme d'affaire, mais je vais me retrouver en prison juste à cause de ma face sombre. L'ordure qui m'a volé ressemble à un gnome, il est donc accueilli à bras ouverts.~
+@113 = ~Ceci est la tête du gnome Neb. On a rarement vu un être aussi abject arpenter le pays.~ 
+@114 = ~J'ai en ma possession la tête du gnome Neb, le tueur d'enfants. J'espère une récompense pour vous avoir rendu service en le tuant.~
+@115 = ~J'ai en ma possession la tête du gnome Neb le tueur d'enfants. J'espère une récompense pour l'avoir tué.~
+@116 = ~J'ai ici la tête d'un criminel, un gnome du nom de Neb. Est-ce bien à vous que je dois m'adresser ?~
+@117 = ~<CHARNAME> ! C'est... c'est le même gnome qui tuait des enfants à la Porte de Baldur ! Je me souviens ! Pour l'équilibre, sa tête doit être ramenée aux autorités !~
+@118 = ~Bouh se souvient ! La Porte de Baldur ! Neb le tueur d'enfants ! Tu vas mourir, gnome, tu vas mourir !! RAAAAAGGGGGHHHH !!~
+@119 = ~Je me souviens de toi ! La Porte de Baldur ! Neb le tueur d'enfants ! Tu vas mourir, gnome, tu vas mourir !! RAAAAAGGGGGHHHH !!~
+@120 = ~Karaea Harfurthock~
+@121 = ~Je pensais que vous ne demanderiez jamais !~ [AGKA001] //INITIAL_MEETING
+@122 = ~Je suis fatiguée. Et je dois vraiment changer de... bottes.~ [AGKA002] //TIRED
+
+@123 = ~Soyez prêts ! Ca va faire mal !~ [AGKA003] //BATTLE_CRY1
+@124 = ~Dispersez-vous ! J'arrive !~ [AGKA004] //BATTLE_CRY2
+@125 = ~Unghhh !~ [AGKA005] //DAMAGE
+@126 = ~Vraiment ?!~ [AGKA006] //DYING
+@127 = ~Unghh... Si je meurs, c'est fini entre nous!~ [AGKA007] //HURT
+@128 = ~J'y serai !~ [AGKA008] //SELECT_COMMON1
+@129 = ~Oui ?~ [AGKA009] //SELECT_COMMON2
+@130 = ~(glousse) Je ne m'y attendais pas !~ [AGKA010] //CRITICAL_HIT
+@131 = ~Oups ! Ce n'est pas ce que je voulais faire !~ [AGKA011] //CRITICAL_MISS
+@132 = ~Ooh ! Je dois recommencer maintenant !~ [AGKA012] //SPELL_DISRUPTED
+@133 = ~Confitures et bottes de Karaea~
+@134 = ~Tomthal Harfurthock~
+@135 = ~Hmph.~ [AGTO001] //INITIAL_MEETING
+@136 = ~Je vais vous tailler en morceaux !~ [AGTO002] //BATTLE_CRY1
+@137 = ~Meurs, vieille bique.~ [AGTO003] //BATTLE_CRY2
+@138 = ~Je vais te cogner jusqu'à ce que ta cervelle de crétin sorte !~ [AGTO004] //ATTACK1
+@139 = ~Ouf.~ [AGTO005] //DAMAGE
+@140 = ~Arrrgh...~ [AGTO006] //DYING
+@141 = ~Ah, bon sang.~ [AGTO007] //HURT
+@142 = ~Eh bien ?~ [AGTO008] //SELECT_COMMON1
+@143 = ~Et ?~ [AGTO009] //SELECT_COMMON2
+@144 = ~Hé hé hé. Prends ça !~ [AGTO010] //CRITICAL_HIT
+@145 = ~Bah !~ [AGTO011] //CRITICAL_MISS
+@146 = ~Malédiction !~ [AGTO012] //SPELL_DISRUPTED
+@147 = ~Dague de Jet empoisonnée~
+@148 = ~Carriole~ 
+@150 = ~Bottes Gnomiques~
+@151 = ~Ces bottes basses ont été assemblées à partir du cuir le plus robuste. La pointe remonte légèrement, et les semelles ont été conçues pour garder un bon équilibre sur tous les terrains, que ce soit sous terre ou en surface.
+
+PARAMETRES :
+
+Capacité d'équipement : Immunise contre enchevêtrement, graisse et toile d'araignée  
+Poids : 2~
+
+@152 = ~Rubis~
+@153 = ~Le rubis est une pierre d'oxyde d'alun cramoisi allant du clair au foncé, la plus dure après le diamant. Plus le rouge est profond, plus la pierre a de la valeur, ce qui fait que les variations les plus précieuses sont facilement identifiables. Les meilleurs rubis en termes de qualité viennent des profondeurs de la terre. Les rubis sont censés apporter de la chance, si on en croit les superstitions de la Mer des Etoiles Déchues. Dans les recherches magiques, les rubis sont souvent pilés pour produire de la poussière ou des encres magiques. Ils sont également associés aux combats contre les morts-vivants, c'est pourquoi ils décorent souvent les objets utilisés dans de telles luttes.~
+@154 = ~Rubis Etoilé~
+@155 = ~Ce magnifique rubis est une pierre d'une valeur inestimable. L'étoile en son centre rayonne à des angles différents quand on tourne la pierre, lançant des rayons de lumière rouge sang dans toutes les directions. Une gemme de cette rareté et de cette beauté pourrait servir de rançon pour un prince.~
+@156 = ~Pioche~
+@157 = ~La pioche militaire trouve ses origines dans le simple outil de mineur. Elle est constituée d'une lourde pointe montée sur un manche. Son rôle en combat est de perforer les lourdes armures, même en plaques complètes.
+
+PARAMETRES :
+
+Dégâts : 2D4
+Type de dégâts : perforant
+Poids : 6
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à 1 main
+Force nécessaire : 8
+Non Utilisable Par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+
+@158 = ~Pioche Svirfnebline~
+@159 = ~Les gnomes des profondeurs adorent ces armes pour des raisons évidentes : elles sont idéales pour extraire de précieuses gemmes du sol. Les pioches font également des merveilles lorsqu'il s'agit de percer les armures lourdes, même en plaques. Les Svirfnebelins fabriquent leurs pioches avec un alliage dur mais léger dont les propriétés sont inconnues. Ce métal garde un tranchant intact même après un minage vigoureux ou un combat.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 2D4 +1
+Type de dégâts : perforant
+Poids : 5
+Facteur de vitesse : 6
+Type de compétence : hache
+Type : arme à 1 main
+Force nécessaire : 7
+Non Utilisable Par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+
+@160 = ~Massue Svirfnebline~
+@161 = ~Cette arme inhabituelle se situe à mi-chemin etre la massue et la masse, avec certaines caractéristiques d'une étoile du matin. Sa tête sphérique est garnie de pointes de diverses tailles, que les gnomes des profondeurs utilisent pour travailler la pierre avec précision. La tête rejoint le manche en une seule pièce d'alliage métallique, sans la collerette propre à la masse. Du coup, cela se manie plus comme une massue que comme toute autre arme.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D6 +2
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+Non Utilisable Par :
+ Mage~
+
+@162 = ~Cette bouteille contient une décoction d'origine inconnue. On raconte qu'un aventurier de Scornubel a bu un jour un vin inconnu de ce style qui s'avéra être un vin de champignon fabriqué artisanalement provenant du Bois des Dents Aiguisées. L'homme disparut pendant une décennie et réapparut bien plus tard dans une cabane de pêcheur sur l'île de Snowdown, sans plus le moindre souvenir de qui il était. Avec un peu de chance, il ne s'agit pas d'un tel vin, mais il serait plus prudent de l'identifier avant de le boire.~
+
+@163 = ~Gogondy~
+@164 = ~Cette bouteille en fer martelé a un bouchon de granit et est décorée d'étranges runes dans le langage Svirfneblin. Elle contient un étrange liquide capiteux d'une couleur rouge foncée. Les gnomes des profondeurs chérissent ce vin pour ses propriétés mystiques, qui dépassent l'entendement des autres races.
+
+PARAMETRES :
+
+Spécial : Inconnu
+Poids : 1~ 
+
+@165 = ~Cette bouteille en fer martelé a un bouchon en grenat et est décorée d'étranges runes dans le langage Svirfneblin. Elle contient un étrange liquide à l'odeur âcre d'une couleur rouge foncée. Les gnomes des profondeurs chérissent ce vin pour son pouvoir de donner des visions. Ce vin en particulier a été adoucit pour permettre aux non-Svirfneblins de bénéficier de ces visions, bien que la nature exacte des visions varie d'un consommateur à l'autre.
+
+PARAMETRES :
+
+Spécial : Inconnu
+Poids : 1~ 
+
+@166 = ~Vin de Fraise~
+@167 = ~Il s'agit d'un vin de qualité supérieure provenant d'une récolte réalisée sur les berges du Lac Esmel il y a dix ans, pendant l'année du Ver (1356). Plutôt sec pour un vin de baies, il a un retour pétillant avec des soupçons de clou de girofle et de zeste d'orange. Son arôme évoque les fraises fraîches, les chênes secs et la pluie du printemps. Elégant et moyennement charpenté, il offre une chance rare de se détendre au milieu de nulle part. On dit qu'il se marrie exceptionnellement bien avec le faisan Calishite.
+
+PARAMETRES :
+
+Spécial :
+  +20% d'Ivresse pendant 3 tours
+  Résistance à la peur pendant 3 tours
+  Charisme +1 ou -1 (50% de chance pour chacun)
+Poids : 1~
+
+@168 = ~Baies~
+@169 = ~De nombreuses sortes de baies poussent à travers Abeir-Toril, de la plus commune des mûres à la très rare baie solik. Certaines baies sont empoisonnées, il est donc sage de chercher à identifier les baies avant de les croquer.~
+
+@170 = ~Groseilles~
+@171 = ~Les groseilles sont originaires de l'ouest de Féérune, et fleurissent d'EauProfonde à Chult en Unther oriental. Bien qu'un peu amères, acides et aigres lorsqu'elles sont crues, les groseilles sont très convoitées pour leurs propriétés nutritionnelles. Beaucoup de Fééruniens les mangent fraîches et les utilisent aussi dans les tartes, tourtes et confitures.
+
+PARAMETRES :
+
+Spécial :
+  50% de chance de soigner 5 points de vie
+  25% de chance de réduire la fatigue de 50%
+  25% de chance de régénérer 1 point de vie par round pendant 1 tour
+Poids : 0~
+
+@172 = ~Tarte~
+@173 = ~Les tartes sont de larges pâtisseries habituellement remplies de fruits, bien que certaines sont faites avec de la crème, des épices et d'autres substances bien plus exotiques. Celle-ci a l'air délicieuse à la vue comme à l'odorat.~
+
+@174 = ~Tarte aux groseilles~
+@175 = ~La tarte préférée de Karaea dérive d'une recette qu'elle a apprise peu de temps après son arrivée à la surface. Cela dit, depuis, elle l'a modifiée pour en faire sa recette personnelle à part entière. Cette tarte sucrée plaît dès la première bouchée.
+
+PARAMETRES :
+
+Spécial :
+  Fatigue fixée à 0
+  Régénère 1 point de vie par round pendant 5 tours
+  Diminution de 5 aux jets de sauvegarde pendant 5 tours
+Poids : 1~
+
+@176 = ~Pain et Confiture~
+@177 = ~Cette épaisse tranche de pain fraîchement sortie du four est couverte d'une couche abondante de beurre crémeux elle-même recouverte d'une généreuse cuillérée de confiture. C'est un plaisir simple et réconfortant.
+
+PARAMETRES :
+
+Spécial : Fatigue -50%
+Poids : 1~
+
+@178 = ~Confiture~
+@179 = ~C'est un bocal de confiture. Cela pourrait être n'importe quel goût - vous ne saurez jamais si vous n'y goûtez pas !~
+
+@180 = ~Beurre de Pomme~
+@181 = ~Les pommes croquantes et acides, ramassées à la fin de l'automne et épicées avec le mélange secret de Karaea (qui contient, c'est certain, largement plus qu'une trace de noix de muscade) font une confiture vraiment délicieuse. Lorsqu'on ouvre le bocal, l'odeur qui s'en dégage rappelle agréablement au voyageur la maison, le foyer et la famille.
+
+PARAMETRES :
+
+Spécial :
+  Guérit la maladie
+  Réduit l'ivresse de moitié
+Poids : 1~
+
+@182 = ~Confiture de mûres sauvages~
+@183 = ~Les mûres poussent de façon sauvage à travers la plus grande partie nord de Féérune, facilitant la tâche des fabricants de confitures perspicaces pour en choisir les meilleures. Seules les baies les plus noires et les plus mûres ont été utilisées pour cette confiture exceptionnelle, la quintessence de la confiture.
+
+Si vous veniez à tâcher accidentellement vos vêtements, versez de l'eau bouillante sur la zone tachée et faites-la sécher au soleil. Ou alors, vous pouvez vous procurer une teinture violette, peu chère, chez votre teinturier local et vous pourrez donner à vos vêtements un tout nouveau style.
+
+PARAMETRES :
+
+Spécial : Guérit le poison
+Poids : 1~
+
+@184 = ~Confiture de Myrtilles~
+@185 = ~Introduite par certains des premiers explorateurs de Maztica, la myrtille s'est répandue rapidement à travers le nord de la Côte des Epées. Les fabricants de confiture l'ont rapidement ajoutée à leur répertoire. Une récolte exceptionnellement sucrée de myrtilles, en direct des champs, est entrée dans la composition de cette confiture délectable. Sucrée, avec juste une pointe d'acidité rafraîchissante, elle vous donne de l'énergie dès que vous la goûtez. 
+
+PARAMETRES :
+
+Spécial :
+  Constitution +1 pendant 2 tours
+  Guérit de la débilité mentale
+Poids : 1~
+
+@186 = ~Confiture de Baies Nourricières~
+@187 = ~Une combinaison ingénieuse de sorcellerie et de cuisine est à l'origine de cette délicieuse confiture. Une seule bouchée et vous vous sentez tout de suite mieux.
+
+PARAMETRES :
+
+Spécial : Soigne 18 points de vie
+Poids : 1~
+
+@188 = ~Confiture d'Airelles~
+@189 = ~les airelles poussent dans les climats froids, comme les îles Sélénae et le Val de Bise. Les fruits rouges sont plutôt acides, mais sont cuisinés et sucrés pour en faire d'excellentes confitures, jus et sirops. Les gens du nord chérissent ces baies pour leurs propriétés bien utiles dans le nord glacial.
+
+Karaea a seulement commencé ses expérimentations avec ces fruits tout récemment, utilisant des recettes empruntées à d'autres. Le résultat est une confiture à laquelle on peut difficilement résister qui emplira de chaleur votre coeur (si vous en avez un). 
+
+PARAMETRES :
+
+Spécial :
+  Protection contre le froid +65% pendant 2 tours
+  5% de chance de provoquer une folie temporaire (Berserk) pendant 2 tours
+Poids : 1~
+
+@190 = ~Confiture de Mûres~
+@191 = ~On pense que la mûre trouve ses origines dans le sud rayonnant, bien qu'elle soit si répandue maintenant qu'il n'est plus possible de déterminer le point exact de son origine. La confiture sucrée, violet foncé, issue du fruit vous met l'eau à la bouche.
+
+Malheureusement, si le fruit mûr constitue un en-cas sain, le fruit encore vert provoque occasionnellement des hallucinations. Vous pouvez tentez votre chance avec cette confiture.
+
+PARAMETRES :
+
+Spécial :
+  Protection contre le feu +65% pendant 2 tours
+  5% de chance de causer des hallucinations (Horreur) pendant 2 tours
+Poids : 1~
+
+@192 = ~Confiture de Framboises~
+@193 = ~Originalement importée de la lointaine Koryo à l'est et du bassin d'Ama, la framboise s'est répandue petit à petit vers l'ouest pour devenir l'une des baies les plus populaires de Féérune. Cette confiture a été faite à partir des framboises rouge rubis les plus délicates, ramassées à l'apogée de leur goût. Elle évoque les souvenirs des jours chauds d'été. Les propriétés bénéfiques de la confiture incluent une meilleure vue et une vision plus claire.
+
+PARAMETRES :
+
+Spécial :
+  Infravision pendant 2 tours
+  Guérit de l'aveuglement
+Poids : 1~
+
+@194 = ~Confiture de Fraises~
+@195 = ~Depuis que ce succulent fruit de Maztica a été introduit à Féérune, c'est l'un des favoris. Les gens de tous les styles l'ont adopté pour son excellence en confitures, tartes et même vins. Cette confiture, fabriquée uniquement avec les fraises les plus rouges et les plus mûres, saura se faire  apprécier par le plus blasé des palais.
+
+PARAMETRES :
+
+Spécial : Protection contre l'acide +50% pendant 2 tours
+Poids : 1~
+
+@196 = ~Confiture de Goji~
+@197 = ~Les baies de Goji sont populaires à Shou Lung, où les baies séchées sont ajoutées au riz au lait ou infusées pour faire du thé ou même de la bière. Cette baie rouge clair s'est répandue à l'ouest pour devenir populaire à Féérune, où elle pousse de façon sauvage dans les haies et peut être facilement ramassée par les marchands ambulants et les fabricants de confiture.
+
+PARAMETRES :
+
+Spécial :
+  75% de chance de restauration mineure
+  10% de chance de 25% de fatigue
+Poids : 1~
+
+@198 = ~Rapière~
+@199 = ~La rapière est une lame droite à double tranchant avec un bout pointu et une garde élaborée. Elle est conçue pour être une épée légère et perforante. Le terme "rapière" est souvent utilisé pour décrire une arme civile, par opposition aux épées plus lourdes et plus meurtrières des soldats et des mercenaires. Les rapières sont à la mode parmi les nobles et particulièrement parmi les duellistes et les escrimeurs.
+
+PARAMETRES :
+
+Dégâts : 1D6 +1
+Type de dégâts : perforant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : épée courte
+Type : arme à 1 main
+Force nécessaire : 5
+Non Utilisable Par :
+ Clerc
+ Druide
+ Mage~
+
+@200 = ~Sabre d'abordage~
+@201 = ~Le sabre d'abordage est une épée avec une large lame à un seul tranchant incurvée, attachée à une garde ronde. La lame est courte et lourde. Cette épée est privilégiée parmi les équipages de pirates et se trouve facilement dans les communautés portuaires, mais se fait rare dans les terres.
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 8
+Non utilisable par :
+ Clerc
+ Mage~
+
+@202 = ~Sac lesté~
+@203 = ~Cet objet à l'aspect plutôt inhabituel est constitué d'un sac en cuir lesté avec quelque chose de lourd, probablement du plomb. Le sac est noué à son ouverture et est entourée d'une lanière. De part sa taille et sa forme, il serait bien plus utile en tant qu'arme plutôt qu'en tant que sacoche pour transporter des objets de valeur.~
+ 
+@204 = ~Blackjack~
+@205 = ~Cette arme est connue sous plusieurs noms - le blackjack étant le plus connu, mais ceux qui connaissent ses utilisations l'appellent également "gourdin", "matraque", ou même "préserveur de vie". Cette petite arme, facilement dissimulable est constituée d'un poids en plomb entouré de cuir attaché à une lanière de cuir souple renforcée par un ressort. Lorsqu'il est utilisé correctement, le Blackjack inflige un minimum de dégâts, mais assomme les ennemis au lieu de les tuer. Par conséquent, cette arme est considérée comme une "approche plus humaine " par les voleurs désireux de délester leur malheureuse victime de ses objets de valeur sans pour autant recourir au meurtre.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : 1D3 -1
+Spécial : Rend l'ennemi inconscient
+Type de dégâts : poings
+Poids : 5
+Facteur de vitesse : 5
+Type de compétence : gourdin
+Type : arme à 1 main
+Dextérité nécessaire : 10
+Utilisable par :
+ Tous~
+
+@206 = ~Passe-partout~
+@207 = ~Le passe-partout est un outil essentiel pour les voleurs. Il s'agit d'une fine pointe de métal, avec une variété de courbes ou de dentelures utilisées pour ouvrir une serrure en l'absence de la clé adéquate.~
+
+@208 = ~Passe-partout en Bronze~
+@209 = ~Il s'agit d'un petit morceau fin en bronze ayant l'une de ses extrémités courbée et aplatie. C'est un outil essentiel pour le voleur habile désireux d'ouvrir des serrures sans avoir accès aux clés adéquates. Ce passe-partout est plutôt simple et a été fabriqué en bronze. Il conviendra probablement pour ouvrir les serrures opposant peu de résistance mais ne sera pas à la hauteur pour ouvrir des serrures de difficulté moyenne sauf, bien entendu, si le 'serrurier" est vraiment très habile.
+
+PARAMETRES :
+
+Capacité d'équipement : +10% en crochetage de serrures
+Dextérité nécessaire : 10
+Utilisable par :
+ Voleur~
+
+@210 = ~Masque~
+@211 = ~Un masque est porté habituellement pour se couvrir les yeux et parfois le visage entier. Son but est normalement de dissimuler l'identité du porteur des regards indiscrets. D'autres masques sont portés à des fins rituelles ou de protection et peuvent jouer des rôles lors de fêtes particulières ou de cérémonies religieuses.~
+
+@212 = ~Masque d'évasion~
+@213 = ~On pourrait dire que la meilleure façon d'éviter les poursuites est d'être méconnaissable. Ce masque brodé possède la faculté de pouvoir invoquer une aura magique sur l'environnement immédiat du voleur. Cet enchantement fait que la plupart des personnes ne regarderont pas deux fois en direction du porteur, un bénéfice d'une valeur inestimable pour les adeptes des larcins. Il a, cependant, un usage limité avant que les passants remarquent le déguisement et l'effet a également tendance à se dissiper après un moment.
+
+PARAMETRES :
+
+Capacité d'équipement : protège contre les coups critiques
+Spécial : Furtivité +50%
+Poids : 1
+Utilisable par :
+ Voleur~
+
+@214 = ~Bracelet~
+@215 = ~Un bracelet est un bijou porté autour du poignet. Typiquement, les bracelets sont fabriqués avec des bandes de métal ou des chaînes ; d'autres sont des suites de perles ou de gemmes. Certains bracelets sont enchantés pour avoir des pouvoirs protecteurs.~
+
+@216 = ~Bracelet de sagesse~
+@217 = ~On dit que cet entrelacs de perles argentées aurait été dédié par les elfes aquatiques à Sashelas des Profondeurs, le Seigneurs des Profondeurs Maritimes. Il confère à son porteur un bonus à la sagesse ainsi que la capacité de guérir les maladies trois fois par jour.
+
+PARAMETRES :
+
+Capacité d'équipement : sagesse +1
+Spécial : Guérison des maladies (3 fois par jour)
+Poids : 1~
+
+@218 = ~Epée Bâtarde +2, Lame de Glace~
+@219 = ~Cette lame finement ouvragée est froide au toucher et atteint pratiquement un mètre cinquante de longueur. D'étranges runes s'étendent le long de la gouttière, racontant une légende inconnue en langue nordique. La légende runique a transmis certaines propriétés du pays dont elle est originaire à son porteur. La garde d'une longueur d'une main et demie est entourée d'une bande de cuir croisée et lestée par un simple pommeau en fer en forme de médaillon.
+
+PARAMETRES :
+
+Capacité d'équipement : +10% de résistance au froid
+Bonus à la Classe d'Armure : 1
+
+TAC0 : +2
+Dégâts : 2D4 +2, 10% de chance de gagner 1 point en dégâts de froid
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 6
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Force nécessaire : 11
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+
+@220 = ~Broche~
+@221 = ~Les broches sont des bijoux décoratifs destinés à être attachés aux vêtements et portés sur ou près du cou. La plupart des broches sont faites en métal, souvent en argent ou en or mais parfois en bronze ou tout autre matériau. Les broches sont fréquemment décorées avec de l'émail ou des pierres précieuses. Elles peuvent être portées uniquement pour décorer ou peuvent avoir une fonction pratique comme pour faire tenir les capes. Certaines broches sont même enchantées dans un but précis.~ 
+
+@222 = ~Broche de Tempus~
+@223 = ~Cette broche décorative a été fabriquée pour prendre la forme d'une épingle tressée arborant une tête effroyable. Une barre qui se termine avec un visage à chaque extrémité est attachée à tout cela. La pièce entière est forgée à partir d'un alliage de bronze et émaillée d'or, et est destinée à être portée sur le cou en tant qu'attache de robe ou de cape. La pointe de la broche ressemble vaguement à une épée ou une dague en feu. En tant que tel, cela symbolise la foi en Tempus. On dit que quelques uns de ses gardes d'élite portent des broches de ce genre, et le Seigneur des Batailles accorde une bénédiction d'inspiration à des serviteurs d'une telle valeur.
+
+PARAMETRES :
+
+Capacité d'équipement : Mémorise 1 sort de prêtre de niveau 2 supplémentaire
+Sagesse nécessaire : 14
+Utilisable par :
+ Clerc (Neutre ou chaotique uniquement)~
+
+@224 = ~Hache de Bataille +2, Mordeuse d'Armure~
+@225 = ~Cette hache des régions du nord est un peu plus lourde qu'une ceinture ou une hache classique. La vieille tête de hache est sculptée d'un motif compliqué. Elle est également "barbue", ce qui signifie qu'elle a une longueur accrue à l'extrémité inférieure de la lame, ajoutant de la rigidité à l'arme pour les tâches de découpage. La barbe est également très pratique pour accrocher le bord des boucliers ennemis. Les guerriers des terres du nord décorent leurs armes d'inscriptions runiques qui identifient leur possesseur. Parce que les gens du nord pensent que les runes sont magiques, cela rend l'arme plus forte en combat.
+
+PARAMETRES :
+
+Capacité d'équipement :
+  5% de chance d'accrocher le bouclier ou un membre de l'ennemi (-1 de pénalité à la CA de la cible pendant 5 secondes)
+
+TAC0 : +2
+Dégâts : 1D8 +2
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 5
+Type de compétence : hache
+Type : arme à 1 main
+Force nécessaire : 10
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+
+@226 = ~Casque du Nord~
+@227 = ~Ce casque de bonne facture est gravé d'un motif complexe d'un côté à l'autre et autour de la couronne et de la protection nasale. Les plaques de joue à charnières sont ornées de dessins traditionnels représentant un loup. Cet exemplaire extraordinaire a une signification rituelle pour les gens du nord.
+
+PARAMETRES :
+
+Capacités d'équipement : 
+  Protège contre les coups critiques
+  +20% de résistance au froid
+
+Bonus à la Classe d'Armure : aucun
+Poids : 2
+Non Utilisable Par :
+ Mage
+ Voleur~ 
+
+@228 = ~Bâton d'Essaim d'Insectes +2~
+@229 = ~Ce bâton est extrêmement noueux et apparemment fabriqué à partir de deux essences différentes de bois qui ont poussé l'un dans l'autre. Il est couvert, sur la plupart de sa longueur, par des sculptures finement ciselées représentant des insectes ailés piqueurs et voraces (abeilles, mouches à chevreuil, taons, guêpes et tout ce qui y ressemble). Tout personnage prêtre (druide ou clerc) l'ayant en sa possession peut demander au bâton de créer un essaim d'insectes, utilisant du même coup une des charges du bâton.
+
+PARAMETRES :
+
+Capacités (Une charge) :
+Fléau d'insectes
+ Dégâts : 1 point de vie toutes les 2 secondes pendant 6 rounds
+ Spécial : Echec du sort ; Peur
+ Portée : champ de vision du lanceur
+
+TAC0 : +2
+Dégâts : 1D6 +2
+Type de dégâts : contondant 
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : armes contondantes
+Type : arme à 2 mains
+Force nécessaire : 5
+Utilisable Par :
+ Clerc
+ Druide~ 
+
+@230 = ~Anneau d'Immunité~
+@231 = ~Cet anneau offre une immunité à tous les sorts, attaques et détections aux créatures invisibles de façon permanente.~
+
+@232 = ~Elixir Excellent~
+@233 = ~De tous les contes sur la magie puissante qui ont émergé de Halruaa, la légende des élixirs excellents est peut-être la plus remarquable. La première concoction d'élixir excellent pourrait théoriquement trouver ses origines à Néthéril même. Indépendamment de leurs origines, ces liquides possédaient une nature chaotique qui rendait leur emploi risqué et donc peu intéressant. La formule de leur création a finalement été perdue et oubliée. Certaines caches de ces mixtures imprévisibles réapparaissent de temps en temps, cependant.
+
+Un élixir excellent est un liquide translucide de couleur bleu-vert qui scintille et tourbillonne avec douceur dans un mouvement sans fin. Son goût est décrit comme un bon vin sur le feu. Les effets possibles d'un élixir précis sont aléatoires, allant de la mort immédiate à l'acquisition d'une ou plusieurs capacités innées.
+
+Spécial : Inconnu (Effet permanent aléatoire)
+Poids : 1~
+
+@234 = ~Boîte à Chaussures en Acajou~
+@235 = ~Karaea a conçu cette boite pour ranger ses nombreuses chaussures et bottes. Elle est compacte, solide, faite d'acajou verni et ses arêtes sont renforcées en fer. Elle a demandé à un ami magicien de lui enchanter pour qu'elle s'ouvre sur un mini-plan indépendant. Une grande quantité de bottes peut être placée dans la boîte mais son poids, par contre, reste le même.
+
+PARAMETRES :
+
+Capacité : 40 bottes ou chaussures
+Poids : 2~
+
+@236 = ~Boîte à Chaussures en Ebène~
+@237 = ~Cette boite a été conçue pour ranger de nombreuses chaussures et bottes. Elle est compacte, solide, faite d'ébène vernie et ses arêtes sont renforcées en fer. Un magicien l'a enchantée pour qu'elle s'ouvre sur un mini-plan indépendant. Une grande quantité de bottes peut être placée dans la boîte mais son poids, par contre, reste le même.
+
+PARAMETRES :
+
+Capacité : 40 bottes ou chaussures
+Poids : 2~
+
+@238 = ~Armes de mêlée de Carnaval~
+@239 = ~Magasin de Lily la Noire~
+@240 = ~Magasin du Silence~
+@241 = ~Bonjour !~ [T-SVA01A]
+@242 = ~Oui.~ [T-SVA01B]
+@243 = ~Je dois vraiment vous parler.~ [T-SVA01C]
+@244 = ~Ho ha ha ha !~ [T-SVA01D]
+@245 = ~Tuez cette vermine ! Attrapez-les !~ [T-SVA02A]
+@246 = ~Sang et enfers !~ [T-SVA02B]
+@247 = ~Mes pouvoirs vont vous réduire en poussière !~ [T-SVA02C]
+@248 = ~Meurs !~ [T-SVA02D]
+@249 = ~A la prochaine !~ [T-SVA03A]
+
+@250 = ~Bottes Gobelines~
+@251 = ~Il y a plus d'un siècle, la chamane gobeline Kemunshalzeka obligea un loup vampirique effrayant à la servir. Lors d'une bataille acharnée avec les Elfes Sylvains, une rafale de flèches enchantées tua le loup. Kemunshalzeka vainquit les elfes avec sa magie puissante et après la bataille, elle dépeça le corps du loup pour en faire ces bottes. Bien entendu, rien de tout ceci n'arrêta vraiment le loup, car c'était une créature mort-vivante. En effet, le porteur de ces bottes peut à nouveau invoquer le loup au besoin. Même s'il a été tué, le loup sera capable de se relever après le prochain coucher de soleil. De plus, les bottes protègent le porteur de la plupart des loups, pas des loups garous cependant.
+
+PARAMETRES :
+
+Capacité d'équipement : immunisé aux attaques des loups
+Spécial : invoque un loup vampirique une fois par jour
+Poids : 2~
+
+@252 = ~A l’aide !~ [T-SVA03B]
+@253 = ~Je suis blessé ! Soigne-moi !~ [T-SVA07]
+@254 = ~Vous allez être en GRAND danger si vous me cherchez. Attendez voir !~ [T-SVA08]
+@255 = ~Archer gobelin~
+@256 = ~Guarde du corps gobelin~
+@257 = ~Archer d'élite gobelin~
+@258 = ~Chef gobelin~
+@259 = ~Chaman gobelin~
+@260 = ~Esclave gnome~
+@261 = ~Anneau Svirfneblin~
+@262 = ~Boucles d'Oreille en chapelet de Dents~
+@263 = ~Les chainettes de ces boucles d'oreilles semblent avoir été fabriquées à partir d'un métal noir issu d'un autre monde. De longues dents étroites provenant d'une étrange créature y sont attachées. En les examinant de plus près, vous découvrez que ces légères boucles d'oreilles en métal sont en fait une paire de passe-partout de bonne facture. Si le besoin s'en fait sentir, le porteur peut les utiliser pour crocheter les serrures les plus récalcitrantes.
+
+PARAMETRES :
+
+Capacités d'équipement : 
+  Crochetage de serrures : bonus de +5%
+  Protège des coups critiques
+Dextérité nécessaire : 10
+Utilisable par :
+ Voleur~
+
+@264 = ~Ensemble de Passe-partout en Fer~
+@265 = ~Il s'agit d'un ensemble de passe-partout de bonne facture, de différentes formes, qui peuvent être utilisés pour ouvrir une grande variété de serrures, des plus simples aux plus complexes. L'un des outils permet également de détecter et désarmer les pièges. Bien que de valeur moindre aux yeux d'un serrurier intrépide que les passe-partout en mithril ou en adamantine, tant convoités, celui-ci constitue un ensemble des plus utiles.
+
+PARAMETRES :
+
+Capacités d'équipement : 
+  Crochetage de serrures : bonus de +15%
+  Détecter/Désamorcer les pièges : bonus de +5%
+Dextérité nécessaire : 10
+Utilisable par :
+ Voleur~
+
+@266 = ~Tas d'Os~
+@267 = ~Cet amas d'os en décomposition constitue tout ce qui reste d'un pauvre aventurier malchanceux. Il y a très peu d'indices pour déterminer qui était cette personne, mais il ou elle était probablement humain, elfe ou une créature humanoïde de la même taille. Sans le moindre doute, l'aventurier a péri violement, si on en croit les marques de coupure et les os brisés. Visiblement, de longues années se sont écoulées depuis les faits, peut-être même des siècles, si l'indication donnée par la couleur et l'état des os est fiable.
+
+PARAMETRES :
+
+Poids : 15~
+
+@268 = ~Notes déchirées~
+@269 = ~Il s'agit d'un vieux morceau de vélin déchiré, couvert de poussière d'os et de taches de sang, provenant d'un corps décomposé depuis longtemps. Malgré son état, un passage est tout juste lisible.
+
+"... pourrait intéresser les Anciens... arrivé au dessus de c'qui semble être une cave... de nombreux mécanismes astucieux qui le font apparaitre... parti des rochers qui nous entourent... J'espère que la vermine que j'ai jetée hors du chemin la nuit dernière n'a pas élu domicile dans cet endroit infect.... peut-être que la fable du Bouclier de Gwalhaudh est un mensonge.... devrais pouvoir en juger..."~
+
+@270 = ~Bouclier de Chevalier +1~
+@271 = ~Bien que plusieurs fissures dûes au temps ou à un usage intensif apparaissent à la surface de ce bouclier, elles ne semblent pas le fragiliser le moins du monde. Le bouclier est apparemment en bronze,bien que peut-être même plus solide que le fer. De plus, il ne montre aucune trace de la couche verte, vert-de-gris, qui couvre habituellement un objet de bronze d'un certain âge. Il doit être forgé à partir d'un alliage inconnu même des forgerons les plus modernes. Le bouclier est de forme triangulaire, typique des boucliers de chevalier dans le style classique, coupé en deux par une croix en alliage plus sombre et estampé d'un blason divisé en quatre, représentant des châteaux et des lions déchaînés avec des couronnes. Il s'agit clairement du bouclier d'un chevalier de renom, peut-être même un Duc ou un Roi. Peut-être s'agit-il même du bouclier légendaire de Gwalhaudh le Pur, perdu il y a une éternité. Le bouclier pourrait, soi-disant, tenir les créatures malveillantes à distance, car elles ne voudront pas le toucher ou même s'en approcher.
+
+PARAMETRES :
+
+Bonus à la Classe d'armure : 2
+Capacité d'équipement : Protection contre le mal
+Poids : 6
+Force nécessaire : 12
+Non Utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Personnages d'alignement mauvais~
+
+@272 = ~Objet Attribué au Loup~
+@273 = ~Cet objet confère au loup ses caractéristiques innées comme régénération lente.~
+
+@274 = ~Bottes Elfe Noir~
+@275 = ~Peu de temps après la Descente, les elfes noirs ont commencé à faire ces bottes dans les manufactures d'Ombre-Terre. Les artisans forgerons elfes noirs commencèrent par faire des copies des bottes elfiques et ils les pervertirent, se basant sur les matériaux à leur disposition. A la différence des autres objets elfes noirs, ces bottes ne sont pas constituée d'adamantine, et c'est pour cette raison qu'elles ne se dégraderont pas à la lumière. A la place, elles sont faites de soie d'araignée enchantée qui confère à leur porteur une immunité aux toiles. En plus, les bottes confèrent la capacité d'appeler à soi un Myrlochar, ou "Araignée d'âme", indépendamment de l'endroit où le porteur pourrait se trouver. Ces sombres servants extraplanaires de Lolth ont la capacité de drainer de façon permanente les points de vie de leur cible et de se transférer la vie ainsi volée.
+
+PARAMETRES :
+
+Capacité d'équipement :
+  Déplacement silencieux : +15%
+  Immunité aux toiles
+Spécial : Invoque un Myrlochar une fois par jour
+Poids : 3~
+
+@276 = ~Bottes fey'ri~
+@277 = ~Il y a six milles ans, un fier clan d'elfes du soleil résidait dans la région qui est devenue le Cormanthor. Ces elfes ambitieux échangeaient avec les démons pour gagner en pouvoir et se reproduisaient avec eux pour fortifier leur descendance. Finalement, les autres elfes ont eu vent de cet outrage et ont détruit les demi-démons de la Maison Dlardrageth. Certains survécurent pour se reproduire avec d'autres types de démons, engendrant les tieffelins et d'autres abominations similaires. Peu d'individus de la lignée originale purent échapper de la bataille initiale et s'évaporèrent de l'histoire dans les forêts du Nord. Ces elfes à sang de démon se reproduisirent avec d'autres elfes pour finalement être connus sous le nom de fey'ri. Leurs bottes contenaient un pouvoir infernal, capable d'invoquer un allié abyssal. Cela expose parfois le porteur à de graves conséquences.
+
+PARAMETRES :
+
+Capacités d'équipement :
+  Résistance à la magie : +10%
+  Capacité de mouvement : +4
+Spécial :
+  Invoque un cambion ou un alu-démon 1 fois par jour (25% de chance qu'il soit hostile)
+  Draine temporairement un niveau pendant 8 tours (50% de chance)
+Poids : 3
+Non Utilisable par :
+ Personnages loyaux~
+
+@278 = ~Gemme Oeil de Tigre~
+@279 = ~L'oeil de tigre est une agate brune foncée avec des stries or-brun profond qui donnent à la pierre son nom. Les légendes prétendent que les yeux de tigre sont utiles pour repousser les esprits. Même si la véracité de ceci n'est pas reconnue, l'agate est concassée et utilisée pour préparer à la fois des potions et créer des signes magiques.~ 
+
+@280 = ~Obsidienne Flocon de neige~
+@281 = ~Cette variété d'obsidienne apparait ici et là dans les Royaumes dans de larges dépôts d'origine volcanique. Elle est noire avec des taches grisées en forme de fleurs qui souvent, en particulier si un peu de pierre peut être enlevée, s'étalent en un motif symétrique qui ressemble à des flocons de neige. Elle est fragile et friable, mais souvent utilisée pour les gravures. Dans les Royaumes, on la trouve soit travaillée sous forme de gemme pour la vente, soit en "blocs de vente" ou en gros morceaux irréguliers.~
+ 
+@282 = ~Gemme Améthyste~
+@283 = ~Ce minerai prend la forme de cristaux d'un violet profond, la plupart du temps au milieu des géodes mais également dans les larges veines sur la surface, s'étendant parfois sur des centaines de pieds. Alors que la plupart des spécimens présentent des imperfections mineures ou des traces d'autres minéraux qui les ternissent, d'autres, peu nombreux, sont exempts de tels défauts et sont taillés en des gemmes de haute qualité. Les améthystes sont supposées écarter l'ivresse, et en tant que telles, elles sont utilisées habituellement pour orner les chopes et les calices, particulièrement ceux utilisés par la noblesse. Cette protection tient plus de la superstition que de la réalité.~
+
+@284 = ~Gemme Topaze~
+@285 = ~La Topaze est une gemme dorée et transparente que l'on trouve sous forme de larges cristaux dans les dépôts de granit. Habituellement jaune ou brune, elle devient rose si elle est exposée à de fortes températures. La Topaze est très solide et vieillit bien. Elle est utilisée en incrustation dans les objets qui offrent une protection contre les effets magiques.~
+
+@286 = ~Gemme d'Ambre~
+@287 = ~L'ambre est une résine dorée fossilisée, habituellement polie et taillée en cabochon. Elle est douce et brillante et souvent utilisée en tant que porte bonheur pour se protéger des maladies et des épidémies. Certaines gemmes d'ambre contiennent d'autres fossiles préservés, assez primitif, comme des plantes et des insectes. Ces variantes sont de plus grande valeur dans les Royaumes. Des boules d'ambre enfilées sur des lanières sont utilisées en tant que moyen d'échange par les barbares du nord, mais sont reconnues parmi les gens civilisés pour la valeur de leurs gemmes.~
+
+@288 = ~Opale de Feu~
+@289 = ~Cette opale orange-rouge embrasée est habituellement unie mais possède parfois des taches vertes ou dorées. La gemme translucide est souvent taillée en un bijou à facette de la même manière que le sont les saphirs et les rubis. On la trouve près des fontaines d'eau chaude en activité et des geysers, et elle est souvent utilisée en joaillerie sous forme de pendentifs et d'anneaux.~
+
+@290 = ~Opale précieuse à bandes de couleurs~
+@291 = ~A bandes de couleur est le nom donné à un type d'opale précieuse avec des bandes ondulantes ou marbrées montrant un jeu de couleurs. Fortement convoitées par les anciens clans elfiques, elles sont devenues assez rares ces derniers temps. Cette gemme pâle et douce est parfois utilisée dans les objets de protection ou de divination.~
+
+@292 = ~Ceci est un miroir à main ordinaire de taille moyenne.~
+@293 = ~Ceci est un miroir à main de taille moyenne avec un cadre en alliage d'étain. Il offre une réflexion d'une clarté exceptionnelle, le métal derrière le verre doit donc être de l'argent. Bien que peu pratique en tant que défense normale, toute personne portant ce miroir comme bouclier a une chance de réfléchir le regard des basilics et des autres créatures du même type.
+
+PARAMETRES :
+
+Capacité d'équipement :
+  25% de chance de réfléchir les attaques de regard
+Poids : 1~
+
+@294 = ~Cette solide boite en bois est émaillée de laque et cerclée de bronze. Elle est petite mais pratique, et peut contenir quelques objets plus petits.
+
+PARAMETRES :
+
+Capacité : 12 objets
+Poids : 5~
+
+@295 = ~Bottes de l'Amour Rapide~
+@296 = ~Ces bottes ont été fabriquées à partir des Bottes Stylées du Guépard et des chaussures connues sous le nom de "Hémorragie de mensonges d'amour," dans lesquelles il est réellement possible de faire mourir quelqu'un d'amour. Les Pattes du Guépard originales appartenaient à des assassins meurtriers qui aimaient traquer leur proie. Ils se déplaçaient avec une rapidité telle que leurs cibles n'avaient souvent pas l'opportunité de contre-attaquer, même à cheval. C'était très impressionnant, bien entendu, mais les assassins n'avaient aucun goût. Cette paire a été fabriquée avec un motif en peau de guépard plus attractif, teintée de rouge et incrustée d'une opale de feu. Elles augmentent la vitesse de leur porteur et son aspect en même temps.
+
+PARAMETRES :
+
+Capacité d'équipement : vitesse de déplacement doublée
+Spécial : Lance Beauté de la Nature une fois par jour
+Poids : 3~
+
+@297 = ~Bottes gnomiques Puantes~
+@298 = ~Ces bottes basses ont été bricolées à partir des solides Bottes Gnomiques et des tristement célèbres bottes connues sous le nom de "Pieds Puants." Les secondes ont acquis leur nom de leur propriétaire original qui, après plusieurs années à subir des remarques et des requêtes pour qu'il aille s'asseoir ailleurs, décida de tirer avantage de la situation. Les bottes ont été entièrement nettoyées et incrustées avec de l'ambre. Elles portent toujours le titre de "Puantes" mais en signe de respect envers leur pouvoir. Les orteils pointent légèrement vers le haut, et les semelles gnomiques ont été fabriquées pour garder un bon équilibre sur tous les types de terrain, que ce soit sous terre ou à la surface.
+
+PARAMETRES :
+
+Capacité d'équipement : Action libre
+Spécial : Lance Nuage Puant une fois par jour
+Poids : 2~
+
+@299 = ~Bottes de Protection Triple~
+@300 = ~Ces bottes doivent leur nom à leur motif unique à trois couleurs, bien qu'elles soient en réalité le résultat de la combinaison de quatre paires de bottes : les bottes de tous les jours vertes, jaunes et bleues et les Bottes d'Evitement connues sous le nom de "Instinct du Chat". La magie de ses bottes a été spécifiquement destinée à détecter les projectiles visant le porteur et à l'aider à les éviter. Elles ont été commandées à l'origine par l'instructeur de l'académie de tir à l'arc, qui était fatigué de souffrir "d'accidents" de la main de ses étudiants inexpérimentés. En plus, elles procurent une moindre classe d'armure protective aux autres types d'attaques. Les bottes sont parsemées d'Opales précieuses à bandes multicolores. La rumeur dit que les bouffons attachent une grande valeur à ces bottes.
+
+PARAMETRES :
+
+Capacité d'équipement : CA -2, -5 contre les projectiles
+Poids : 4~
+
+@301 = ~Bottes Elfe noir de la Nuit~
+@302 = ~Peu de temps après la Descente, les elfes noirs ont commencé à faire ces bottes dans les manufactures d'Ombre-Terre. Les artisans forgerons elfes noirs commencèrent par faire des copies des bottes elfiques et ils les pervertirent, en fonction des matériaux à leur disposition. A la différence des autres objets elfes noirs, ces bottes ne sont pas constituées d'adamantite, et c'est pour cette raison qu'elles ne se dégraderont pas à la lumière. A la place, elles sont faites de soie d'araignée enchantée qui confère à leur porteur une immunité aux toiles. De plus, les bottes confèrent la capacité d'appeler à soi un Myrlochar, ou "Araignée d'âme", indépendamment de l'endroit où le porteur pourrait se trouver. Ces sombres servants extraplanaires de Lolth ont la capacité de drainer de façon permanente les points de vie de leur cible et de se transférer la vie ainsi volée. Ces bottes ont été combinées avec les Bottes de la Race Elfique pour leur conférer les propriétés originales de leur prototype. Elles augmentent également la vitesse du porteur et sont incrustées d'une améthyste du plus profond des violets.
+
+PARAMETRES :
+
+Capacité d'équipement :
+  Déplacement silencieux : +30%
+  Se dissimuler dans l'ombre : +15%
+  Vitesse de déplacement doublée
+  Immunité aux toiles
+Spécial : Invoque un Myrlochar deux fois par jour
+Poids : 3~ 
+
+@303 = ~Nobles Bottes fey'ri~
+@304 = ~Il y a six milles ans, un fier clan d'elfes du soleil résidait dans la région qui est devenue le Cormanthor. Ces elfes ambitieux échangeaient avec les démons pour gagner en pouvoir et se reproduisaient avec eux pour fortifier leur descendance. Finalement, les autres elfes ont eu vent de cet outrage et ont détruit les demi-démons de la Maison Dlardrageth. Certains survécurent pour se reproduire avec d'autres types de démons, engendrant les tieffelins et d'autres abominations similaires. Peu d'individus de la lignée originale purent échapper de la bataille initiale et s'évaporèrent de l'histoire dans les forêts du Nord. Ces elfes à sang de démon se reproduisirent avec d'autres elfes pour finalement être connus sous le nom de fey'ri. Leurs bottes contenaient un pouvoir infernal, capable d'invoquer un allié abyssal. Ces bottes en particulier ont été retaillées avec les bottes de Vitesse et un rubis étoilé d'une beauté incomparable, les rendant dignes d'être les chaussures d'un prince démon.
+
+PARAMETRES :
+
+Capacité d'équipement :
+  Résistance à la magie : +15%
+  Vitesse de déplacement doublée
+Spécial :
+  Invoque un cambion ou un alu-démon 1 fois par jour 
+Poids : 3
+Non Utilisable par :
+ Personnages loyaux~
+
+@305 = ~Bouclier Miroitant +1~
+@306 = ~Originellement, ce bouclier semblait être fait de bronze patiné par le temps, peut-être même bien plus dur que le fer. De plus, il ne montre aucune trace de la couche verte, vert-de-gris, qui couvre habituellement un objet de bronze d'un certain âge. Il doit être forgé à partir d'un alliage inconnu même des forgerons les plus modernes. Il a reçu une couche réflective de métal argenté et de diamant. Le bouclier est de forme triangulaire, typique des boucliers de chevalier dans le style classique, coupé en deux par une croix en alliage plus sombre et gravé d'un blason divisé en quatre, représentant des châteaux et des lions déchaînés avec des couronnes. Il s'agit clairement du bouclier d'un chevalier de renom, peut-être même un Duc ou un Roi. Peut-être s'agit-il même du bouclier légendaire de Gwalhaudh le Pur, perdu il y a une éternité. En plus de réfléchir le regard des créatures comme les basilics, le bouclier peut également tenir les créatures malveillantes à distance, car elles ne peuvent pas le toucher ou même s'en approcher.
+
+PARAMETRES :
+
+Bonus à la Classe d'armure : 2
+Capacités d'équipement : 
+  Protection contre le mal
+  Réfléchit les attaques de type regard
+Poids : 6
+Force nécessaire : 12
+Non Utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Personnages d'alignement mauvais~  
+ 
+@307 = ~Petits portraits pour les PNJs~
+@308 = ~Marchands et PNJs mineurs~
+@309 = ~Marchands uniquement~
+@310 = ~Ce composant necessite le composant principal.~
+
+@311 = ~Raccourcir les intros de BG2~
+@312 = ~Ce composant requiert BG2 ou BGT.~
+
+@313 = ~Changer les prix d'achat des magasins~
+@314 = ~Changer les prix de vente des magasins~
+@315 = ~Changer les prix des gemmes et des bijoux~
+@316 = ~Changer l'or transporte par les creatures~
+
+@317 = ~Reduit a 10%~
+@318 = ~Reduit a 25%~
+@319 = ~Reduit a 50%~
+@320 = ~Reduit a 50% (recommande)~
+@321 = ~Reduit a 67%~
+@322 = ~Reduit a 67% (recommande)~
+@323 = ~Reduit a 75%~
+@324 = ~Reduit a 90%~
+@325 = ~Augmente de 110%~
+@326 = ~Augmente de 125%~
+@327 = ~Augmente de 150%~
+@328 = ~Augmente de 150% (recommande)~
+@329 = ~Augmente de 200%~
+@330 = ~Augmente de 300%~
+@331 = ~Augmente de 500%~
+@332 = ~Cette serre miniature contient plusieurs types de baies et est éclairée par des lumières spéciales qui imitent le soleil.~
+@333 = ~Ce jardin intérieur contient plusieurs types de baies et est éclairé par des lumières spéciales qui imitent le soleil.~
+@334 = ~L'une des nombreuses cordes pend du plafond de la caverne, ornées de douzaines de cranes de gnomes.~
+@335 = ~Raccourcir la cinematique du Donjon~
+@336 = ~Raccourcir les cinematiques du Donjon et de la promenade de Waukyne~
+@337 = ~Raccourcir la cinematique de la bataille de Gorion~
+@338 = ~Myrlochar~
+@339 = ~Morsure de Myrlochar~
+@340 = ~Bonne journée à vous.~ [AGAU013]
+@341 = ~Bonjour.~ [AGAU050]
+@342 = ~J'ai quelque chose pour combler les besoins de chacun.~ [AGAU053]
+@343 = ~Ce composant requiert Tutu ou BGT.~
+@344 = ~Diminution de Fatigue~
+@345 = ~Cette pioche gnome en a vu de toutes les couleurs et n'est pas très solide.~
+@346 = ~Machine Etrange~
+@347 = ~Il s'agit d'un machine étrange en métal avec plusieurs engrenages. Sa fonction reste inconnue.~
+@348 = ~Horloge Antique~
+@349 = ~Aurora et ses assistants gnomes ont acquis plusieurs objets inhabituels au cours de leurs échanges, et ceci est l'un des plus étranges. On dirait un ensemble de roues dentées et de flèches rassemblées sous un couvercle de cuivre antique érodé par le temps. Un marchand ambulant gnome prétendant arriver du monde de Krynn l'a laissé en gage au magasin en échange d'une paire de bottes qu'il *fallait* qu'il ait selon ses dires. Bien qu'Aurora et ses associés Svirneblins fussent profondément suspicieux à propos de l'objet, il n'a toujours pas explosé. Cependant, à cause de ses mécanismes complexes, il n'est pas très précis. Son seul avantage sur un bon cadran solaire est qu'il fonctionne, soi-disant, sans la lumière du soleil.
+
+PARAMETRES :
+
+Spécial : Affiche l'heure de façon approximative
+Poids : 1~ 
+
+@350 = ~Bottes du Bar~
+@351 = ~Feu de l'Esprit~
+@352 = ~Lycanthropie~
+@353 = ~Capacité de Métamorphe gagnée~
+@354 = ~La force a été diminuée de 1 de façon permanente~
+@355 = ~L'intelligence a été diminuée de 1 de façon permanente~
+@356 = ~La sagesse a été diminuée de 1 de façon permanente~
+@357 = ~La dextérité a été diminuée de 1 de façon permanente~
+@358 = ~La constitution a été diminuée de 1 de façon permanente~
+@359 = ~Le charisme a été diminué de 1 de façon permanente~
+@360 = ~Capacité Innée gagnée~
+@361 = ~Grandeur atteinte : +3 capacités spéciales~
+@362 = ~Capitaine Gnoll~
+@363 = ~Capitaine Hobgobelin~
+@364 = ~Sorcier Hobgobelin~
+@365 = ~Placement des objets au hasard. Cela peut prendre un moment...~
+@366 = ~est corrompu~
+@367 = ~en dessous de la longueur minimum~
+@368 = ~entete mal place~
+@369 = ~les structures etendues pointent vers l'entete~
+
+@373 = ~Installation d'Aurora's Shoes pour Classic Adventures~
+@374 = ~Ce composant n'est pas approprie pour Classic Adventures~
+@375 = ~Reduit a 17%~
+@376 = ~Changement de l'or recu en recompense de quete~
+@377 = ~des lignes existent dans vos tables rndtreas.2da et rndmagic.2da. Vous devez avoir 6 lignes ou moins dans l'une des deux pour que ce composant fonctionne completement.~
+@378 = ~Tresors aleatoires realistes~
+@379 = ~Suppression des tresors aleatoires dupliques~
+@380 = ~Seules les creatures intelligentes ont des parchemins aleatoires~
+@381 = ~A la fois 1 et 2 (sans perte de tresors)~
+@382 = ~Cela va prendre quelques instants...~
+@383 = ~A la fois 1 et 2 (25% de perte de tresors)~
+@384 = ~A la fois 1 et 2 (50% de perte de tresors)~
+@385 = ~A la fois 1 et 2 (75% de perte de tresors)~
+@386 = ~Suppression de tous les tresors aleatoires~
+@387 = ~Version papier des Horreurs casquees et de Bataille~
+@388 = ~Aucune creature appropriee trouvee.~
+@389 = ~C'est un énorme service que vous avez rendu au peuple de cette région, mais cela compense à peine les actes de violence que vous avez commis précédemment à l'intérieur de ces murs. Vous n'aurez rien d'autre que l'or que j'ai sur moi, et ensuite vous quitterez mon champ de vision ! Soyez heureux que la garde ne vous enchaine pas pour seule récompense !~ ~C'est un énorme service que vous avez rendu au peuple de cette région, mais cela compense à peine les actes de violence que vous avez commis précédemment à l'intérieur de ces murs. Vous n'aurez rien d'autre que l'or que j'ai sur moi, et ensuite vous quitterez mon champ de vision ! Soyez heureuse que la garde ne vous enchaine pas pour seule récompense !~
+@390 = ~Je suis impressionné ! Vous êtes aussi bon que vous le prétendez et manifestement létal dans votre travail. Je vais vous donner le salaire que vous méritez : le double de ce que nous avions prévu initialement. Je veux rester en contact avec vous, surtout si le Trône de Fer est sur le point d'agir comme vous le supposez.~ ~Je suis impressionné ! Vous êtes aussi bonne que vous le prétendez et manifestement létale dans votre travail. Je vais vous donner le salaire que vous méritez : le double de ce que nous avions prévu initialement. Je veux rester en contact avec vous, surtout si le Trône de Fer est sur le point d'agir comme vous le supposez.~
+
+@391 = ~Un millier de pièces d'or, et elle est à vous !~
+@392 = ~Vous n'aurez que 2,000 pièces d'or~
+@393 = ~le triple~
+@394 = ~Mille pièces d'or~
+@395 = ~Pourquoi pas cinquante~
+@396 = ~Pourquoi pas dix fois ça~
+@397 = ~[Vv]ingt milles~
+@398 = ~[Cc]inquante milles~
+@399 = ~[Dd]ix milles~
+@400 = ~[Nn]euf milles~
+@401 = ~[Hh]uit mille~
+@402 = ~[Ss]ept mille~
+@403 = ~[Ss]ix mille cinq cents~
+@404 = ~[Ss]ix mille~
+@405 = ~et jusqu'à cinq~
+@406 = ~et jusqu'à 5000~
+@407 = ~Cinq maintenant, cinq~
+@408 = ~La moitié tout de suite, la moitié~
+@409 = ~[Cc]inq mille~
+@410 = ~[Qq]uatre mille~
+@411 = ~[Tt]rois mille~
+@412 = ~[Dd]eux mille cinq cents~
+@413 = ~[Dd]eux mille~
+@414 = ~[Mm]ille cinq cents~
+@415 = ~[Mm]ille deux cents~
+@416 = ~[Uu]n millier\|[Uu]n millier\| [Ll]e millier~
+@417 = ~[Nn]euf cents~
+@418 = ~[Hh]uit cents~
+@419 = ~[Ss]ept cents~
+@420 = ~[Ss]ix cents~
+@421 = ~[Cc]inq cents~
+@422 = ~[Qq]uatre cents~
+@423 = ~[Tt]rois cents~
+@424 = ~[Dd]eux cents~
+@425 = ~Copie et mise en place du patch~
+@426 = ~Ignorez les messages "INSTALLED WITH WARNINGS" - il faut s'attendre a cela pour ce composant.~
+@427 = ~ligne~
+@428 = ~de~
+@429 = ~nouvelles gemmes ajoutees.~
+@430 = ~parchemins aleatoires remplaces~ 
+@431 = ~Les entrees de BG1UB sont reponderees~
+@432 = ~parchemin d'enigme remplace~
+@433 = ~Commandos Kobolds Realistes~
+@434 = ~Correctifs uniquement~
+@435 = ~Ailes~
+@436 = ~Alu-démon~
+@437 = ~C’est comme ça qu’on fait !~ [T-SVA09]
+@438 = ~Non...~ [T-SVA10]
+@439 = ~Salut toi.~ [T-SVN01A]
+@440 = ~Oui.~ [T-SVN01B]
+@441 = ~Viens et discutons un peu.~ [T-SVN01C]
+@442 = ~Oh oh oh oh !~ [T-SVN01D]
+@443 = ~Attrapez-les !~ [T-SVN02A]
+@444 = ~Je vais vous raccourcir un poil !~ [T-SVN02B]
+@445 = ~Prends ça !~ [T-SVN02C]
+@446 = ~Le Mal s’écrase devant moi !~ [T-SVN02D]
+@447 = ~Adieu.~ [T-SVN03A]
+@448 = ~S’il vous plaît, aidez-moi !~ [T-SVN03B]
+@449 = ~Je suis blessé !~ [T-SVN07]
+@450 = ~Vous allez vous faire sérieusement tabasser !~ [T-SVN08]
+@451 = ~Et bien, voyez-vous ça !~ [T-SVN09]
+@452 = ~Non...~ [T-SVN10]
+@453 = ~Worg Supérieur~
+@454 = ~BGMain.exe semble avoir deja ete patche ; modifications .exe sautees...~
+@455 = ~BGMain.exe n’est pas valide – verifiez que ToB .exe est bien modifie par le patch v26498 !~
+@456 = ~Modification de BGMain.exe pour permettre les nouvelles animations ...~
+@457 = ~Raccourcir les cinematiques du Donjon, de la promenade de Waukyne et de Spellhold~
+@458 = ~Remplacement des animations de creature _LOW (cela peut prendre un moment)...~
+@459 = ~Votre codage ANSI a une valeur de~
+@460 = ~Mise a jour des animations afin qu'elles correspondent a votre codage...~
+@461 = ~Correction des references de zone pour les creatures~
+@462 = ~Correction des references de zone pour les creatures (cela peut prendre un moment)...~
+@463 = ~Yuan-Ti~
+@464 = ~Mage Yuan-Ti~
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["

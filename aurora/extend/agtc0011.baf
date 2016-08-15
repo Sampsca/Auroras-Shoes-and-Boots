@@ -1,0 +1,41 @@
+IF
+  Global("TCZhentSpawn","TC0011",2)
+  Global("ag_gob","TC0011",0)  
+THEN
+  RESPONSE #100
+    SetGlobalTimer("aggtimer","TC0011",TWELVE_MINUTES)
+    SetGlobal("ag_gob","TC0011",1)
+END
+
+IF
+  GlobalTimerExpired("aggtimer","TC0011")
+  Global("ag_gob","TC0011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_gob","TC0011",2)
+    CreateCreature("aggob06",[2422.1287],15)
+    CreateCreature("aggob05",[2354.1289],1)
+    CreateCreature("aggob04",[2302.1295],4)
+    CreateCreature("aggob04",[2346.1251],6)
+    CreateCreature("aggob04",[2444.1251],10)
+    CreateCreature("aggob04",[2516.1295],12)
+    CreateCreature("aggob04",[2492.1355],14)
+    CreateCreature("aggob04",[2382.1351],2)
+    CreateCreature("aggob03",[2346.1245],6)
+    CreateCreature("aggob03",[2518.1239],10)
+    CreateCreature("aggob03",[2540.1365],14)
+    CreateCreature("aggob03",[2324.1377],2)
+    CreateCreature("agworg01",[2584.1285],11)
+    CreateCreature("agworg01",[2200.1287],3)
+    CreateCreature("aggnom01",[2390.1130],5)
+    CreateCreature("aggob02",[2324.1133],12)
+    CreateCreature("aggob02",[2524.1155],9)
+    CreateCreature("aggob02",[2176.1397],2)
+    CreateCreature("aggob02",[2670.1417],14)
+    CreateCreature("aggob01",[2158.1125],1)
+    CreateCreature("aggob01",[2646.1477],14)
+    CreateCreature("aggob01",[2326.1413],2)
+    CreateCreature("aggob01",[2238.1349],1)
+    CreateCreature("aggob01",[2866.1089],8)
+    CreateCreature("aggob01",[2775.1555],13)
+END

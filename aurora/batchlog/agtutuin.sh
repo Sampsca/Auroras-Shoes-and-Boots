@@ -1,0 +1,1 @@
+#!/bin/shtiz_files="ag4301.tiz ag4815.tiz"for file in $tiz_files; do  echo Converting $file  aurora/batchlog/tisunpack -s -o override/$(file%.tiz).tis aurora/tiz/$filedone

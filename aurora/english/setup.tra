@@ -1,0 +1,1316 @@
+@1  = ~Aurora's Shoes and Boots~
+@2  = ~Aurora~
+
+@3  = ~Green Cloak~
+@4  = ~This forest-green cloak does not appear to have any special qualities. When you examine it more closely, however, you see that someone has embroidered an ornate golden sun with the letter "A" in front.
+
+STATISTICS:
+
+Weight: 3~
+
+@5  = ~Ornate Ring~
+@6  = ~This gold ring is set with an unusually large emerald. Inscribed inside the band are the words "To the sunshine of my life."
+
+STATISTICS:
+
+Equipped Ability: Charisma +1
+Weight: 0~
+
+@7  = ~Single Earring~
+@8  = ~This large, gold earring is shaped like the sun and set with a gleaming emerald. Its mate, if it ever had one, is missing.
+
+STATISTICS:
+
+Equipped Ability: Protects against critical hits
+Weight: 0~
+
+@9  = ~Green Moccasins~
+@10 = ~These pale-green, much-worn moccasins still manage to impress you with their elegance. A golden sun is embroidered on each. Primarily of sentimental value to their original owner, they've been thrown at a dragon, washed downstream and worn by who-knows-what over the years.
+
+STATISTICS:
+
+Weight: 2~
+
+@11 = ~Earring~
+
+@12 = ~Jeweled Long Sword +3~
+@13 = ~The double-edged blade runs 36 inches in length and tapers to a sharp point. It is a well-forged, efficient-looking weapon without much ornamentation apart from the large green emerald on the pommel.
+
+STATISTICS:
+
+THAC0: +3 bonus
+Damage: 1D8 + 3
+Damage Type: Slashing
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage~
+
+@14 = ~Aurora gained this sword defending a small, coastal village from pirates. She refused to name it, saying that a named sword doomed its holder to an early death and obscurity. It is enchanted and (more to the point) has a large, green emerald in the pommel.
+
+STATISTICS:
+
+THAC0: +3 bonus
+Damage: 1D8 + 3
+Damage Type: Slashing
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage~
+
+@15 = ~Ornate Necklace~
+@16 = ~This is an attractive golden necklace with a sun-shaped pendant. A dazzling emerald is set in the middle of the pendant, and the letter "A" is etched on the back of it.
+
+STATISTICS:
+
+Weight: 1~
+
+@17 = ~Boots of Endurance~
+@18 = ~No one ever warns beginning adventurers just how much walking they'll be doing. The proper footgear can make all the difference, however, and these boots are designed to ensure that you face the last battle of the day feeling as fit as you did the first.
+
+STATISTICS:
+
+Equipped Ability: Constitution +1
+Weight: 4~
+
+@19 = ~Boots of High Style~
+@20 = ~These boots were created at the request of a bard who wished for higher payment after each performance. They have traveled through many lands and many hands and everyone who has ever worn them agrees on two things: They are dead sexy and excruciatingly painful.
+
+STATISTICS:
+
+Equipped Abilities: Charisma +2, Dexterity -2
+Weight: 3~
+
+@21 = ~Boots of Trudging~
+@22 = ~These boots were crafted long ago by a monk distressed by the inability of his companions to keep up with his traveling speed. Unable to assist them to travel faster, he took upon himself the discipline of keeping to their pace and ultimately created these boots so that others might follow in his path.
+
+STATISTICS:
+
+Equipped Ability: Movement rate -2
+Weight: 4~
+
+@23 = ~Boots of Bravery~
+@24 = ~Even the most hardened adventurers are afraid sometimes. Unless they wear these boots, that is. Aurora won't say where she got them, but these boots provide the wearer with protection from all forms of fear.
+
+STATISTICS:
+
+Equipped Ability: Protection from Fear
+Weight: 4~
+
+@25 = ~Boots of Battle~
+@26 = ~There's nothing like having surprise on your side in a battle, and these boots give the wearer just that. They have been enchanted to enhance a fighter's abilities.
+
+STATISTICS:
+
+Equipped Ability: THAC0 +2
+Weight: 4~
+
+@27 = ~Boots of Boredom~
+@28 = ~As every adventurer knows, there are days when a bit of boredom would be welcome. Aurora had these made to make sure that those days will happen. Once the wearer slips these shoes on, the day is guaranteed to be boring. No one will attack the wearer. Of course, the wearer can't attack anyone else, either, but if that were possible, the day wouldn't be boring, would it?
+
+STATISTICS:
+
+Equipped Ability: No one attacks the wearer; wearer can walk, talk and hide but is unable to perform any other action
+Weight: 4~
+
+@29 = ~These Boots Are Made for Walking~
+@30 = ~Walking long distances can be wearing. It gets even harder when one member of the party is weaker than the others. Aurora designed these shoes to make the wearer capable of traveling that extra mile or so before resting.
+
+STATISTICS:
+
+Equipped Ability: Fatigue set to 0
+Weight: 3~
+
+@31 = ~Love Lies Bleeding~
+@32 = ~In these shoes, it really is possible to knock 'em dead.
+
+STATISTICS:
+
+Special: Cast Nature's Beauty once per day
+Weight: 2~
+
+@33 = ~Dancing Shoes~
+@34 = ~Dance through the night! In these comfortable, attractive shoes, you'll never have to worry about blisters or stepping on your partner's feet. So what are you waiting for? Go out and party!
+
+STATISTICS:
+
+Equipped Ability: Dexterity +2
+Weight: 2~
+
+@35 = ~Long-Leggedy Beasties~
+@36 = ~These boots enable the wearer to travel from one adversary to the next with the speed of thought. All the wearer need do is decide whom to attack next. Traveling so quickly does lessen the force of the following blow.
+
+STATISTICS:
+
+Equipped Ability: Movement rate set to 25, but blows cause only 75% damage
+Weight: 4~
+
+@37 = ~Shoes of the Shameless~
+@38 = ~It's no secret that an adventurer must, on occasion, associate with thieves, murderers, liars, and other forms of scum. A reputation for uprightness and integrity can be a distinct disadvantage on these occasions. The occasional pointless murder can remedy the situation, but it is far easier and less trouble to the conscience to wear these boots instead.
+
+STATISTICS:
+
+Equipped Ability: Reputation -2
+Weight: 2~
+
+@39 = ~Boots of the Blameless~
+@40 = ~It is no secret that from time to time the adventurer must deal with holier-than-thou paladins, morally upright priests, righteous nobles and other stuffed shirts. A reputation for ruthless efficiency, though commendable in other circumstances, can be a distinct disadvantage during those encounters. A large donation to the local temple can go a long way toward improving relations, but it is far easier and less expensive to wear these boots instead.
+
+STATISTICS:
+
+Equipped Ability: Reputation +2
+Weight: 3~
+
+@41 = ~A Mile in Someone Else's Shoes~
+@42 = ~Sometimes all an adventurer needs to succeed is a good idea of how the other side thinks. This can be gained through years of study and experience. It can also be gained by wearing these shoes.
+
+STATISTICS:
+
+Equipped Ability: Reverses alignment of wearer
+Weight: 2~
+
+@43 = ~Stinky Feet~
+@44 = ~His feet stank. They really stank. After several years of snide remarks and requests that he sit somewhere else, anywhere else, he decided to take advantage of the situation. He is still remembered as Stinky Feet, but they say it with respect now.
+
+STATISTICS:
+
+Special: Cast Stinking Cloud once per day
+Weight: 4~
+
+@45 = ~Visiting Boots~
+@46 = ~After listening to her mother complain about the smell every time Aurora and her companions visited, Aurora commissioned several pair of these. Unlike regular boots, they do not smell bad after a day of walking. In fact, they make it possible to go straight from the street to the house without having to stop for a long wash first.
+
+STATISTICS:
+
+Special: Cast Zone of Sweet Air once per day
+Weight: 4~
+
+@47 = ~Boots to Jog the Memory~
+@48 = ~A mage Aurora often traveled with was constantly complaining that he didn't have enough fingers to wear helpful rings he needed, and that his amulets were always tangled. So, Aurora commissioned these boots for him.
+
+STATISTICS:
+
+Equipped Ability: Memorize 2 extra level 1 spells and 1 extra level 2 spell
+Weight: 4
+Usable By:
+ Mage
+ Bard~
+
+@49 = ~Boots of the Leopard~
+@50 = ~The wearer of these boots can spend the day assured that no matter what else goes wrong, at least she's got great shoes.
+
+STATISTICS:
+
+Weight: 3~
+
+@51 = ~Stylish Boots of the Cheetah~
+@52 = ~The original Paws of the Cheetah were the property of deadly assassins fond of chasing down their prey. They moved with such speed that their targets often didn't have the opportunity to respond, even on horseback. This was very impressive, of course, but the assassins had no sense of style, so Aurora had a similar pair made in a more attractive cheetah-skin pattern. They increase the wearer's speed and look good at the same time.
+
+STATISTICS:
+
+Equipped Ability: Movement rate doubled
+Weight: 3~
+
+@53 = ~Mad Marv's Moccasins~
+@54 = ~Mad Marv's favorite saying was "You're only paranoid if they are not after you." He was so convinced that legions of enemies hunted him that he made these moccasins to help him fight his battles. They help their wearer spot the enemy before the enemy spots them. Unfortunately, they also give their wearer a share of Marv's well-known edginess.
+
+STATISTICS:
+
+Special: Attack Speed set to zero; 40% chance of panic for 6 rounds
+Weight: 2~
+
+@55 = ~Everyday Green Boots~
+@56 = ~These are comfortable, sturdy boots designed for everyday wear. Aurora dyed these her favorite color green, and designed them specially to withstand piercing attacks.
+
+STATISTICS:
+
+Equipped Ability: AC -2 vs. piercing weapons
+Weight: 4~
+
+@57 = ~Hand Lotion~
+@58 = ~Aurora swears by this lotion which she used when she was adventuring. It keeps the hands soft and supple, avoiding the clumsiness caused by excessive chapping.
+
+STATISTICS:
+
+Special: Dexterity +1 for 6 turns
+Weight: 1~
+
+@59 = ~Pink Boots of Stealth~
+@60 = ~These boots are perfect for those who wish to be able to move silently. Aurora had them custom-dyed at Imoen's request.
+
+STATISTICS:
+
+Equipped Abilities:
+ Move Silently: +20%
+ Hide in Shadows: +15%
+Weight: 4
+Usable By:
+ Thief
+ Ranger
+ Monk~
+
+@61 = ~Muscle Balm~
+@62 = ~This is a balm for soothing sore or strained muscles.
+
+STATISTICS:
+
+Special: Fatigue set to 0
+Weight: 1~
+
+@63 = ~Pieces of jewelry worn in the ears are common in many cultures. Some rare earrings have had enchantments placed upon them that confer various magical abilities. These earrings are highly sought after, especially by those of the adventuring profession.~
+
+@64 = ~Shoes~
+@65 = ~Cobblers normally hand-craft shoes or moccasins such as these. Common shoes are made by using a pattern, but good shoes are designed for the foot of an individual.
+
+STATISTICS:
+
+Weight: 2~
+
+@66 = ~Boots of the Bar~
+@67 = ~Sometimes, the weary adventurer needs a good, stiff drink and a nice, soft bed in which to sleep it off afterwards. All the wearer needs to do is click the heels of these boots together three times and the entire party will be transported to an inn of choice.
+
+STATISTICS:
+
+Special: Teleport party to an inn of choice (3 per day)
+Weight: 4~
+
+@68 = ~Green-Laced Boots~
+@69 = ~Aurora had these boots commissioned shortly after losing her first pair of "adventuring boots" - as soon as she could afford to, that is. Lacing on such an attractive pair of boots gave a good start to any day, and they provide an additional aid by boosting the wearer's defenses. Due to many compliments from her customers, Aurora produced more of the boots and made them available more widely.
+
+STATISTICS:
+
+Equipped Abilities: AC -1, Saving throws -1
+Weight: 4~
+
+@70 = ~Robe~
+@71 = ~This is a common, lightweight robe woven of linen, with sleeves of finer silk. It appears to be an all-purpose garment well-suited for any profession.
+
+STATISTICS:
+
+Weight: 3~
+
+@72 = ~Green Robe~
+@73 = ~In return for services rendered as guides and guards, and as a gesture of friendship, a wizard enchanted these robes for the three members of his elite bodyguard. The robes provide protection against various forms of magic, and make the wearer more agile. In addition, they bring out the color of the wearer's eyes.
+
+STATISTICS:
+
+Equipped Abilities:
+ AC: base set to 4
+ Magic Resistance +15%
+ Dexterity +1
+Weight: 3~
+
+@74 = ~Everyday Yellow Boots~
+@75 = ~These are comfortable, sturdy boots designed for everyday wear. Aurora dyed these yellow, and designed them specially to withstand blunt attacks.
+
+STATISTICS:
+
+Equipped Ability: AC -2 vs. blunt weapons
+Weight: 4~
+
+@76 = ~Everyday Blue Boots~
+@77 = ~These are comfortable, sturdy boots designed for everyday wear. Aurora dyed these dark blue, and designed them specially to withstand slashing attacks.
+
+STATISTICS:
+
+Equipped Ability: AC -2 vs. slashing weapons
+Weight: 4~
+
+@78 = ~Pearwood Shoe Box~
+@79 = ~This light, sturdy box is made of a fine-grained hardwood and is bound with iron. It is compact and looks very serviceable.~
+@80 = ~Aurora designed this box to hold her many shoes and boots. It is compact, sturdy and made of a varnished pearwood bound with iron. She had a wizard friend enchant it so that it opens onto another self-contained mini-plane. A large quantity of boots may be placed in the box, yet its weight stays the same.
+
+STATISTICS:
+
+Capacity: 40 boots or shoes
+Weight: 2~
+
+@81 = ~Acid Rapier +2~
+@82 = ~This ornate basket-hilted rapier is made of an unusual bronze and adamant alloy harder than steel. The age-darkened hilt is acid-etched with gold and silver scrollwork and embossed with an unknown coat-of-arms. Although the blade can corrode whatever it touches, the weapon itself withstands any corrosion. No one knows where the unusual blade came from originally, but it figures in many tales and legends. Pirates, treasure hunters and unsavory rogues alike have long coveted the rapier.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1D6 + 1
+ +2 Acid Damage
+Damage Type: Piercing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Short Sword
+Type: 1-handed
+Requires: 5 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage~
+
+@83 = ~Pirate's Cutlass +2~
+@84 = ~This fearsome blade of curved steel once belonged to the notorious Black Dhavrag, scourge of the Sword Coast. With this sword constantly in his hand, the pirate king plundered many a coastal village from Amn all the way to Waterdeep, often in a berserk rage. Sadly for him (and gladly for nearly everyone else), he lost it in a card wager and it was carried off during the drunken brawl that followed. So infamous is the cutlass that the mere touch of it can cause a victim to flee in abject terror.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1D6 + 2
+Damage Type: Slashing
+Equipped Ability: Dexterity +1
+Special:
+ 10% chance to inflict Horror on victim
+ 10% chance to inflict Berserk on wielder
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Requires: 8 Strength
+Not Usable By:
+ Cleric
+ Mage~
+
+@85 = ~Hazel Ioun Stone~
+@86 = ~The swashbuckler Aloysius D'Abetot once traveled the Realms from icecaps to deserts, seeking to plunder everything in sight. He relied on this otherworldly luckstone to keep his skull intact during his pillaging. After a particularly long day of thieving, he fell asleep in a tavern garden with a bar wench, the stone safe in his pouch (so he thought). Alas, during his nap, the stone must have wandered off, for he awoke to find it missing, along with the bar wench. Although Aloysius and his antics have long been forgotten, the stone has moved on to impart its luck on a new master. Oddly, it looks much like an acorn.
+
+STATISTICS:
+
+Equipped Abilities: Luck +1; Protects against critical hits
+Weight: 1~
+
+@87 = ~Boots of Speed: "The Paws of the Cheetah"
+These enchanted boots were once the property of an order of deadly assassins fond of chasing down their prey. They moved with such speed that their targets often didn't have the opportunity to respond, even on horseback. Over time the order's infamy spread, and though its name was never known, all knew to fear the words last heard by their victims: "you can hide, but you cannot run!"
+
+STATISTICS
+
+Equipped Ability: Movement rate doubled
+Weight: 4~
+
+@88 = ~Boots of Avoidance: "Senses of the Cat"
+The magic of these boots was specifically designed to detect incoming missiles and aid the wearer in avoiding them. They were originally commissioned by the instructors of an archery academy, who had tired of suffering "accidents" at the hands of their inexperienced students.
+
+STATISTICS:
+
+Equipped Ability: AC -5 vs. missile weapons
+Weight: 4~
+
+@89 = ~Boots of Grounding: "Talos' Gift"
+Untold years ago, the Fortress of the Starspire Peninsula was placed under the direct torment of Talos when a favored Stormherald was murdered there. Talos promised the destruction of the city by earthquakes, its inundation by tidal waves, and the death of its citizens by storms. One pair of these boots was bestowed to ensure that none but a single man would survive to tell the story of his wrath. Later, travelers seeking fortune in the ruined city came upon an aged man, maddened by the continuous destruction around him. The boots he wore would carry to many a distant land the legend of a city consumed by a god's rage. Over the years, others have found the boots useful, and have had skilled mages craft additional pairs.
+
+STATISTICS:
+
+Equipped Ability: Electricity Resistance +50%
+Weight: 4~
+
+@90 = ~Boots of Berserking~
+@91 = ~Boots of Berserking: "Fury of Ruathym"
+Valthjof of Ruathym was an adept shaman of the northmen. So skilled was he that he could summon up wild beasts and infuse their spirits into inanimate objects. Thus did he enchant several pairs of boots for the crew of the longship "Ice Serpent." They rampaged the Moonshaes to the south and did not stop there. Due to the berserk fury the boots gave them, their lust for blood never ceased until each of them lay dead in far corners of the Realms.
+
+STATISTICS
+
+Special: Attacks per round +1 for 20 seconds
+Penalties: AC +8; saving throws +6; thief skills and spells disabled
+Weight: 3~
+
+@92 = ~Boots of Lightning Speed: "Heels of the Coward"
+These modified boots of speed were originally intended to boost the wearer's speed rating even more so than would normal boots of speed. When used, the wearer's movement rate increases as if under the effect of normal boots of speed combined with a haste spell. Unfortunately, the wearer cannot attack or cast spells. Their nickname summarizes their most obvious use: running away.
+
+STATISTICS
+
+Equipped Ability: Movement rate set to maximum
+Penalties: Unable to attack or cast spells
+Weight: 3~
+
+@93 = ~Legend holds that the mage who created these magical boots trapped the spirits of actual gargoyles within them. However, when the nameless wizard was constructing his third pair of boots, one of the gargoyle's mates appeared and took her vengeance on him.
+
+STATISTICS:
+
+Equipped Ability: Immunity to backstab
+Special: Stoneskin 2 times/day (2 skins per use)
+Weight: 1~
+
+@94 = ~Installing Aurora's Shoes for Tutu.~
+@95 = ~Installing Aurora's Shoes for Baldur's Gate Trilogy.~
+@96 = ~Installing Aurora's Shoes for Baldur's Gate II.~
+@97 = ~This mod is not compatible with your game. Please check your install folder and try again.~
+
+@98 = ~Boots of War~
+@99 = ~These boots of hardened plate metal are enameled with topaz. They have been refashioned from the Boots of Bravery and the Boots of Battle. Thus, they provide the wearer with protection from all forms of fear. In addition, they bear an enchantment that gives the wearer an extra edge over one's opponents in battle.
+
+STATISTICS:
+
+Equipped Abilities:
+ Protection from Fear
+ THAC0 +2
+Weight: 4~
+
+@100 = ~You'll find my sword still sharp!~ [AGAU001] //ATTACK1 
+@101 = ~Never a dull moment!~ [AGAU002] //BATTLE_CRY1
+@102 = ~In those boots? You don't stand a chance!~ [AGAU003] //BATTLE_CRY2
+@103 = ~I haven't lost my touch!~ [AGAU004] //CRITICAL_HIT
+@104 = ~Damn!~ [AGAU005] //CRITICAL_MISS
+@105 = ~Oof!~ [AGAU007] //DAMAGE
+@106 = ~Run while you've still got legs!~ [AGAU008] //DIALOGUE_HOSTILE
+@107 = ~It's been fun.~ [AGAU009] //DYING
+@108 = ~Ugh! I must be getting sloppy.~ [AGAU006] //HURT
+@109 = ~Gain the services of Sir Sarles for the temple
+
+Unger Hilldark told me that his latest shipment of illithium was stolen by a gnome named Neb. Unger cannot get the illithium back himself because the word of a duergar is not trusted in Amn. If I am to get real illithium, I will have to exact justice on this bandit myself. Unger tells me that Neb bought a house in the Bridge District, marked as "derelict house" on the map. The name "Neb" sounds oddly familiar.~
+@110 = ~Gain the services of Sir Sarles for the temple
+
+I managed to secure the services of the artist Sir Sarles for the church... although it was certainly not easy. He had demanded to use pure illithium, which I had to obtain from a murderous gnome named Neb. Still, the task is done.~
+@111 = ~Flee you from my home, will you. Honest citizen I am. Just a gnome trying to make a living.~
+@112 = ~Typical of this city. I'm just a poor businessman, but I'll be jailed just for my shadowed face. This bastard that robbed me looks like a gnome, so he's welcomed with open arms.~
+@113 = ~This is the head of the gnome Neb. Rarely has a more despicable being roamed the land.~
+@114 = ~I have the head of the child-killing gnome Neb. I expect a bounty for the service of killing him.~
+@115 = ~I have the head of the child-killing gnome Neb. I expect a bounty for killing him.~
+@116 = ~I have the head of a criminal here, a gnome by the name of Neb. Is it you I should be talking to?~
+@117 = ~<CHARNAME>! This... this is the same child-killing gnome from Baldur's Gate! I remember! For the greater balance, his head must be brought to the authorities!~
+@118 = ~Boo remembers! Baldur's Gate! Neb the child murderer! You die, gnome, you die!! RAAAAAGGGGGHHHH!!~
+@119 = ~I remember you! Baldur's Gate! Neb the child murderer! You die, gnome, you die!! RAAAAAGGGGGHHHH!!~
+
+@120 = ~Karaea Harfurthock~
+@121 = ~I thought you'd never ask!~ [AGKA001] //INITIAL_MEETING
+@122 = ~I'm tired. And I really need to change my... boots.~ [AGKA002] //TIRED
+@123 = ~Get ready! It's gonna hurt!~ [AGKA003] //BATTLE_CRY1
+@124 = ~Breakaway! Coming through!~ [AGKA004] //BATTLE_CRY2
+@125 = ~Unghhh!~ [AGKA005] //DAMAGE
+@126 = ~Really?!~ [AGKA006] //DYING
+@127 = ~Unghh... If I die it's over between us!~ [AGKA007] //HURT
+@128 = ~I'll be right there!~ [AGKA008] //SELECT_COMMON1
+@129 = ~Yes?~ [AGKA009] //SELECT_COMMON2
+@130 = ~(giggle) I even surprised myself!~ [AGKA010] //CRITICAL_HIT
+@131 = ~Oops! I didn't mean to do that!~ [AGKA011] //CRITICAL_MISS
+@132 = ~Ooh! Now I have to start over!~ [AGKA012] //SPELL_DISRUPTED
+@133 = ~Karaea's Jams and Boots~
+@134 = ~Tomthal Harfurthock~
+@135 = ~Hmph.~ [AGTO001] //INITIAL_MEETING
+@136 = ~I'll hack you to bits!~ [AGTO002] //BATTLE_CRY1
+@137 = ~Die, you old goat.~ [AGTO003] //BATTLE_CRY2
+@138 = ~I'll smash your foolish brains out!~ [AGTO004] //ATTACK1
+@139 = ~Oof.~ [AGTO005] //DAMAGE
+@140 = ~Ach...~ [AGTO006] //DYING
+@141 = ~Ah, crivens.~ [AGTO007] //HURT
+@142 = ~Well?~ [AGTO008] //SELECT_COMMON1
+@143 = ~And?~ [AGTO009] //SELECT_COMMON2
+@144 = ~Heh heh heh. Take that!~ [AGTO010] //CRITICAL_HIT
+@145 = ~Bah!~ [AGTO011] //CRITICAL_MISS
+@146 = ~Curses!~ [AGTO012] //SPELL_DISRUPTED
+@147 = ~Poisoned Throwing Dagger~
+@148 = ~Pung~
+
+@150 = ~Gnomish Boots~
+@151 = ~These low boots are cobbled from the sturdiest leather. The toes point upward slightly, and the soles are designed to keep a sure footing on any terrain, whether underground or on the surface.
+
+STATISTICS:
+
+Equipped Ability: Immune to Entangle, Grease and Web
+Weight: 2~
+
+@152 = ~Ruby~
+@153 = ~The ruby is a clear to deep crimson corundum stone, the hardest next to the diamond. The deeper the red, the more valuable the stone, so that more valuable variations are easily identified. Most higher quality rubies come from deep underground. Rubies are supposed to grant good luck, according to superstitions in the Sea of Fallen Stars. In magical research, rubies are often ground to produce magical dust and inks, and also are associated with combatting the undead, and thus adorn devices made for this purpose.~
+
+@154 = ~Star Ruby~
+@155 = ~This magnificent ruby is a stone of unparalleled value. The star at its center radiates at different angles as the stone rotates, throwing a blood-red light in all directions. A gem this rare and beautiful could ransom a prince.~
+
+@156 = ~Pickaxe~
+@157 = ~The military pick originated from the common mining tool. It consists of a heavy piercing fluke mounted on a haft. Its role in combat is to puncture heavier armors, even full plate.
+
+Damage: 2D4
+Damage type: piercing
+Weight: 6
+Speed Factor: 7
+Proficiency Type: Axe
+Type: 1-handed
+Requires: 8 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
+
+@158 = ~Svirfneblin Pickaxe~
+@159 = ~The deep gnomes are fond of these weapons for obvious reasons: they are ideal for digging precious gems from the earth. Pickaxes also ideal for piercing heavy armor, even full plate. The svirfneblin make their picks from a strong, light alloy of unknown properties. This metal keeps a sharp edge even after vigorous mining or combat.
+
+THAC0: +1
+Damage: 2D4 + 1
+Damage type: piercing
+Weight: 5
+Speed Factor: 6
+Proficiency Type: Axe
+Type: 1-handed
+Requires: 7 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
+
+@160 = ~Svirfneblin Club~
+@161 = ~This unusual weapon lies midway between a club and mace, with some features of a morning star. Its spherical head is studded with knobs of various sizes, which the deep gnomes use to do detailed stone work. The head joins the haft as one piece of alloyed metal, and lacks the flanges of a mace. Thus, it wields more like a club than any other weapon.
+
+THAC0: +1
+Damage: 1D6 + 2
+Damage type: crushing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength
+Not Usable By:
+ Mage~
+
+@162 = ~This bottle holds a concoction of unknown vintage. It is said that an adventurer from Scornubel once quaffed such an unknown vintage that turned out to be homemade mushroom wine from the Wood of Sharp Teeth. The man disappeared for a decade and turned up later in a fishing shack on the isle of Snowdown with absolutely no memory of his past. Hopefully, this is not such a vintage, but it might be safest to identify it before drinking.~
+
+@163 = ~Gogondy~
+@164 = ~This wrought iron bottle has a granite stopper and is inscribed with strange runes in the svirfneblin language. It contains a strange, heady-smelling drink that is deep red in color. The deep gnomes prize this wine for its mystical properties, which extend beyond the ken of other races.
+
+Special: Unknown
+Weight: 1~
+
+@165 = ~This wrought iron bottle has a garnet stopper and is inscribed with mystical runes in the svirfneblin language. It contains a strange, pungent-smelling drink that is deep red in color. The deep gnomes prize this wine for its power to grant visions. This particular vintage is toned down to allow non-svirfneblin to benefit from these visions, though the exact nature of the vision varies for each imbiber.
+
+Special: Unknown
+Weight: 1~
+
+@166 = ~Strawberry Wine~
+@167 = ~This is a superior vintage from a crop harvested from the shores of Lake Esmel over a decade ago, in the Year of the Worm (1356). Quite dry for a berry wine, it has a sparkling afterbite with hints of clove and orange zest. Its aroma evokes fresh strawberries, dry oak and spring rain. Elegant and medium-bodied, it offers a rare chance to relax in the midst of the wilderness. It is said to pair exceptionally well with Calishite pheasant.
+
+Special:
+ Drunkenness +20% for 3 turns
+ Resist Fear for 3 turns
+ Charisma +1 or -1 (50% chance for each)
+Weight: 1~
+
+@168 = ~Berries~
+@169 = ~Various sorts of berries grow throughout all of Abeir-Toril, from the common blackberry to the fairly rare solik berry. Some berries are poisonous, so it may be wise to figure out what these berries are before munching on them.~
+
+@170 = ~Gooseberries~
+@171 = ~Gooseberries are indigenous to western Faerûn, and flourish from Waterdeep to Chult to the Utter East. Although somewhat tart, bitter and sour when raw, gooseberries are highly-coveted for their nutritional properties. Many Faerûnians eat them fresh and use them in pies, tarts and jams as well.
+
+STATISTICS:
+
+Special:
+ 50% chance heals 5 hit points
+ 25% chance fatigue -50%
+ 25% chance regenerates 1 hit point per round for 1 turn
+Weight: 0~
+
+@172 = ~Pie~
+@173 = ~Pies are large pastries typically filled with fruit, though some are made with cream, spices or even more exotic substances. This one looks and smells delicious.~
+
+@174 = ~Gooseberry Pie~
+@175 = ~Karaea's favorite pie derives from a recipe she learned shortly after coming to the surface. Though by this point, she has altered it to make it truly her own. This sweet-tart pie pleases from the first bite.
+
+STATISTICS:
+
+Special:
+ Fatigue set to 0
+ Regenerates 1 hit point per round for 5 turns
+ Saving throws -5 for 5 turns
+Weight: 1~
+
+@176 = ~Bread and Jam~
+@177 = ~This thick slice of freshly baked bread is spread with rich, creamy butter and topped with a generous dollop of jam. It is a simple, heartening treat.
+
+STATISTICS:
+
+Special: Fatigue -50%
+Weight: 1~
+
+@178 = ~Jam~
+@179 = ~This is a jar of jam. Could be almost any flavor - you'll never know until you check it out!~
+
+@180 = ~Apple Butter~
+@181 = ~Crisp, tart apples picked in the late fall and spiced with Karaea's secret blend (one that definitely includes more than a hint of nutmeg) make a truly delightful spread. On opening the jar, the traveler is pleasantly reminded of home, hearth and family.
+
+STATISTICS:
+
+Special:
+ Cures disease
+ Reduces drunkenness by half
+Weight: 1~
+
+@182 = ~Blackberry Jam~
+@183 = ~Blackberries grow wild throughout most of northern Faerûn, making it easy for the discerning jam-maker to choose the very best. Only the darkest, ripest berries were used making this exceptional spread, the quintessential jam.
+
+Should you accidentally stain your clothing, try pouring boiling water through the stained area and bleaching it in the sunlight. Alternately, you may purchase an inexpensive deep purple dye from your local dye merchant and give your clothing a whole new look.
+
+STATISTICS:
+
+Special: Cures poison
+Weight: 1~
+
+@184 = ~Blueberry Jam~
+@185 = ~Introduced by some of the first explorers of Maztica, the blueberry rapidly spread throughout the northern Sword Coast. Jam-makers quickly added it to their repertoire. An exceptionally sweet crop of blueberries, straight from the field, went into this delectable jam. Sweet, with just a hint of refreshing tartness, it energizes you almost as soon as you taste it.
+
+STATISTICS:
+
+Special:
+ Constitution +1 for 2 turns
+ Cures feeblemind
+Weight: 1~
+
+@186 = ~Goodberry Jam~
+@187 = ~An ingenious combination of spellcrafting and cookery leads to this delicious spread. One bite and you feel better at once.
+
+STATISTICS:
+
+Special: Heals 18 hit points
+Weight: 1~
+
+@188 = ~Lingonberry Jam~
+@189 = ~Lingonberries grow in colder climates, such as the Moonshae Isles and Icewind Dale. The red fruits are quite tart, but are cooked and sweetened to make excellent jams, juices and syrups. Northerners prize the berries for their helpful properties in the frigid north. 
+
+Karaea has only recently begun to experiment with this fruit, using recipes borrowed from others. The result is a hard-to-resist spread that will warm the cockles of your heart (if you have one).
+
+STATISTICS:
+
+Special:
+ Protection from Cold +65% for 2 turns
+ 5% chance to cause temporary insanity (Berserk) for 2 rounds
+Weight: 1~
+
+@190 = ~Mulberry Jam~
+@191 = ~The mulberry is thought to have originated in the Shining South, though it is now so widespread that determining its exact point of origin is no longer possible. The sweet, dark purple jam made from the fruit makes your mouth water. 
+
+Unfortunately, while the ripe fruit is a healthy snack, the unripe fruit occasionally produces hallucinations. You take your chances with this jam.
+
+STATISTICS:
+
+Special:
+ Protection from Fire +65% for 2 turns
+ 5% chance to cause hallucinations (Horror) for 2 rounds
+Weight: 1~
+
+@192 = ~Raspberry Jam~
+@193 = ~Originally brought from far eastern Koryo and the Ama Basin, the raspberry has gradually spread westward to become one of the more popular berries in Faerûn. This jam is made from the finest ruby-red raspberries, picked just at the height of their sweetness. It brings back memories of hot summer days. The jam's healthful properties include better eyesight and clarity of vision.
+
+STATISTICS:
+
+Special:
+ Infravision for 2 turns
+ Cures blindness
+Weight: 1~
+
+@194 = ~Strawberry Jam~
+@195 = ~Ever since this succulent fruit from Maztica was introduced in Faerûn, it has been a favorite. People from all walks of life adopted it for its excellence in jams, pies and even wines. This jam, made only from the ripest, reddest berries, will please even the most jaded palates.
+
+STATISTICS:
+
+Special: Protection from Acid +50% for 2 turns
+Weight: 1~
+
+@196 = ~Wolfberry Jam~
+@197 = ~The wolfberry is popular in Shou Lung, where the dried berries are added to rice pudding or brewed to make tea or even ale. The bright red berry has spread west to become popular in Faerûn, where it grows wild in hedges and can be easily gathered by wandering merchants and jam-makers.
+
+STATISTICS:
+
+Special:
+ 75% chance for Lesser Restoration
+ 10% chance fatigue +25%
+Weight: 1~
+
+@198 = ~Rapier~
+@199 = ~The rapier is a straight, double-edged, pointed blade with an elaborate hilt. It is designed to be a light, thrusting sword. The term "rapier" is often used to describe a civilian weapon, as opposed to the heavier and deadlier swords of soldiers and mercenaries. Rapiers are fashionable among nobles and particularly among duelists and fencers.
+
+STATISTICS:
+
+Damage: 1D6 + 1
+Damage Type: Piercing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Short Sword
+Type: 1-handed
+Requires: 5 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage~
+
+@200 = ~Cutlass~
+@201 = ~The cutlass is a sword with a single-edged, curved, broad blade attached to a basket hilt. The blade is short and heavy. The sword is favored among pirate crews and is easily found in port communities, but is rare inland.
+
+STATISTICS:
+
+Damage: 1D6
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Requires: 8 Strength
+Not Usable By:
+ Cleric
+ Mage~
+
+@202 = ~Weighted Sack~
+@203 = ~This rather unusual-looking device consists of a leather sack weighted with something heavy, probably lead. The sack is knotted at the neck and a strap extends around from there. Due to its size and shape, it might make more of a useful weapon rather than a pouch for carrying valuables.~
+
+@204 = ~Blackjack~
+@205 = ~This weapon is known by many names - most commonly a blackjack, but sometimes a "sap," "cosh" or even "life preserver" to those knowledgeable about its uses. This small, easily-concealed weapon consists of a leather-wrapped lead weight attached to a flexible leather strap reinforced with a coil spring. When used correctly, the blackjack inflicts minimal damage, but knocks out enemies instead of killing them. Thus, the weapon is considered a "humane approach" by thieves who wish to relieve the unfortunate victims of their valuables without resorting to murder.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1D3 - 1
+Special: 25% chance to render target unconscious
+Damage type: fists
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Club
+Type: 1-handed
+Requires: 10 Dexterity
+Usable By:
+ All~
+
+@206 = ~Lockpick~
+@207 = ~A lockpick is an essential thief's tool. It is a small slender pin made of some type of metal, with various bends or serrations used to open a lock in the absence of the proper key.~
+
+@208 = ~Bronze Lockpick~
+@209 = ~This is a small, slender length of bronze with one end bent and flattened. It is an essential tool to the shrewd thief who wishes to open locks without having access to the proper keys. This lockpick is quite simple and made of bronze. It is probably suitable to open locks of low resistance but will likely fail on locks of even medium difficulty, unless the "locksmith" is truly skilled indeed.
+
+STATISTICS:
+
+Equipped Ability: Open Locks +10%
+Requires: 10 Dexterity
+Usable By:
+ Thief~
+
+@210 = ~Mask~
+@211 = ~A mask is a covering typically worn over the eyes and sometimes the entire face. Its purpose is usually to obscure the identity of the wearer from prying eyes. Other masks are worn for protective or ritual purposes and may play roles in special holidays or priestly ceremonies.~
+
+@212 = ~Mask of Evasion~
+@213 = ~Arguably, the best way to avoid pursuit is to be unrecognizable. The embroidered mask has the ability to cast a dweomer about a thief's immediate surroundings. This enchantment makes it so the average person won't look twice at the wearer, a benefit of inestimable worth to one in the larcenous profession. It has, however, only limited uses before passersby catch on to the disguise and also tends to wear out after a while.
+
+Equipped Ability: Protects against critical hits
+Special: Stealth +50%
+Weight: 1
+Usable By:
+ Thief~
+
+@214 = ~Bracelet~
+@215 = ~A bracelet is a piece of jewelry worn around the wrist. Typically, bracelets are made of metal bands or chain; others are strings of beads or gems. Some bracelets are enchanted to have protective powers.~
+
+@216 = ~Bracelet of Wisdom~
+@217 = ~This string of silvery pearls is said to have been consecrated by the sea elves to Deep Sashelas, Lord of the Undersea. It gives its wearer a bonus to her wisdom and also the ability to cure disease three times a day.
+
+Equipped Ability: Wisdom +1
+Special: Cure Disease (3 per day)
+Weight: 1~
+
+@218 = ~Bastard Sword +2, Iceblade~
+@219 = ~This finely-crafted blade feels cold to the touch and stretches nearly five feet long. Strange runes reach along its fuller starting from the crossguard, stating an unknown legend in the northern tongue. The runic legend has imparted some properties of the sword's homeland to its bearer. The hand-and-a-half hilt is wrapped with sturdy cross-hatched leather and weighted with a simple iron pommel in the shape of a medallion.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 2D4 + 2
+ 10% chance +1 point of cold damage
+Armor Class: +1 bonus
+Equipped Ability: Cold Resistance +10%
+Damage type: slashing
+Weight: 7
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 11 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+@220 = ~Brooch~
+@221 = ~Brooches are decorative jewelry items designed to be attached to garments and worn at or near the neck. Most brooches are made of metal, often silver or gold but sometimes bronze or another material. Brooches are frequently decorated with enamel or gemstones. They may be worn solely for ornament or serve a practical function such as a cloak fastener. Some brooches are even enchanted for a special purpose.~
+
+@222 = ~Brooch of Tempus~
+@223 = ~This ornate brooch is worked in the shape of a braided pin with a fearsome head adorning it. Attached to this is a torc ending in two other heads. The whole piece is forged from a bronze alloy and enameled with gold, and is designed to be worn at the neck as a cloak or dress fastener. The point of the brooch vaguely resembles a flaming sword or dagger. As such, it is symbolic of faith in Tempus. Some of his elite Battleguard are said to wear brooches of this nature, and the Lord of Battles grants a boon of inspiration to such worthy followers.
+
+STATISTICS:
+
+Equipped Ability: Memorize 1 extra 2nd level priest spell
+Requires: 14 Wisdom
+Usable By:
+  Cleric (Neutral or Chaotic only)~
+
+@224 = ~Battle Axe +2, Armor Biter~
+@225 = ~This axe from the northlands is a bit heavier than a belt or hand axe. The antiquated axe head is carved with an intricate pattern. It is also "bearded," indicating an increased length at the lower end of the blade, adding rigidity to the weapon for chopping tasks. The beard is also handy for hooking the edge of enemy shields. Northland warriors decorate their weapons with runic characters which identify the owner. Because the Northlanders believe the runes are magical, this make the weapon stronger in battle.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1D8 + 2
+Special: 5% chance to hook enemy's shield or limb
+ (-1 penalty to AC of target for 5 rounds)
+Damage type: slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Axe
+Type: 1-handed
+Requires: 10 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+@226 = ~Helm of the North~
+@227 = ~This well-crafted helm is embossed with an intricate pattern across and around the crown and nose guard. The hinged cheek plates are embellished with traditional wolf designs. This extraordinary example has ritual significance to the Northlanders.
+
+STATISTICS:
+
+Armor Class Bonus: None
+Equipped Abilities:
+ Protects against critical hits
+ Cold Resistance +20%
+Weight: 2
+Not Usable By:
+ Mage
+ Thief~
+
+@228 = ~Staff of Swarming Insects +2~
+@229 = ~This staff is extremely gnarled and apparently made of two different types of wood grown together. Much of its length is covered with finely done carvings depicting winged biting and stinging insects (bees, deerflies, horseflies, wasps and the like). Any priest character (cleric or druid) holding it can command the staff to create a swarm of such insects, at the same time expending one of the staff's charges.
+
+STATISTICS:
+
+Abilities (one charge):
+Insect Plague
+ Damage: 1 HP every 2 seconds for 6 rounds
+ Special: Spell failure; fear
+ Range: Sight
+
+THAC0: +2 bonus
+Damage: 1D6 + 2
+Damage type: crushing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Requires: 5 Strength
+Usable By:
+ Cleric
+ Druid~
+
+@230 = ~Ring of Immunity~
+@231 = ~This ring gives immunity to all spells, attacks and detections for permanently invisible creatures.~
+
+@232 = ~Great Elixir~
+@233 = ~Of all the tales of powerful magic that have emerged from Halruaa, the legend of the great elixirs is perhaps the most remarkable. The first great elixir concoction possibly originated in Netheril itself. Regardless of their origins, these liquids possessed a chaotic nature that made them an unappealing risk. The formula for their creation was eventually lost and forgotten. Some caches of the unpredictable stuff do pop up every once in a while, however.
+
+A great elixir is a translucent, aquamarine liquid that twinkles and swirls gently about in endless motion. It is described as tasting like fine wine on fire. The possible effects of any given elixir are random, ranging from instant death to the attainment of one or more innate abilities.
+
+Special: Unknown (random permanent effect)
+Weight: 1~
+
+@234 = ~Mahogany Shoe Box~
+@235 = ~Karaea designed this box to hold her many shoes and boots. It is compact, sturdy and made of a varnished mahogany bound with iron. She had a wizard friend enchant it so that it opens onto another self-contained mini-plane. A large quantity of boots may be placed in the box, yet its weight stays the same.
+
+STATISTICS:
+
+Capacity: 40 boots or shoes
+Weight: 2~
+
+@236 = ~Ebony Shoe Box~
+@237 = ~This box is designed to hold many shoes and boots. It is compact, sturdy and made of a varnished ebony bound with iron. A wizard enchanted it so that it opens onto another self-contained mini-plane. A large quantity of boots may be placed in the box, yet its weight stays the same.
+
+STATISTICS:
+
+Capacity: 40 boots or shoes
+Weight: 2~
+
+@238 = ~Carnival Melee Weapons~
+@239 = ~Black Lily's Shop~
+@240 = ~Shop of Silence~
+
+@241 = ~Good day!~ [T-SVA01A] //SELECT_COMMON1
+@242 = ~Yes.~ [T-SVA01B] //SELECT_COMMON2
+@243 = ~I really need to talk to you.~ [T-SVA01C] //SELECT_COMMON3
+@244 = ~Ho ha ha ha!~ [T-SVA01D] //SELECT_COMMON4
+@245 = ~Kill that scum! Get 'em good!~ [T-SVA02A] //BATTLE_CRY1
+@246 = ~Blood and bloody hell!~ [T-SVA02B] //BATTLE_CRY2
+@247 = ~My powers shall obliterate you!~ [T-SVA02C] //BATTLE_CRY1
+@248 = ~Die!~ [T-SVA02D] //BATTLE_CRY2
+@249 = ~So long!~ [T-SVA03A] //MORALE
+
+@250 = ~Goblin Boots~
+@251 = ~Over a century ago, the goblin shaman Kemunshalzeka bound a fearsome vampiric wolf to serve her. In a fierce battle with the wood elves, a flurry of enchanted arrows slew the wolf. Kemunshalzeka defeated the elves with her powerful magic and after the battle, skinned the wolf's corpse to make these boots. Of course, none of this truly stopped the wolf, being an undead creature. Indeed, the wearer of these boots can once again summon up the wolf when needed. Even if killed, the wolf will be able to rise again after the next sunset. Additionally, the boots protect the wearer from most wolves, though not werewolves.
+
+STATISTICS:
+
+Equipped Ability: Immune to wolf attacks
+Special: Summon Vampiric Wolf once per day
+Weight: 2~
+
+@252 = ~Help! Help!~ [T-SVA03B] //MORALE
+@253 = ~I am wounded! Heal me!~ [T-SVA07] //HURT
+@254 = ~You're in GREAT peril if you bother me. Just you wait!~ [T-SVA08] //DIALOGUE_HOSTILE
+
+@255 = ~Goblin Archer~
+@256 = ~Goblin Bodyguard~
+@257 = ~Goblin Elite Archer~
+@258 = ~Goblin Chief~
+@259 = ~Goblin Shaman~
+@260 = ~Gnome Slave~
+@261 = ~Svirfneblin Ring~
+
+@262 = ~Chained-Teeth Earrings~
+@263 = ~The chains of these earrings appear to be fashioned from a black, otherworldly metal. Attached to these are the long, narrow teeth of some strange creature. Upon closer examination, you discover these thin metal earrings are actually a pair of well-crafted lockpicks. If need be, the wearer can use them to pick open stubborn locks.
+
+Equipped Abilities:
+ Open Locks +5%
+ Protects against critical hits
+Requires: 10 Dexterity
+Usable By:
+ Thief~
+
+@264 = ~Iron Lockpick Set~
+@265 = ~This is a set of well-crafted lockpicks of different shapes that can be used to open a variety of locks from the easy to the difficult. One of the implements can also be used to find and disarm traps. Although not nearly as valuable to intrepid locksmiths as the rare and highly-coveted mithril or adamantite lockpicks, this is a very serviceable set.
+
+STATISTICS:
+
+Equipped Abilities:
+ Open Locks +15%
+ Find/Disarm Traps +5%
+Requires: 10 Dexterity
+Usable By:
+ Thief~
+
+@266 = ~Pile of Bones~
+@267 = ~This heap of decaying bones is all that remains of some poor, luckless adventurer. There are few clues as to whom this person was, but he or she was probably human, elven or a similarly-sized humanoid. Without doubt, the adventurer met a violent end, judging from the cut marks and shattering of the bones. Likely, many years have also transpired since this occurred, perhaps even centuries, if the color and condition of the bones give any indication.
+
+STATISTICS:
+
+Weight: 15~
+
+@268 = ~Tattered Note~
+@269 = ~This is an aged and torn piece of vellum covered with the dust of bones and the bloodstains of a corpse long since decayed. Despite its condition, a portion of it is barely readable.
+
+"...maist interesting t' the elders... happened upon what appears t' be a cave... many cunning contrivances what make it appear... pairt of the surrounding rock... I hope the vermin I threw off m' trail last night d' not lair in this befoul'd place... mayhaps the fabled shield of Gwalhaudh lies... shall see presentish..."~
+
+@270 = ~Knight's Shield +1~
+@271 = ~Although many cracks of age or heavy use appear on the surface of this shield, they do not appear to weaken it the slightest. The shield appears to be bronze, though much stronger perhaps even than iron. Moreover, it shows no signs of the green coating of verdigris that would usually cover a bronze object of any age. It must be forged of some alloy unknown to modern metalsmiths. The shield is the tri-corner shape typical of the knight's shield in the classical style, bisected with a cross of darker alloy and embossed with a quartered blazon of castles and rampant crowned lions. It was clearly the shield of a knight of renown, possibly even a duke or king. Perhaps this is even the legendary shield of Gwalhaudh the Pure, lost many ages ago. The shield supposedly could keep evil creatures at bay, for they were loath to touch it or even come near it.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Equipped Ability: Protection From Evil
+Weight: 6
+Requires: 12 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Evil-aligned characters~
+
+@272 = ~Wolf Attribute Item~
+@273 = ~This item gives the wolf its innate features like slow regeneration.~
+
+@274 = ~Drow Boots~
+@275 = ~Soon after the Descent, the drow started making these boots in the craftshops of the Underdark. The dark elf craftsmiths started by making copies of elven boots and warping them, based on the materials they had available to them. Unlike other drow items, the boots are not made with adamantine, and therefore will not degrade in the light. Rather, they're made with enchanted spider silk which gives the wearer immunity to webs. In addition, the boots confer the ability to call up a myrlochar, or "soul spider," regardless of where the wearer may be. These dark otherplanar servants of Lolth have the ability to permanently drain hit points from their targets and transfer the stolen health to themselves.
+
+STATISTICS
+
+Equipped Abilities:
+ Move Silently: +15%
+ Immune to Web
+Special: Summon Myrlochar once per day
+Weight: 3~
+
+@276 = ~Daemonfey Boots~
+@277 = ~Six thousand years ago, a proud clan of sun elves dwelt in what is now Cormanthor. These ambitious elves trafficked with demons to gain power and bred with them to strengthen their bloodline. Eventually, other elves learned of this outrage and destroyed the half-fiends of House Dlardrageth. Some survived to breed with other daemonkin, spawning the fey'ri tieflings and similar abominations. Fewer yet of the original lineage escaped the initial battle and vanished from history in the forests of the North. These demon-blooded elves bred with other elves and eventually became known as daemonfey. Their boots are imbued with infernal power that can summon an abysmal ally. Sometimes this has grave consequences for the wearer.
+
+STATISTICS
+
+Equipped Abilities:
+ Magic Resistance: +10%
+ Movement rate +4
+Special:
+ Summon Cambion or Alu-Fiend once per day (25% chance hostile)
+ Temporary level drain for 8 turns (50% chance)
+Not Usable By:
+ Lawful characters
+Weight: 3~
+
+@278 = ~Tiger's Eye Gem~
+@279 = ~Tiger's Eye is a dark brown agate with rich golden-brown striping that gives the stone its name. Legends state that tiger's eye is useful in repelling spirits. While this is not known to be true, the agate is ground and used both in preparing potions and in creating magical markings.~
+
+@280 = ~Snowflake Obsidian~
+@281 = ~This obsidian variety occurs here and there in the Realms in large deposits of volcanic origin. It is black with grayish flower-like patches that often, especially if some stone can be cut away, radiate symmetrical patterns that resemble snowflakes. It is brittle and weak, but often used for small carvings. In the Realms, it is either finished to tumbled gemstone form for sale, or sold in "trade blocks" or large irregular chunks.~
+
+@282 = ~Amethyst Gem~
+@283 = ~This mineral forms in deep purple crystals, often times in the middle of geodes but also in large veins on the surface, sometimes stretching for hundreds of feet. While most specimens have minor imperfections or traces of other minerals clouding them, some few are free from such defects and are cut into high-quality gemstones. Amethysts are supposed to ward off drunkenness, and as such are usually used as ornaments for mugs and chalices, particularly those used by nobility. This ward is more superstition than truth.~
+
+@284 = ~Topaz Gem~
+@285 = ~Topaz is a golden, transparent gemstone found in large crystals in granite deposits. Usually yellow or brown, it becomes pink if exposed to great temperatures. Topaz is very hard and wears well. It is used as an inset gem in devices which offer protection from magical effects.~
+
+@286 = ~Amber Gem~
+@287 = ~Amber is a golden, fossilized resin, usually tumbled smooth and cut cabochon. It is soft and brittle and often used as a good luck charm to ward off diseases and plague. Some amber contains other preserved fossils, such as primitive plants and insects. These variants are valued much higher in the Realms. Amber pellets strung on thongs are used as a medium of trade by northern barbarians, but are graded among civilized folk for their gem value.~
+
+@288 = ~Fire Opal~
+@289 = ~This fiery orange-red opal is usually solid but sometimes has gold or green flecks. The translucent gem is often cut into faceted jewels the same way sapphires and rubies are. It is found near active hot springs and geysers, and is often used to make jewelry such as pendants or rings.~
+
+@290 = ~Bandfire Opal~
+@291 = ~Bandfire is the name given to a type of precious opal with mottled or wavy bands showing a play of colors. Highly coveted by ancient elf clans, it has become somewhat uncommon in recent times. This pale, smooth gemstone is sometimes used in scrying or protective devices.~
+
+@292 = ~This is an ordinary, medium-sized, hand-held mirror.~
+@293 = ~This is a medium-sized, hand-held mirror with a tin alloy frame. It presents an exceptionally clear reflection, so the metal behind the glass may be of silver. Though impractical as a normal defense, anyone bearing this mirror as a shield has a chance of reflecting the gaze attacks of basilisks and other such creatures.
+
+STATISTICS:
+
+Equipped Ability:
+ 25% chance to reflect gaze attacks
+Weight: 1~
+
+@294 = ~This sturdy wooden box is enameled with lacquer and clasped with bronze. It is small but serviceable, and can hold a few smaller items.
+
+STATISTICS:
+
+Capacity: 12 items
+Weight: 5~
+
+@295 = ~Boots of Swift Love~
+@296 = ~These boots are retailored from the Stylish Boots of the Cheetah and the shoes known as "Love Lies Bleeding," in which it really is possible to knock 'em dead. The original Paws of the Cheetah were the property of deadly assassins fond of chasing down their prey. They moved with such speed that their targets often didn't have the opportunity to respond, even on horseback. This was very impressive, of course, but the assassins had no sense of style. This pair is fashioned in a more attractive cheetah-skin pattern, dyed red and inset with fire opal. They increase the wearer's speed and look good at the same time.
+
+STATISTICS:
+
+Equipped Ability: Movement rate doubled
+Special: Cast Nature's Beauty once per day
+Weight: 3~
+
+@297 = ~Stinking Gnomish Boots~
+@298 = ~These low boots have been recobbled from the sturdy Gnomish Boots and the infamous boots known as "Stinky Feet." The latter acquired their name from the original wearer who, after several years of snide remarks and requests that he sit somewhere else, anywhere else, decided to take advantage of his situation. The boots have been fully cleaned and inset with amber. They still bear the title "Stinking" but out of deepest respect for their power. The toes point upward slightly, and the gnomish soles are also designed to keep a sure footing on any terrain, whether underground or on the surface.
+
+Equipped Ability: Free Action
+Special: Cast Stinking Cloud once per day
+Weight: 2~
+
+@299 = ~Thrice-Armored Boots~
+@300 = ~These boots get their name from their unique three-color pattern, though they are actually refashioned from four pairs of boots. These include everyday boots of green, yellow and blue and the Boots of Avoidance known as "Senses of the Cat." The magic of these boots was specifically designed to detect incoming missiles and aid the wearer in avoiding them. They were originally commissioned by the instructor of an archery academy, who had tired of suffering "accidents" at the hands of his inexperienced students. In addition, they provide a lesser armor class protection to other types of attacks. The boots are studded with multi-colored bandfire opal. Rumor has it that jesters prize these boots quite highly.
+
+STATISTICS:
+
+Equipped Ability: AC -2, -5 vs. missiles
+Weight: 4~
+
+@301 = ~Drow Boots of the Night~
+@302 = ~Soon after the Descent, the drow started making these boots in the craftshops of the Underdark. The dark elf craftsmiths started by making copies of elven boots and warping them, based on the materials they had available to them. Unlike other drow items, the boots are not made with adamantine, and therefore will not degrade in the light. Rather, they're made with an enchanted spider silk that gives the wearer immunity to webs. In addition, the boots confer the ability to call up a myrlochar, or "soul spider," regardless of where the wearer may be. These dark otherplanar servants of Lolth have the ability to permanently drain hit points from their targets and transfer the stolen health to themselves. The boots have been combined with the Boots of Elvenkind to confer the original abilities of their prototype. They also haste the wearer and are inset with amethyst of deepest purple.
+
+STATISTICS
+
+Equipped Abilities:
+ Move Silently: +30%
+ Hide in Shadows: +15%
+ Movement rate doubled
+ Immune to Web
+Special: Summon Myrlochar twice per day
+Weight: 3~
+
+@303 = ~Daemon Noble Boots~
+@304 = ~Six thousand years ago, a proud clan of sun elves dwelt in what is now Cormanthor. These ambitious elves trafficked with demons to gain power and bred with them to strengthen their bloodline. Eventually, other elves learned of this outrage and destroyed the half-fiends of House Dlardrageth. Some survived to breed with other daemonkin, spawning the fey'ri tieflings and similar abominations. Fewer yet of the original lineage escaped the initial battle and vanished from history in the forests of the North. These demon-blooded elves bred with other elves and eventually became known as daemonfey. Their boots are imbued with infernal power that can summon an abysmal ally. These particular boots have been retailored with the Boots of Speed and a star ruby of unparalleled beauty, making them suitable footwear for a demon prince.
+
+STATISTICS
+
+Equipped Abilities:
+ Magic Resistance: +15%
+ Movement rate doubled
+Special: Summon Cambion or Alu-Fiend once per day
+Not Usable By:
+ Lawful characters
+Weight: 3~
+
+@305 = ~Mirrored Shield +1~
+@306 = ~Originally, this shield appeared to be of weathered bronze, though much stronger perhaps even than iron. Moreover, it showed no signs of the green coating of verdigris that would usually cover a bronze object of any age. It must have been forged of some alloy unknown to modern metalsmiths. It has been given a reflective coating of silvery metal and diamond. The shield is the tri-corner shape typical of the knight's shield in the classical style, bisected with a cross of darker alloy and embossed with a quartered blazon of castles and rampant crowned lions. It was clearly the shield of a knight of renown, possibly even a duke or king. Perhaps this was even the legendary shield of Gwalhaudh the Pure, lost many ages ago. In addition to reflecting the gaze of creatures like basilisks, the shield can also keep evil creatures at bay, for they are loath to touch it or even come near it.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Equipped Abilities:
+ Protection From Evil
+ Reflects gaze attacks
+Weight: 6
+Requires: 12 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Evil-aligned characters~
+
+@307 = ~Small portraits for NPCs~
+@308 = ~Merchants and minor NPCs~
+@309 = ~Merchants only~
+@310 = ~This component requires the main component.~
+
+@311 = ~Shorten BG2 intros~
+@312 = ~This component requires BG2 or BGT.~
+
+@313 = ~Change store buying prices~
+@314 = ~Change store selling prices~
+@315 = ~Change gem and jewelry prices~
+@316 = ~Change creature gold carried~
+
+@317 = ~Reduce to 10%~
+@318 = ~Reduce to 25%~
+@319 = ~Reduce to 50%~
+@320 = ~Reduce to 50% (recommended)~
+@321 = ~Reduce to 67%~
+@322 = ~Reduce to 67% (recommended)~
+@323 = ~Reduce to 75%~
+@324 = ~Reduce to 90%~
+@325 = ~Increase by 110%~
+@326 = ~Increase by 125%~
+@327 = ~Increase by 150%~
+@328 = ~Increase by 150% (recommended)~
+@329 = ~Increase by 200%~
+@330 = ~Increase by 300%~
+@331 = ~Increase by 500%~
+
+@332 = ~This miniature greenhouse contains many types of berries and is lit by special lights that mimic the sun.~
+@333 = ~This indoor garden contains many types of berries and is lit by special lights that mimic the sun.~
+@334 = ~One of several ropes hangs from the cavern ceiling here, adorned with dozens of gnome skulls.~
+
+@335 = ~Shorten Dungeon cutscene~
+@336 = ~Shorten Dungeon and Waukeen's cutscenes~
+@337 = ~Shorten Gorion battle cutscene~
+@338 = ~Myrlochar~
+@339 = ~Myrlochar Bite~
+
+@340 = ~Good day to you.~ [AGAU013]
+@341 = ~Hello.~ [AGAU050]
+@342 = ~I've something for everyone.~ [AGAU053]
+@343 = ~This component requires Tutu or BGT.~
+@344 = ~Fatigue Decreased~
+@345 = ~This gnomish pickaxe has seen a lot of wear and is not very serviceable.~
+@346 = ~Odd Device~
+@347 = ~This is a strange metal device with several interlocking parts. Its purpose is unknown.~
+@348 = ~Ancient Timepiece~
+@349 = ~Aurora and her gnomish assistants have acquired several unusual items in the course of their trading, and this is one of the oddest. It appears to be a series of interlocking gears and arrows housed in a weathered cover of antique brass. A tinker gnome claiming to hail from the world of Krynn pawned it to the shop in exchange for a pair of boots he said he simply *had* to have. Although Aurora and her own svirneblin associates were deeply suspicious of the device, it hasn't exploded quite yet. However, for all its intricate gears, it isn't very accurate. Its only advantage over a good sundial is that it supposedly works without sunlight.
+
+STATISTICS:
+
+Special: Displays the approximate time
+Weight: 1~
+
+@350 = ~Boots of the Pub~
+@351 = ~Mindfire~
+@352 = ~Lycanthropy~
+@353 = ~Gained Shapeshifting Ability~
+@354 = ~Strength has been lowered by 1 permanently~
+@355 = ~Intelligence has been lowered by 1 permanently~
+@356 = ~Wisdom has been lowered by 1 permanently~
+@357 = ~Dexterity has been lowered by 1 permanently~
+@358 = ~Constitution has been lowered by 1 permanently~
+@359 = ~Charisma has been lowered by 1 permanently~
+@360 = ~Gained Innate Ability~
+@361 = ~Greatness Attained: +3 Special Abilities~
+@362 = ~Gnoll Captain~
+@363 = ~Hobgoblin Captain~
+@364 = ~Hobgoblin Wizard~
+
+@365 = ~Randomizing item placement. This may take a while ...~
+@366 = ~is corrupt~
+@367 = ~below minimum length~
+@368 = ~header misplaced~
+@369 = ~extended structures point to header~
+
+@373 = ~Installing Aurora's Shoes for Classic Adventures~
+@374 = ~This component is not relevant for Classic Adventures.~
+@375 = ~Reduce to 17%~
+@376 = ~Change quest gold rewards~
+@377 = ~rows exist in your rndtreas.2da and rndmagic.2da tables. You need 6 or fewer rows in one of the two for this component to work fully.~
+@378 = ~Realistic random treasures~
+@379 = ~Remove duplicate random treasures~
+@380 = ~Only intelligent creatures get random scrolls~
+@381 = ~Both 1 and 2 (no treasures lost)~
+@382 = ~This may take some time ...~
+@383 = ~Both 1 and 2 (25% of treasures lost)~
+@384 = ~Both 1 and 2 (50% of treasures lost)~
+@385 = ~Both 1 and 2 (75% of treasures lost)~
+@386 = ~All random treasures removed~
+@387 = ~PnP Helmed and Battle Horrors~
+@388 = ~No relevant creatures found.~
+@389 = ~'Tis a great service you have done the people of this area, but it merely makes up for your previous acts of violence within these walls. You will get but the gold I have with me, and then you will leave my sight! Be thankful the guard does not place you in chains as your reward!~
+@390 = ~I'm impressed! You are as good as your word and obviously very deadly in your work. I'll give you the wage you deserve: double our original agreement. I want to keep in touch with you, especially if the Iron Throne is up to what you say it is.~
+@391 = ~A thousand gold, and she is yours!~
+@392 = ~You will get but 2,000 gold~
+@393 = ~triple~
+@394 = ~Thousand gold~
+@395 = ~Why not fifty~
+@396 = ~Why not ten times that~
+@397 = ~[Tt]wenty thousand~
+@398 = ~[Ff]ifteen thousand~
+@399 = ~[Tt]en thousand~
+@400 = ~[Nn]ine thousand~
+@401 = ~[Ee]ight thousand~
+@402 = ~[Ss]even thousand~
+@403 = ~[Ss]ixty[- ]five hundred~
+@404 = ~[Ss]ix thousand~
+@405 = ~and up to five~
+@406 = ~and up to 5000~
+@407 = ~Five now, five~
+@408 = ~Half now, half~
+@409 = ~[Ff]ive thousand~
+@410 = ~[Ff]our thousand~
+@411 = ~[Tt]hree thousand~
+@412 = ~[Tt]wo thousand and five hundred~
+@413 = ~[Tt]wo thousand~
+@414 = ~[Ff]ifteen hundred~
+@415 = ~[Tt]welve hundred~
+@416 = ~[Aa] thousand\|[Oo]ne thousand\|[Tt]he thousand~
+@417 = ~[Nn]ine hundred~
+@418 = ~[Ee]ight hundred~
+@419 = ~[Ss]even hundred~
+@420 = ~[Ss]ix hundred~
+@421 = ~[Ff]ive hundred~
+@422 = ~[Ff]our hundred~
+@423 = ~[Tt]hree hundred~
+@424 = ~[Tt]wo hundred~
+@425 = ~Copying and patching~
+@426 = ~Ignore any "INSTALLED WITH WARNINGS" message - this is expected for this component.~
+@427 = ~row~
+@428 = ~of~
+@429 = ~new gems added.~
+@430 = ~random scroll replaced.~
+@431 = ~BG1UB entries reweighted.~
+@432 = ~riddle scroll replaced.~
+@433 = ~Realistic Kobold Commandos~
+@434 = ~Fixes only~
+@435 = ~Wings~
+@436 = ~Alu-Fiend~
+
+@437 = ~That's the way it's done and done!~ [T-SVA09] //CRITICAL_HIT
+@438 = ~No...~ [T-SVA10] //CRITICAL_MISS
+@439 = ~Hello there.~ [T-SVN01A] //SELECT_COMMON1
+@440 = ~Yes.~ [T-SVN01B] //SELECT_COMMON2
+@441 = ~Come and talk a while.~ [T-SVN01C] //SELECT_COMMON3
+@442 = ~Oh ho ho ho!~ [T-SVN01D] //SELECT_COMMON4
+@443 = ~Get 'em!~ [T-SVN02A] //BATTLE_CRY1
+@444 = ~I will cut you down to size!~ [T-SVN02B] //BATTLE_CRY2
+@445 = ~Take that!~ [T-SVN02C] //BATTLE_CRY1
+@446 = ~Evil fall before me!~ [T-SVN02D] //BATTLE_CRY2
+@447 = ~Farewell.~ [T-SVN03A] //MORALE
+@448 = ~Please help me!~ [T-SVN03B] //MORALE
+@449 = ~I am hurt!~ [T-SVN07] //HURT
+@450 = ~You're heading for a good beating, you are!~ [T-SVN08] //DIALOGUE_HOSTILE
+@451 = ~Well look at that!~ [T-SVN09] //CRITICAL_HIT
+@452 = ~No...~ [T-SVN10] //CRITICAL_MISS
+@453 = ~Greater Worg~
+
+@454 = ~BGMain.exe appears to be patched already; skipping .exe modifications ...~
+@455 = ~BGMain.exe not valid - make sure your ToB .exe is patched to v26498!~
+@456 = ~Patching BGMain.exe to enable new animations ...~
+@457 = ~Shorten Dungeon, Waukeen's and Spellhold cutscenes~
+@458 = ~Replacing _LOW creature animations (this may take a while) ...~
+@459 = ~Your ANSI code page is set to a value of~
+@460 = ~Updating animations to match your code page ...~
+@461 = ~Fix area creature references~
+@462 = ~Correcting area creature references (this may take a while) ...~
+@463 = ~Yuan-Ti~
+@464 = ~Yuan-Ti Mage~

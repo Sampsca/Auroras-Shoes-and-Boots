@@ -1,0 +1,2755 @@
+CRE	Name	OrigGold	NewGold
+bgbishop	Bishop	125	93
+bgcalaha	Calahan	121	90
+bgking	King	102	75
+bgqueen	Queen	102	75
+bgsendai	Sendai	172	129
+bullrush	Bullrush	5	3
+daerragh	Daer'Ragh	58	42
+gatewere	Gatekeeper	87	63
+halfmiri	Dead Halfling Messenger	10	6
+hobelite	Hobgoblin Elite	5	3
+ironelit	Black Talon Elite	20	15
+ironguar	Guard	20	15
+moorlock	Moorlock	64	48
+mtowfr_a	Peasant	8	6
+mtowfr_b	Peasant	8	6
+mtowfr_c	Peasant	8	6
+mtowfr_e	Peasant	8	6
+mtowfrsc	Peasant	8	6
+mtowfrst	Peasant	8	6
+nobwba_a	Noblewoman	13	9
+nobwba_d	Noblewoman	13	9
+nobwba_e	Noblewoman	13	9
+nowbax_a	Noblewoman	13	9
+nowbax_b	Noblewoman	13	9
+nowbax_c	Noblewoman	13	9
+nowbax_d	Noblewoman	13	9
+nowbax_e	Noblewoman	13	9
+aasim	Aasim	95	69
+achen	Statue	49	36
+addy	Addy	13	9
+agnasi	Agnasia	95	69
+ajanti	Ajantis	5	3
+ajanti4	Ajantis	26	18
+ajanti6	Ajantis	48	36
+alai	Alai	66	48
+alanbl	Alan Blackblade	75	54
+alatos	Alatos "Ravenscar" Thuibuld	136	102
+albert	Albert	250	186
+aldeth	Aldeth Sashenstar	1240	930
+alexan	Alexander	37	27
+alora	Alora	45	33
+alora6	Alora	57	42
+alvanh	Alvanhendar	45	33
+alyth	Alyth	50	36
+amnis3	Amnish Soldier	8	6
+amnis4	Amnish Soldier	13	9
+andris	Andris	109	81
+angelo	Angelo	230	171
+aoln	Aoln	12	9
+ardeno	Ardenor Crush	104	78
+ardrou	Ardrouine	70	51
+arkani	Arkanis Gath	9	6
+arkani3	Arkanis Gath	9	6
+arkion	Arkion	500	375
+arkush	Arkushule	38	27
+arlin	Arlin	38	27
+baerin	Baerin	49	36
+baresh	Baresh	72	54
+baresh2	Baresh	72	54
+bart10	Bartender	9	6
+bart11	Bartender	9	6
+bart12	Bartender	12	9
+bart13	Bartender	9	6
+bart14	Bartender	9	6
+bart15	Bartender	9	6
+bart16	Bartender	9	6
+bart2	Bartender	14	9
+bart3	Bartender	24	18
+bart4	Bartender	7	3
+bart5	Bartender	11	6
+bart6	Bartender	34	24
+bart7	Bartender	9	6
+baruk	Ba'ruk	5	3
+bayard	Bayard	511	381
+beland	Be'land	10	6
+bellam	Bellamy	25	18
+belt	Belt	87	63
+bentan	Bentan	45	33
+bentha	Bentha	24	18
+bently	Bentley Mirrorshade	80	60
+berrun	Berrun Ghastkill	958	717
+beyn	Beyn	66	48
+bheren	Bheren	52	39
+billy	Billy	49	36
+blackl	Black Lily	98	72
+blane	Dawn Priest Blane	64	48
+bor	Bor	38	27
+borda	Borda	74	54
+bouncer	Bouncer	4	3
+brage	Brage	83	60
+brage2	Brage	83	60
+bran	Dawn Priest Bram	64	48
+brandi	Brandilar	38	27
+brathl	Brathlen	20	15
+brenda	Brendan	81	60
+brevli	Brevlik	20	15
+brielb	Brielbara	400	300
+brilla	Brilla	30	21
+brunos	Brunos	256	192
+bub	Bub Snikt	49	36
+cailan	Statue	84	63
+caldo	Caldo	39	27
+cander	Canderous	5	3
+canto	Ioin Gallchobhair	74	54
+carsa	Carsa	25	18
+carsto	Carston	71	51
+cattac	Cattack	34	24
+catura	Caturak	16	12
+chanth	Chanthalas Ulbright	50	36
+chelan	Chelan	6	3
+chess	Ethereal Voice	45	33
+claird	Clair De'lain	149	111
+coksmth	Peter of the North	20	15
+coran	Coran	27	18
+coran5	Coran	42	30
+corsone	Corsone	12	9
+cuchol	Cuchol	66	48
+cult2	Cult Wizard	100	75
+cult3	Cult Enforcer	106	78
+cultt1	Cult Enforcer	84	63
+cyderm	Cyrdemac	50	36
+cythan	Cythandria	144	108
+davaeo	Davaeorn	109	81
+deder	Deder	7	3
+deder3	Deder	7	3
+degrod	Degrodel	98	72
+delain	Delainy	172	129
+delain2	Delainy	172	129
+delgod	Delgod	49	36
+delorn	Delorna	56	42
+delsvir	Delsvirftanyon	80	60
+delthy	Delthyr	10	6
+denak	Denak	102	75
+denkod	Denkod	39	27
+desret	Desreta	172	129
+desslo	Kolssed	26	18
+dezkie	Dezkiel	66	48
+dhania	Dhanial	82	60
+diana	Diana	81	60
+diarmid	Diarmid	20	15
+dillar	Dillar	20	15
+dirk	Dirk	49	36
+divine	Diviner	39	27
+diyab	Diyab	95	69
+drakar	Drakar	84	63
+drasus	Drasus	56	42
+dratan	Dra'tan	20	15
+drelik	Drelik	66	48
+dribbe	Dribben	49	36
+droth	Droth	129	96
+dunkin	Dunkin	54	39
+durlyl	Durlyle	64	48
+durlyl2	Durlyle	64	48
+dushai	Dushai	100	75
+edwin	Edwin	39	27
+edwin2	Edwin	63	45
+edwin4	Edwin	81	60
+edwin6	Edwin	102	75
+eldoth	Eldoth	27	18
+eldoth5	Eldoth	32	24
+emerso	Emerson	15	9
+ender	Ender Sai	25	18
+entill	Entillis Fulsom	91	66
+erdane	Erdane	122	90
+evalt	Evalt	10	6
+fahrin	Fahrington	24	18
+faizah	Statue	102	75
+faldor5	Faldorn	10	6
+farluc	Farluck	58	42
+fenrus	Fenrus	30	21
+fenten	Fenten	38	27
+fireb1	Firebead Elvenhair	391	291
+firebe	Firebead Elvenhair	91	66
+forthe	Forthel August	4	3
+fuller	Fuller	100	75
+fuller2	Fuller	100	75
+galdor	Angelo	66	48
+galken	Galkin	5	3
+gallor	Gallor	28	21
+galtok	Galtok	54	39
+gandol	Gandolar Luckyfoot	45	33
+gantol2	Gantolandan	64	48
+garan	Garan	66	48
+gardus	Gardush	63	45
+garric	Garrick	4	3
+garric2	Garrick	11	6
+garric4	Garrick	43	30
+garric6	Garrick	55	39
+gazib	The Great Gazib	81	60
+geltik	Geltik	11	6
+gentho	Genthore	56	42
+gerde	Gerde	45	33
+gervis	Gervisse	72	54
+glanma	Glanmarie	79	57
+gnarl	Gnarl	20	15
+gnoll5	Ludrug	100	75
+gnoll5a	Gnoll	19	12
+gorion	Gorion	58	42
+gorion3	Gorion	58	42
+gorpel	Gorpel Hind	14	9
+gretek	Gretek	48	36
+greywo	Greywolf	102	75
+gurke	Gurke	90	66
+gyllia	Gyllian	13	9
+hafiz	Hafiz	67	48
+hairto	Hairtooth	67	48
+hakt	Hakt	5	3
+halaca	Halacan	38	27
+halffg	Halfling Woman	10	6
+hannah	Lady Hannah	13	9
+hareis	Hareishan	310	231
+haseo	Haseo	64	48
+helsha	Helshara	35	24
+hobgo5	Hobgoblin	100	75
+housen	Guard Enforcer	12	9
+housen2	Guard Enforcer	12	9
+hull	Hull	100	75
+hull2	Hull	100	75
+hull3	Hull	100	75
+hunter	Ted	12	9
+hurgan	Hurgan Stoneblade	1100	825
+husam	Husam	145	108
+husam2	Husam	145	108
+ike	Ike	56	42
+ike2	Ike	56	42
+imoen4	Imoen	25	18
+imoen61	Imoen	32	24
+innke2	Winthrop	26	18
+innke3	Innkeeper	26	18
+innkn2	Innkeeper	26	18
+ironm2	Merchant	33	24
+ironm3	Merchant	33	24
+ironm4	Merchant	33	24
+ironme	Merchant	33	24
+islsir	Sirine Queen	308	231
+ithmee	Ithmeera	23	15
+ivanne	Ivanne	58	42
+jacil	Jacil	37	27
+jaheir	Jaheira	6	3
+jaheir2	Jaheira	12	9
+jaheir4	Jaheira	22	15
+jaheir6	Jaheira	38	27
+jalant	Jalantha Mistmyr	200	150
+jardak	Jardak	68	51
+jebado	Jebadoh	5	3
+jemby	Jemby	23	15
+jenkal	Jenkal	47	33
+joia	Joia	163	120
+jopi	Jopi	8	6
+jorin	Jorin	78	57
+joular	Joular	64	48
+kaella	Kaella	13	9
+kagain	Kagain	9	6
+kagain2	Kagain	14	9
+kagain4	Kagain	31	21
+kagain6	Kagain	69	51
+kahrk	Kahrk	85	63
+kaish2	Kaishas Gan	94	69
+kaisha	Kaishas Gan	94	69
+kaless	Kalessia	23	15
+karlat	Karlat	38	27
+keldda	Keldath Ormlyr	102	75
+kestor	Kestor	105	78
+kirian	Kirian	163	120
+kivan4	Kivan	11	6
+kivan6	Kivan	24	18
+kolvar	Kolvar	56	42
+kovera	Koveras	250	186
+krumm	Krumm	24	18
+krysti	Krystin	78	57
+kysus	Kysus	66	48
+lamalh	Lamalha	94	69
+lasala	Lasala	81	60
+laskal	Laskal	12	9
+lena	Lena	4	3
+lendar	Lendarn	159	117
+liia	Liia Jannath	235	174
+lindin	Lindin	76	57
+lobar	Lobar	38	27
+madarc	Mad Arcand	32	24
+maka	Maka	39	27
+malkax	Malkax	13	9
+maltz	Maltz	9	6
+maneir	Maneira	78	57
+marcel	Marcellus	81	60
+marek	Marek	201	150
+marl	Marl	25	18
+meakin	Meakin	49	36
+meiala	Meiala the Sirine	308	231
+meilum	Meilum	64	48
+mendas	Mendas	100	75
+mendas2	Mendas	100	75
+mendas3	Mendas	100	75
+michae	Michael	54	39
+minsc6	Minsc	6	3
+molkar	Molkar	84	63
+montar	Montaron	7	3
+montar2	Montaron	7	3
+montar4	Montaron	7	3
+montar6	Montaron	7	3
+morvin	Morvin	38	27
+mrshade	Mr. Shade	39	27
+mtowf2	Sherman	8	6
+mtowfr	Peasant	8	6
+mulahe	Mulahey	29	21
+mutami	Mutamin	120	90
+mysmer	Merchant	355	264
+naaman	Naaman	66	48
+nader	Nader	23	15
+nalin	Nalin	1059	792
+nantri	Nantrin Bellowglyn	102	75
+narcil	Narcillicus Harwilliger Neen	38	27
+narlen	Narlen Darkwalk	75	54
+nelik	Nelik	23	15
+nestor	Nestor	58	42
+nevill	Neville	65	48
+niemai	Niemain	282	210
+nila	Nila	41	30
+nimbul	Nimbul	58	42
+nobw8	Lady Areana	500	375
+nobwba	Noblewoman	13	9
+nortua	Nortuary	75	54
+oberan	Oberon	98	72
+ogrmba	Ogre Mage	5	3
+orduli	Ordulinian	95	69
+osmadi	Osmadi	12	9
+oublek	Oublek	3000	2250
+oulam	Oulam	52	39
+pangwa	Pang Wallen	64	48
+pargus	Pargus	48	36
+permid	Permidion Stark	75	54
+peter	Peter	97	72
+pheirk	Pheirkas	238	177
+phlydi	Phlydia	92	69
+phlydi2	Phlydia	92	69
+phlydi3	Phlydia	92	69
+poe	Poe	56	42
+prat	Prat	170	126
+quayle4	Quayle	17	12
+quayle6	Quayle	24	18
+rahvin	Rahvin	49	36
+raiken	Raiken	39	27
+rance	Statue	49	36
+rashad	Rashad	12	9
+rededg	Rededge	39	27
+reevor2	Reevor	38	27
+reevor3	Reevor	38	27
+rezdan	Rezdan	32	24
+rielta	Rieltar	510	381
+riggilo	Riggilo	170	126
+rinnie	Rinnie	100	75
+safana	Safana	15	9
+safana4	Safana	47	33
+safana6	Safana	26	18
+sailal	Sailor Al	5	3
+sailfin	Sailor Finch	13	9
+sailjos	Sailor Joss	13	9
+sailned	Sailor Ned	5	3
+sakul	Sakul	66	48
+samant	Samantha	13	9
+sarhed	Sarhedra	38	27
+sath	Sath	49	36
+scar	Scar	5326	3993
+schlum	Schlumpsha the Sewer King	16	12
+semaj	Semaj	85	63
+sewerf5	Sewerfolk	45	33
+shaell	Shaella	65	48
+shaldr	Shaldrissa	55	39
+sharte	Shar-Teel	13	9
+sharte4	Shar-Teel	25	18
+sharte6	Shar-Teel	49	36
+shopkn	Storekeep	24	18
+silenc	Silence	82	60
+skie	Skie	34	24
+skie6	Skie	44	33
+slythe	Slythe	54	39
+sonner	Sonner	170	126
+stepha	Stephan	58	42
+sunin	Sunin	102	75
+surrey	Surrey	8	6
+taerom	Taerom Fuiruim	23	15
+taloun	Taloun	65	48
+tam	Tam	49	36
+tamah	Tamah	163	120
+tamoko	Tamoko	125	93
+tarnes	Tarnesh	58	42
+taugos	Taugosz Khosann	85	63
+taxek	Taxek	75	54
+telano	Tel-anon	66	48
+telka	Telka	78	57
+tellan	Tellan	78	57
+telmen	Telmen	6	3
+tethto	Tethtoril	125	93
+tethto2	Tethtoril	125	93
+tethto3	Tethtoril	125	93
+teven	Teven	45	33
+teynga	Teyngan	93	69
+thaldo	Thaldorn	350	261
+therel	Therella	300	225
+thief	Rogue	39	27
+thieff	Rogue	39	27
+thiefg	Rogue	39	27
+thiefm	Rogue	39	27
+tiax	Tiax	12	9
+tiax4	Tiax	35	24
+tiax6	Tiax	35	24
+tiber	Tiber	8	6
+torlo	Torlo	6	3
+torlob	Tor Lobo	78	57
+tracea	Tracea Carol	102	75
+tranzi	Tranzig	91	66
+tremai	Tremain Belde'ar	80	60
+turpin	Turpin	13	9
+tuth	Tuth	98	72
+vail	Statue	64	48
+vax	Vax	107	78
+vayya	Vay-ya	94	69
+venkt	Venkt	92	69
+vitiare	Vitiare	73	54
+volo	Volo	46	33
+voltin	Voltine	24	18
+watch2	Watcher	5	3
+watch3	Watcher	5	3
+wheber	Wheber Ott	52	39
+whelp	Whelp	8	6
+wilf	Wilf	12	9
+william1	William Garst	49	36
+winski	Winski Perorate	102	75
+winthr2	Winthrop	26	18
+winthr3	Winthrop	26	18
+wiven	Wiven	90	66
+wudei	Wudei	12	9
+xzar2	Xzar	11	6
+xzar4	Xzar	31	21
+xzar6	Xzar	82	60
+zal	Zal	49	36
+zargal	Zargal	52	39
+zeela	Zeela	67	48
+zekar	Zekar	5	3
+zhalim	Zhalimar Cloudwulfe	68	51
+zhurlo	Zhurlong	100	75
+zordra	Zordral	79	57
+3307wiz	Avrabar	907	678
+3316nob1	Wealthy Commoner	50	36
+3316nob2	Snobby Noble Woman	50	36
+3324nob1	Wealthy Commoner	50	36
+3324nob2	Snobby Noble Woman	50	36
+3324nob3	Snobby Noble Woman	50	36
+3cutsh	Drow Warrior	10	6
+a#kram	Kram	34	24
+a#kram2	Kram	34	24
+abazdg02	Tamah	2500	1875
+aemess	Messenger	9	6
+agaurora	Aurora	76	57
+agbadguy	Corpae	8790	6591
+agband01	Bandit	87	63
+agband02	Bandit	94	69
+agbandle	Bandit Leader	112	84
+agbmage1	Mage	56	42
+agbmage2	Mage	56	42
+agbmage3	Mage	56	42
+agboss	Corpae	8790	6591
+agkaraea	Karaea Harfurthock	45	33
+aglorf01	Mage	6	3
+aglorf02	Mage	6	3
+aglorf03	Mage	6	3
+aglorf04	Mage	6	3
+aglorf05	Mage	6	3
+aglorf06	Mage	6	3
+agloron	Loron	8790	6591
+agloron2	Loron	8790	6591
+agmag01	Mage	8790	6591
+agmag02	Mage	8790	6591
+agmag03	Mage	8790	6591
+agmag04	Mage	8790	6591
+agoakbos	Oak Fist Captain	421	315
+agoakdw	Oak Fist Captain	51	36
+agoakdw2	Oak Fist	28	21
+agoakdw3	Oak Fist Cleric	43	30
+agoakdw4	Oak Fist Slinger	22	15
+agtomtha	Tomthal Harfurthock	132	99
+ahammed	Servant	4	3
+ahighma1	High Mage	9	6
+aino	Aino Hashimoto	204	153
+ainoa	Aino Hashimoto	204	153
+alar	Alar	45	33
+aldwin	Aldwin	7	3
+alenna	Alenna	12	9
+alexm	Alex Macintosh	45	33
+alror	Alora	200	150
+alynar	Sir Alynar	25	18
+ambmaevr	Mae'Var	769	576
+ambush01	Gatekeeper	87	63
+amcler02	Chyil	1000	750
+amcst01	Customer	44	33
+amcust01	Commoner	25	18
+amcust02	Nobleman	80	60
+amelia	Amelia	21	15
+amelm01	Elminster	100	75
+amfaheed	Faheed	170	126
+amfem04	Commoner	20	15
+amia	Servant	4	3
+amlich01	Vongoethe	365	273
+ammajira	Majira	110	81
+amman03	Commoner	10	6
+ammayor	Omar Haraad	100	75
+ammerc07	Mercenary	10	6
+ammerc08	Mercenary	10	6
+ammerc09	Mercenary	10	6
+ammgrd02	Monk	20	15
+ammgrd03	Monk	20	15
+ammonk02	Monk	20	15
+ammonk04	Monk	20	15
+ammonk05	Monk	20	15
+ammonk06	Monk	20	15
+amsi	Am-Si	30	21
+amsmith	Kerrick the Smith	100	75
+amsmug02	Smuggler	15	9
+amtcap01	Tethyrian Captain	10	6
+amtmag01	Tethyrian Battlemage	25	18
+amtpik01	Tethyrian Pikeman	5	3
+amwenc01	Leila	44	33
+ann11	Ann	13	9
+antenos	Antenos	10	6
+apsel	Apsel	26	18
+ar18fig	Mercenary	20	15
+aramir	Aramir Estel	25	18
+aran	Aran Linvail	142	105
+aran02	Aran Linvail	142	105
+arenaa3	Audience	4	3
+arenaa4	Audience	5	3
+arenaa6	Audience	8	6
+arenaf3	Dwarven Fighter	4	3
+arenaf5	Fighter	6	3
+arenam2	Merchant	7	3
+arenam3	Merchant	6	3
+arenam4	Merchant	11	6
+arenam5	Merchant	22	15
+arenar2	Ruffian	5	3
+argrim	Lord Ketlaar Argrim	25	18
+arianna1	Arianna	312	234
+arlaxc3	Courtesan	6	3
+arlaxfi1	Fighter	6	3
+arlaxfi2	Fighter	5	3
+arlaxfi4	Fighter	4	3
+arlaxfi5	Fighter	6	3
+arlaxgc	City Guard Captain	28	21
+arlaxm1	Merchant	6	3
+arlaxm2	Merchant	5	3
+arlaxm3	Merchant	7	3
+arlaxm4	Merchant	12	9
+arlaxm5	Merchant	13	9
+arlaxm6	Merchant	9	6
+arlaxma1	Mage	8	6
+arlaxma2	Mage	9	6
+arlaxma3	Mage	6	3
+arlaxma4	Mage	12	9
+arlaxma5	Mage	8	6
+arlaxma7	Mage	7	3
+arlaxn1	Isac	9	6
+arlaxn3	Noble	5	3
+arlaxn4	Noble	4	3
+arlaxn5	Noble Woman	5	3
+arlaxn6	Noble Woman	7	3
+arlaxt2	Thief	6	3
+arlaxt3	Thief	5	3
+arlaxt4	Thief	8	6
+arlaxt5	Thief	5	3
+arled	Arledrian	7	3
+arlhelm1	Shield Knight	8	6
+arltrav	Traveller	10	6
+army01	Orc	5	3
+army2	Stone Soldier	45	33
+army3	Stone Soldier	87	63
+army4	Stone Soldier	20	15
+arngrl01	Missy	4	3
+arnman04	Mitsu	15	9
+arnwar09	Shadow Thief	25	18
+artemis	Artemis Entreri	50	36
+arundel	Arundel	10	6
+arundeld	Arundel	10	6
+arundelh	Arundel	45	33
+arvor	Celestial Fire	26	18
+asham	Ashamael	658	492
+assagrd3	Kalvassa Guard	32	24
+assagrd4	Kalvassa Guard	32	24
+assagrd5	Kalvassa Guard	32	24
+assagrd6	Kalvassa Guard	32	24
+auren	Auren	52	39
+auren1	Auren	52	39
+avbatt02	Avrabar	907	678
+avrabatt	Avrabar	907	678
+avracut1	Avrabar	907	678
+azure	Azure	90	66
+b!bertra	Bertram	75	54
+b!gavin	Gavin	6	3
+b!gustav	Gustav	15	9
+b!laran	Laran	20	15
+b!penny	Penny	15	9
+b!reed	Reed	400	300
+b!thug1	Plato	10	6
+b!thug2	Crusher	10	6
+b!thug3	Spike	10	6
+b!wally	Wallace	46	33
+b!wally2	Wallace	46	33
+b#ist	Lolth's Vengance	1093	819
+baisera	Baisera	4	3
+balelit1	Adherent	20	15
+balelit2	Adherent	20	15
+balelit3	Adherent	20	15
+balelit4	Adherent	20	15
+balelite	Monk	20	15
+balth	Balthazar	204	153
+bamng01	Amnish Guard	10	6
+bamng02	Amnish Guard	10	6
+banco	Banco	1700	1275
+barkeep	Grisella	21	15
+baronp	Baron Ployer	20	15
+bart8	Bartender	33	24
+bart9	Bartender	9	6
+bartlemy	Bartlemy	100	75
+batmage2	Battle Mage	45	33
+bdbart01	Samuel Thunderburp	20	15
+bdturm03	Turmish Sorceress	25	18
+beast	Beastmaster	87	63
+becky	Becky	5	3
+beeloo	Beeloo Jansen	43	30
+beltbrd	Belt	87	63
+berinvar	Berinvar	123	90
+berkref	Zorl	741	555
+bernard	Bernard	45	33
+bertrand	Bertrand the 'Companion'	5	3
+bftown1	Commoner	4	3
+bftown2	Commoner	4	3
+bftown3	Commoner	4	3
+bggreet	Rivaldo	14	9
+bginfo1	Nobleman	14	9
+bginfo2	Noblewoman	13	9
+bgrape01	Prison Guard	1287	963
+bgrape02	Prison Guard	1287	963
+bgsell1	Black Market Thief	39	27
+bgsell2	Black Market Thief	39	27
+bgtav1a	Doorman	50	36
+bgtav1b	Reception Lady	50	36
+bgtavst1	Noble Guest	50	36
+bgtavst2	Lady Guest	50	36
+bgtavst3	Noble Guest	50	36
+bgtavst4	Lady Guest	50	36
+bhabrac	Abracus	18	12
+bhalf1	Stivan the Hunter	4	3
+bhalton	Alton	23	15
+bharmax	Armax	100	75
+bharrnes	Mayor Arrness	100	75
+bhascue	Ascue	55	39
+bhbandt1	Bandit	20	15
+bhbandt2	Bandit	20	15
+bhbandt3	Bandit	20	15
+bhbasmar	Basmar	100	75
+bhbeshka	Beshkar	30	21
+bhcleri1	Acolyte of Osprem	5	3
+bhcleri2	Acolyte	5	3
+bhcleric	Acolyte of Phaulkon	5	3
+bhelal	Bhelal	898	672
+bheless	Eless	17	12
+bhfabi6	Fabio	20	15
+bhfair	Fairwind	15	9
+bhfalco	Falco	4	3
+bhfelwin	Felwin	5	3
+bhfgiant	Fire Giant	100	75
+bhfliban	Fliban	37	27
+bhgap	Gap	4	3
+bhgelliu	Gellius	25	18
+bhgelmar	Gelmark	43	30
+bhgelpas	Gelpas	15	9
+bhgilmi	Gilmi	104	78
+bhglami	Glami	50	36
+bhgorhrg	Gorharg	20	15
+bhgrecko	Grecko	17	12
+bhgrelus	Baron Grellus	25	18
+bhgrist	Gristla	21	15
+bhguard	Elite Guard	30	21
+bhguarde	Guard Enforcer	43	30
+bhguardg	Guard	43	30
+bhguild1	Assassin Apprentice	25	18
+bhhaki	Haki	10	6
+bhharmin	Harmin	48	36
+bhhestal	Hestal	21	15
+bhhoirag	Hoirag	21	15
+bhholga	Holga	60	45
+bhkrak	Krak	25	18
+bhkrelus	Krellus	55	39
+bhlizkng	Lizardman King	25	18
+bhlothar	Lothar	200	150
+bhlydia	Lydia	4	3
+bhmarvin	Marvin	4	3
+bhoguard	Orc Guard	5	3
+bhohlatt	Ohlatta	100	75
+bholieut	Orc Lieutenant	24	18
+bhorc01	Orc	5	3
+bhorc01d	Orc	5	3
+bhoscar	Oscar	25	18
+bhpell	Pelltar	5	3
+bhperk	Perk	45	33
+bhphilma	Philmar	25	18
+bhphylli	Phyllis	6	3
+bhpriska	Priska	20	15
+bhqual	Qualton	100	75
+bhquenex	Quenex	100	75
+bhravela	Ravella	43	30
+bhrelba	Relba	25	18
+bhrgslep	Guard	43	30
+bhrguard	Guard	43	30
+bhrogan	Rogan	24	18
+bhsangst	Sangster	200	150
+bhselmo	Selmo	17	12
+bhsharg1	Mercenary	15	9
+bhsharg2	Mercenary	20	15
+bhsharg3	Mercenary	55	39
+bhshargr	Shargrailar	200	150
+bhsmyth	Smyth	10	6
+bhst0102	Pheldman	24	18
+bhtelli1	Unknown Attacker	10	6
+bhtellis	Tellish	10	6
+bhtelv	Telvar	25	18
+bhthief	Rogue	39	27
+bhthief1	Rogue	10	6
+bhtwen01	Tavern Wench	10	6
+bhwelcar	Welcar	10	6
+bhwilbur	Wilbur	4	3
+bhwilfon	Wilfong	10	6
+bhwillis	Willis	50	36
+bhyalta	Yalta	48	36
+bhzahr	Zahrdahl	50	36
+binnkeep	Calbor	15	9
+bishop	Bishop	125	93
+bishop1	Bishop	125	93
+bjorn	Bjorn	6	3
+bmerch1	Qadeel	200	150
+bmthief	Marina	39	27
+bmtown1	Peasant	11	6
+bmtown2	Peasant	11	6
+bmtown3	Peasant	11	6
+bmtown4	Stanet	7	3
+bmugg1	Mugger	6	3
+bnoble1	Lord Feveran	44	33
+bnoble2	Lady Diana	30	21
+bodtan	Tanova	25	18
+bolivr09	Bolivar	40	30
+bolivr15	Bolivar	68	51
+bolivr20	Bolivar	186	138
+borinall	Borinall	38	27
+bounha02	Bounty Hunter	67	48
+bounha03	Bounty Hunter	67	48
+bpdrfm10	Drow Leader	70	51
+bpdrgbrn	Dragon	19000	14250
+bpdric01	Drider Cleric	50	36
+bpdrifm1	Drider Wizard	70	51
+bpdru10a	Shadow Druid	43	30
+bpdru8a	Shadow Druid	24	18
+bpdru8b	Shadow Druid	21	15
+bpdru8ba	Shadow Druid	21	15
+bpdrudt1	Cleric / Thief	92	69
+bpdrufg1	Fighter / Druid	92	69
+bpdrufg2	Fighter	78	57
+bpdrumg1	Mage	37	27
+bpjaheir	Jaheira	6	3
+bpkhalid	Khalid	11	6
+bprost1	Courtesan	5	3
+bprost2	Courtesan	5	3
+bpsdwfgt	Shadow Thief	76	57
+bpsdwfth	Shadow Thief	76	57
+bpsfgtmg	Shadow Thief	76	57
+bpsfight	Shadow Thief	76	57
+bpsthef1	Shadow Thief	36	27
+bpsthef2	Shadow Thief	76	57
+bpsthef3	Shadow Thief	88	66
+bpsthmg1	Shadow Thief	101	75
+bpthief2	Shadow Thief	32	24
+bpthief3	Shadow Thief	41	30
+bpthmag2	Shadow Thief	101	75
+bpvammag	Vampire	25	18
+breadv1	Adventurer	15	9
+breadv2	Adventurer	13	9
+breadv3	Adventurer	28	21
+brefi8	Deli Riversmouth	6	3
+breg01	Visaj	20	15
+bregg	Bregg	50	36
+bryne	Bryne	8	6
+bsailor1	Sailor	7	3
+bsailor2	Sailor	7	3
+bshop01	Cutpurse	23	15
+bshop02	Sio'chaire	12	9
+btelite	Black Talon Elite	20	15
+bugabo02	<Invalid Strref -1>	100	75
+bugabo03	<Invalid Strref -1>	100	75
+bw02cre3	Julius	345	258
+bw02cre5	Emanuel	345	258
+bw05ba05	Grey Clan Bandit	100	75
+bw05ba06	Grey Clan Bandit	55	39
+bw05bbgd	Bodyguard	190	141
+bw05bl01	Bandit Leader	480	360
+bw05bl02	Bandit Leader	3445	2583
+bw05bl03	Bandit Leader	500	375
+bw05bloj	"Bloody" Jim	400	300
+bw05bori	Boris	949	711
+bw05brma	Black-Robed Man	200	150
+bw05char	Charles	87	63
+bw05dami	Damien	4880	3660
+bw05dw01	Fundor Balorslayer	2100	1575
+bw05dw02	Frar Balorslayer	690	516
+bw05dw03	Dwarven Warrior	38	27
+bw05dw04	Dwarven Warrior	41	30
+bw05dw05	Dwarven Warrior	22	15
+bw05erne	Ernest	189	141
+bw05eros	Eros	200	150
+bw05feli	Felicia	8	6
+bw05ffa1	Flaming Fist Elite	150	111
+bw05ffa2	Flaming Fist Elite	150	111
+bw05ffa3	Flaming Fist Elite	150	111
+bw05ffa4	Flaming Fist Elite	150	111
+bw05ffan	Flaming Fist Elite	150	111
+bw05fgca	Captain Ignas	88	66
+bw05fist	Commander "Greyfist"	1100	825
+bw05gra0	Tattooed Man	500	375
+bw05grac	Grachus	500	375
+bw05hert	Hertuk	320	240
+bw05jer2	Jeremias	850	636
+bw05jere	Jeremias	850	636
+bw05john	John	440	330
+bw05jusm	Jusam	1685	1263
+bw05lind	High Sorceress Linda	300	225
+bw05moni	Monica	300	225
+bw05octa	High Sorceress Octavia	300	225
+bw05ogma	Ogre Mage	490	366
+bw05petr	High Sorceress Petrarca	300	225
+bw05pump	Pumpkin	150	111
+bw05reuf	Reufasio	159	117
+bw05robe	Robert	500	375
+bw05sert	Dervanto	159	117
+bw05tali	Talibehius	320	240
+bw05terg	Tergius	857	642
+bw05teve	Teven	1250	936
+bw05thie	Thief	200	150
+bw05vlai	Vladimir	210	156
+bw05will	William	486	363
+bwench	Elanda	4	3
+bystand2	Lady Beth	15	9
+c#q01004	Tulbor	39	27
+c#q03012	Amnish Soldier	10	6
+c#q03013	Amnish Soldier	10	6
+c#q03014	Amnish Soldier	10	6
+c#q04005	Amnish Soldier	10	6
+c#q04006	Amnish Soldier	10	6
+c#q05003	Onlooker	13	9
+c#q07001	Uguth	5	3
+c6cler3	Cleric Of Talos	13	9
+c6coran	Coran	27	18
+c6harp	Malchor Harpell	2537	1902
+c6keria	Keria	25	18
+c6kngt1	Morning Knight	25	18
+c6kngt2	Shield Knight	25	18
+c6lanf	Lanfear	30	21
+c6tanov	Tanova	25	18
+caddem18	Carethron	668	501
+caddem19	Bane Lord	545	408
+cadril	Sir Cadril	67	48
+caern	Caern	6	3
+calaha	Calahan	121	90
+calimart	Giblan	12	9
+calistel	Store Guard	12	9
+calliana	Sister Calliana	23	15
+calshop1	Trader	45	33
+calshop2	Trader	45	33
+cambion1	Cambion	146	108
+cambion2	Cambion	146	108
+camitis	Camitis	5	3
+carhead	Merchant	988	741
+carserv1	Mercenary Captain	22	15
+carserv2	Mercenary	8	6
+carserv3	Mercenary	8	6
+carserv4	Mercenary	8	6
+carserv5	Mercenary	8	6
+castre1	Perrim Haybath	23	15
+cb257hlf	Halfling Thief	7	3
+cb270ccb	Soubar Villager	15	9
+cb270ccd	Soubar Villager	4	3
+cb270cce	Soubar Villager	11	6
+cb270ccf	Soubar Villager	15	9
+cb270ccg	Soubar Villager	7	3
+cb270pt1	Soubar Villager	4	3
+cb304svc	Soubar Villager	4	3
+cb325eqk	<Invalid Strref -1>	94	69
+cb330cr1	River Chionthar	5	3
+cb330cr2	River Chionthar	5	3
+cb330cr3	River Chionthar	5	3
+cb330cr4	River Chionthar	5	3
+cb330cr5	River Chionthar	5	3
+cb330cr6	River Chionthar	5	3
+cb3513im	Imoen	32	24
+cb3513jh	Jaheira	38	27
+cb3513mn	Minsc	4	3
+cb35assn	Assassin	54	39
+cb3647hb	Herbalist	86	63
+cb3650dw	Thron Sturman	86	63
+cb4270sm	Scullery Maid	10	6
+cb4280st	Erdane	122	90
+cb4308nr	Narulf	27	18
+cb510brd	Butler Eites	55	39
+cb596se2	Lord Ketlaar Argrim	25	18
+cb596se7	Commoner	4	3
+cb596se8	Peasant	11	6
+cb596se9	Peasant	11	6
+cb597rir	Ranch Hand	87	63
+cb597ris	Ranch Hand	87	63
+cbacso01	Bandit	94	69
+cbacso02	Bandit	94	69
+cbacso03	Bandit	94	69
+cbacso04	Bandit	94	69
+cbacso05	Bandit	94	69
+cbacso06	Bandit	94	69
+cbacso07	Bandit	94	69
+cbacso08	Bandit	94	69
+cbacso09	Bandit	94	69
+cbacso10	Bandit	94	69
+cbacso11	Bandit	94	69
+cbacso12	Bandit	94	69
+cbacso13	Bandit	94	69
+cbacso14	Bandit	94	69
+cbacso15	Bandit	94	69
+cbacso16	Bandit	94	69
+cbacso17	Bandit	94	69
+cbacso18	Bandit	94	69
+cbacso19	Bandit	94	69
+cbacso20	Bandit	94	69
+cbarkslv	Arkaneus Silvermane	112	84
+cbarvin1	Lord Arvin Kothonos: Mage of Soubar	245	183
+cbavrvla	Angry Villager	4	3
+cbavrvlb	Angry Villager	4	3
+cbavrvlc	Angry Villager	4	3
+cbavrvld	Angry Villager	4	3
+cbavrvle	Angry Villager	4	3
+cbavrvlf	Angry Villager	4	3
+cbavrvlg	Angry Villager	4	3
+cbavrvlh	Angry Villager	4	3
+cbavrvli	Angry Villager	4	3
+cbavrvlj	Angry Villager	4	3
+cbavrvlk	Angry Villager	4	3
+cbavrvlm	Angry Villager	4	3
+cbc8ctl4	Cult Lich	20000	15000
+cbc8ctm2	Cult Mage	25	18
+cbchrran	Ranger	46	33
+cbcutat0	Bandit	95	69
+cbcutat1	Bandit	95	69
+cbcutat2	Bandit	95	69
+cbcutat3	Bandit	95	69
+cbcutat4	Bandit	95	69
+cbcutat5	Bandit	95	69
+cbcutat6	Bandit	95	69
+cbcutat7	Bandit	95	69
+cbcutat8	Bandit	95	69
+cbcutat9	Bandit	95	69
+cbcutata	Bandit	95	69
+cbcutatb	Bandit	95	69
+cbcutatc	Bandit	95	69
+cbcutatd	Bandit	95	69
+cbdddrge	Deep Dragon: Drake	12000	9000
+cbdragdp	Deep Dragon: Drake	12000	9000
+cbdrt70a	Dart Player	11	6
+cbdrw75a	Drow Priestess	20	15
+cbdrw75b	Drow Priestess	50	36
+cbdrw75c	Drow Warrior	10	6
+cbdrwfm1	Drow Warrior	80	60
+cbdrwfm2	Drow Warrior	80	60
+cbdrwfm3	Drow Warrior	80	60
+cbdrwfr2	Drow Warrior	150	111
+cbdrwfr3	Drow Warrior	150	111
+cbdrww11	Drow Wizard	250	186
+cbdrww13	Drow Wizard	250	186
+cbdrww21	Drow Wizard	250	186
+cbdrww23	Drow Wizard	250	186
+cbeledi1	Eleanor Ybgir	3130	2346
+cbeledi3	Bodyguard	39	27
+cbffcrw1	Nobleman	14	9
+cbffcrw2	Noblewoman	13	9
+cbffcrw3	Peasant	11	6
+cbffcrw4	Commoner	4	3
+cbgaelan	Gaelan Bayle	142	105
+cbgaius1	Gaius Varros:  Paladin of Soubar	270	201
+cbgalded	Angelo	66	48
+cbgorcld	Gorion	58	42
+cbgorded	Gorion	58	42
+cbgortch	Gorion	58	42
+cbhbso02	Bandit	94	69
+cbhbso03	Bandit	94	69
+cbhbso04	Bandit	94	69
+cbhbso05	Bandit	94	69
+cbhbso06	Bandit	94	69
+cbhbso07	Bandit	94	69
+cbhbso08	Bandit	94	69
+cbhbso09	Bandit	94	69
+cbhbso10	Bandit	94	69
+cbhbso12	Bandit	94	69
+cbhbso13	Bandit	94	69
+cbhbso14	Bandit	94	69
+cbhbso15	Bandit	94	69
+cbhbso16	Bandit	94	69
+cbhbso17	Bandit	94	69
+cbhbso18	Bandit	94	69
+cbhbso19	Bandit	94	69
+cbhbso20	Bandit	94	69
+cbhl3627	Shopkeeper	11	6
+cbhl3631	Priest	11	6
+cbhl3634	Shopkeeper	11	6
+cbhld001	Peasant	11	6
+cbhld002	Peasant	11	6
+cbhld003	Peasant	11	6
+cbhld004	Peasant	11	6
+cbhld005	Peasant	11	6
+cbhld006	Peasant	11	6
+cbhld007	Peasant	11	6
+cbhld008	Peasant	11	6
+cbhld009	Peasant	11	6
+cbhld010	Peasant	11	6
+cbhld0m1	Peasant	11	6
+cbhld0m2	Peasant	11	6
+cbhld0m3	Peasant	11	6
+cbhld0m4	Peasant	11	6
+cbhld0m5	Peasant	11	6
+cbhld0m6	Peasant	11	6
+cbhld0m7	Peasant	11	6
+cbhld0m8	Peasant	11	6
+cbhld0m9	Peasant	11	6
+cbhld0w1	Peasant	11	6
+cbhld0w2	Peasant	11	6
+cbhld0w3	Peasant	11	6
+cbhld0w4	Peasant	11	6
+cbhld0w5	Peasant	11	6
+cbhld0w6	Peasant	11	6
+cbhld0w7	Peasant	11	6
+cbhredwn	Marilyn Haresdown	3040	2280
+cbhultch	Hull	100	75
+cbjahded	Jaheira	22	15
+cbkahded	Khalid	14	9
+cbkhaded	Khalid	14	9
+cblnight	Lady Nightshade	308	231
+cblslnda	Lawantha Silendia	8450	6336
+cblybuck	Leeta Bucko	13	9
+cbmalr2	Bodyguard	39	27
+cbmanarb	Manfred Arbustle	14	9
+cbmanver	Manveru	64	48
+cbmekrth	Mekrath	25	18
+cbminto	Minto	5	3
+cbmondrp	Sylvanus Moondrop	1120	840
+cbnarulf	Narulf	27	18
+cbnobl2w	Noblewoman	13	9
+cbnobl3w	Lord Ophal	82	60
+cbphytch	Phlydia	92	69
+cbprison	Prison Keeper	26	18
+cbrdptbd	Bandit	94	69
+cbrncher	Ranch Hand	87	63
+cbrybrel	Uncle Donny	11	6
+cbsaerkw	Saerk Farrahd	455	339
+cbsbin64	Johan Branding	14	9
+cbsbin75	Winthrop	26	18
+cbsbtvra	Soubar Villager	7	3
+cbsbtvrb	Soubar Villager	15	9
+cbsbtvrd	Soubar Villager	4	3
+cbsbtvre	Soubar Villager	11	6
+cbsbtvrf	Soubar Villager	15	9
+cbsbtvrh	Soubar Villager	7	3
+cbsbtvri	Soubar Villager	15	9
+cbsbtvrk	Soubar Villager	4	3
+cbsbtvrl	Soubar Villager	11	6
+cbsbtvrm	Soubar Villager	15	9
+cbsbtvro	Soubar Villager	15	9
+cbsbtvrp	Soubar Villager	11	6
+cbsbvila	Soubar Villager	11	6
+cbsbvilb	Soubar Villager	4	3
+cbsbvlia	Soubar Villager	11	6
+cbsbvlib	Soubar Villager	4	3
+cbsbvliu	Soubar Villager	4	3
+cbsbwt64	Susan Branding	13	9
+cbsbwt67	Jill Ann Kross	10	6
+cbsccwen	Cowled Wizard	25	18
+cbsdso01	Bandit	94	69
+cbsdso02	Bandit	94	69
+cbsdso03	Bandit	94	69
+cbsdso04	Bandit	94	69
+cbsdso05	Bandit	94	69
+cbsdso06	Bandit	94	69
+cbsdso07	Bandit	94	69
+cbsdso08	Bandit	94	69
+cbsdso09	Bandit	94	69
+cbsdso10	Bandit	94	69
+cbsdso11	Bandit	94	69
+cbsdso12	Bandit	94	69
+cbsdso21	Bandit	94	69
+cbsdso22	Bandit	94	69
+cbsdso23	Bandit	94	69
+cbsdso24	Bandit	94	69
+cbsdso25	Bandit	94	69
+cbsdso26	Bandit	94	69
+cbsdso27	Bandit	94	69
+cbsdso28	Bandit	94	69
+cbsdso29	Bandit	94	69
+cbsdso30	Bandit	94	69
+cbsdso31	Bandit	94	69
+cbsdso32	Bandit	94	69
+cbsdso41	Bandit	94	69
+cbsdso42	Bandit	94	69
+cbsdso43	Bandit	94	69
+cbsdso44	Bandit	94	69
+cbsdso45	Bandit	94	69
+cbsdso46	Bandit	94	69
+cbsdso47	Bandit	94	69
+cbsdso48	Bandit	94	69
+cbsdso49	Bandit	94	69
+cbsdso50	Bandit	94	69
+cbsdso51	Bandit	94	69
+cbsdso52	Bandit	94	69
+cbseacpt	Captain Deudermont	50	36
+cbsemded	Semaj	85	63
+cbsended	Sendai	172	129
+cbshthef	Sendai	172	129
+cbshthif	Roger the Fence	26	18
+cbsirrus	Sirrus Melandor: Mayor of Soubar	46	33
+cbsmsoub	Sirrus Melandor: Mayor of Soubar	46	33
+cbstlkp2	Gorion	58	42
+cbsurayw	Surayah	13	9
+cbtardth	Tardeth Llanistaph	375	279
+cbtaxcol	Tax Collector	102	75
+cbtbggal	Adventurer Gaelion	100	75
+cbtbggl1	Adventurer Gaelion	100	75
+cbtbgmal	Adventurer Maltanar	75	54
+cbtbgmer	Adventurer Mercurial	2000	1500
+cbtbgml1	Adventurer Maltanar	75	54
+cbtbgmr1	Adventurer Mercurial	2000	1500
+cbtettch	Tethtoril	125	93
+cbuhakct	Lord Arvin Kothonos: Mage of Soubar	245	183
+cbuhcut1	<Invalid Strref -1>	94	69
+cbuhgvct	Gaius Varros:  Paladin of Soubar	270	201
+cbusherw	Butler	10	6
+cbvinnie	Vincenzo the Innkeep	20	15
+cbwachbd	Watcher	5	3
+cbwillma	Sir William	600	450
+cdmaid1	Captive Woman	25	18
+cdmaid2	Captive Woman	25	18
+cdmaid3	Captive Woman	25	18
+cdmaid4	Captive Woman	25	18
+cdmaid5	Captive Woman	25	18
+cederil	Deril	30	21
+cedruid2	Dalok	26	18
+cefaldor	Faldorn	10	6
+ceigarol	Igarol	45	33
+cguard1	Cultist Guard	95	69
+cguard2	Cultist Guard	95	69
+chade	Chade	8	6
+chairm1	Townsperson	26	18
+chairm2	Townsperson	26	18
+chairm3	Townsperson	26	18
+chairm4	Townsperson	26	18
+chak	Chak	40	30
+charbase	<Invalid Strref -1>	100	75
+charlo09	Charlotte	42	30
+charlo12	Charlotte	42	30
+charlo22	Charlotte	42	30
+chaunti	Brother Chaunticleer	6	3
+chaunti2	Brother Chaunticleer	4	3
+churin	Churin	9	6
+chxzar	Chxzar	48	36
+civfrus1	Jeremiah Jamtoes	4	3
+clardi01	Inspector Ardis	10	6
+clcoti01	Cotirso	10	6
+clervamp	Vampiric Priest	200	150
+clfcla	The Magnificent Clady	500	375
+clfmox	Moxen	500	375
+clfnua	Nua	10	6
+clgijj01	Gijjal of the House Malario	10	6
+clstkn01	Storm Knight	250	186
+cm01a514	Maria Darkblade	20	15
+cm02a514	Khan Noonian Singh	139	102
+cm03a514	Quintus the Quick	39	27
+cm04a514	Garak the Banelord	60	45
+cm05a514	Gorth	67	48
+cm0700a	Sir Winton	200	150
+cm1800a1	Black Talon Elite	52	39
+cm1803a1	Black Talon Elite	52	39
+cm1803a2	Black Talon Elite	52	39
+cm1803a3	Dark Silvia	139	102
+cm1803a4	Morgan	100	75
+cm1a2100	Druid	23	15
+cm2300a3	Caravan Guard	69	51
+cm2a2100	Druid	23	15
+cm330001	Morninglord Guard	8	6
+cm330002	Morninglord Guard	8	6
+cm330003	Morninglord Guard	8	6
+cm330004	Morninglord Guard	8	6
+cm330005	Morningmaster	149	111
+cm330006	Morningmaster	149	111
+cm330007	Morninglord	94	69
+cm330008	Morninglord	60	45
+cm3a2100	Selene	120	90
+cmapocal	Apocalypse Undead Archer	400	300
+cmbou01	Zargos Flintblade	38	27
+cmbou02	Tristan	90	66
+cmbou03	Malious	31	21
+cmbou04	Phallen Nightsbane	201	150
+cmbou05	Necardian	66	48
+cmbou06	Isolde	26	18
+cmbou07	Mendas	80	60
+cmbou08	Garret	80	60
+cmbou09	Allister	66	48
+cmbou10	Zara	26	18
+cmbou11	Hilgaar	38	27
+cmdmerc	Magnus Stonecrusher	200	150
+cmdru01	Miranda the Witch	120	90
+cmdru02	Kieran	50	36
+cmdru03	Wendell	52	39
+cmdru04	Druid	23	15
+cmdru05	Druid	23	15
+cmdru06	Druid	23	15
+cmdru07	Druid	23	15
+cmdrwp	Priestess of Eilistraee	500	375
+cmelf02	Ygrainne Windstar	2500	1875
+cmgkali2	Lilith	666	498
+cmgnol01	Gnoll Clan Leader	80	60
+cmgnol03	Gnoll Elite Warrior	8	6
+cmham01	Thurm Hammer	80	60
+cmham02	Tor Hammer	80	60
+cmham03	Thorin Hammer	80	60
+cmhaun01	Haunt	200	150
+cmhaun02	Haunt	200	150
+cmhob02	Hobgoblin Elite	50	36
+cmhob03	Hobgoblin General	50	36
+cmirone	Black Talon General	52	39
+cmkob03	Kobold Witch Doctor	20	15
+cmlog01	Ogre	20	15
+cmlordas	Lord Ashram	25	18
+cmlstr1	Belladonna	1000	750
+cmlstr2	Shadow Druid	50	36
+cmlstr3	Tavern Wench	44	33
+cmlstr4	Tavern Wench	44	33
+cmlstr5	Tavern Wench	44	33
+cmmagnu	Magnus	666	498
+cmmedus	Medusa	300	225
+cmmerc02	Quincy the Jeweler	100	75
+cmmerc06	Ms. Godfrey	500	375
+cmmystr	Ratava Artsym	35000	26250
+cmnajar3	Vallius	125	93
+cmnajara	Najara	49	36
+cmnina1	Ninafer	666	498
+cmogregu	Half Ogre Guard	200	150
+cmosec05	Oversight Elite	185	138
+cmosec06	Oversight Elite	185	138
+cmosec07	Oversight Elite	185	138
+cmosec08	Oversight Bard	55	39
+cmosec09	Oversight Priest	60	45
+cmosec10	Torture Twin	49	36
+cmosec11	Torture Twin	58	42
+cmosec12	Butler	60	45
+cmosec15	Oversight Guard	185	138
+cmosec16	Oversight Guard	185	138
+cmquest1	Halabasher Dhunshar	74	54
+cmrsec02	Nikita	125	93
+cmrsec04	Michael	140	105
+cmsec01	Paul Wolfe	200	150
+cmsec02	Nikita	125	93
+cmsec04	Michael Samuelle	140	105
+cmsec06	Davenport	185	138
+cmsec07	Andrea	400	300
+cmsec08	George	158	117
+cmsec08a	George	158	117
+cmsec09	Sir Jones	150	111
+cmsec10	Section Operative	30	21
+cmsec10a	Section Operative	30	21
+cmsec10b	Section Operative	30	21
+cmsec10c	Section Operative	30	21
+cmsec12	Section Operative	102	75
+cmsec12a	Section Elite	102	75
+cmsec12b	Section Operative	102	75
+cmsec12c	Section Operative	102	75
+cmsec12d	Section Operative	102	75
+cmsec13	Section Operative	75	54
+cmsec14	Section Elite	50	36
+cmsec14a	Section Elite	50	36
+cmsec14b	Section Elite	50	36
+cmsec15	Section Operative	38	27
+cmsec16	Section Operative	20	15
+cmsec19	Section Elite	50	36
+cmsec21	Lillian Darkwater	49	36
+cmsec24	Section Elite	60	45
+cmsec25	Section Elite	60	45
+cmskel03	Death Knight	100	75
+cmskel04	Death Knight	100	75
+cmvamanc	Ancient Vampire	120	90
+cmvampat	Patriarch Vampire	220	165
+cmwolf	Wolfmoon	200	150
+cohrvale	Cohrvale	126	93
+colbert	Colbert	6	3
+copcust2	Commoner	4	3
+copcust3	Nobleman	10	6
+copgreet	Frankie	4	3
+corneil	Corneil	65	48
+cowenf1	Cowled Enforcer	25	18
+cowenf3	Cowled Enforcer	25	18
+cowenf4	Cowled Enforcer	25	18
+cowled	Cowled Wizard	102	75
+cragmoon	Mrs. Cragmoon	26	18
+cratzyl	Cratzyl	348	261
+c-renal	Renal	183	135
+crolus	Crolus	6	3
+csgayl	Assassin	39	27
+csthief1	Assassin	39	27
+csthief2	Assassin	39	27
+csthief3	Assassin	39	27
+csthief4	Assassin	39	27
+ctraitor	Tad	95	69
+cultbeh	The Highest	668	501
+cultist1	Cultist	95	69
+cultist2	Cultist	95	69
+cwsada	Mistress Ada	13	9
+cwshen	Hendak	87	63
+cwsmaz	Mazzy	45	33
+cyclead	Cyclops Leader	188	141
+d0alassa	Alassa	63	45
+d0arbkup	Shadow Thief	25	18
+d0debt1	Debt Collector	40	30
+d0debt2	Debt Collector	30	21
+d0drunk	Drunk	13	9
+d0ftown2	Commoner	4	3
+d0guard4	Sanctioned Wizard	102	75
+d0lender	Celile	234	174
+d0msngr	Shadow Thief	39	27
+d0nightk	Larell	97	72
+d0qpback	Cowled Escort	25	18
+d0qphar1	Harper	43	30
+d0qppotn	Jadarath	80	60
+d0qpslav	Tredor	13	9
+d0qpsy01	Sythillisian Soldier	5	3
+d0qpsy03	Sythillisian Soldier	5	3
+d0qpsy10	Sythillisian Soldier	100	75
+d0renal	Renal Bloodscalp	183	135
+d0renrev	Shadow Thief	39	27
+d0thug	Thug	85	63
+d0thug2	Thug	85	63
+d0thug3	Thug	85	63
+d0thug4	Pirate Bodyguard	100	75
+d0xzar	Xzar	907	678
+dadragon	Fanguarrax	3488	2616
+dadrow12	Overseer Handmaiden	10	6
+dadrow13	Drow	20	15
+dadrow15	Drow	20	15
+dadrow16	Drow	25	18
+dadrow17	Taso Kala	30	21
+dadrow18	Spelljammer Drow	40	30
+dadrow19	Drow	120	90
+dadrow2	Drow Servant	20	15
+dadrow20	Drow Priestess	20	15
+dadrow21	Drow	10	6
+dadrow22	Drow	15	9
+dadrow23	Drow	10	6
+dadrow24	Drow	120	90
+dadrow25	Drow	70	51
+dadrow26	Drow	40	30
+dadrow3	Drow Slave Trader	50	36
+dadrow4	Drow Priestess	60	45
+dadrow5	Drow	20	15
+dadrow6	Drow Leader	70	51
+dadrow7	Drow	40	30
+dadrow8	Drow Torturer	70	51
+dadrow9	Drow Torturer	60	45
+dagith1	Githyanki Captain	98	72
+dagith2	Githyanki	98	72
+dariogr1	Assassin Mage	25	18
+dariogr2	Assassin Warrior	67	48
+dariogr3	Assassin Warrior	67	48
+dariogr4	Assassin Warrior	67	48
+dariogr5	Assassin Warrior	67	48
+daslave1	Slave Leader	20	15
+dassin	Shadow Thief	100	75
+dcai	Vulova Guildmaster	75	54
+dcleric	Mad Cleric	20	15
+dcleric2	The Redeemer	500	375
+dcowl1	Rayic Gethras	40	30
+dd1700wi	Slurice	25	18
+ddcrazy1	Manifest Lunatic	22	15
+ddcyric1	Larala	11	6
+ddcyric2	Larala	11	6
+ddcyric3	Larala	11	6
+ddcyric4	Larala	11	6
+ddgenera	General	22	15
+ddhall01	Krent	25	18
+ddhusban	Larala's Husband	11	6
+ddlaral2	Larala	11	6
+ddlarala	Larala	11	6
+ddmanarc	Manifest Archer	22	15
+ddmanpea	Manifest Peasant	22	15
+ddmansha	Manifest Shadow	22	15
+ddplota4	Manifest Shadow	22	15
+ddplota5	Monster	22	15
+ddpo05ab	Ranger	46	33
+ddsold10	Soldier	22	15
+ddsold11	Soldier	22	15
+ddwarp01	Elven Wizard	907	678
+ddwman02	Woman	22	15
+decre#02	The Black Knight	120	90
+decre#06	CosmoGoon	20	15
+decre#07	Deano	120	90
+decre#08	WhoDeany	110	81
+degard	Degardan	44	33
+del	Del	45	33
+delcia	Lady Delcia Caan	13	9
+delei	Delei	26	18
+delich1	Demi-Lich	4888	3666
+dellow	Del	45	33
+delnob01	Nobleman	20	15
+delnob02	Noblewoman	20	15
+delryng1	Delryn Door Guard	9	6
+deltow02	Patron	5	3
+demdark	Dark One	25	18
+demdark1	Dark One	25	18
+demdrac	Demi Draco Lich	10000	7500
+demilich	Demi-Lich	5000	3750
+demmag	Dracandros	40	30
+demport	Portal	25	18
+dempri	Pitre	30	21
+demson	Sir William Reirrac	25	18
+derrick	Derrick	20	15
+deshar	Ferric Ironblade	50	36
+dfisher	Fisherman	11	6
+dftown1	Commoner	4	3
+dftown2	Commoner	4	3
+diane	Diane	5	3
+dmrest	Bessen	10	6
+dmtown1	Peasant	11	6
+dmtown2	Peasant	11	6
+dockhlp1	Shadow Thief	39	27
+dockhlp2	Shadow Thief	39	27
+dockmeet	Rylock	125	93
+dockpriz	Shadow Thief	183	135
+docsol03	Guard Captain	50	36
+dorkus	Dorkus	10	6
+doug	Festule the Alchemist	45	33
+dpimg1	Pimlico Guard	9	6
+drag	Nizidramanii'yt	345	258
+dragblac	Nizidramanii'yt	345	258
+dragred	Red Dragon	15000	11250
+dragshad	Thaxll'ssillyia	3200	2400
+draug	Draug Fea	119	87
+drow01	Drow Warrior	10	6
+drow02	Drow Warrior	10	6
+drow03	Drow Wizard	20	15
+drow04	Drow Priestess	50	36
+drow05	Drow	30	21
+drow06	Drow	40	30
+drow07	Drow Priestess	50	36
+drowbd01	Drow Warrior	10	6
+drowbd02	Drow Warrior	10	6
+drowbd03	Drow Warrior	10	6
+drowbd04	Drow Warrior	10	6
+drowbd05	Drow Warrior	10	6
+drowbd06	Drow Warrior	10	6
+drowbd07	Drow Wizard	40	30
+drowbd08	Drow Wizard	40	30
+drowbd09	Drow Priestess	50	36
+drowbd10	Drow Priestess	50	36
+drowbd11	Drow Wizard	40	30
+drush	Drush	10	6
+dsailor1	Sailor	8	6
+dsailor2	Sailor	12	9
+dsbardo	Bardo Furfoot	21	15
+dsblane	Dawn Priest Blane	64	48
+dsbody01	Shadow Thief	39	27
+dsbub	Bub Snikt	10	6
+dsbub6	Bub Snikt	15	9
+dsconch5	Conchobhair Strongblade	31	21
+dscuch5	CúChoinneach	15	9
+dscuch7	CúChoinneach	21	15
+dsdrow01	Drow Weapons Master	10	6
+dsdrow02	Drow Mage	40	30
+dsdrow03	Drow Warrior	10	6
+dsdrow04	Drow Elite	10	6
+dsduegm1	Duergar Fighter	23	15
+dsduegma	Duergar Mage	23	15
+dsduegsk	Duergar Skeletal Conjurer	23	15
+dsduerg1	Duergar Thief	87	63
+dsduerg2	Duergar Guard	87	63
+dsduerg3	Duergar Priest	87	63
+dsduerga	Duergar Miner	87	63
+dsferth	Ferthgil Trollslayer	10	6
+dshalf01	Gandolar Luckyfoot	47	33
+dshop01	Ikert	25	18
+dshop02	Jahaboam	7	3
+dsjetla9	Jet'laya	25	18
+dsjules	Jules	50	36
+dskateri	Katerin	4	3
+dskeiri7	Keiria Silverstring	45	33
+dslennan	Lennan	52	39
+dsorc01	Orc	5	3
+dsotho	Otho Truehammer	1100	825
+dsthief	Shadow Thief	39	27
+duearc01	Duergar	23	15
+duearc02	Duergar	23	15
+duearc03	Duergar	23	15
+duearc04	Duergar	23	15
+duecla01	Ilyich	87	63
+duecla02	Ilyich	87	63
+duegau01	Duergar	87	63
+duegau02	Duergar	87	63
+duegexit	Duergar	23	15
+duegmin1	Duergar	23	15
+duegmin2	Duergar Mage	23	15
+duegmin3	Duergar	23	15
+duegrune	Duergar	23	15
+duegsal1	Duergar	87	63
+duegsal2	Duergar	87	63
+duegsal3	Duergar	87	63
+duegske1	Duergar Skeletal Conjurer	23	15
+duemag01	Mage	23	15
+duemag02	Mage	23	15
+duepre01	Duergar	87	63
+duergar	Duergar	87	63
+duergar1	Duergar	87	63
+duergar2	Duergar	87	63
+duergar3	Duergar	87	63
+dumayor	Minister Lloyd	100	75
+dvampfl	Vampire	39	27
+dw#abbl1	Olinissimous	345	258
+dw#abbl2	Zirimanat'ryl	345	258
+dw#abgre	Ithy'nassendra	1500	1125
+dw#abred	Carnifex	1500	1125
+dw#abrop	Merchant	30	21
+dw#c3bt	Black Talon Elite	20	15
+dw#c3hb	Hobgoblin Elite	5	3
+dw#c51	Shennara	22	15
+dw#c52	Kaalos	136	102
+dw#diarm	Diarmid	68	51
+dw#oghob	Hobgoblin Elite	5	3
+dw#queen	Queen	102	75
+dw#refg2	Slaver	128	96
+dw#refg3	Slaver	128	96
+dw#rnlr1	Bandit	87	63
+dw#rnlr2	Bandit	94	69
+dw#skcan	Watcher	5	3
+dw#thr01	Thrall Wizard	25	18
+dw#thr02	Thrall Wizard	25	18
+dw#ysdra	Brimstone	15000	11250
+dwbrg01	Drow Warrior	10	6
+dwbrg02	Drow Warrior	10	6
+dwgard01	Drow Warrior	10	6
+dwgard02	Drow Warrior	10	6
+dwgard03	Drow Warrior	10	6
+dwgard04	Drow Warrior	10	6
+dwwond01	Drow Warrior	10	6
+dwwond02	Drow Warrior	10	6
+dwwond03	Drow Warrior	10	6
+dwwond04	Drow Warrior	10	6
+dwwond05	Drow Wizard	20	15
+dwwond06	Drow Priestess	50	36
+dwwond07	Drow Warrior	10	6
+dwwond08	Drow Priestess	50	36
+dwwond09	Drow Warrior	10	6
+dwwond10	Drow Warrior	10	6
+dwwond11	Drow Warrior	10	6
+dwwond12	Drow Warrior	10	6
+dwwond13	Drow Wizard	20	15
+dwwond14	Drow Priestess	50	36
+dwwond15	Drow Warrior	10	6
+dwwond16	Drow Wizard	20	15
+dwwond17	Drow Warrior	10	6
+e33	Alora	57	42
+e35	Edwin	100	75
+e3aransm	Mrs. Linvail	4	3
+e3cirion	Cirion	3058	2292
+e3eriale	Eriale	204	153
+e3hoodg1	Hooded Figure	25	18
+e3hoodl	Hooded Figure	25	18
+e3jekhri	Jekh'ril	110	81
+e3savany	Savanya	511	381
+e3sume	Sume	387	288
+e3taeghe	Taeghen	545	408
+eastgol1	Guardian Of Easthaven	4000	3000
+eastgol2	Guardian Of Easthaven	4000	3000
+eastmage	Azim	4000	3000
+egald1	Edomis Galdenburg	23	15
+egenia	Mother Egenia	23	15
+egeques2	Captive Villager	26	18
+egequest	Captive Villager	26	18
+egmage1	Trevis	24	18
+egmage2	Drent	25	18
+eleana	Eleana	8	6
+eleana2	Eleana	8	6
+eleana3	Eleana	8	6
+elka9	Elka	378	282
+elmin01	Elminster	20	15
+elmin02	Elminster	20	15
+embarl	Embarl	30	21
+enteri	Artemis Entreri	1238	927
+enteri2	Artemis Entreri	2000	1500
+enteri3c	Artemis Entreri	2000	1500
+enteri5c	Artemis Entreri	2000	1500
+enteri6c	Artemis Entreri	2000	1500
+enteriss	Artemis Entreri	2000	1500
+eranda	Eranda	678	507
+eranda2	Eranda	678	507
+eranda3	Eranda	678	507
+errtu	Errtu	566	423
+erwan	Erwan Pistvaen	12	9
+escort1	Cominda	12	9
+escort1a	Cominda	12	9
+escort2	Kerstia	20	15
+escort2a	Kerstia	20	15
+escort3	Jenthan	10	6
+escort3a	Jenthan	10	6
+escort4	Virah	20	15
+excult1	Garuk	95	69
+excult2	Zaelas	95	69
+f_artemi	Artemis Entreri	39	27
+f_bearol	Bear Tribe Elder	170	126
+fangu	Fanguarrax	2400	1800
+fcapvil	Captive Villager	26	18
+femvamp1	Vampire	12	9
+femvamp2	Vampire	11	6
+femvamp3	Vampire	12	9
+ffactor1	Kirinaldo	7	3
+ffactor2	Lunisia	4	3
+ffbart	Samuel Thunderburp	20	15
+ffcapvil	Captive Villager	26	18
+ffcrowd1	Nobleman	14	9
+ffcrowd2	Noblewoman	13	9
+ffcrowd3	Peasant	11	6
+ffcrowd4	Commoner	4	3
+ffcust01	Ercias	12	9
+ffcust03	Tavern Patron	4	3
+ffcust04	Tavern Patron	11	6
+ffcust05	Tavern Patron	15	9
+ffcust07	H'rothgar Firehammer	15	9
+ffcust08	Jerry Jamtoes	7	3
+ffcust09	Lord Sterk	25	18
+ffusher1	Usher	7	3
+ffwench	Thalia Thunderburp	20	15
+fhterl	Terl	9	6
+fidrow1	Drow	22	15
+fidrow10	Drow	22	15
+fidrow2	Drow	22	15
+fidrow3	Drow	22	15
+fidrow4	Drow	22	15
+fidrow5	Drow	22	15
+fidrow6	Drow	22	15
+fidrow7	Drow	22	15
+fidrow8	Drow	22	15
+fidrow9	Drow	22	15
+fiinvi	Drow Warrior	10	6
+fiinvi2	Drow Warrior	10	6
+fiinvi3	Drow Warrior	10	6
+fiinvi4	Drow Warrior	10	6
+fiinvi5	Drow Warrior	10	6
+fiinvi6	Drow Warrior	10	6
+fiinvi7	Drow Warrior	10	6
+fingrom	Gromnir Il-Khan	1200	900
+firban01	Bandit	40	30
+firban02	Plath Rededge	20	15
+firban03	Bandit	30	21
+firkra02	Firkraag	1500	1125
+firmag01	Conster	25	18
+firrak01	Ruhk Transmuter	6	3
+firrak02	Ruhk	6	3
+flan	Flan Brel	200	150
+fmcapvil	Captive Villager	26	18
+franco	Franco	10	6
+frdeath	Galangar	559	417
+fsdragon	Dragon	1500	1125
+fshorde4	Orc	5	3
+fsmage03	Mage	25	18
+fsmage04	Mage	25	18
+ftown1	Commoner	4	3
+ftown2	Commoner	7	3
+fumin	Minister Adelain	30	21
+fwmirena	Mirena	13	9
+fwshop01	Storekeep	2000	1500
+fyual	Greater Yuan-Ti Leader	22	15
+fyuam	Greater Yuan-Ti Mage	28	21
+g3bev	Lady Bev	10	6
+g3kebodi	Kebodi	39	27
+g3maid	Barmaid	10	6
+g3mrsgtu	Mrs. The Unmanned	13	9
+g3suleci	Sir Suleci	67	48
+gaelan	Gaelan Bayle	142	105
+gaelan2	Gaelan Bayle	142	105
+gaidan	Gaidan	540	405
+gaidan2	Gaidan	540	405
+gaius	Gaius	34	24
+galan1	Galan	22	15
+galkin	Galkin	5	3
+galryn	Galryn	18	12
+garlich1	Elemental Lich	128	96
+garlich2	Elemental Lich	228	171
+garrax5	Lord Garrax	5678	4257
+garrick	Garrick	55	39
+garron	Garron	25	18
+gaspar	Gaspar	35	24
+gaylan	Gaylan Bael	45	33
+gbband1b	Bandit	87	63
+gbhrep1e	Mage	25	18
+gcmdwar1	Asgrim the Insane	666	498
+gerhardt	Uncle Gerhardt	24	18
+gerth	Gerth	26	18
+gguard01	Amnish Soldier	9	6
+ghereg	Ghereg	5	3
+giantf01	Fire Giant	100	75
+gladia01	Gatekeeper	87	63
+gmage14	Mekrath	25	18
+gmayor	Theshal	10	6
+gnoll02	Gnoll	100	75
+gnoll03	Gnoll	100	75
+godabis1	Abishai Almu'd	558	417
+godaqua	Aqua Dragon	2110	1581
+godblue	Blue Dragon	2348	1761
+goddemi1	Demi-Lich	433	324
+goddemi2	Demi-Lich	558	417
+godhalf1	Mad Gnome	783	585
+godlich1	Greater Lich	822	615
+gondoh	Gondo Hyman	23	15
+gorcamb3	Tiefling	60	45
+gorcamb5	Tiefling	80	60
+gorfirg	Fire Giant	100	75
+gorje	Gorje Hilldark	127	93
+gororc01	Orc	15	9
+gorsal	Saladrex	1500	1125
+gorwom04	Ameralis Zauviir	1230	921
+gpfight1	Boz	20	15
+gphil03	Huntley	18	12
+gpsimb	Simbja	22	15
+graeme	Graeme	140	105
+grean	Greandal	2888	2166
+greendrg	Andaxll'layah	3810	2856
+gregdemi	Gregorraxx	673	504
+grimsto	Anamuns	10	6
+gromg01	Il-Khan Soldier	20	15
+gromg02	Il-Khan Soldier	20	15
+gromg04	Il-Khan Soldier	10	6
+gromg06	Il-Khan Soldier	20	15
+gromg07	Il-Khan Soldier	20	15
+gromg09	Eler Had	10	6
+gromg10	Berena Elkan	10	6
+gromg12	Il-Khan Soldier	10	6
+gromg14	Il-Khan Soldier	20	15
+grommin	Halbazzer Drin	200	150
+gromnir	Gromnir Il-Khan	1200	900
+gron	Theshal	53	39
+guard1	Bouncer	40	30
+guard3	Copper Coronet Guard	60	45
+guasold1	Soldier	12	9
+guasold2	Soldier	12	9
+guasold3	Soldier	12	9
+guasold4	Soldier	12	9
+habrega	Chief Inspector Brega	9	6
+hacton	Acton Balthis	120	90
+hactong	Amnish Bodyguard	5	3
+haegan	Captain Haegan	310	231
+haffg2	Mabledale	10	6
+haguar01	Arresting Officer	9	6
+haguar02	Arresting Soldier	9	6
+halfen	Halfling Enforcer	10	6
+hdragred	Dragon	100	75
+hdragsil	Dragon	100	75
+hedan	Hedan	18	12
+helmkni1	Shield Knight	25	18
+hendak	Hendak	87	63
+henman	Henman	6	3
+henvis	Henvis	26	18
+hephas	Hephaestus	2580	1935
+hephas2	Hephaestus	2580	1935
+hgkar01	Karthis al-Hezzar	254	189
+hgmag01	Fire Giant Mage	40	30
+hgmag02	Fire Giant Mage	40	30
+hgsal01	Fire Salamander	10	6
+hgwar01	Fire Giant	20	15
+hgwar02	Elite Fire Giant	100	75
+hkensaf	Hashimoto Guard	3500	2625
+hkensai	Hashimoto Guard	3500	2625
+hlassa	Assassin	18	12
+hlkoshi	Koshi	120	90
+hllayen	Layene	25	18
+hlrevan	Revanek	13	9
+hlshang	Shangalar	3890	2916
+hlsion	Sion	75	54
+hlstal	Stalman	20	15
+hobeli01	Hobgoblin Elite	5	3
+hobgo2	Hobgoblin	100	75
+hobgo3	Hobgoblin	100	75
+hobgo4	Hobgoblin	100	75
+hobgo6	Hobgoblin	100	75
+homeless	Homeless Woman	4	3
+horace	Horace	100	75
+horred	Horred the Plague	666	498
+horsesal	Trader	45	33
+hurgisf	Hurgis Baltezan	10	6
+hurgisr	Hurgis Baltezan	10	6
+icebeard	Thorin Icebeard	55	39
+idemon01	Cambion	1463	1095
+idemon02	Cambion	1463	1095
+ilhan	Ilhan	360	270
+ilhan2	Ilhan	360	270
+ilhan3	Ilhan	360	270
+illasera	Illasera	500	375
+impbod2	Manasseh	25	18
+innkpr	Quimby	16	12
+inspect	Lieutenant Aegisfield	5	3
+iogremag	Ogre Mage	20	15
+irlana	Lady Irlana	67	48
+ishadft1	Assassin	36	27
+ishadmt1	Assassin	79	57
+ishadth1	Assassin	36	27
+iwddrg1	Mandegora	3455	2589
+iwddrg2	Hequistus	2838	2127
+iwddrg3	Grizidamonn'yt	1345	1008
+iwddrg4	Gangollayah	2665	1998
+iwddrg5	The Great One	5834	4374
+iwddrg6	Mandegora	3455	2589
+iwddrg7	Hequistus	2838	2127
+iwddrg8	Grizidamonn'yt	1345	1008
+iwdorc1	Orc	5	3
+iwdorc4	Orc Shaman	4	3
+iwdorc5	Ochtyg	18	12
+j#aoedw2	Dwarf	17	12
+j#aoedwa	Fwippy	63	45
+j#im8to2	Torturer	7	3
+j#im8tor	Torturer	7	3
+j#indi01	Indira	24	18
+j#indi03	Indira	72	54
+j#indi04	Indira	72	54
+j#pirat1	Old Man	1200	900
+jade2	Thenry	67	48
+jadermin	Dermin Courtierdale	55	39
+jaerto1	Jarden	67	48
+jaerto2	Turg	67	48
+jaerto4	Wurn	67	48
+jaertof	Ertof Dand	67	48
+jaga2	Kail	67	48
+jaga3	Nadinal	10	6
+jaga4	Iko	55	39
+jagalvar	Galvarey	670	501
+jahaboam	Jahaboam	5	3
+jahei2	Harper	67	48
+jaheird	Jaheira	6	3
+jamage1	Gracien	20	15
+jamage2	Malacazar	30	21
+jameroni	Meronia	55	39
+jangit01	Githyanki	98	72
+jangit02	Githyanki	100	75
+janos	Janos	20	15
+jarev2	Harper	67	48
+jarevia	Reviane	67	48
+jarlax_r	Jarlaxle	4500	3375
+jarlaxs	Jarlaxle	4500	3375
+jatermin	Terminsel	100	75
+javin	Javin	100	75
+jayes	Jayes	38	27
+jhonen	Jhonen	26	18
+jinna	Jinna	12	9
+jugjer01	Jermien	4000	3000
+jzmaria	Lady Maria	13	9
+jzseb	Sebastian	50	36
+jzseif	Steve	50	36
+jztrawl	Sir Ryan Trawl	67	48
+k#firmag	Conster	25	18
+k#orc	Orog	5	3
+kagain11	Kagain	69	51
+kalah	Kalah	24	18
+kalah2	Kalah	724	543
+kalvassa	Kalvassa	769	576
+kamir	Kamir	2500	1875
+kayl1	Sir Ryan Trawl	67	48
+kayl2	Sir Ryan Trawl	67	48
+kaypal01	Anarg	100	75
+kessen	Kessen	15	9
+khelb01	Khelben	20	15
+khelb02	Khelben	20	15
+kindai	Kindail	24	18
+king	King	102	75
+kiyone	Kiyone	200	150
+kjobo	Kjobo Pansyflake	26	18
+korgoo01	Goon	100	75
+korgoo02	Goon	100	75
+korpim	Pimlico	20	15
+korpimg1	Pimlico Guard	9	6
+korscroo	Scrooloose	200	150
+korshag	Shagbag	250	186
+kpcapt01	Captain Arat	20	15
+kpcapt02	Captain Cernick	25	18
+kpcapt03	Captain Cernick	25	18
+kpchap01	Bolumir	15	9
+kpglai01	Glaicus	200	150
+kpglai04	Gorvin	76	57
+kpgrd01	Lastin	15	9
+kproen01	Lord Roenall	50	36
+krdrgbrn	Brown Dragon	19000	14250
+krdwarf	Dwarf	600	450
+krgnome	Illusionist	600	450
+kuorc	Orog	5	3
+kylie	Kylie Jansen	43	30
+kylie1	Kylie Jansen	43	30
+lando	Lando	12	9
+latkni01	Morning Knight	25	18
+latkni02	Morning Knight	25	18
+le#aimil	Aimilíona Goldmantle	65	48
+le#shop	Shopkeeper	65	48
+leader1	Leader	24	18
+leader2	Leader	36	27
+legdor	Legdoril	15	9
+lehtin	Lehtinan	1287	963
+lellyn	Lellyn	39	27
+leona	Leona	45	33
+lichguar	Guardian Lich	322	240
+lissa	Lissa	24	18
+lk#iylos	Iylos	260	195
+lk#xlar	Matron Mother Larace	3500	2625
+llynis	Llynis	39	27
+loutcapt	Captain Dennis	280	210
+loutm03	Mercenary of Riatvin	200	150
+loveone5	Merella	4872	3654
+loveone6	Darriel	55	39
+lrrielev	Velemir Rielev	1000	750
+lryugol	Garrish	2000	1500
+ltalos	Drunken Cleric of Talos	13	9
+lulu	Lulu Hashimoto	45	33
+lyros	Xzar	907	678
+lysan	Lysan	553	414
+m#corin	Captain Corin	31	21
+m#edtg	Ed	13	9
+m#lorr10	Lorraine	120	90
+m#lorr13	Lorraine	120	90
+m#lorr17	Lorraine	120	90
+m#maxtg	Max	13	9
+m#nicktg	Nick	13	9
+m#prisg1	Prison Guard	13	9
+m#prisg2	Prison Guard	13	9
+m#ruad	Ruad	2000	1500
+m#timi15	Timalia	40	30
+m#ycmcm1	Ymmyrt's Captain	50	36
+m#ygcook	Cook	4	3
+m#ymm12	Ymmyrt	68	51
+m#ymm16	Ymmyrt	78	57
+m#ymm19	Ymmyrt	97	72
+madurc01	Duergar Cleric	100	75
+madurc02	Duergar Cleric	100	75
+madurf01	Gorken Bloodaxe	107	78
+madurf02	Duergar Fighter	107	78
+madurt01	Duergar Thief	37	27
+maeguy02	Thief	39	27
+maenc04	Brotus Bloodthirsty	100	75
+maevar	Mae'Var	769	576
+mage14b	Zyntris	25	18
+mage14c	Zyntris	25	18
+mage14m	Zyntris	25	18
+mage16b	Zyntris	25	18
+mage16c	Cowled Wizard	25	18
+mage16m	Zyntris	25	18
+mage18a	Cowled Wizard	25	18
+mage18b	Zyntris	25	18
+mage18c	Zyntris	25	18
+mage18e	Zyntris	25	18
+mage18y	Zyntris	25	18
+mage18z	Zallanora	524	393
+magvamp	Vampiric Mage	300	225
+majan	Ma Jansen	24	18
+malar19	Zatac	1228	921
+malar2	Yv	344	258
+maria	Lady Maria	13	9
+masaki	Masaki Hayashi	204	153
+masal01	Sailor Willi D Fain	130	96
+masal02	Sailor Wally G Hrey	50	36
+mathoren	Thorengrim Hammerfist	69	51
+mazzy11	Mazzy	45	33
+mazzy12	Mazzy	45	33
+mazzy15	Mazzy	45	33
+mazzy8	Mazzy	45	33
+mazzy9	Mazzy	45	33
+mcapt01	Knight of the Order	20	15
+mcapvil	Captive Villager	26	18
+mdindal	Dindal	20	15
+mdsdwarf	Bob	125	93
+mekrat	Mekrath	25	18
+memnis	Meym	25	18
+merinia	Meronia	127	93
+merlin	Elminster	100	75
+meronia	Meronia	55	39
+metbae	Baenwuld	20	15
+metbae2	Baenwuld	20	15
+mgbill01	William 'Bill' Williamson	25	18
+mgcwe00	Cowled Enforcer	25	18
+mgshdrgn	Thaxll'ssillyia	3200	2400
+mgteos01	Teos	25	18
+michio	Michio Nakanishi	204	153
+minsc4	Minsc	4	3
+mirlanda	Mirlanda	22	15
+mirriam	Mirriam	11	6
+mkern	Kern	20	15
+molly2	Molly	12	9
+montar13	Montaron	33	24
+mook	Mook	11	6
+mook02	Mook	11	6
+mtowfr_d	Peasant	8	6
+mtown1	Peasant	11	6
+mtown4	Peasant	4	3
+mugger1	Shady Character	11	6
+mugger2	Shady Character	11	6
+mugger3	Shady Character	16	12
+mugger4	Ogre	5	3
+murdbegg	Rampah	11	6
+murdgirl	Rose Bouquet	33	24
+murtlen	Murtlen	4	3
+mvguard1	Assassin	32	24
+mvguard2	Assassin	48	36
+mvpries	Priest of Cyric	20	15
+mvpries2	Priest of Cyric	20	15
+mwbohu1	Mercenary	18	12
+mwbohu2	Mercenary	21	15
+mwbohu3	Mercenary	16	12
+mwbohu4	Mercenary	16	12
+mwbohu5	Mercenary	28	21
+mwbohul	Bounty Hunter	101	75
+mwbohum	Mercenary Mage	69	51
+mwdolf	Dolf	20	15
+myband1	Trained Bandit	17	12
+naldead	Nalia	45	33
+nalia10	Nalia	45	33
+nalia11	Nalia	45	33
+nalia13	Nalia	45	33
+nalia15	Nalia	45	33
+nalia18	Nalia	45	33
+nalia8	Nalia	45	33
+nanny	Nanny	13	9
+natalk9	Natalka	278	207
+ncdm	Noble	6	3
+ncdm2	Noble	8	6
+ncdw	Noble	7	3
+ncdw2	Noble	5	3
+neb	Neb	30	21
+nech	Nech	6	3
+nmonk	Nakanishi Acolyte	25	18
+nobl11	Nobleman	10	6
+nobl4	Thurston	20	15
+noble2	Nobleman	50	36
+noblem1	Nobleman	14	9
+noblem2	Nobleman	24	18
+noblem3	Lord Ophal	82	60
+noblew1	Noblewoman	13	9
+noblew2	Noblewoman	13	9
+noblew3	Lady Ophal	50	36
+nscamb01	Cambion	146	108
+nscleric	Priest of Tyr	9	6
+nscom002	Shady Hive Character	40	30
+nscom004	Drow Commoner	70	51
+nsdragon	Khalabaxin	1000	750
+nsflower	Hana	4	3
+nsharl01	Harlot	20	15
+nsmage01	Young Mage	102	75
+nsprey01	Lord Reginald	14	9
+nsprey02	Kenny	11	6
+nstief01	Tiefling	60	45
+nstief02	Tiefling	80	60
+ntamelka	Amelka	67	48
+ntaschma	Brother Aschmaan	102	75
+ntaureli	Aurelinus	8	6
+ntavery	Avery	10	6
+ntbalen	Balen	49	36
+ntblhcu1	Black Hand Cultist	5	3
+ntblhcul	Black Hand Cultist	5	3
+ntbrent1	Brentaw	5	3
+ntbrenta	Brentaw	5	3
+ntcholga	Cholga	94	69
+ntdraagi	Brother Draagis	102	75
+nthaebal	Haeball	102	75
+nthasdar	Brother Hasdar	102	75
+nthells1	Fire Salamander	10	6
+nthells2	Humbaba	10	6
+nthellsa	Oogoor	10	6
+ntkeelor	Keelor	38	27
+ntkoldar	Koldar	12	9
+ntkresti	Krestian	12	9
+ntkrotan	Krotan	22	15
+ntlenore	Lenore	36	27
+ntllinde	Llindelin	55	39
+ntmariel	Mariel	98	72
+ntnimfur	Nim Furlwing	68	51
+ntogremu	Mommy	95	69
+ntordol	Ordolath	100	75
+ntpandri	Pandris	400	300
+ntpilar	Pilar	95	69
+ntpique	Pique	32	24
+ntrededg	Rededge	39	27
+ntreedri	Reedrig	102	75
+ntsarq	Sar'garin Ve'xelt	81	60
+ntsatos	Satos	78	57
+ntsatos1	Satos	78	57
+ntselani	Sellanio	25	18
+ntshaell	Shaella	65	48
+ntshelto	Shelton	23	15
+ntshiloc	Shilo Chen	18	12
+ntsvlast	Svlast	50	36
+ntszyper	Skipper	100	75
+nttytus	Tytus	56	42
+ntwill2	Will Scarlet O'Hara	11	6
+ntwill4	Will Scarlet O'Hara	11	6
+ntwill6	Will Scarlet O'Hara	11	6
+ntyness	Yness	163	120
+o!tal	Taluntain	25000	18750
+o#aegnor	Aegnor	64	48
+o#arudin	Arudin	154	114
+o#azag	Azag	28	21
+o#crdat	Inspector Daton	5	3
+o#crfein	Fein	14	9
+o#crgu31	Amnish Guard	10	6
+o#crgu32	Amnish Guard	10	6
+o#crgu71	Mercenery	25	18
+o#crkern	Kern	65	48
+o#crlah	Lahar Feenick	14	9
+o#crlah1	Feenick's Bodyguard	25	18
+o#crlah3	Feenick's Bodyguard	25	18
+o#crnev	Nevier Costa	514	384
+o#crqyr	Qyr	55	39
+o#crsoph	Lady Sofia	50	36
+o#damir	Lord Damir	14	9
+o#drowm	Xynolin	971	726
+o#dur	Dur	114	84
+o#eligor	Eligor	30	21
+o#ganel	Ganelon	542	405
+o#gewen	Captain Gewen	10	6
+o#hiel	Hiel	7	3
+o#khagg	Khaggoth	5	3
+o#khalid	Khalid	1680	1260
+o#lynn	Lynn	1370	1026
+o#mac	Mac	41	30
+o#quagis	Quagis	14	9
+o#rand	Captain Randall	45	33
+o#smug	Fren	48	36
+o#thadd	Lord Thaddeus Leoncourt	14	9
+obshal05	Kayardi	25	18
+oenmage1	Mage	5	3
+oenmage3	Battle Mage	4	3
+ogrmag01	Ogre Mage	43	30
+oldjed	Old Jed	6	3
+olmar	Chieftain Olmar	240	180
+olmar2	Chieftain Olmar	240	180
+olmar3	Chieftain Olmar	240	180
+olmar4	Chieftain Olmar	240	180
+olmar5	Chieftain Olmar	240	180
+olmmage	Mage	7	3
+olmmage2	Mage	5	3
+orc01	Orc	5	3
+orc05	Orog	5	3
+orc06	Orog	5	3
+orc07	Orog Leader	370	276
+orc10	Orc	5	3
+orcsum	Orc	5	3
+orrick	Orrick the Grey	75	54
+oswald	Oswald Fiddlebender	43	30
+otako	Otako Hashimoto	45	33
+p#kivan	Kivan	100	75
+p#lilco	Lilarcor	45	33
+p#shong	Petyr	40	30
+pace	Pace	21	15
+pashtrav	Pasha Khazun	14	9
+pbhunt03	Bounty Hunter	25	18
+pelanna	Pelanna	10	6
+peony	Peony	13	9
+pettin	Ettin	100	75
+pgcrowda	Peasant	11	6
+pgcrowdd	Peasant	4	3
+pggroupi	Germione and Poppy	45	33
+pgjoules	Sir Joules	100	75
+pglyrica	Lyrica	13	9
+pgstacy	Stacy	65	48
+pgtewes	Tewes	4	3
+phlydia	Phlydia	45	33
+pibble	Pibble	5	3
+pibble2	Pibble	5	3
+pircor03	Courtesan	10	6
+pirfsh01	Fisherman	5	3
+pirfsh02	Fishwife	5	3
+pirmur02	Assassin	39	27
+pirmur07	Vadek	25	18
+pirmur09	Golin	22	15
+pirpir05	Chremy	112	84
+pkagal	Agal	42	30
+pkagalb	Agal	42	30
+pkchat1	Ranas	42	30
+pkchat2	Sorgeir	42	30
+pkchat3	Hladvar	42	30
+pkdead1a	Finion	42	30
+pkfatty1	Branthor	45	33
+pkfatty2	Dindil	45	33
+pkfatxy2	Dindil	45	33
+pkgard1	Horkvar	42	30
+pkgard2	Guard	42	30
+pkhohom1	Kroldhir	42	30
+pkhohom2	Fjord	42	30
+pkhohom3	Bjodlaug	42	30
+pkmarcus	Marcus	42	30
+pkmess	Rane	42	30
+pkmess2	Rane	42	30
+pkorfa	Orfa	42	30
+pkstore1	Deneron	45	33
+pkstore2	Carval	45	33
+pktent1	Kiran	42	30
+pktent2	Tharam	42	30
+pktent3	Ralban	42	30
+pktent4	Rungad	42	30
+pktent5	Karnas	42	30
+plass01	Assassin	10	6
+plass04	Assassin	7	3
+plmetw01	Sorcerous Amin	12	9
+plshfg01	Ettin	100	75
+plshfg02	Ettin	100	75
+plshhg01	Hobgoblin Slayer	34	24
+plshkn01	Knight of the Order	67	48
+plshkn02	Knight of the Order	67	48
+pomab	Pomab	58	42
+pparan	Aran Linvail	142	105
+pparan2	Aran Linvail	142	105
+ppgith	Githyanki Captain	98	72
+ppldr01	Pirate Leader	100	75
+ppsail01	Pirate	40	30
+ppsail02	Pirate	45	33
+ppsail03	Pirate	30	21
+ppsail04	Pirate	45	33
+ppthf01	Pirate	45	33
+ppthf02	Pirate	45	33
+prengoon	Prenash's Soldier	10	6
+presio	Presio	25	18
+pressapp	Presio‘s Apprentice	25	18
+prisong1	Prison Guard	13	9
+prisong2	Prison Guard	17	12
+prisonk1	Prison Keeper	26	18
+prophelm	Shield Knight	25	18
+proplat	Morning Knight	25	18
+psadv01	Adventurer	200	150
+psadv02	Adventurer	460	345
+psadv03	Adventurer	150	111
+psadv04	Adventurer	140	105
+psadv05	Adventurer	140	105
+psadv06	Plane-traveling Adventurer	200	150
+psadv07	Plane-traveling Adventurer	140	105
+psadv08	Plane-traveling Adventurer	140	105
+psbelle	Belle	100	75
+psdego	Degrodel	5000	3750
+psdem01	Demon	1000	750
+psdem02	Demon	1000	750
+psdem03	Demon	1000	750
+psdemi	Demilich	8900	6675
+psdmad01	Pompous Adventurer	200	150
+psdmad02	Pompous Adventurer's Sidekick	460	345
+psdmad03	Pompous Adventurer's Sidekick	460	345
+pselmin	Elminster	100	75
+psfanat1	Fanatic	200	150
+psfanat2	Fanatic	200	150
+psfanat3	Fanatic	200	150
+psfanat4	Fanatic	200	150
+psfanat5	Fanatic	200	150
+psgith1	Githyanki	98	72
+psgith2	Githyanki	98	72
+psgithca	Githyanki Captain	98	72
+pshag	Night Hag	1000	750
+psinch	Inchantra	200	150
+psinfer	Inferno	5000	3750
+pslady	Lady of Pain	1000000	750000
+pslordao	Lord Ao	20	15
+psminvo	Invocation	5000	3750
+pspain	Pain Elemental	100	75
+pspnight	Planar Knight	600	450
+psport01	Planar Portal	4	3
+psport02	Portal	4	3
+psport03	Prime Material Portal	4	3
+pspport	Prison Portal	4	3
+psqhosu	Hobgoblin Elite	5	3
+psredw2	Red Wizard	2000	1500
+psredwiz	Red Wizard	100	75
+psthal	Thalantyr	500	375
+pstrait	Cowled Wizard	500	375
+psvortel	Vortel	1000	750
+psweil	Wielter	450	336
+pwarden	Warden	2577	1932
+qcirc01	Circus Worker	10	6
+qcirc02	Circus Worker	14	9
+qloot2	Makan	30	21
+quatar	Quataris	39	27
+quayle	Quayle	24	18
+quaylem	Quayle	24	18
+queen	Queen	102	75
+questm	QuestM	10000	7500
+questor	Questor	1111130	833346
+r#breu01	Breudayael	10000	7500
+r#crazy	Crazy Mage	25	18
+r#vlis	Vlis'tiara	500	375
+r800001	Reingard	20	15
+rahvin_r	Rah'vin	1950	1461
+rannec1	Necromancer	23	15
+rannec2	Necromancer	13	9
+rannec3	Bheodin	56	42
+rannec4	Necromancer	14	9
+rannec5	Necromancer	26	18
+rannec6	Necromancer	33	24
+rannec7	Necromancer	33	24
+rannec8	Necromancer	33	24
+rayvon	RayVon	25	18
+razak01	Rezak the Arms Master	10	6
+rbarmor	William Jyssev	500	375
+rcopper	Reise Coppersky	75	54
+re_eld	Eldoth	32	24
+re_ilona	Ilona	5	3
+re_mit	Mit	39	27
+reband01	Bandit	87	63
+reband02	Bandit	94	69
+redw1	Monferion Palas	200	150
+redw2	Orlo Ravonar	150	111
+redw3	Ekaterina Drosor	350	261
+reedle	Reedle	10	6
+reeldar	Eldarin	623	465
+refigh01	Slaver	128	96
+renal	Renal Bloodscalp	183	135
+rengaa	Rengaard	20	15
+repthf1	Shadow Thief	53	39
+repthf2	Shadow Thief	29	21
+repthf3	Shadow Thief	36	27
+rethie01	Slaver	65	48
+rethug01	Thug	85	63
+rethug02	Mage	14	9
+rethug04	Thug	67	48
+reti	Reti	100	75
+riatamne	Myrin	45	33
+riatgate	Gatesman	87	63
+riatmov1	Guardian Mage	30	21
+ribald	Ribald	2000	1500
+roger	Roger the Fence	26	18
+rorca01	Orc Archer	5	3
+rorcl01	Orog Leader	370	276
+rorcs01	Orog	5	3
+rr#kert	Kerith the Bleak	250	186
+rr#seli	Selina Shadowstorm	225	168
+rr#vend	Venduris	1000	750
+rr#vend2	Venduris	1000	750
+rufpal1	Ruffian	10	6
+rufpal2	Ruffian	5	3
+rumar01	Umar	25	18
+rylock	Rylock	125	93
+ryonn	Ryon	6	3
+sacorc01	Gorrek	5	3
+sacorc05	Orc	5	3
+sacorc10	Orc	5	3
+saerk	Saerk Farrahd	455	339
+sahzom01	Sea Zombie Lord	40	30
+sandrain	Sandrain Durion	391	291
+sarah	Sarah	45	33
+sarbar01	Pyrgam Aleson	45	33
+sarbar02	Bartender	45	33
+sarcpt01	Captain Samand	60	45
+sargrd10	Fighter	410	306
+sargrd11	Fighter	500	375
+sarmist	Cold Mistress	75	54
+sarvie01	Viekang	405	303
+sarvolo	Volo	46	33
+sasaki	Sasaki Hashimoto	45	33
+sbcust01	Patron	4	3
+sbslum01	Nobleman	30	21
+sbslum02	Noblewoman	20	15
+sbsmess	Messenger	67	48
+sbwench	Gracie	5	3
+sc#bla	Brinsley Blake	50	36
+sc#gt1	Gnome Teamster	50	36
+sc#gt2	Gnome Teamster	50	36
+sc#ham	Hamlish Thistledown	5	3
+sc#hub	Hubelpot	50	36
+scbutler	Butler	10	6
+scdur	Unger Hilldark	127	93
+scook	Cook	4	3
+scyarryl	Talon Yarryl	10	6
+sd1	Shed	5	3
+sd2	Shed	5	3
+sd3	Shed	5	3
+sellthf	Shadow Thief	25	18
+sensmsp2	Orog	5	3
+sevdru01	Alatelo De Bonito	17	12
+sevpat01	Mencar Pebblecrusher	1000	750
+sevpat02	Amon of the Purple Brotherhood	102	75
+sevpat03	Pookey	100	75
+sevpat04	Smaeluv Orcslicer	100	75
+sevpat05	Brennan Risling	320	240
+sewerm	Quallo	100	75
+sgpedd1	Arkvisti the Wanderer	20	15
+shadar	Shadar	445	333
+shadedrg	Shadow	20000	15000
+shadra01	Thaxll'ssillyia	3299	2472
+shadth01	Shadow Thief	39	27
+shadth02	Rogue	39	27
+shagho02	Dettseh's Ghost	250	186
+sharte12	Shar-Teel	49	36
+shdwsam2	Zakath	43	30
+shdwsam8	Avenger	2348	1761
+shop03	Merchant	65	48
+shrek	Shrek	6	3
+shth03	Kretor	71	51
+shth05	Joster	20	15
+shthass1	Ama	340	255
+shthoff1	Sir Greshal	21	15
+sime06	Sime	90	66
+sk#enf	Enforcer	100	75
+sk#lila	Lilacor	45	33
+sk#neht1	Neh'taniel	140	105
+sk#neht3	Neh'taniel	140	105
+sk#neht5	Neh'taniel	140	105
+sk#nym2	Avaritia	45	33
+skcorp01	<Invalid Strref -1>	100	75
+skcorp02	<Invalid Strref -1>	100	75
+slarch1	Slaver Guard	17	12
+slaver1	Slaver Guard	45	33
+slaver2	Slaver Guard	17	12
+slaver3	Slaver Guard	22	15
+slaver4	Slaver Guard	13	9
+slavet5	Slave Trader	46	33
+slguard1	Slaver Guard	14	9
+slguard2	Slaver Guard	64	48
+slhalf01	Halfling Man	7	3
+slhalf02	Halfling Woman	11	6
+slmage1	Slaver Wizard	14	9
+slmage2	Slaver Wizard	14	9
+slmage3	Slaver Wizard	14	9
+slshop01	Black Market Thief	9	6
+slshop02	Storekeep	7	3
+sorced	Sonner	5	3
+sorkyst	Sorkyst	2500	1875
+starcher	Shadow Thief Archer	29	21
+stass1	Shadow Thief Assassin	5	3
+stein	Stein	21	15
+stguard1	Shadow Thief	30	21
+stguard2	Shadow Thief	39	27
+stguard3	Shadow Thief	39	27
+stoolm1	Townsperson	26	18
+stoolm2	Townsperson	26	18
+stoolm3	Townsperson	26	18
+subru05	Bruce	12	9
+subru17	Bruce	12	9
+suhess12	Hessa	50	36
+sukiss1	Dahlia	10	6
+sumeat1	Rojo	10	6
+sumeat2	Lowell	10	6
+sumeat3	Friddel	10	6
+surayah	Surayah	13	9
+surly	Surly	65	48
+sw2host	Relic Amaunatori +3	45	33
+swarden	Warden	2577	1932
+t#mdomo	Majordomo	44	33
+taarilis	Arilistan	830	621
+tadream	an apparition	45	33
+tajarmis	Jarmis	162	120
+takomt	Komt	90	66
+talavan	Warlord Talavan	466	348
+talavan2	Warlord Talavan	466	348
+talavan3	Warlord Talavan	466	348
+talavan4	Warlord Talavan	466	348
+talavan5	Talavan's Spy	466	348
+talmage1	Battle Mage	5	3
+talmage2	Battle Mage	4	3
+talmage3	Battle Mage	6	3
+talmiss	Mistress Ada	13	9
+talmiss2	Mistress Ada	13	9
+tanadv02	Adventurer	7	3
+tanadv06	Dunbar the Fifth	38	27
+tanally1	Fael	40	30
+tanner	Rejiek Hidesman	15	9
+tantug02	Thug	7	3
+tanwiz02	Mage	25	18
+tarnor	Tarnor the Hatchetman	173	129
+tasold01	Arilistan's soldier	90	66
+tasold02	Arilistan's soldier	78	57
+tatump	Tump	90	66
+taxcoll	Tax Collector	30	21
+tazok	Tazok	490	366
+tb#lotgw	Ogre Tenant	5	3
+tb#lotr1	Lieutenant Beldor	5	3
+tb#lotrg	General Argor	5	3
+tb#lotro	Orc	5	3
+tb#lotrw	Cowled Enforcer	25	18
+telanis	Telanis	100	75
+telcam1	Cambion	146	108
+teltief1	Tiefling	40	30
+teltief2	Tiefling	204	153
+teltief3	Tiefling	110	81
+tenmage1	Mage	7	3
+tenmage2	Castle Mage	6	3
+tenmage3	Castle Mage	8	6
+terl	Terl	9	6
+terl02	Terl	9	6
+termer04	Mercenary	40	30
+terrece	Terrece	20	15
+therrin	Therrin	190	141
+thief1	Sidge	39	27
+thief2	Shadow Thief	32	24
+thief3	Shadow Thief	41	30
+thief4	Shadow Thief	22	15
+thief5	Gorvin	48	36
+thief6	Zyntris	36	27
+thief7	Anishai	28	21
+thief8	Shadow Thief	25	18
+thork1	Thorknar	42	30
+thork2	Thorknar	42	30
+thork3	Thorknar	42	30
+thork4	Thorknar	42	30
+thorkd1	Ranas	42	30
+thorkd2	Ranas	42	30
+thorkd3	Ranas	42	30
+thorkd4	Ranas	42	30
+thraxi	Thraxis Gall	24	18
+thumb	The Thumb	50	36
+timi15	Timalia	40	30
+tknight1	Thayan Knight	300	225
+tknight2	Thayan Knight	300	225
+tknight3	Thayan Knight	300	225
+tobban03	Orc	920	690
+tobpar04	Karun the Black	25	18
+tomast16	Tomas Tomalson	84	63
+tomast19	Tomas Tomalson	102	75
+tour2	Mrs. Harrold	5	3
+townief1	Townsperson	26	18
+townief2	Townsperson	26	18
+townief3	Townsperson	26	18
+townief4	Townsperson	26	18
+townief5	Townsperson	26	18
+towniem1	Townsperson	26	18
+towniem2	Townsperson	26	18
+towniem3	Townsperson	26	18
+towniem4	Townsperson	26	18
+towniem5	Townsperson	26	18
+travin	Travin	38	27
+trcut05	Lady Lilith Lurraxol	25	18
+trevil01	Lord Khellon Menold	800	600
+trfued01	Lady Lilith Lurraxol	25	18
+trfued02	Lurraxol Guard	10	6
+trfued03	Lurraxol Guard	10	6
+trfued04	Lurraxol Guard	10	6
+trfued06	Alibakkar Guard	10	6
+trfued07	Alibakkar Guard	10	6
+trfued08	Alibakkar Guard	10	6
+trgrd03	Militia Captain	10	6
+trhmer01	Guildmistress Busya	100	75
+trple01	Wilfred the Red	435	324
+trrak04	Ruhk	6	3
+trskin02	Tiris	100	75
+trskin03	Rejiek Hidesman	7	3
+trskin3b	Rejiek Hidesman	7	3
+trskind1	Rejiek Hidesman	7	3
+trtavp05	Alenina	5	3
+tsama1	Ama	340	255
+tsblackl	Black Lily	250	186
+tsgrd02	Cowled Enforcer	25	18
+tsjettin	Sorkyst's Ettin	150	111
+tsjflirt	Lady Arlluvia	30	21
+tsjgiant	Sorkyst's Giant	150	111
+tsnarlen	Narlen Darkwalk	250	186
+tspick1	Nobleman	82	60
+tspick2	Noblewoman	50	36
+tspick5	Sailor	8	6
+tssmugb	Rogue	25	18
+tssmugf	Rogue	25	18
+tssmugm	Rogue	25	18
+tsujath	Tsujatha	200	150
+tswench1	Jancie	10	6
+ttbelt	Belt	87	63
+tuayana	Ayana	25	18
+tucaius	Caius	25	18
+tuconj	Ghiala	25	18
+tuench	Sharia	25	18
+tuezek	Ezekiel	25	18
+tufire	Genevra	25	18
+tuillus	Hazarlich	25	18
+tujiri	Jiri	25	18
+tujirisl	Sleeping Jiri	25	18
+tukimsia	Kym-Sia’U	25	18
+tumage5	Kirine	25	18
+tumalv	Malvolio	25	18
+tumatej	Matej	25	18
+tumord	Mordecai	25	18
+tuphin	Phineas	25	18
+tuphins	Sleeping Phineas	25	18
+tutheod	Theodoran	25	18
+tuvashon	Vashon	25	18
+tuzeira	Zeira	25	18
+ubba0133	Bartender	9	6
+ubquon	Quoningar	20	15
+udardul	Matron Mother Ardulace	3500	2625
+uddear02	Uder Mordin	250	186
+uddear03	Finderlig	150	111
+uddrow10	Nym Khalazza	120	90
+udduer01	Carlig	200	150
+uddwarf	Insane Dwarf Warrior	87	63
+udgith02	Githyanki	98	72
+udgith03	Githyanki	98	72
+udgith04	Githyanki	98	72
+udgith05	Githyanki	98	72
+udmaster	The Master Brain	2000	1500
+udprince	Kuo-Toa Prince	4540	3405
+udsilver	Adalon	3000	2250
+udsimyaz	Simyaz	98	72
+udtrap05	Gont of Riatavin	7	3
+uhfem01	Mistress Eina	100	75
+uhinn01	Vincenzo the Innkeep	20	15
+uhman01	Ander	5	3
+uhman02	Nelleck	8	6
+uhmay01	Minister Lloyd	100	75
+uhmer01	Elence Fielding	120	90
+uhmer02	Min Minling	80	60
+uhmer03	Beherant Diir	50	36
+uhogre05	Orc	10	6
+uhrang01	Merella	4872	3654
+ultimm	Emanath	1660	1245
+urnst	Urnst	9	6
+va#fsala	Fire Salamander	10	6
+va#kergo	Captain Kergo	7	3
+va#orog	Orog	5	3
+va#tian	Tian	5000	3750
+va#ustrn	Ustrain	2500	1875
+va#wiste	Wistemach	25	18
+vaelag	Vaelag	24	18
+vaelg01	Vaelag's Guard	100	75
+vakg02	Archer	67	48
+vakg04	Goon	67	48
+vakmag01	Mage	6	3
+valran02	Ranger	46	33
+vesine11	Vesine	100	75
+vesine13	Vesine	100	75
+vesine8	Vesine	100	75
+vicg1	Fanatic	10	6
+vicg2	Fanatic	12	9
+vicg3	Fanatic	5	3
+viekang	Viekang	404	303
+vinobma	Noble Villager	6	3
+vinobwo	Noble Villager	8	6
+vitrave	Traveller	12	9
+vparan	Aran Linvail	142	105
+vpcutspy	<Invalid Strref -1>	45	33
+vpgorion	Gorion	58	42
+vvryokoi	Ryokoi	30	21
+vvshad1	Shadow Thief	173	129
+vvshad3	Shadow Thief	94	69
+vvshad4	Shadow Thief	68	51
+wardabi1	Silver Abishai	5	3
+wardabi2	Silver Abishai	5	3
+wardmaga	Virdei Forgebrand	20	15
+wardmagb	Eris Elenaak	20	15
+wardmagc	Virdei Forgebrand	20	15
+wardnob1	Greeter	24	18
+waukni01	Waukeenar Knight	25	18
+wbrupert	Rupert	200	150
+wcust02	Debutante Alicia	7	3
+wcust05	Lady Lasalla	10	6
+wealmer	Wealthy Merchant	350	261
+wench1	Tavern Wench	10	6
+whitcomb	Whitcomb	58	42
+wilton	Wilton	4	3
+wpwench1	Tavern Wench	44	33
+wsmith01	Cromwell	125	93
+wtthork5	Thorknar	42	30
+wtthork6	Thorknar	42	30
+wvelda	Flurried voice	45	33
+wwarro1	De'Lyl Guardsman	5	3
+wwarro2	De'Lyl Guardsman	5	3
+wwbilly	Billy	10	6
+wwdelag	Delag	10	6
+wweff	Eforf	5	3
+wwelle	Eleanya	450	336
+wwench	Rebecca	8	6
+wwfght1	De'Lyl Guardsman	5	3
+wwfght2	De'Lyl Guardsman	5	3
+wwsten	Sten	5	3
+wwswoo	Smethy	25	18
+wwvivi	Vivick	5	3
+wyvfight	Wyvern Cultist	30	21
+wyvmag14	Wyvern Cultist	25	18
+x#ajanfi	Ajantis, The Knight	48	36
+x#ajdoug	Douglas	9	6
+x#belgin	Belgin	2000	1500
+x#corafi	Coran, The Peerless Archer	42	30
+x#gael	Gael	380	285
+x#kaband	Caravan Bandit Leader	20	15
+x#karris	Karris	50	36
+x#lakep1	Lake Poet Sam	46	33
+x#lakep2	Lake Poet Rob	46	33
+x#lakep3	Lake Poet Willy	46	33
+x#lp1rep	Lake Poet Sam	46	33
+x#lp2rep	Lake Poet Rob	46	33
+x#lp3rep	Lake Poet Willy	46	33
+x#maste	Master O'Challenges	46	33
+x#mazuri	Mazuri	250	186
+x#natan	Natan	201	150
+x#skodd	Skodd	400	300
+x#tanari	Aravaata	146	108
+x#tqbh1	Alvo	11	6
+x#tqbh2	Leti	16	12
+x#tqbh3	Zed	20	15
+x#tqbh4	Mati	12	9
+x#winski	Winski Perorate	102	75
+xappren1	Prebek	14	9
+xappren2	Sanasha	20	15
+xsdemi	Demi-Lich	20000	15000
+xvartpre	Xvart Shaman	28	21
+xzar	Xzar	907	678
+xzar13	Xzar	907	678
+yaga05	Lieutenant Thief	120	90
+yarmy03	Mage	25	18
+yatolsa	Ya'tol'sa	228	171
+ybdiel	Ybdiel	30	21
+ybdiel2	Ybdiel	30	21
+yoshi10	Yoshimo	45	33
+yoshi11	Yoshimo	45	33
+yoshi12	Yoshimo	45	33
+yoshi7	Yoshimo	45	33
+yoshi8	Yoshimo	45	33
+yscara01	Merchant	30	21
+yscara02	Merchant	50	36
+yscara05	Merchant	10	6
+ysdivelf	Divalir's Guard	10	6
+ysg2	Fire Giant	20	15
+yssold04	Yaga-Shura Elite	311	231
+ystmcptn	Kinalluth	100	75
+ystmelf	Kinalluth's Guard	100	75
+z#assas1	Assassin	5	3
+z#baev	Baevrin	5	3
+z#cw16	Cowled Wizard	25	18
+z#cw18	Cowled Wizard	524	393
+z#demili	Demi-Lich	20000	15000
+z#gvmag1	Vampire	25	18
+z#gvmag2	Vampire	25	18
+z#khar16	Kharen	25	18
+z#kywed	Kiyone	200	150
+z#mage2	Shadow Thief Mage	25	18
+z#nob1	Nobleman	14	9
+z#nob2	Noblewoman	13	9
+z#nob3	Nobleman	24	18
+zacare3	Zacare	564	423
+zemir	Zemir	46	33
+zemthif1	Thief	4	3
+zemthif2	Thief	6	3
+zemthif3	Thief	7	3
+zemthif5	Delane	13	9
+zemthif6	Thief	4	3
+zemthif7	Thief	5	3
+zemthif8	Thief	5	3
+zemthif9	Delane	13	9
+zilarc01	Black Reaver	200	150
+zprize1	Shadow Thief	183	135
+zprize2	Shadow Thief	183	135
+zprize3	Shadow Thief	183	135
+zprize4	Shadow Thief	183	135

@@ -1,0 +1,24 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    IncrementGlobal("ag_squ","GLOBAL",1)
+END
+
+IF
+  Global("ag_iou","GLOBAL",0)
+  RandomNum(20,17)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_iou","GLOBAL",1)
+    GiveItemCreate("agioun01",Myself,0,0,0)
+END
+
+IF
+  Global("ag_iou","GLOBAL",0)
+  GlobalGT("ag_squ","GLOBAL",17)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_iou","GLOBAL",1)
+    CreateItem("agioun01",0,0,0)
+END

@@ -1,0 +1,16 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")
+    Face(10)
+    SetGlobal("CutScene01","AR0700",2)
+    StartCutScene("cut01d")
+END

@@ -1,0 +1,11 @@
+COPY_EXISTING ~ar0602.bcs~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~ActionOverride(Player1,PlayDead(165))~ ~ActionOverride(Player1,PlayDead(30))~
+  COMPILE_BAF_TO_BCS
+BUT_ONLY
+
+ACTION_IF FILE_EXISTS_IN_GAME ~ar7200.are~ BEGIN //BGT
+  COMPILE ~aurora/extend/newgame.baf~
+END ELSE BEGIN
+  COMPILE ~aurora/extend/soa/newgame.baf~
+END

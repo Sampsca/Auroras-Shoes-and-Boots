@@ -1,0 +1,12 @@
+IF
+  Global("agitem3s","LOCALS",0)
+  Global("agitem3","GLOBAL",0)
+  GlobalGT("endofbg1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("agitem3s","LOCALS",1)
+  RESPONSE #3
+    SetGlobal("agitem3s","LOCALS",1)
+    SetGlobal("agitem3","GLOBAL",1)
+    GiveItemCreate("agearr01",Myself,0,0,0)
+END

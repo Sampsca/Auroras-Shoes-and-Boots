@@ -1,0 +1,49 @@
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalLT("agd","LOCALS",3)
+  !GlobalTimerNotExpired("agh","LOCALS")
+  OR(5)
+    See([GOODCUTOFF])
+    See([GOODCUTOFF.0.0.BARD_ALL])
+    See([GOODCUTOFF.0.0.DRUID_ALL])
+    See([GOODCUTOFF.0.0.CLERIC_ALL])
+    See([GOODCUTOFF.0.0.MAGE_ALL])
+THEN
+  RESPONSE #20
+    IncrementGlobal("agd","LOCALS",1)
+    SetGlobalTimer("agh","LOCALS",6)
+    ForceSpell(WeakestOf(),WIZARD_DIMENSION_DOOR)
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalLT("agm","LOCALS",5)
+  !GlobalTimerNotExpired("agh","LOCALS")
+  OR(5)
+    See([GOODCUTOFF])
+    See([GOODCUTOFF.0.0.BARD_ALL])
+    See([GOODCUTOFF.0.0.DRUID_ALL])
+    See([GOODCUTOFF.0.0.CLERIC_ALL])
+    See([GOODCUTOFF.0.0.MAGE_ALL])
+THEN
+  RESPONSE #100
+    IncrementGlobal("agm","LOCALS",1)
+    SetGlobalTimer("agh","LOCALS",6)
+    ForceSpell(LastSeenBy(),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerNotExpired("agh","LOCALS")
+  OR(5)
+    See([GOODCUTOFF])
+    See([GOODCUTOFF.0.0.BARD_ALL])
+    See([GOODCUTOFF.0.0.DRUID_ALL])
+    See([GOODCUTOFF.0.0.CLERIC_ALL])
+    See([GOODCUTOFF.0.0.MAGE_ALL])
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END

@@ -1,0 +1,7 @@
+IF
+  Global("ag_myr","FW3000",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_myr","FW3000",1)
+    CreateCreature("agmyrlo2",[3676.1651],2)
+END

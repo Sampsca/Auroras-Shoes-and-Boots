@@ -1,0 +1,11 @@
+IF
+  Global("agelixs","LOCALS",0)
+  GlobalLT("agelix","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("agelixs","LOCALS",1)
+  RESPONSE #5
+    SetGlobal("agelixs","LOCALS",1)
+    IncrementGlobal("agelix","GLOBAL",1)
+    GiveItemCreate("agpotn06",Myself,1,0,0)
+END

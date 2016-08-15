@@ -1,0 +1,127 @@
+OUTER_SPRINT agrw @427 //row
+OUTER_SPRINT agof @428 //of
+OUTER_SPRINT agga @429 //new gems added.
+OUTER_SPRINT agrs @430 //random scroll replaced.
+OUTER_SPRINT agub @431 //BG1UB entries reweighted.
+OUTER_SPRINT agrd @432 //riddle scroll replaced.
+
+COPY_EXISTING ~rndequip.2da~ ~override~
+  COUNT_2DA_ROWS 21 rq
+  PATCH_IF rq > 5 BEGIN
+    FOR (qr = 3; qr < (rq - 2); qr += 1) BEGIN
+      READ_2DA_ENTRY qr 12 21 q1
+      PATCH_IF (~%q1%~ STRING_MATCHES_REGEXP ~0?23~ = 0) BEGIN
+        qr1 = qr + 1
+        SET_2DA_ENTRY qr 12 21 ~AGGEM03~ //Tiger's Eye (was 023)
+        SET_2DA_ENTRY qr 17 21 ~AGGEM04~ //Snowflake Obsidian (was 057)
+        SET_2DA_ENTRY qr1 18 21 ~AGGEM06~ //Topaz Gem (was misc34)
+        SET_2DA_ENTRY (qr + 2) 11 21 ~AGGEM05~ //Amethyst Gem (was 073)
+        PATCH_PRINT ~%SOURCE_FILE% %agrw% %qr1% %agof% %rq%: %agga%~ //new gems added
+      END
+    END
+  END
+BUT_ONLY
+
+COPY_EXISTING ~rndmagic.2da~ ~override~
+  COUNT_2DA_ROWS 20 rj
+  PATCH_IF rj > 3 BEGIN
+    FOR (jr = 4; jr < rj; jr += 1) BEGIN
+      READ_2DA_ENTRY jr 0 20 cn
+      PATCH_IF (~%cn%~ STRING_EQUAL_CASE ~POOR_BG1~ = 1) BEGIN
+        jr1 = jr + 1
+        READ_2DA_ENTRY jr 5 20 s7
+        PATCH_IF (~%s7%~ STRING_CONTAINS_REGEXP ~^RND~ = 0) BEGIN
+          SET_2DA_ENTRY jr 5 20 ~001~
+          PATCH_PRINT ~%SOURCE_FILE% %agrw% %jr1% of %rj%: POOR_BG1 %agrs%~ //random scroll replaced
+        END
+        READ_2DA_ENTRY jr 8 20 s7
+        PATCH_IF (~%s7%~ STRING_EQUAL_CASE ~AMUL02~ = 1) BEGIN
+          SET_2DA_ENTRY jr 2 20 ~RING01~
+          SET_2DA_ENTRY jr 8 20 ~*~
+          SET_2DA_ENTRY jr 9 20 ~*~
+          SET_2DA_ENTRY jr 18 20 ~AMUL02~
+          PATCH_PRINT ~%SOURCE_FILE% %agrw% %jr1% %agof% %rj%: %agub%~ //BG1UB entries reweighted
+        END
+      END
+    END
+  END
+BUT_ONLY
+
+COPY_EXISTING ~rndscrol.2da~ ~override~
+  COUNT_2DA_ROWS 21 rq
+  PATCH_IF rq > 3 BEGIN
+    FOR (qr = 4; qr < rq; qr += 1) BEGIN
+      READ_2DA_ENTRY qr 20 21 i2
+      PATCH_IF (~%i2%~ STRING_EQUAL_CASE ~SCRL2I~ = 1) BEGIN
+        qr1 = qr + 1
+        SET_2DA_ENTRY qr 20 21 ~SCRL3G~
+        PATCH_PRINT ~%SOURCE_FILE% %agrw% %qr1% %agof% %rq%: %agrd%~ //riddle scroll replaced
+      END
+    END
+  END
+BUT_ONLY
+
+COPY_EXISTING ~rndwep.2da~ ~override~
+  COUNT_2DA_ROWS 21 rq
+  PATCH_IF rq > 2 BEGIN
+    FOR (qr = 3; qr < rq; qr += 1) BEGIN
+      READ_2DA_ENTRY qr 0 21 cn
+      qr1 = qr + 1
+      PATCH_IF (~%cn%~ STRING_EQUAL_CASE ~POOR_BG1~ = 1) BEGIN
+        READ_2DA_ENTRY qr 6 21 s7
+        PATCH_IF (~%s7%~ STRING_CONTAINS_REGEXP ~^RND~ = 0) BEGIN
+          SET_2DA_ENTRY qr 6 21 ~001~
+          PATCH_PRINT ~%SOURCE_FILE% %agrw% %qr1% %agof% %rq%: POOR_BG1 %agrs%~ //random scroll replaced
+        END
+        READ_2DA_ENTRY qr 9 21 s7
+        PATCH_IF (~%s7%~ STRING_EQUAL_CASE ~AMUL02~ = 1) BEGIN
+          SET_2DA_ENTRY qr 3 21 ~RING01~
+          SET_2DA_ENTRY qr 9 21 ~*~
+          SET_2DA_ENTRY qr 10 21 ~*~
+          SET_2DA_ENTRY qr 19 21 ~AMUL02~
+          PATCH_PRINT ~%SOURCE_FILE% %agrw% %qr1% of %rq%: %agub%~ //BG1UB entries reweighted
+        END
+      END
+      READ_2DA_ENTRY qr 20 21 i2
+      PATCH_IF (~%i2%~ STRING_EQUAL_CASE ~SCRL2I~ = 1) BEGIN
+        SET_2DA_ENTRY qr 20 21 ~SCRL3G~
+        PATCH_PRINT ~%SOURCE_FILE% %agrw% %qr1% %agof% %rq%: %agrd%~ //riddle scroll replaced
+      END
+    END
+  END
+BUT_ONLY
+
+COPY_EXISTING ~rndtreas.2da~ ~override~
+  PATCH_IF (~%tsu%~ STRING_EQUAL ~_~ = 1) BEGIN //Tutu
+    SET_2DA_ENTRY_LATER agtreas 0 5 ~001~ //was rndscr01
+  END ELSE BEGIN
+    SET_2DA_ENTRY_LATER agtreas 0 3 ~002~ //was scrl75
+    SET_2DA_ENTRY_LATER agtreas 1 7 ~010~ //was scrl75
+  END
+  SET_2DA_ENTRY_LATER agtreas 1 15 ~MISC18~ //was rndscr01
+  SET_2DA_ENTRY_LATER agtreas 1 16 ~MISC22~ //was misc18
+  SET_2DA_ENTRY_LATER agtreas 1 17 ~AMUL06~ //was misc22
+  SET_2DA_ENTRY_LATER agtreas 1 18 ~RNDSCR01~ //was amul06
+  PATCH_IF NOT(FILE_EXISTS_IN_GAME ~aggem03.itm~) BEGIN
+    SET_2DA_ENTRY_LATER agtreas 2 11 ~AGGEM03~ //Tiger's Eye (was 023)
+    SET_2DA_ENTRY_LATER agtreas 2 16 ~AGGEM04~ //Snowflake Obsidian (was 057)
+    SET_2DA_ENTRY_LATER agtreas 3 17 ~AGGEM06~ //Topaz Gem (was misc34)
+    SET_2DA_ENTRY_LATER agtreas 4 10 ~AGGEM05~ //Amethyst Gem (was 073)
+  END
+  COUNT_2DA_ROWS 20 rw
+  PATCH_IF rw > 5 BEGIN
+    FOR (wr = 3; wr < (rw - 2); wr += 1) BEGIN
+      READ_2DA_ENTRY wr 11 20 q1
+      PATCH_IF (~%q1%~ STRING_MATCHES_REGEXP ~0?23~ = 0) BEGIN
+        wr1 = wr + 1
+        SET_2DA_ENTRY_LATER agtreas wr 11 ~AGGEM03~ //Tiger's Eye (was 023)
+        SET_2DA_ENTRY_LATER agtreas wr 16 ~AGGEM04~ //Snowflake Obsidian (was 057)
+        SET_2DA_ENTRY_LATER agtreas (wr + 1) 17 ~AGGEM06~ //Topaz Gem (was misc34)
+        SET_2DA_ENTRY_LATER agtreas (wr + 2) 10 ~AGGEM05~ //Amethyst Gem (was 073)
+        PATCH_PRINT ~%SOURCE_FILE% %agrw% %wr1% %agof% %rw%: %agga%~ //new gems added
+      END
+    END
+  END
+  SET_2DA_ENTRIES_NOW agtreas 20
+  PRETTY_PRINT_2DA
+BUT_ONLY

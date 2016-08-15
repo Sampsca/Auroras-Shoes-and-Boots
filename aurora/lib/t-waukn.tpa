@@ -1,0 +1,19 @@
+OUTER_INNER_PATCH wlib BEGIN
+  WRITE_LONG 0x0 0x090a0d20
+  READ_ASCII 0x0 ws(4)
+END
+
+COMPILE ~aurora/extend/cut01a.baf~
+        ~aurora/extend/cut01b.baf~
+        ~aurora/extend/cut01c.baf~
+        ~aurora/extend/cut01d.baf~
+        ~aurora/extend/cut01e.baf~
+        ~aurora/extend/cut01f.baf~
+
+COPY_EXISTING ~cut01g.bcs~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~Wait(1)[%ws%]+~ ~~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~Wait(3)[%ws%]+~ ~~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~ForceSpell~ ~ApplySpell~
+  COMPILE_BAF_TO_BCS
+BUT_ONLY

@@ -1,0 +1,10 @@
+IF
+  GlobalLT("ag_kar","GLOBAL",2)
+  GlobalGT("Chapter","GLOBAL",7)
+  !Exists("agkaraea")
+  !Dead("agkaraea")
+THEN
+  RESPONSE #100
+    CreateCreature("agkaraea",[294.378],14)
+    SetGlobal("ag_kar","GLOBAL",2)
+END

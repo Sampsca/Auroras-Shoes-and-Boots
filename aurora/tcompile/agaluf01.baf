@@ -1,0 +1,127 @@
+IF
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,75)
+  HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_ANIMATE_DEAD)
+END
+
+IF
+  HaveSpell(CLERIC_CHANT)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(Myself,CLERIC_CHANT)
+END
+
+IF
+  HaveSpell(WIZARD_CHARM_PERSON)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_CHARM_PERSON)
+END
+
+IF
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_HOLD_PERSON)
+END
+
+IF
+  HaveSpell(CLERIC_COMMAND)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_COMMAND)
+END
+
+IF
+  HaveSpell(WIZARD_DIMENSION_DOOR)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(WeakestOf(),WIZARD_DIMENSION_DOOR)
+END
+
+IF
+  HaveSpell(CLERIC_DOOM)
+  !GlobalTimerNotExpired("agf","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agf","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_DOOM)
+END
+
+IF
+  GlobalTimerNotExpired("agf","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  !GlobalTimerNotExpired("agf","LOCALS")
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

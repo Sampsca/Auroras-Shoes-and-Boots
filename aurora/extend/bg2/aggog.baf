@@ -1,0 +1,90 @@
+IF
+  Detect([PC])
+  GlobalLT("Chapter","GLOBAL",8)
+THEN
+  RESPONSE #25 //Mekrath's Lair
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR0705","",[253.747],14))
+    ActionOverride(Player2,LeaveAreaLUA("AR0705","",[233.715],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR0705","",[191.723],13))
+    ActionOverride(Player4,LeaveAreaLUA("AR0705","",[225.683],15))
+    ActionOverride(Player5,LeaveAreaLUA("AR0705","",[173.691],14))
+    ActionOverride(Player6,LeaveAreaLUA("AR0705","",[183.655],15))
+  RESPONSE #25 //Rift Area
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR0204","",[665.3017],13))
+    ActionOverride(Player2,LeaveAreaLUA("AR0204","",[653.2966],11))
+    ActionOverride(Player3,LeaveAreaLUA("AR0204","",[617.3038],14))
+    ActionOverride(Player4,LeaveAreaLUA("AR0204","",[661.2952],10))
+    ActionOverride(Player5,LeaveAreaLUA("AR0204","",[611.2988],2))
+    ActionOverride(Player6,LeaveAreaLUA("AR0204","",[595.2948],4))
+  RESPONSE #25 //Graveyard Lower Tombs 2
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR0802","",[683.983],2))
+    ActionOverride(Player2,LeaveAreaLUA("AR0802","",[701.939],2))
+    ActionOverride(Player3,LeaveAreaLUA("AR0802","",[749.977],1))
+    ActionOverride(Player4,LeaveAreaLUA("AR0802","",[727.923],2))
+    ActionOverride(Player5,LeaveAreaLUA("AR0802","",[779.959],3))
+    ActionOverride(Player6,LeaveAreaLUA("AR0802","",[783.913],2))
+  RESPONSE #25 //Umar's Cave
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR1106","",[759.793],1))
+    ActionOverride(Player2,LeaveAreaLUA("AR1106","",[921.637],9))
+    ActionOverride(Player3,LeaveAreaLUA("AR1106","",[835.583],7))
+    ActionOverride(Player4,LeaveAreaLUA("AR1106","",[755.729],2))
+    ActionOverride(Player5,LeaveAreaLUA("AR1106","",[851.761],15))
+    ActionOverride(Player6,LeaveAreaLUA("AR1106","",[829.701],0))
+END
+
+IF
+  Detect([PC])
+  GlobalGT("Chapter","GLOBAL",7)
+THEN
+  RESPONSE #25 //Saradush Prison 1
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR5006","",[237.709],0))
+    ActionOverride(Player2,LeaveAreaLUA("AR5006","",[212.673],2))
+    ActionOverride(Player3,LeaveAreaLUA("AR5006","",[236.643],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR5006","",[280.637],2))
+    ActionOverride(Player5,LeaveAreaLUA("AR5006","",[278.609],2))
+    ActionOverride(Player6,LeaveAreaLUA("AR5006","",[314.595],1))
+  RESPONSE #25 //Saradush Sewers
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR5013","",[2267.2325],11))
+    ActionOverride(Player2,LeaveAreaLUA("AR5013","",[2183.2326],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR5013","",[2219.2394],10))
+    ActionOverride(Player4,LeaveAreaLUA("AR5013","",[2157.2370],12))
+    ActionOverride(Player5,LeaveAreaLUA("AR5013","",[2087.2360],12))
+    ActionOverride(Player6,LeaveAreaLUA("AR5013","",[2091.2438],11))
+  RESPONSE #25 //Abazigal's Lair 2
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR6001","",[941.875],4))
+    ActionOverride(Player2,LeaveAreaLUA("AR6001","",[1009.875],3))
+    ActionOverride(Player3,LeaveAreaLUA("AR6001","",[1075.872],4))
+    ActionOverride(Player4,LeaveAreaLUA("AR6001","",[1137.924],6))
+    ActionOverride(Player5,LeaveAreaLUA("AR6001","",[1185.980],5))
+    ActionOverride(Player6,LeaveAreaLUA("AR6001","",[1261.994],4))
+  RESPONSE #25 //Frost Salamander Cave
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("AR6008","",[730.487],2))
+    ActionOverride(Player2,LeaveAreaLUA("AR6008","",[796.529],2))
+    ActionOverride(Player3,LeaveAreaLUA("AR6008","",[680.469],1))
+    ActionOverride(Player4,LeaveAreaLUA("AR6008","",[780.460],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR6008","",[848.492],15))
+    ActionOverride(Player6,LeaveAreaLUA("AR6008","",[736.432],4))
+END
+
+IF
+  !Detect([PC])
+THEN
+  RESPONSE #100
+    DestroySelf()
+END

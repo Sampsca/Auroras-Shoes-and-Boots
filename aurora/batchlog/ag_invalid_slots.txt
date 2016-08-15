@@ -1,0 +1,8 @@
+Creature	Name	Slot	Offset	Invalid value
+cb285ft1	Fighter	4	1104	5
+cbbgber2	Bugbear	21	1402	5
+cbc8ctu3	Undead Cultist	22	1932	5
+cbharpy2	Harpy	21	1198	8
+cbowen03	Owen	26	1208	8
+cbowen66	Owen	26	1208	8
+nsmage01	Young Mage	1	1578	8

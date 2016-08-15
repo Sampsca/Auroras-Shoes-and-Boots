@@ -1,0 +1,11 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")
+    MoveViewPoint([2576.908],INSTANT)
+    FadeFromColor([1.0],0)
+    DisplayStringHead(Myself,2841) // You dare attack me here?!  Do you even know whom you face?!
+    ApplySpell("CSThief2",CUTSCENE_FLESH_TO_STONE)
+    StartCutScene("cut01b")
+END

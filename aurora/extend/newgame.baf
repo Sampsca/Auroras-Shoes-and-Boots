@@ -1,0 +1,49 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSJon")
+    CreateCreature("m05pcspy",[3374.3068],0)
+    ActionOverride("Imoen10",DestroySelf())
+    MoveViewPoint([3566.2928],INSTANT)
+    ActionOverride("Imoen2",OpenDoor("DOOR11"))
+    ActionOverride("Imoen2",JumpToPoint([3670.2870]))
+    ActionOverride("Imoen2",Face(0))
+    ActionOverride("Imoen2",SetGlobal("hf_Original_Imoen_Tag","LOCALS",1))
+    ActionOverride("Imoen2",SmallWait(5))
+    ActionOverride("Imoen2",MoveToObject(Player1))
+    ActionOverride("Imoen2",Unlock("Cell03"))
+    ActionOverride("Imoen2",OpenDoor("Cell03"))
+    ActionOverride("Imoen2",MultiPlayerSync())
+    ActionOverride("Imoen2",UnhideGUI())
+    ActionOverride("m05pcspy",DestroySelf())
+    ActionOverride("Imoen2",JoinParty())
+    DestroySelf()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player2)
+    SmallWait(7)
+    Face(10)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player3)
+    SmallWait(7)
+    Face(10)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player4)
+    SmallWait(7)
+    Face(10)
+END

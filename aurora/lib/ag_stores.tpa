@@ -1,0 +1,34 @@
+<<<<<<<< .../aurora-inlined/ag_store.txt
+Store	Name	OrigMarkup	NewMarkup
+>>>>>>>>
+
+COPY ~.../aurora-inlined/ag_store.txt~ ~aurora/batchlog/ag_store_%sft%.txt~
+
+ACTION_FOR_EACH stg IN ~%tsh%ighhedg~ ~%tss%toblack~ ~%tss%tocheap~ ~%tss%tosilen~ ~%tsu%erdane~ ~%tsu%friend~ ~%tsu%inn0103~ ~%tsu%inn0105~ ~%tsu%inn0119~ ~%tsu%inn2616~ ~%tsu%inn3304~ ~%tsu%inn3307~ ~%tsu%inn3351~ ~%tsu%inn3357~ ~%tsu%inn4801~ ~%tsu%sto0703~ ~%tsu%sto1112~ ~%tsu%sto1115~ ~%tsu%sto4803~ ~%tsu%sto4901~ ~%tsu%sto4906~ ~%tsu%sto4908~ ~%tsu%sto4909~ ~%tsu%stovai~ ~%tsu%taerum~ ~%tsu%tav0114~ ~%tsu%tav0154~ ~%tsu%tav0721~ ~%tsu%tav1215~ ~%tsu%tav4809~ ~%tsu%tem0002~ ~%tsu%tem0131~ ~%tsu%tem0132~ ~%tsu%tem2304~ ~%tsu%tem2601~ ~%tsu%tem3402~ ~%tsu%tem4003~ ~%tsu%tem4802~ ~%tsu%ulgoth~ ~25spell~ ~25spell2~ ~3307wiz~ ~3314frge~ ~a!raoul~ ~adstore~ ~agaurora~ ~agkaraea~ ~agkarbg1~ ~aldeth~ ~alexm~ ~alyoud~ ~ambar01~ ~amcler02~ ~amsmug01~ ~amsmug02~ ~arenam1~ ~arenam2~ ~arlax1~ ~arlax2~ ~arlax3~ ~arlax4~ ~arlax5~ ~arlax6~ ~arlbar~ ~arled~ ~bagitta~ ~bargood~ ~bdbart01~ ~bernard~ ~bernard2~ ~bernard3~ ~bernard4~ ~bernard5~ ~bernard6~ ~bernpotr~ ~bgsell1b~ ~bh2010~ ~bhalmax~ ~bhalton~ ~bhbmod01~ ~bhcleri1~ ~bhcleric~ ~bhelm~ ~bhfalco~ ~bhgilmi~ ~bhglami~ ~bhhestal~ ~bhkrak~ ~bhohlatt~ ~bhpellt~ ~bhperk~ ~bhst0102~ ~bhst0103~ ~bhst0108~ ~bhzelmar~ ~binnkeep~ ~bmthief~ ~bons~ ~bremen1~ ~bremen2~ ~bremen3~ ~brundor~ ~bshop01~ ~bshop02~ ~bw02sto~ ~bw05jere~ ~c#ajsto1~ ~c#ajsto2~ ~calimart~ ~calitemp~ ~calshop1~ ~calshop2~ ~cb351gd1~ ~cb363501~ ~cb3647hb~ ~cb3651in~ ~cb3651io~ ~cb4279st~ ~cb4280st~ ~cb4281st~ ~cbchant1~ ~cbcwumst~ ~cbhl3631~ ~cbhl3634~ ~cbhld0w1~ ~cbhlvlnt~ ~cbmalr1a~ ~cbmalr1b~ ~cbmystp1~ ~cbrncman~ ~cbsbin62~ ~cbsbin64~ ~cbsbin67~ ~cbsbin71~ ~cbsbin72~ ~cbsbin7b~ ~cbsbwt67~ ~cbsbwu67~ ~cbslence~ ~cbwbbuy1~ ~cbwbtest~ ~cmfood1~ ~cmgstr01~ ~cmgstr02~ ~cmjewel~ ~cmkfc01~ ~cmkier~ ~cmlstr1~ ~cmlstr2~ ~cmlstr3~ ~cmlstr4~ ~cmlstr5~ ~cmmagin1~ ~cmmerc03~ ~cmmerc04~ ~cmmerc05~ ~cmmerc06~ ~cmmystr~ ~cmninamy~ ~cmninast~ ~cmtus01~ ~cmtus02~ ~cmtus03~ ~crobar01~ ~cultbe1~ ~cultbe2~ ~dawnmas~ ~dd0334~ ~ddbernar~ ~ddinn01~ ~ddplota2~ ~ddpoten1~ ~ddtempl1~ ~dehlibra~ ~dehtempl~ ~desto#01~ ~desto#02~ ~desto#03~ ~desto#04~ ~detemple~ ~dg01~ ~dg02~ ~dmark~ ~dmark1~ ~doghma~ ~drinks~ ~dshop01~ ~dshop02~ ~dstrungl~ ~duegsal3~ ~e_mysti2~ ~e_mystig~ ~eastbar~ ~ehinn~ ~ehpomab~ ~ehtav~ ~ehtemple~ ~equselca~ ~eslisto0~ ~f_nibshp~ ~ffbart~ ~fuzuli0~ ~fuzuli1~ ~fuzuli2~ ~fwstor01~ ~garlena~ ~gcmstore~ ~ghestore~ ~gorch~ ~govwau01~ ~grim01~ ~hamminn~ ~hasuno~ ~helmpr~ ~hendak~ ~hgkar01~ ~inn0116~ ~inn1306~ ~innabig~ ~izsul01~ ~j#aoedwa~ ~jayes~ ~jc_tem01~ ~jc_vs2~ ~jl#rup_a~ ~jl#rup_b~ ~jl#rup_c~ ~jl#rup_d~ ~jl#rup_e~ ~jl#rup_f~ ~jzstore~ ~kindast~ ~kpchap01~ ~kugerth~ ~kuinn1~ ~kuinn2~ ~kuinn3~ ~kuorc1~ ~kuoswald~ ~kusmith~ ~kutav~ ~kutemple~ ~kwolf01~ ~kylie~ ~lavallin~ ~lehtinan~ ~lenn~ ~m#bmthi2~ ~m_rctrai~ ~madeel~ ~magnus01~ ~mathoren~ ~mercbank~ ~merchant~ ~mersetek~ ~mhbolsa~ ~mm0103~ ~monopol~ ~murcrag~ ~mwdolf~ ~nsgdbar~ ~o!tast~ ~o#dcsto~ ~o#dctav~ ~osgil1~ ~osgil2~ ~osgil3~ ~overgold~ ~pkstore1~ ~pkstore2~ ~potselca~ ~ppinn01~ ~ppstor01~ ~ppumb01~ ~pssphere~ ~pswauk~ ~razak01~ ~rbarmor~ ~ribald~ ~ribald2~ ~ribald3~ ~roend~ ~roger~ ~rr#marin~ ~s#rolles~ ~sahpr1~ ~sandrain~ ~sarbar01~ ~sartem01~ ~scrlmer~ ~scrolls~ ~selanio~ ~sevbar01~ ~sgpedd1~ ~sgpedd2~ ~sgpedd3~ ~shlehlan~ ~shop01~ ~shop02~ ~shop03~ ~shop04~ ~shop05~ ~shop06~ ~shop07~ ~shop08~ ~shthstor~ ~sk#nym~ ~slilmat~ ~slshop01~ ~slshop02~ ~speselca~ ~spirit1~ ~spirit2~ ~sthaebal~ ~sto1320~ ~sto4905~ ~sto4907~ ~suelf10~ ~sumerch1~ ~talmiss~ ~tanally1~ ~tav0133~ ~tav0705~ ~tc0032~ ~tc0301~ ~tc1201~ ~tc1210~ ~tc1211~ ~tc2000lp~ ~tc2008~ ~tc2009~ ~tc2029~ ~tc3004d~ ~tc3005~ ~tc3201~ ~tc3811~ ~tc3912~ ~tcbart1~ ~tcbart3a~ ~tcbart3b~ ~tcbergo1~ ~tcbergo2~ ~tccarras~ ~tccath01~ ~tcchef~ ~tccolett~ ~tcerubad~ ~tcicar01~ ~tcinn01~ ~tcinn02~ ~tcinn03~ ~tcinn04~ ~tcjan~ ~tcjoy1~ ~tcjoy2~ ~tckeldda~ ~tckobwiz~ ~tclasera~ ~tclothar~ ~tcmdpel~ ~tcmer01~ ~tcmer02~ ~tcmer03~ ~tcmer04~ ~tcmer05~ ~tcmerch2~ ~tcmerch3~ ~tcmmdwrf~ ~tcmmelf1~ ~tcmmelf2~ ~tcmmgus~ ~tcmminn1~ ~tcmmmer1~ ~tcselmr1~ ~tcshop02~ ~tcslmer1~ ~tcsune~ ~tctinke1~ ~tctinke2~ ~tem0149~ ~tem0609~ ~tem4801~ ~temhelm~ ~temlath~ ~tempeil~ ~temple~ ~temsup~ ~temtalos~ ~thumb~ ~trcar04~ ~trgeni01~ ~trinnk01~ ~trmer01~ ~trmer02~ ~trmer03~ ~trmer04~ ~trmer04a~ ~trrak01~ ~trthf02~ ~tsblackl~ ~tskamuzu~ ~tsstore1~ ~type1~ ~type2~ ~type3~ ~tzshop03~ ~tzshop20~ ~tzshop40~ ~u!lstore~ ~u#conlan~ ~ubsto01~ ~ubsto02~ ~ubsto03~ ~ucmgst01~ ~ucmgst02~ ~ucmgst03~ ~uddrow22~ ~uddrow23~ ~uddrow24~ ~uddrow25~ ~udduer01~ ~udduer02~ ~udsvir04~ ~udsvir05~ ~uhinn01~ ~uhmer01~ ~uhmer02~ ~uhmer03~ ~v#duer~ ~v#jacob~ ~v#relaed~ ~viinnkee~ ~vipoh~ ~wallace~ ~wallace2~ ~wardwizs~ ~wechad~ ~wechar~ ~wechar2~ ~wilmat~ ~winnkeep~ ~wmart1~ ~wmart2~ ~wwmer01~ ~x#fried2~ ~z_2bibli~ ~z_bibli~ ~z_davian~ ~z_emir~ ~z_mefiz~ ~zodesak~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%stg%.sto~ BEGIN
+    SILENT
+    COPY_EXISTING ~%stg%.sto~ ~override~
+      PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+        READ_LONG sfs mkp //Price markup
+        PATCH_IF mkp > 3 BEGIN
+          SPRINT sz ~%SOURCE_RES%~
+          READ_STRREF 0xc nn //Name
+          PATCH_IF cg = 2 BEGIN //If raising
+            mkn = mkp * nm / dn
+          END ELSE BEGIN
+            mkn = mkp / dn * nm
+          END
+          PATCH_IF mkn > 10 BEGIN //Round to nearest 5
+            mkn = mkn / 5
+            mkn = mkn * 5
+          END
+          WRITE_LONG sfs mkn
+          INNER_ACTION BEGIN
+            APPEND_OUTER ~aurora/batchlog/ag_store_%sft%.txt~ ~%SOURCE_RES%	%nn%	%mkp%	%mkn%~
+          END
+        END
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END

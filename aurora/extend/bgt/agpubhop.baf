@@ -1,0 +1,123 @@
+//Choosing what to say when:
+
+//No longer in BG1
+IF
+  GlobalGT("endofbg1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DisplayStringNoNameHead(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@44) //This particular pair is not familiar with drinking establishments south of the Cloudpeaks.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//Enemies are near
+IF
+  LOS(NearestEnemyOf(LastSummonerOf(Myself)),25)
+THEN
+  RESPONSE #100
+    DisplayStringNoNameHead(LastSummonerOf(Myself),@0) //There is a brief sound of dismay and a sense of something vacating the area.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@1) //Nothing else happens, and you are left with the distinct impression that the boots disapprove of violence, at least when it happens near them.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//Party member is incapacitated
+IF
+  OR(6)
+    StateCheck(Player1,CD_STATE_NOTVALID)
+    StateCheck(Player2,CD_STATE_NOTVALID)
+    StateCheck(Player3,CD_STATE_NOTVALID)
+    StateCheck(Player4,CD_STATE_NOTVALID)
+    StateCheck(Player5,CD_STATE_NOTVALID)
+    StateCheck(Player6,CD_STATE_NOTVALID)
+THEN 
+  RESPONSE #100
+    DisplayStringNoNameHead(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@31) //Apparently, someone is in no condition to be transported.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//In the Undercity, Mines, Dungeons, etc.
+IF
+  OR(10)
+    AreaCheck("AR7223")
+    AreaCheck("AR7225")
+    AreaCheck("AR7246")
+    AreaCheck("AR9798")
+    AreaCheck("AR4401")
+    AreaCheck("AR4402")
+    AreaCheck("AR4403")
+    AreaCheck("AR4404")
+    AreaCheck("AR4405")
+    AreaCheck("AR7607")
+THEN
+  RESPONSE #100
+    DisplayStringNoNameHead(LastSummonerOf(Myself),@5) //The boots will be no help here.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@4) //There is a brief sound of dismay and a sense of something getting out of the area as fast as it possibly can.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//In Durlag's Tower or similar
+IF
+  OR(16)
+    AreaCheck("ARD001")
+    AreaCheck("ARD002")
+    AreaCheck("ARD003")
+    AreaCheck("ARD004")
+    AreaCheck("ARD005")
+    AreaCheck("ARD006")
+    AreaCheck("ARD007")
+    AreaCheck("ARD008")
+    AreaCheck("ARD009")
+    AreaCheck("ARD010")
+    AreaCheck("ARD011")
+    AreaCheck("ARD012")
+    AreaCheck("ARD013")
+    AreaCheck("ARD014")
+    AreaCheck("ARD015")
+    AreaCheck("ARD016")
+THEN
+  RESPONSE #100
+    DisplayStringNoNameHead(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@3) //Evidently, the magic here is stronger than anything the boots possess.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//On Balduran's Isle or Ice Island
+IF
+  OR(9)
+    AreaCheck("ARW500")
+    AreaCheck("ARW501")
+    AreaCheck("ARW502")
+    AreaCheck("ARW503")
+    AreaCheck("ARW504")
+    AreaCheck("ARW505")
+    AreaCheck("ARU008")
+    AreaCheck("ARU009")
+    AreaCheck("ARU010")
+THEN
+  RESPONSE #100
+    DisplayStringNoNameHead(LastSummonerOf(Myself),@2) //The boots fizzle briefly, but nothing further happens.
+    Wait(1)
+    DisplayStringNoName(LastSummonerOf(Myself),@36) //The boots cannot function this far from the mainland.
+    SmallWait(5)
+    DestroySelf()
+END
+
+//Going to the bars anywhere else in a non-combat situation
+IF
+  !StateCheck(LastSummonerOf(Myself),CD_STATE_NOTVALID)
+THEN 
+  RESPONSE #100
+    SetGlobal("AGBarGo","GLOBAL",1)
+    StartDialogueNoSet(LastSummonerOf(Myself))
+END

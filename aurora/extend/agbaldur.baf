@@ -1,0 +1,57 @@
+IF
+  Global("ag_shame","GLOBAL",0)
+  OR(6)
+    HasItemEquiped("agboot12",Player1)
+    HasItemEquiped("agboot12",Player2)
+    HasItemEquiped("agboot12",Player3)
+    HasItemEquiped("agboot12",Player4)
+    HasItemEquiped("agboot12",Player5)
+    HasItemEquiped("agboot12",Player6)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_shame","GLOBAL",1)
+    ReputationInc(-2)
+END
+
+IF
+  Global("ag_shame","GLOBAL",1)
+  !HasItemEquiped("agboot12",Player1)
+  !HasItemEquiped("agboot12",Player2)
+  !HasItemEquiped("agboot12",Player3)
+  !HasItemEquiped("agboot12",Player4)
+  !HasItemEquiped("agboot12",Player5)
+  !HasItemEquiped("agboot12",Player6)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_shame","GLOBAL",0)
+    ReputationInc(2)
+END
+
+IF
+  Global("ag_blame","GLOBAL",0)
+  OR(6)
+    HasItemEquiped("agboot13",Player1)
+    HasItemEquiped("agboot13",Player2)
+    HasItemEquiped("agboot13",Player3)
+    HasItemEquiped("agboot13",Player4)
+    HasItemEquiped("agboot13",Player5)
+    HasItemEquiped("agboot13",Player6)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_blame","GLOBAL",1)
+    ReputationInc(2)
+END
+
+IF
+  Global("ag_blame","GLOBAL",1)
+  !HasItemEquiped("agboot13",Player1)
+  !HasItemEquiped("agboot13",Player2)
+  !HasItemEquiped("agboot13",Player3)
+  !HasItemEquiped("agboot13",Player4)
+  !HasItemEquiped("agboot13",Player5)
+  !HasItemEquiped("agboot13",Player6)
+THEN
+  RESPONSE #100
+    SetGlobal("ag_blame","GLOBAL",0)
+    ReputationInc(-2)
+END

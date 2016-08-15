@@ -1,0 +1,441 @@
+<<<<<<<< .../aurora-inlined/ag_quest_gold.txt
+File	StrRef	Total1	Total2	Gold	NewGold	Count	Type	OrigText
+>>>>>>>>
+
+COPY ~.../aurora-inlined/ag_quest_gold.txt~ ~aurora/batchlog~
+
+OUTER_INNER_PATCH wlib BEGIN
+  WRITE_LONG 0x0 0x090a0d20
+  READ_ASCII 0x0 ws(4)
+END
+
+OUTER_SPRINT xs ~ agaurora agkaraea _dynahj dynahj dynaj _jaheij jaheij jaheiraj _shartj shartj~ //Exclude from actor state text modding
+OUTER_SPRINT xn ~ bdhigg01 _dynahj dynahj dynaj kpdomo01 _shartj shartj~ //Exclude from player response modding
+OUTER_SPRINT xc ~ aewimer1 agloron2 _ajantj ajantj ammmayor b!gavinj dcowl1 _edwinj edwinj _edwinp edwinp _garrij garrij shthlt01 tsglt1~ //Exclude from dialogue text modding
+OUTER_SPRINT xk ~ agaurora rylock tb#lotr~ //Include amounts of 100 gold
+OUTER_SPRINT xg ~ _ardrou _arkion _berrun _brevli _brielb _dynahj _forthe _garrij _gurke _jaheij _kivanj _nalin _oublek _pheirk _quaylj _scar _xanj _xzarj ardrou arkion b!gavinj bdcoun01 berrun brevli brielb bw05dami bw05dw01 bw05robe clfmox cmlordas cmlstr1 dsgilian dsjeremy dsthomic dynahj dynaj forthe garrij gurke j#pirat1 jaheij jaheiraj killian kivanj kprang02 lavallin m#priest mwbohul nalin o#crnev oublek pehllus pheirk pheirkas quaylj rylock scar sudryad tcbrevli u!kgen wish xanj xzarj~ //GivePartyGold => GiveGoldForce replacements
+
+OUTER_SPRINT w50 @395 //Why not fifty
+OUTER_SPRINT w10 @396 //Why not ten times that
+OUTER_SPRINT k20 @397 //[Tt]wenty thousand
+OUTER_SPRINT k15 @398 //[Ff]ifteen thousand
+OUTER_SPRINT k10 @399 //[Tt]en thousand
+OUTER_SPRINT k9  @400 //[Nn]ine thousand
+OUTER_SPRINT k8  @401 //[Ee]ight thousand
+OUTER_SPRINT k7  @402 //[Ss]even thousand
+OUTER_SPRINT k6a @403 //[Ss]ixty[- ]five hundred
+OUTER_SPRINT k6  @404 //[Ss]ix thousand
+OUTER_SPRINT u5o @405 //and up to five
+OUTER_SPRINT u5n @406 //and up to 5000
+OUTER_SPRINT n5  @407 //Five now, five
+OUTER_SPRINT n2  @408 //Half now, half
+OUTER_SPRINT k5  @409 //[Ff]ive thousand
+OUTER_SPRINT k4  @410 //[Ff]our thousand
+OUTER_SPRINT k3  @411 //[Tt]hree thousand
+OUTER_SPRINT k2a @412 //[Tt]wo thousand and five hundred
+OUTER_SPRINT k2  @413 //[Tt]wo thousand
+OUTER_SPRINT h15 @414 //[Ff]ifteen hundred
+OUTER_SPRINT h12 @415 //[Tt]welve hundred
+OUTER_SPRINT k1  @416 //[Aa] thousand\|[Oo]ne thousand\|[Tt]he thousand
+OUTER_SPRINT h9  @417 //[Nn]ine hundred
+OUTER_SPRINT h8  @418 //[Ee]ight hundred
+OUTER_SPRINT h7  @419 //[Ss]even hundred
+OUTER_SPRINT h6  @420 //[Ss]ix hundred
+OUTER_SPRINT h5  @421 //[Ff]ive hundred
+OUTER_SPRINT h4  @422 //[Ff]our hundred
+OUTER_SPRINT h3  @423 //[Tt]hree hundred
+OUTER_SPRINT h2  @424 //[Tt]wo hundred
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY amounts BEGIN
+  20000 => ~%k20%~
+  15000 => ~%k15%~
+  10000 => ~%k10%~
+  9000  => ~%k9%~
+  8000  => ~%k8%~
+  7000  => ~%k7%~
+  6500  => ~%k6a%~
+  6000  => ~%k6%~
+  5000  => ~%k5%~
+  4000  => ~%k4%~
+  3000  => ~%k3%~
+  2500  => ~%k2a%~
+  2000  => ~%k2%~
+  1500  => ~%h15%~
+  1200  => ~%h12%~
+  1000  => ~%k1%~
+  900   => ~%h9%~
+  800   => ~%h8%~
+  700   => ~%h7%~
+  600   => ~%h6%~
+  500   => ~%h5%~
+  400   => ~%h4%~
+  300   => ~%h3%~
+  200   => ~%h2%~
+END
+
+DEFINE_PATCH_MACRO ag_string BEGIN
+  gold2 = gold * 2
+  PHP_EACH amounts AS amt => stt BEGIN
+    PATCH_IF gold = amt BEGIN
+      SPRINT t1 ~%stt%~
+    END
+    PATCH_IF gold2 = amt BEGIN
+      SPRINT t3 ~%stt%~
+    END
+  END
+  ln = STRING_LENGTH ~%gold%~
+  PATCH_IF (gold > 999) AND (gold < 10000) BEGIN
+    dg = 1 //Digit before comma
+  END ELSE BEGIN
+    PATCH_IF (gold > 9999) AND (gold < 100000) BEGIN
+      dg = 2
+    END ELSE BEGIN
+      PATCH_IF (gold > 99999) BEGIN
+        dg = 3
+      END
+    END
+  END
+  PATCH_IF gold > 999 BEGIN
+    INNER_PATCH ~%gold%~ BEGIN
+      READ_ASCII 0 g1 (dg) //First digit(s) before comma
+      READ_ASCII 1 g2 (ln - dg) //Subsequent digits
+    END
+    SPRINT t2 ~%g1%,%g2%\|%g1%\.%g2%~
+  END
+  ln = STRING_LENGTH ~%gold2%~
+  PATCH_IF (gold2 > 999) AND (gold2 < 10000) BEGIN
+    dg = 1 //Digit before comma
+  END ELSE BEGIN
+    PATCH_IF (gold2 > 9999) AND (gold2 < 100000) BEGIN
+      dg = 2
+    END ELSE BEGIN
+      PATCH_IF (gold2 > 99999) BEGIN
+        dg = 3
+      END
+    END
+  END
+  PATCH_IF gold2 > 999 BEGIN
+    INNER_PATCH ~%gold2%~ BEGIN
+      READ_ASCII 0 g1 (dg) //First digit(s) before comma
+      READ_ASCII 1 g2 (ln - dg) //Subsequent digits
+    END
+    SPRINT t2 ~%t2%\|%gold2%\|%t3%\|%g1%,%g2%\|%g1%\.%g2%~
+  END
+END
+
+DEFINE_PATCH_MACRO ag_bingo BEGIN
+  PATCH_IF (~%rt%~ STRING_CONTAINS_REGEXP ~%gold%\|%t1%\|%t2%~ = 0) AND NOT(VARIABLE_IS_SET $dx(~%sr%~)) BEGIN
+    SET $dx(~%sr%~) = 1
+    SET $strref(~%ttl2%~) = sr
+    SPRINT $text(~%ttl2%~) ~%rt%~
+    SET $gold(~%ttl2%~) = gold
+    SET $newgold(~%ttl2%~) = newgold
+    ttl2 += 1
+    INNER_ACTION BEGIN
+      APPEND_OUTER ~aurora/batchlog/ag_quest_gold.txt~ ~%sf%	%sr%	%ttl1%	%ttl2%	%gold%	%newgold%	%mk%	%place%	%rt%~
+    END
+  END
+END
+
+DEFINE_PATCH_MACRO ag_gold BEGIN
+  PATCH_IF gb != 2 BEGIN
+    gold = %MATCH1%
+  END ELSE BEGIN
+    gold = %MATCH2%
+  END
+  newgold = gold
+  PATCH_IF (gold > 100) OR ((~%xk%~ STRING_CONTAINS_REGEXP ~ %sf%~ = 0) AND (gold > 99)) BEGIN
+    PATCH_IF gb = 1 BEGIN
+      ttl1 += 1
+    END
+    newgold = gold / dn * nm
+    PATCH_IF newgold < 1000 BEGIN //Round to nearest 5
+      newgold = (newgold / 5)
+      newgold = (newgold * 5)
+    END ELSE BEGIN
+      PATCH_IF (newgold > 999) AND (newgold < 10000) BEGIN //Round to nearest 25
+        newgold = (newgold / 25)
+        newgold = (newgold * 25)
+      END ELSE BEGIN
+        PATCH_IF (newgold > 9999) AND (newgold < 100000) BEGIN //Round to nearest 50
+          newgold = (newgold / 50)
+          newgold = (newgold * 50)
+        END ELSE BEGIN
+          PATCH_IF (newgold > 99999) BEGIN //Round to nearest 100
+            newgold = (newgold / 100)
+            newgold = (newgold * 100)
+          END
+        END
+      END
+    END
+    PATCH_IF gb = 1 BEGIN
+      SET $go(~%ttl1%~) = gold
+      SET $gn(~%ttl1%~) = newgold
+    END
+  END
+END
+
+INCLUDE ~aurora/lib/ag_quest_fix1.tpa~
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwish15.spl~ BEGIN
+  COPY_EXISTING ~spwish15.spl~ ~override~ //Wealth Wish
+    PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+      WRITE_LONG 0xc ~-1~ //Identified name
+      WRITE_LONG 0x54 ~-1~ //Identified description
+      PATCH_FOR_EACH tz IN 0x44 0x48 0x58 0x5c BEGIN
+        WRITE_LONG tz 0
+      END
+      READ_LONG 0x64 bf //Abilities offset
+      READ_SHORT 0x68 bn //Abilities count
+      READ_LONG 0x6a cf //Effect offset
+      FOR (f1 = 0; f1 < bn; f1 += 1) BEGIN //Cycle through abilities
+        READ_SHORT (bf + 0x28 * f1 + 0x1e) fq //Feature count
+        READ_SHORT (bf + 0x28 * f1 + 0x20) fx //Feature index
+        FOR (g1 = 0; g1 < fq; g1 += 1) BEGIN //Cycle through features
+          READ_SHORT (cf + 0x30 * (fx + g1)) pc //Opcode
+          READ_LONG (cf + 0x30 * (fx + g1) + 4) p1 //Parameter 1
+          PATCH_IF ((pc = 105) AND (p1 > 0)) BEGIN //If gold modifier
+            gd = p1 / dn * nm
+            gd = (gd / 50)
+            gd = (gd * 50)
+            WRITE_LONG (cf + 0x30 * (fx + g1) + 4) gd //Gold
+          END
+        END
+      END
+    END
+  BUT_ONLY
+END
+
+ACTION_FOR_EACH scrp IN ~_gg300~ ~gg300~ ~kaysmg01~ BEGIN //Reward scripts
+  ACTION_IF FILE_EXISTS_IN_GAME ~%scrp%.bcs~ BEGIN
+    COPY_EXISTING ~%scrp%.bcs~ ~override~
+      PATCH_SILENT
+      SPRINT sf ~%SOURCE_RES%~
+      gold = 0
+      gb = 3
+      DECOMPILE_BCS_TO_BAF
+      REPLACE_EVALUATE CASE_INSENSITIVE ~GiveGoldForce(\([0-9]+\))~ BEGIN
+        LAUNCH_PATCH_MACRO ag_gold
+      END ~GiveGoldForce(%newgold%)~
+      PATCH_IF gold > 100 BEGIN
+        INNER_ACTION BEGIN
+          APPEND_OUTER ~aurora/batchlog/ag_quest_gold.txt~ ~%sf%	0	1	0	%gold%	%newgold%	1	Script	GiveGoldForce()~
+        END
+      END
+      COMPILE_BAF_TO_BCS
+      PATCH_VERBOSE
+    BUT_ONLY
+  END
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~o#durn.dlg~ BEGIN
+  COPY_EXISTING ~o#durn.dlg~ ~override~ //Adjust Durnkrag's comment manually
+    PATCH_IF SOURCE_SIZE > 0x34 BEGIN
+      PATCH_SILENT
+      READ_LONG 0x0c st_off //States offset
+      READ_LONG (st_off + 77 * 0x10) kr //String reference
+      READ_STRREF (st_off + 77 * 0x10) kt //State text
+      INNER_ACTION BEGIN
+        <<<<<<<< .../aurora-inlined/ag-dlg.txt
+@0 = ~%kt%~
+>>>>>>>>
+        COPY ~.../aurora-inlined/ag-dlg.txt~ ~aurora/batchlog/ag-temp.tra~
+          EVALUATE_BUFFER
+          REPLACE_TEXTUALLY ~[Ff]ive thousand~ ~5000~
+          REPLACE_EVALUATE ~\([^0-9]\)\([0-9]+\)\([^0-9]\)~ BEGIN
+            gb = 2
+            LAUNCH_PATCH_MACRO ag_gold
+          END ~%MATCH1%%newgold%%MATCH3%~
+        STRING_SET_EVALUATE ~%kr%~ @0 USING ~aurora/batchlog/ag-temp.tra~
+        APPEND_OUTER ~aurora/batchlog/ag_quest_gold.txt~ ~o#durn	%kr%	0	1	%gold%	%newgold%	77	ActorText	%kt%~
+      END
+      PATCH_VERBOSE
+    END
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~tb#lotr.dlg~ BEGIN
+  COPY_EXISTING ~tb#lotr.dlg~ ~override~ //Adjust 100gp increment rewards
+    PATCH_IF SOURCE_SIZE > 0x34 BEGIN
+      READ_LONG 0x0c st_off //States offset
+      READ_LONG (st_off + 8 * 0x10) kr //String reference
+      READ_STRREF (st_off + 8 * 0x10) kt //State text
+      PATCH_IF (~%kt%~ STRING_CONTAINS_REGEXP ~100~ = 0) BEGIN
+        INNER_ACTION BEGIN
+          <<<<<<<< .../aurora-inlined/ag-dlg.txt
+@0 = ~%kt%~
+>>>>>>>>
+          COPY ~.../aurora-inlined/ag-dlg.txt~ ~aurora/batchlog/ag-temp.tra~
+            EVALUATE_BUFFER
+            REPLACE_EVALUATE ~\([^0-9]\)\([0-9]+\)\([^0-9]\)~ BEGIN
+              gb = 2
+              LAUNCH_PATCH_MACRO ag_gold
+            END ~%MATCH1%%newgold%%MATCH3%~
+          STRING_SET_EVALUATE ~%kr%~ @0 USING ~aurora/batchlog/ag-temp.tra~
+        END
+      END
+    END
+  BUT_ONLY
+END
+
+PRINT @382 //This may take some time ...
+ACTION_FOR_EACH dlm IN ~aewimer1~ ~agaurora~ ~agkaraea~ ~agloron2~ ~agtomtha~ ~%tsu%ajantj~ ~%tsu%aloraj~ ~ammayor~ ~aran~ ~aranor~ ~%tsu%arkion~ ~arlaxgc~ ~auberon~ ~b!evie~ ~b!gavinj~ ~bdcoun01~ ~bdhigg01~ ~%tsu%berrun~ ~bharval~ ~bhnalla~ ~bhoisig~ ~binnkeep~ ~%tsu%brevli~ ~%tsu%brielb~ ~bw05dami~ ~bw05dw01~ ~bw05robe~ ~c#q01002~ ~c#q06001~ ~caern~ ~cbgrdyun~ ~cbmalr1~ ~cbryberg~ ~cbxtthef~ ~cearwin~ ~cechalle~ ~celogan~ ~cgames3~ ~clfmox~ ~cmgabb~ ~cmlordas~ ~cmlstr1~ ~cmwinton~ ~%tsu%coranj~ ~corneil~ ~crogam01~ ~d0jahrev~ ~d0nightk~ ~d0qppotn~ ~dcowl1~ ~degard~ ~%tsu%degrod~ ~%tsu%deltan~ ~%tsu%denak~ ~dsgilian~ ~dsjeremy~ ~%tsu%dynahj~ ~dynaj~ ~e3mallo~ ~%tsu%edwinj~ ~%tsu%edwinp~ ~egald2~ ~egald3~ ~eleana2~ ~%tsu%elkart~ ~%tsu%fenten~ ~ffbart~ ~fhnatj~ ~%tsu%forthe~ ~fwjassy~ ~g3mrsgtu~ ~%tsu%gallor~ ~%tsu%games3~ ~%tsu%gandol~ ~%tsu%garrij~ ~gorlum~ ~gorodr1~ ~%tsu%gurke~ ~habrega~ ~%tsu%halbaz~ ~haquat~ ~helmbyr~ ~hendak~ ~hgkar01~ ~%tsu%hurgan~ ~ilhan~ ~ilhan3~ ~inspect~ ~j#merrit~ ~j#pirat1~ ~%tsu%jaheij~ ~jaheiraj~ ~kaysmg01~ ~%tsu%keldda~ ~kharen16~ ~killian~ ~kivanj~ ~kpdomo01~ ~kprang02~ ~latlara~ ~lavallin~ ~lehtin~ ~loutcapt~ ~m#priest~ ~maevar~ ~magnus~ ~maralda~ ~mathoren~ ~%tsu%menda1~ ~%tsu%menda2~ ~mwbohul~ ~%tsu%nadari~ ~nalia~ ~naliaj~ ~%tsu%nalin~ ~%tsu%narlen~ ~%tsu%niemai~ ~%tsu%nobw7~ ~%tsu%nobw8~ ~nsjharak~ ~ntmagnad~ ~ntordol~ ~o#crnev~ ~o#lynn~ ~o#smug~ ~o#thadd~ ~olmar~ ~olmar4~ ~%tsu%oublek~ ~p#chisl~ ~p#ihtia~ ~%tsu%pheirk~ ~pheirkas~ ~ppsail02~ ~%tsu%quaylj~ ~raelis~ ~renal~ ~ribald~ ~rigen01~ ~roger~ ~rylock~ ~sahkng01~ ~sarcnt01~ ~sarkis01~ ~%tsu%scar~ ~scsain~ ~sctelwyn~ ~scyarryl~ ~sdnpc~ ~seekova~ ~sele0511~ ~%tsu%shartj~ ~%tsu%shopkn~ ~shthlt01~ ~slavet5~ ~sudryad~ ~surly~ ~%tsu%taerom~ ~talvilon~ ~tb#lotr~ ~tcbergon~ ~tcbrevli~ ~tcderil~ ~tcedenso~ ~tcfem01~ ~tclizkng~ ~tcmer03~ ~tcmmnob1~ ~tcsaltca~ ~tcsmga02~ ~%tsu%therel~ ~tolger~ ~trcut07~ ~trevil01~ ~trfued01~ ~trfued05~ ~trhmer01~ ~trple01~ ~tsglt1~ ~tsujatj~ ~u!kgen~ ~uddrow04~ ~uhkid01~ ~uhmay01~ ~va#tian~ ~%tsu%varci~ ~%tsu%vitiar~ ~wish~ ~x#belgin~ ~x#karris~ ~x#winski~ ~%tsu%xanj~ ~%tsu%xzarj~ ~yselpara~ ~zy18wrdn~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%dlm%.dlg~ BEGIN
+    PRINT ~%cp% %dlm%.dlg ...~ //Copying and patching
+    SILENT
+    COPY_EXISTING ~%dlm%.dlg~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x34) BEGIN
+        gold = 0
+        ttl1 = 0
+        ttl2 = 0
+        SPRINT sf ~%SOURCE_RES%~
+        SPRINT t1 ~agnulvar~
+        SPRINT t2 ~agnulvar~
+        DECOMPILE_DLG_TO_D
+        PATCH_IF (~%xg%~ STRING_CONTAINS_REGEXP ~ %SOURCE_RES%~ = 0) BEGIN
+          REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~GivePartyGold(~ ~GiveGoldForce(~
+        END
+        PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~killian~ = 1) BEGIN
+          REPLACE_EVALUATE CASE_INSENSITIVE ~TakePartyGold(\([0-9]+\))~ BEGIN
+            gb = 0
+            LAUNCH_PATCH_MACRO ag_gold
+          END ~TakePartyGold(%newgold%)~
+        END
+        PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%scar~ = 1) BEGIN
+          REPLACE_TEXTUALLY CASE_INSENSITIVE ~TakePartyItem("%tsu%RING19")[%ws%]+GiveGoldForce(4000)~ ~TakePartyItem("%tsu%RING19") GiveGoldForce(3000) GiveGoldForce(1000)~
+        END
+        REPLACE_EVALUATE CASE_INSENSITIVE ~GiveGoldForce(\([0-9]+\))~ BEGIN
+          gb = 1
+          LAUNCH_PATCH_MACRO ag_gold
+        END ~GiveGoldForce(%newgold%)~
+        PATCH_IF (gold > 100) OR ((~%xk%~ STRING_CONTAINS_REGEXP ~ %sf%~ = 0) AND (gold > 99)) BEGIN
+          INNER_ACTION BEGIN
+            APPEND_OUTER ~aurora/batchlog/ag_quest_gold.txt~ ~%sf%	0	%ttl1%	%ttl2%	%gold%	%newgold%	1	Action	GiveGoldForce()~
+          END
+        END
+        COMPILE_D_TO_DLG
+
+        //If there's at least one match and valid for dialogue modding
+        PATCH_IF (ttl1 > 0) AND (~%xc%~ STRING_CONTAINS_REGEXP ~ %SOURCE_RES%~ = 1) BEGIN
+          ttl2 = 0
+          READ_LONG 0x08 st_num //State count
+          READ_LONG 0x0c st_off //States offset
+          READ_LONG 0x10 tr_num //Transition count
+          READ_LONG 0x14 tr_off //Transitions offset
+          READ_LONG 0x28 ac_off //Actions offset
+          READ_LONG 0x2c ac_num //Actions count
+
+          FOR (h = 1; h < (ttl1 + 1); h += 1) BEGIN //Find each GiveGold match
+            SET gold = $go(~%h%~)
+            SET newgold = $gn(~%h%~)
+            LAUNCH_PATCH_MACRO ag_string
+
+            FOR (i = 0; i < st_num; i += 1) BEGIN //Cycle through states
+              PATCH_IF (~%xs%~ STRING_CONTAINS_REGEXP ~ %SOURCE_RES%~ = 1) BEGIN
+                PATCH_IF (~%sf%~ STRING_CONTAINS_REGEXP ~brevli~ = 0) AND (i = 24) BEGIN
+                  mk = i
+                END ELSE BEGIN
+                  READ_LONG (st_off + i * 0x10) sr //StringRef
+                  READ_STRREF (st_off + i * 0x10) rt //State text
+                  mk = i
+                  SPRINT place ~ActorText~
+                  LAUNCH_PATCH_MACRO ag_bingo
+                END
+              END
+            END
+
+            FOR (j = 0; j < tr_num; j += 1) BEGIN //Cycle through transitions
+              READ_BYTE (tr_off + j * 0x20) flg1
+              READ_BYTE (tr_off + j * 0x20 + 1) flg2
+              PATCH_IF (flg1 BOR 0b11111110 = 0b11111111) AND (~%xn%~ STRING_CONTAINS_REGEXP ~ %SOURCE_RES%~ = 1) BEGIN //Response text
+                PATCH_IF (~%sf%~ STRING_CONTAINS_REGEXP ~brevli~ = 0) AND (j > 50) BEGIN
+                  mk = j
+                END ELSE BEGIN
+                  READ_LONG (tr_off + j * 0x20 + 0x4) sr //StringRef
+                  READ_STRREF (tr_off + j * 0x20 + 0x4) rt //Transition text
+                  mk = j
+                  SPRINT place ~PlayerText~
+                  LAUNCH_PATCH_MACRO ag_bingo
+                END
+              END
+              PATCH_IF (flg1 BOR 0b11101111 = 0b11111111) OR (flg1 BOR 0b10111111 = 0b11111111) OR (flg1 BOR 0b01111111 = 0b11111111) OR (flg2 BOR 0b11111110 = 0b11111111) BEGIN //Journal
+                READ_LONG (tr_off + j * 0x20 + 0x8) sr //StringRef
+                READ_STRREF (tr_off + j * 0x20 + 0x8) rt //Journal text
+                mk = j
+                SPRINT place ~Journal~
+                LAUNCH_PATCH_MACRO ag_bingo
+              END
+            END //FOR j
+
+            FOR (k = 0; k < ac_num; k += 1) BEGIN //Cycle through actions
+              sr = 0
+              READ_LONG (ac_off + k * 8) as_off //Action string offset
+              READ_LONG (ac_off + k * 8 + 4) as_len //Action string length
+              READ_ASCII as_off ac_str (as_len) //Action string
+              INNER_PATCH ~%ac_str%~ BEGIN
+                REPLACE_EVALUATE CASE_INSENSITIVE ~AddJournalEntry(\([0-9]+\),~ BEGIN
+                  sr = %MATCH1%
+                END ~AddJournalEntry(%sr%),~
+              END
+              PATCH_IF sr > 0 BEGIN
+                GET_STRREF sr rt //Journal text
+                mk = k
+                SPRINT place ~AddJour~
+                LAUNCH_PATCH_MACRO ag_bingo
+              END
+            END //FOR k
+          END //FOR h
+
+          FOR (l = 0; l < ttl2; l += 1) BEGIN
+            agv = 0
+            SPRINT text $text(~%l%~)
+            SET strref = $strref(~%l%~)
+            INNER_ACTION BEGIN
+              <<<<<<<< .../aurora-inlined/ag-dlg.txt
+@0 = ~%text%~
+>>>>>>>>
+              COPY ~.../aurora-inlined/ag-dlg.txt~ ~aurora/batchlog/ag-temp.tra~
+                EVALUATE_BUFFER
+                REPLACE_TEXTUALLY ~%w50%~ ~%w10%~
+                REPLACE_TEXTUALLY ~%k20%~ ~20000~
+                REPLACE_TEXTUALLY ~%k15%~ ~15000~
+                REPLACE_TEXTUALLY ~%k10%~ ~10000~
+                REPLACE_TEXTUALLY ~%k9%~ ~9000~
+                REPLACE_TEXTUALLY ~%k8%~ ~8000~
+                REPLACE_TEXTUALLY ~%k7%~ ~7000~
+                REPLACE_TEXTUALLY ~%k6a%~ ~6500~
+                REPLACE_TEXTUALLY ~%k6%~ ~6000~
+                REPLACE_TEXTUALLY ~%u5o%~ ~%u5n%~
+                REPLACE_TEXTUALLY ~%n5%~ ~%n2%~
+                REPLACE_TEXTUALLY ~%k5%~ ~5000~
+                REPLACE_TEXTUALLY ~%k4%~ ~4000~
+                REPLACE_TEXTUALLY ~%k3%~ ~3000~
+                REPLACE_TEXTUALLY ~%k2a%~ ~2500~
+                REPLACE_TEXTUALLY ~%k2%~ ~2000~
+                REPLACE_TEXTUALLY ~%h15%~ ~1500~
+                REPLACE_TEXTUALLY ~%h12%~ ~1200~
+                REPLACE_TEXTUALLY ~%k1%~ ~1000~
+                REPLACE_TEXTUALLY ~%h9%~ ~900~
+                REPLACE_TEXTUALLY ~%h8%~ ~800~
+                REPLACE_TEXTUALLY ~%h7%~ ~700~
+                REPLACE_TEXTUALLY ~%h6%~ ~600~
+                REPLACE_TEXTUALLY ~%h5%~ ~500~
+                REPLACE_TEXTUALLY ~%h4%~ ~400~
+                REPLACE_TEXTUALLY ~%h3%~ ~300~
+                REPLACE_TEXTUALLY ~%h2%~ ~200~
+                REPLACE_TEXTUALLY ~\([0-9]+\)[\.,]\([0-9][0-9][0-9]\)~ ~\1\2~
+                REPLACE_EVALUATE ~\([^0-9]\)\([0-9]+\)\([^0-9]\)~ BEGIN
+                  gb = 2
+                  LAUNCH_PATCH_MACRO ag_gold
+                END ~%MATCH1%%newgold%%MATCH3%~
+              STRING_SET_EVALUATE ~%strref%~ @0 USING ~aurora/batchlog/ag-temp.tra~
+            END
+          END //FOR l
+        END //PATCH_IF ttl1
+      END
+    BUT_ONLY
+    VERBOSE
+  END
+END
+
+PRINT @426 //Ignore any "INSTALLED WITH WARNINGS" message - this is expected for this component.

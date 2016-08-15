@@ -1,0 +1,234 @@
+IF
+  HPPercentLT(Myself,25)
+  !HasItem("%tsu%potn08",Myself)
+  Detect([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastHeardBy(),30)
+END
+
+IF
+  HPPercentLT(Myself,50)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  HasItem("%tsu%potn08",Myself)
+THEN
+  RESPONSE #100
+    UseItem("%tsu%potn08",Myself)
+    SetGlobalTimer("agg","LOCALS",6)
+END
+
+IF
+  StateCheck(Myself,STATE_POISONED)
+  HaveSpell(CLERIC_SLOW_POISON)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(Myself,CLERIC_SLOW_POISON)
+END
+
+IF
+  HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  HPPercentLT(Myself,75)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  !Detect([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  HaveSpell(CLERIC_INVISIBILITY_PURGE)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !See([GOODCUTOFF])
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(Myself,CLERIC_INVISIBILITY_PURGE)
+END
+
+IF
+  HasItem("%tsu%potn24",Myself)
+  !GlobalTimerNotExpired("agg","LOCALS")
+THEN
+  RESPONSE #100
+    UseItem("%tsu%potn24",Myself)
+    SetGlobalTimer("agg","LOCALS",6)
+END
+
+IF
+  !See([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !See([GOODCUTOFF.0.GNOME])
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  !GlobalGT("agv","LOCALS",0)
+  HasItem("agboot29",Myself)
+THEN
+  RESPONSE #100
+    SetGlobal("agv","LOCALS",1)
+    DisplayString(Myself,8778)
+    PlaySound("eff_m13")
+    CreateCreature("%tsu%wolfva",[-1.-1],2)
+END
+
+IF
+  HaveSpell(CLERIC_CAUSE_SERIOUS_WOUNDS)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  Range(LastSeenBy(),5)
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_CAUSE_SERIOUS_WOUNDS)
+END
+
+IF
+  HaveSpell(CLERIC_RIGID_THINKING)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_RIGID_THINKING)
+END
+
+IF
+  HaveSpell(CLERIC_ARMOR_OF_FAITH)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(Myself,CLERIC_ARMOR_OF_FAITH)
+END
+
+IF
+  HaveSpell(CLERIC_CHARM_PERSON)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_CHARM_PERSON)
+END
+
+IF
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_HOLD_PERSON)
+END
+
+IF
+  HaveSpell(CLERIC_RESIST_FIRE)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(Myself,CLERIC_RESIST_FIRE)
+END
+
+IF
+  HaveSpell(CLERIC_COMMAND)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(),STATE_CONFUSED)
+  !StateCheck(LastSeenBy(),STATE_PANIC)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_COMMAND)
+END
+
+IF
+  HaveSpell(CLERIC_DOOM)
+  !GlobalTimerNotExpired("agg","LOCALS")
+  !StateCheck(LastSeenBy(),STATE_SLEEPING)
+  !StateCheck(LastSeenBy(),STATE_HELPLESS)
+  !HasBounceEffects(LastSeenBy())
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREPRIEST)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agg","LOCALS",6)
+    Spell(LastSeenBy(),CLERIC_DOOM)
+END
+
+IF
+  GlobalTimerNotExpired("agg","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
+
+IF
+  !GlobalTimerNotExpired("agg","LOCALS")
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy())
+END

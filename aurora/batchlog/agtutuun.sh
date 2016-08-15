@@ -1,0 +1,1 @@
+#!/bin/shtis_files="ag4301.tis ag4815.tis"for file in $tis_files; do  rm override/$filedone

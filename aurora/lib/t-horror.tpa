@@ -1,0 +1,172 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~fw0125.are~ BEGIN //Tutu
+  OUTER_SPRINT tsu ~_~
+  OUTER_SPRINT tsa ~_~
+END ELSE BEGIN
+  OUTER_SPRINT tsu ~~
+  OUTER_SPRINT tsa ~a~
+END
+
+OUTER_SET fm = 0
+ACTION_IF ((MOD_IS_INSTALLED ~setup-aurora.tp2~ 0) OR (MOD_IS_INSTALLED ~setup-infinityanimations.tp2~ 0)) AND (FILE_EXISTS_IN_GAME ~ar5503.are~) AND (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ = 0) BEGIN //If .exe patched
+  OUTER_SET fm = 1
+  COPY ~aurora/horror~ ~override~ //Animations
+END
+
+COPY_EXISTING ~%tsu%fblade.itm~ ~override/agfblade.itm~
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    READ_BYTE 0x18 fl //Flags
+    WRITE_BYTE 0x18 (fl BOR 0b01000000) //magical
+    WRITE_BYTE 0x1c 0 //Item type
+    WRITE_BYTE 0x31 0 //Proficiency (large sword)
+    READ_LONG  0x64 hf //Header offset
+    READ_SHORT 0x68 hc //Header count
+    READ_LONG  0x6a fx //Feature offset
+    READ_SHORT 0x70 fc //Feature count
+    FOR (i1 = 0; i1 < hc; i1 += 1) BEGIN //Search for melee ability header
+      READ_BYTE (hf + i1 * 0x38) tp //Type
+      PATCH_IF (tp = 1) BEGIN //If melee ability
+        WRITE_SHORT (hf + 0xe + i1 * 0x38) 2 //Range
+        WRITE_SHORT (hf + 0x14 + i1 * 0x38) 1 //THAC0 bonus
+        WRITE_SHORT (hf + 0x16 + i1 * 0x38) 10 //Die size
+        WRITE_SHORT (hf + 0x1a + i1 * 0x38) 0 //Damage bonus
+        READ_SHORT  (hf + 0x1e + i1 * 0x38) bc //Abilities count
+        READ_SHORT  (hf + 0x20 + i1 * 0x38) bx //Abilities offset
+        FOR (i2 = 0; i2 < bc; i2 += 1) BEGIN //Search through effects for fire damage
+          READ_SHORT (fx + (bx + i2) * 0x30) pc //Opcode
+          READ_SHORT (fx + 0x0a + (bx + i2) * 0x30) dt //Damage type
+          PATCH_IF (pc = 12) AND (dt = 8) BEGIN //If fire damage
+            WRITE_LONG (fx + 0x1c + (bx + i2) * 0x30) 1 //Dice thrown
+            WRITE_LONG (fx + 0x20 + (bx + i2) * 0x30) 6 //Die size
+          END
+        END
+      END
+    END
+  END
+BUT_ONLY
+
+COPY ~aurora/itm/agglov01.itm~ ~override~ //Helmed Horror immunities
+COMPILE EVALUATE_BUFFER ~aurora/extend/agbattho.baf~ //Battle Horror spell-like abilities
+
+ACTION_IF FILE_EXISTS_IN_GAME ~dw#davho.bcs~ BEGIN
+  COPY_EXISTING ~dw#davho.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF //Battle Horrors do not get destroyed in PnP rules if their creator dies
+    REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~Dead("davaeorn")~ ~Died("davaeorn")~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~Kill(Myself)~ ~ForceSpell(LastAttackerOf("davaeorn"),WIZARD_MAGIC_MISSILE)~
+    COMPILE_BAF_TO_BCS
+  BUT_ONLY
+END
+
+ACTION_FOR_EACH ~bth~ IN ~%tsa%varicem~ ~%tsu%battho~ ~%tsu%doomsa~ ~%tsu%fearm~ ~%tsu%helmho~ ~%tsu%lovem~ ~%tsu%pridem~ ~d0batho~ ~dw#davho~ ~pshelm1~ ~pshelm2~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%bth%.cre~ BEGIN
+    COPY_EXISTING ~%bth%.cre~ ~override~ //Helmed Horrors
+      PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+      PATCH_IF vl BEGIN
+        PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+        WRITE_BYTE 0x6e 5 //Large swords
+        WRITE_BYTE 0x235 1 //Level 2
+        WRITE_BYTE 0x236 1 //Level 3
+        WRITE_BYTE 0x271 255 //General (monster)
+        WRITE_BYTE 0x272 144 //Race (golem, was 255 no_race)
+        WRITE_BYTE 0x273 182 //Class (iron_golem, was 255 no_class)
+        WRITE_BYTE 0x275 1 //Gender (male, was 4 neither)
+        REMOVE_CRE_ITEM ~rndtre01~ ~rndtre04~ ~rndequ07~ ~%tsu%shld18~
+        REPLACE_CRE_ITEM ~%tsu%plat04~ #0 #0 #0 ~UNDROPPABLE~ ~ARMOR~
+        REPLACE_CRE_ITEM ~agglov01~ #0 #0 #0 ~NONE~ ~GLOVES~
+        PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsa%varicem~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%fearm~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%lovem~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%pridem~ = 1) BEGIN
+          PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%fearm~ = 1) BEGIN
+            WRITE_SHORT 0x28 0x7701 //Animation (ghoul_revenant)
+          END
+          PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%lovem~ = 1) BEGIN
+            WRITE_BYTE 0x237 2 //Gender (female)
+            WRITE_BYTE 0x275 2 //Sex (female)
+          END
+          WRITE_SHORT 0x46 0 //Base AC
+          WRITE_SHORT 0x48 0 //Effective AC
+          WRITE_BYTE 0x6f 5 //Small swords
+          WRITE_BYTE 0x74 5 //Axes
+          WRITE_BYTE 0x75 4 //Missile weapons
+          REPLACE_CRE_ITEM ~%tsu%ring95~ #0 #0 #0 ~NONE~ ~RRING LRING~
+          PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%fearm~ = 1) BEGIN
+            REPLACE_CRE_ITEM ~helmnoan~ #0 #0 #0 ~NONE~ ~HELMET~
+          END ELSE BEGIN
+            REPLACE_CRE_ITEM ~%tsu%ax1h04~ #8 #0 #0 ~NONE~ ~WEAPON2~ EQUIP
+          END
+          PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsa%varicem~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%lovem~ = 1) BEGIN
+            ADD_CRE_ITEM ~agfblade~ #0 #0 #0 ~NONE~ ~WEAPON1~
+          END
+        END ELSE BEGIN
+          REPLACE_CRE_ITEM ~agfblade~ #0 #0 #0 ~NONE~ ~WEAPON1~
+          REPLACE_CRE_ITEM ~%tsu%xbow01~ #0 #0 #0 ~NONE~ ~WEAPON2~ EQUIP TWOHANDED
+          REPLACE_CRE_ITEM ~%tsu%bolt01~ #3 #0 #0 ~NONE~ ~QUIVER1~
+          ADD_CRE_ITEM ~%tsu%sw1h01~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+        END
+        ADD_CRE_ITEM ~rndtre01~ #0 #0 #0 ~NONE~ ~INV~
+        PATCH_IF (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%battho~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%doomsa~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~d0batho~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~dw#davho~ = 1) BEGIN
+          WRITE_SHORT 0x24 130 //Current HP
+          WRITE_SHORT 0x26 130 //Maximum HP
+          PATCH_IF fm = 1 BEGIN
+            WRITE_SHORT 0x28 0x527a //Animation (animated_plate_dark)
+            WRITE_BYTE 0x2c 104 //Metal color (dark chrome purple)
+            WRITE_BYTE 0x2d 21 //Minor color (dark iron gray)
+            WRITE_BYTE 0x2e 60 //Major color (dark purple)
+            WRITE_BYTE 0x2f 75 //Skin color (solid black)
+            WRITE_BYTE 0x30 21 //Leather color (dark iron gray)
+            WRITE_BYTE 0x31 96 //Armor color (chrome blue)
+            WRITE_BYTE 0x32 75 //Hair color (solid black)
+            PATCH_FOR_EACH ss IN 0xc8 0xcc 0xd0 0xd4 0xd8 0xec 0xf0 0x10c 0x19c 0x1bc 0x1c0 BEGIN //Soundslots
+              WRITE_LONG ss (0 - 1)
+            END
+          END
+          WRITE_BYTE 0x52 3 //THAC0
+          WRITE_BYTE 0x54 3 //Save vs. death
+          WRITE_BYTE 0x55 5 //Save vs. wands
+          WRITE_BYTE 0x56 4 //Save vs. polymorph
+          WRITE_BYTE 0x57 4 //Save vs. breath
+          WRITE_BYTE 0x58 6 //Save vs. spells
+          WRITE_BYTE 0x234 20 //Level 1
+          WRITE_BYTE 0x238 22 //Strength
+          WRITE_BYTE 0x239 0 //Strength bonus
+          READ_ASCII 0x250 cp //Class script
+          PATCH_IF (~%cp%~ STRING_EQUAL_CASE ~none~ = 0) AND (~%cp%~ STRING_EQUAL ~~ = 0) BEGIN
+            WRITE_ASCIIE 0x258 ~%cp%~ #8 //Race script
+          END
+          WRITE_ASCII 0x250 ~agbattho~ #8 //Class script
+          ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ (5) //Magic Missile
+          ADD_MEMORIZED_SPELL ~spwi402~ #3 ~wizard~ (3) //Dimension Door
+        END ELSE BEGIN
+          WRITE_SHORT 0x24 94 //Current HP
+          WRITE_SHORT 0x26 94 //Maximum HP
+          PATCH_IF ((~%SOURCE_RES%~ STRING_EQUAL_CASE ~%tsu%helmho~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~pshelm1~ = 1) OR (~%SOURCE_RES%~ STRING_EQUAL_CASE ~pshelm2~ = 1)) AND (fm = 1) BEGIN
+            WRITE_SHORT 0x28 0x5279 //Animation (animated_plate_bronze)
+            WRITE_BYTE 0x2c 16 //Metal color (silverish gold)
+            WRITE_BYTE 0x2d 21 //Minor color (dark iron gray)
+            WRITE_BYTE 0x2e 16 //Metal color (silverish gold)
+            WRITE_BYTE 0x2f 75 //Skin color (solid black)
+            WRITE_BYTE 0x30 21 //Leather color (dark iron gray)
+            WRITE_BYTE 0x31 16 //Metal color (silverish gold)
+            WRITE_BYTE 0x32 75 //Hair color (solid black)
+            PATCH_FOR_EACH ss IN 0xc8 0xcc 0xd0 0xd4 0xd8 0xec 0xf0 0x10c 0x19c 0x1bc 0x1c0 BEGIN //Soundslots
+              WRITE_LONG ss (0 - 1)
+            END
+          END
+          READ_BYTE 0x52 thc //THAC0
+          PATCH_IF thc < 7 BEGIN
+            WRITE_BYTE 0x52 7 //THAC0
+          END
+          WRITE_BYTE 0x54 5 //Save vs. death
+          WRITE_BYTE 0x55 7 //Save vs. wands
+          WRITE_BYTE 0x56 6 //Save vs. polymorph
+          WRITE_BYTE 0x57 5 //Save vs. breath
+          WRITE_BYTE 0x58 8 //Save vs. spells
+          WRITE_BYTE 0x234 13 //Level 1
+          READ_BYTE 0x238 str //Strength
+          PATCH_IF str < 19 BEGIN
+            WRITE_BYTE 0x238 18 //Strength
+            WRITE_BYTE 0x239 60 //Strength bonus
+          END
+          WRITE_BYTE 0x27b 0x22 //Alignment (neutral)
+        END
+      END
+    BUT_ONLY
+  END
+END

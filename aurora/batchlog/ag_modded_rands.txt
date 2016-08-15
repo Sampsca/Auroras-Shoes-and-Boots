@@ -1,0 +1,2391 @@
+Creature	Name	Item retained	Remove style
+bgbasill	Lesser Basilisk	rndtre08	Slots
+bgbasill	Lesser Basilisk	rndtre08	Items
+bggorf	Gorf	rndtre08	Slots
+bggorf	Gorf	rndtre08	Items
+basilmut	Greater Basilisk	rndtre08	Slots
+basilmut	Greater Basilisk	rndtre08	Items
+basilnad	Greater Basilisk	rndtre08	Slots
+basilnad	Greater Basilisk	rndtre08	Items
+bullrush	Bullrush	none	Slots
+duplica2	Mirror Fiend	rndtre07	Slots
+duplica2	Mirror Fiend	rndtre07	Items
+duplica3	Mirror Fiend	rndtre08	Items
+duplica4	Mirror Fiend	rndtre07	Slots
+duplica4	Mirror Fiend	rndtre07	Items
+duplica5	Mirror Fiend	none	Slots
+duplica6	Mirror Fiend	none	Items
+gnollper	Gnoll	rndtre08	Slots
+gnollper	Gnoll	rndtre08	Items
+hobelite	Hobgoblin Elite	none	Slots
+hobgoa_a	Hobgoblin	none	Slots
+hobgoa_b	Hobgoblin	rndtre07	Slots
+hobgoa_b	Hobgoblin	rndtre07	Items
+hobgoa_c	Hobgoblin	rndtre07	Slots
+hobgoa_c	Hobgoblin	rndtre07	Items
+hobgoa_d	Hobgoblin	none	Slots
+hobgoa_e	Hobgoblin	none	Slots
+hobgob_a	Hobgoblin	none	Slots
+hobgob_b	Hobgoblin	rndtre07	Slots
+hobgob_b	Hobgoblin	rndtre07	Items
+hobgob_c	Hobgoblin	rndtre07	Slots
+hobgob_c	Hobgoblin	rndtre07	Items
+hobgob_d	Hobgoblin	none	Slots
+hobgob_e	Hobgoblin	rndtre07	Slots
+hobgob_e	Hobgoblin	rndtre07	Items
+ogreberz	Ogre Berserker	none	Slots
+ogrebjor	Half Ogre	none	Slots
+ogregr_b	Ogrillon	none	Slots
+ogregr_c	Ogrillon	rndtre07	Slots
+ogregr_c	Ogrillon	rndtre07	Items
+ogregr_d	Ogrillon	rndtre07	Slots
+ogregr_d	Ogrillon	rndtre07	Items
+ogreha_b	Half Ogre	rndtre07	Slots
+ogreha_b	Half Ogre	rndtre07	Items
+ogrema_a	Ogre Mage	rndtre08	Slots
+ogrema_a	Ogre Mage	rndtre08	Items
+ogrema_b	Ogre Mage	none	Slots
+ogrema_b	Ogre Mage	none	Items
+ogrema_c	Ogre Mage	rndtre08	Slots
+ogrema_c	Ogre Mage	rndtre08	Items
+ogrema_d	Ogre Mage	rndtre08	Slots
+ogrema_d	Ogre Mage	rndtre08	Items
+ogrema02	Ogre Mage	rndtre08	Slots
+ogrema02	Ogre Mage	rndtre08	Items
+ogrema03	Ogre Mage	rndtre08	Slots
+ogrema03	Ogre Mage	rndtre08	Items
+ogremiri	Ogrillon	rndtre07	Items
+ogreunsh	Ogre	none	Slots
+ankheg	Ankheg	rndtre08	Slots
+ankheg	Ankheg	rndtre08	Items
+ankhegg	Ankheg	rndtre08	Slots
+ankhegg	Ankheg	rndtre08	Items
+ankhegq	Ankheg	rndtre08	Slots
+ankhegq	Ankheg	rndtre08	Items
+arghai	Arghain	none	Slots
+baruk	Ba'ruk	rndtre07	Slots
+baruk	Ba'ruk	rndtre07	Items
+basilg	Greater Basilisk	rndtre08	Slots
+basilg	Greater Basilisk	rndtre08	Items
+bhobgob	Hobgoblin	rndtre06	Slots
+bhobgob	Hobgoblin	rndtre06	Items
+britik	Britik	rndtre08	Slots
+britik	Britik	rndtre08	Items
+carsto	Carston	none	Slots
+darryl	Darryl	none	Slots
+darryl2	Darryl	none	Slots
+dopdop	Greater Doppelganger	none	Slots
+dopkie	Kiel the Legion Killer	rndtre08	Slots
+dopkie	Kiel the Legion Killer	rndtre08	Items
+dopmer	Merchant	rndtre08	Slots
+dopmer	Merchant	rndtre08	Items
+doppgr	Greater Doppelganger	rndtre08	Slots
+doppgr	Greater Doppelganger	rndtre08	Items
+dopple	Doppelganger	rndtre08	Slots
+dopple	Doppelganger	rndtre08	Items
+doppsm	Merchant	none	Slots
+etterc	Ettercap	none	Slots
+etterc1	Ettercap	none	Slots
+flind	Flind	rndtre08	Slots
+flind	Flind	rndtre08	Items
+garkla	Garclax	rndtre08	Slots
+garkla	Garclax	rndtre08	Items
+gdopp7	Greater Doppelganger	rndtre08	Slots
+gdopp7	Greater Doppelganger	rndtre08	Items
+gdopp71	Greater Doppelganger	rndtre08	Slots
+gdopp71	Greater Doppelganger	rndtre08	Items
+gdopp72	Greater Doppelganger	none	Slots
+gdopp73	Greater Doppelganger	rndtre08	Slots
+gdopp73	Greater Doppelganger	rndtre08	Items
+gdopp74	Greater Doppelganger	rndtre08	Slots
+gdopp74	Greater Doppelganger	rndtre08	Items
+gdopp75	Greater Doppelganger	rndtre08	Slots
+gdopp75	Greater Doppelganger	rndtre08	Items
+geltik	Geltik	rndtre07	Slots
+geltik	Geltik	rndtre07	Items
+glart	Hobgoblin	rndtre07	Slots
+glart	Hobgoblin	rndtre07	Items
+gnoll	Gnoll	rndtre06	Slots
+gnoll	Gnoll	rndtre06	Items
+gnoll_a	Gnoll Elite	rndtre06	Slots
+gnoll_a	Gnoll Elite	rndtre06	Items
+gnoll_b	Gnoll	none	Slots
+gnoll_b	Gnoll	none	Items
+gnoll_c	Gnoll Chieftain	rndtre08	Slots
+gnoll_c	Gnoll Chieftain	rndtre08	Items
+gnoll_d	Gnoll Slasher	rndtre06	Slots
+gnoll_d	Gnoll Slasher	rndtre06	Items
+gnoll_e	Gnoll Veteran	rndtre06	Slots
+gnoll_e	Gnoll Veteran	rndtre06	Items
+gnoll5	Ludrug	rndtre08	Slots
+gnoll5	Ludrug	rndtre08	Items
+gnoll5a	Gnoll	rndtre08	Slots
+gnoll5a	Gnoll	rndtre08	Items
+gnolld	Gnoll	rndtre08	Slots
+gnolld	Gnoll	rndtre08	Items
+grael	Grael	rndtre08	Slots
+grael	Grael	rndtre08	Items
+hakt	Hakt	none	Slots
+hobgo5	Hobgoblin	rndtre07	Slots
+hobgo5	Hobgoblin	rndtre07	Items
+hobgob	Hobgoblin	rndtre07	Slots
+hobgob	Hobgoblin	rndtre07	Items
+hobgoba	Hobgoblin	none	Slots
+hobgobc	Chill Hobgoblin	rndtre07	Slots
+hobgobc	Chill Hobgoblin	rndtre07	Items
+hobjoia	Hobgoblin	rndtre07	Slots
+hobjoia	Hobgoblin	rndtre07	Items
+ichary	Icharyd	rndtre08	Slots
+ichary	Icharyd	rndtre08	Items
+ihobgob	Hobgoblin	rndtre07	Items
+ingot	Ingot	rndtre08	Slots
+ingot	Ingot	rndtre08	Items
+itasloi	Tasloi	rndtre06	Items
+ixvart	Xvart	rndtre06	Items
+kahrk	Kahrk	rndtre08	Slots
+kahrk	Kahrk	rndtre08	Items
+karan3	Karan	rndtre07	Slots
+karan3	Karan	rndtre07	Items
+larry	Larry	rndtre06	Slots
+larry	Larry	rndtre06	Items
+larze	Larze	rndtre08	Slots
+larze	Larze	rndtre08	Items
+malkax	Malkax	rndtre07	Slots
+malkax	Malkax	rndtre07	Items
+nexlit	Nexlit the Xvart	rndtre06	Slots
+nexlit	Nexlit the Xvart	rndtre06	Items
+ogre	Ogre	rndtre08	Slots
+ogre	Ogre	rndtre08	Items
+ogre02	Ogre	rndtre08	Slots
+ogre02	Ogre	rndtre08	Items
+ogreco	Ogre	none	Slots
+ogregr	Ogrillon	rndtre07	Slots
+ogregr	Ogrillon	rndtre07	Items
+ogreha	Half Ogre	none	Slots
+ogrema	Ogre Mage	rndtre08	Slots
+ogrema	Ogre Mage	rndtre08	Items
+ogres	Ogre	none	Slots
+oopah2	The Amazing Oopah	none	Slots
+parda3	Parda	rndtre07	Slots
+parda3	Parda	rndtre07	Items
+rahvin	Rahvin	rndtre08	Slots
+rahvin	Rahvin	rndtre08	Items
+sakul	Sakul	rndtre08	Slots
+sakul	Sakul	rndtre08	Items
+sewerf1	Sewerfolk	rndtre07	Slots
+sewerf1	Sewerfolk	rndtre07	Items
+sewerf4	Sewerfolk	rndtre08	Slots
+sewerf4	Sewerfolk	rndtre08	Items
+tam	Tam	none	Slots
+tersus	Tersus	rndtre07	Slots
+tersus	Tersus	rndtre07	Items
+winthr3	Winthrop	none	Slots
+zargal	Zargal	rndtre07	Slots
+zargal	Zargal	rndtre07	Items
+zekar	Zekar	none	Slots
+3310com	Commoner	rndtre06	Slots
+3310com	Commoner	rndtre06	Items
+3316nob1	Wealthy Commoner	rndtre08	Slots
+3316nob1	Wealthy Commoner	rndtre08	Items
+3316nob2	Snobby Noble Woman	rndtre08	Slots
+3316nob2	Snobby Noble Woman	rndtre08	Items
+3324nob1	Wealthy Commoner	rndtre08	Slots
+3324nob1	Wealthy Commoner	rndtre08	Items
+3324nob2	Snobby Noble Woman	none	Slots
+3324nob3	Snobby Noble Woman	rndtre08	Slots
+3324nob3	Snobby Noble Woman	rndtre08	Items
+adadop1b	Doppelganger	none	Slots
+aeextort	Hanj	rndtre06	Slots
+aeextort	Hanj	rndtre06	Items
+aegnoll	Gnoll	none	Slots
+aemerhob	Hobgoblin Archer	none	Slots
+aesold	Soldier	rndtre06	Slots
+aesold	Soldier	rndtre06	Items
+agband03	Bandit	rndtre08	Slots
+agband03	Bandit	rndtre08	Items
+agband04	Bandit	rndtre08	Slots
+agband04	Bandit	rndtre08	Items
+agband05	Bandit	rndtre08	Slots
+agband05	Bandit	rndtre08	Items
+agbandle	Bandit Leader	rndtre08	Slots
+agbandle	Bandit Leader	rndtre08	Items
+agdeano	Deano	rndtre06	Slots
+agdeano	Deano	rndtre06	Items
+agdeimos	Deimos	rndtre06	Slots
+agdeimos	Deimos	rndtre06	Items
+aggob03	Goblin Bodyguard	none	Slots
+aggob04	Goblin Elite Archer	none	Slots
+aggob05	Goblin Chief	rndtre07	Slots
+aggob05	Goblin Chief	rndtre07	Items
+aggob06	Goblin Shaman	rndtre08	Slots
+aggob06	Goblin Shaman	rndtre08	Items
+aggob07	Goblin Shaman	rndtre08	Slots
+aggob07	Goblin Shaman	rndtre08	Items
+aggriev	Griever	none	Slots
+agoakbos	Oak Fist Captain	rndtre08	Slots
+agoakbos	Oak Fist Captain	rndtre08	Items
+agoakdw	Oak Fist Captain	none	Slots
+agoakdw2	Oak Fist	none	Slots
+agoakdw4	Oak Fist Slinger	rndtre08	Slots
+agoakdw4	Oak Fist Slinger	rndtre08	Items
+ahighma3	Regean	rndtre08	Slots
+ahighma3	Regean	rndtre08	Items
+alexm	Alex Macintosh	none	Slots
+althur	Al'thur	rndtre07	Slots
+althur	Al'thur	rndtre07	Items
+amcapt01	Mercenary Captain	rndtre07	Slots
+amcapt01	Mercenary Captain	rndtre07	Items
+amcust02	Nobleman	rndtre06	Slots
+amcust02	Nobleman	rndtre06	Items
+amduel01	Mercenary	rndtre06	Slots
+amduel01	Mercenary	rndtre06	Items
+amduel02	Mercenary	none	Slots
+amfem02	Commoner	rndtre06	Slots
+amfem02	Commoner	rndtre06	Items
+amfem03	Commoner	rndtre06	Slots
+amfem03	Commoner	rndtre06	Items
+amfem04	Commoner	rndtre07	Slots
+amfem04	Commoner	rndtre07	Items
+amman02	Commoner	rndtre06	Slots
+amman02	Commoner	rndtre06	Items
+amman03	Commoner	none	Slots
+ammerc07	Mercenary	none	Slots
+ammerc08	Mercenary	none	Slots
+ammerc09	Mercenary	none	Slots
+amsi	Am-Si	rndtre06	Slots
+amsi	Am-Si	rndtre06	Items
+amsmith	Kerrick the Smith	rndtre08	Slots
+amsmith	Kerrick the Smith	rndtre08	Items
+ankheg01	Ankheg	rndtre08	Slots
+ankheg01	Ankheg	rndtre08	Items
+ankhgsum	Ankheg	rndtre08	Slots
+ankhgsum	Ankheg	rndtre08	Items
+ann11	Ann	rndtre06	Slots
+ann11	Ann	rndtre06	Items
+anothug	Guard	rndtre06	Slots
+anothug	Guard	rndtre06	Items
+antenos	Antenos	none	Slots
+ar18arch	Archer	rndtre06	Slots
+ar18arch	Archer	rndtre06	Items
+ar18fig	Mercenary	rndtre06	Slots
+ar18fig	Mercenary	rndtre06	Items
+aramir	Aramir Estel	rndtre01	Slots
+aramir	Aramir Estel	rndtre01	Items
+arenaa6	Audience	none	Slots
+arenaa7	Audience	none	Slots
+arenago1	Goblin	rndtre06	Slots
+arenago1	Goblin	rndtre06	Items
+arenago2	Goblin	rndtre06	Slots
+arenago2	Goblin	rndtre06	Items
+arenago3	Goblin	rndtre06	Slots
+arenago3	Goblin	rndtre06	Items
+arenago4	Goblin	rndtre06	Slots
+arenago4	Goblin	rndtre06	Items
+arenago7	Goblin	none	Slots
+arenago8	Goblin	rndtre06	Slots
+arenago8	Goblin	rndtre06	Items
+arenago9	Goblin	rndtre06	Slots
+arenago9	Goblin	rndtre06	Items
+arenaho1	Hobgoblin Warrior	none	Slots
+arenaho2	Hobgoblin Warrior	rndtre07	Slots
+arenaho2	Hobgoblin Warrior	rndtre07	Items
+arenaho3	Hobgoblin Warrior	rndtre07	Slots
+arenaho3	Hobgoblin Warrior	rndtre07	Items
+arenaho4	Hobgoblin Warrior	rndtre07	Slots
+arenaho4	Hobgoblin Warrior	rndtre07	Items
+arenam1	Merchant	rndtre07	Slots
+arenam1	Merchant	rndtre07	Items
+arenam2	Merchant	rndtre07	Slots
+arenam2	Merchant	rndtre07	Items
+arenam3	Merchant	rndtre07	Slots
+arenam3	Merchant	rndtre07	Items
+arenam4	Merchant	rndtre07	Slots
+arenam4	Merchant	rndtre07	Items
+arenam5	Merchant	rndtre07	Slots
+arenam5	Merchant	rndtre07	Items
+arenaor1	Orc	rndtre07	Slots
+arenaor1	Orc	rndtre07	Items
+arenaor2	Orc	rndtre07	Slots
+arenaor2	Orc	rndtre07	Items
+arenaor3	Orc	rndtre07	Slots
+arenaor3	Orc	rndtre07	Items
+arenaor4	Orc	rndtre07	Slots
+arenaor4	Orc	rndtre07	Items
+arenar1	Ruffian	none	Slots
+arenar2	Ruffian	rndtre06	Slots
+arenar2	Ruffian	rndtre06	Items
+arengo10	Goblin	rndtre06	Slots
+arengo10	Goblin	rndtre06	Items
+arengo11	Goblin	rndtre06	Slots
+arengo11	Goblin	rndtre06	Items
+arengo12	Goblin	rndtre06	Slots
+arengo12	Goblin	rndtre06	Items
+argrim	Lord Ketlaar Argrim	rndtre01	Slots
+argrim	Lord Ketlaar Argrim	rndtre01	Items
+arlaxm1	Merchant	none	Slots
+arlaxm2	Merchant	rndtre07	Slots
+arlaxm2	Merchant	rndtre07	Items
+arlaxm3	Merchant	rndtre07	Slots
+arlaxm3	Merchant	rndtre07	Items
+arlaxm4	Merchant	none	Slots
+arlaxm5	Merchant	rndtre07	Slots
+arlaxm5	Merchant	rndtre07	Items
+arlaxm6	Merchant	rndtre07	Slots
+arlaxm6	Merchant	rndtre07	Items
+arlaxn1	Isac	none	Slots
+arlaxn2	Mera	rndtre07	Slots
+arlaxn2	Mera	rndtre07	Items
+arlaxn3	Noble	none	Slots
+arlaxn4	Noble	none	Slots
+arlaxn5	Noble Woman	none	Slots
+arlaxn6	Noble Woman	rndtre07	Slots
+arlaxn6	Noble Woman	rndtre07	Items
+arlaxt2	Thief	none	Slots
+arlaxt5	Thief	none	Slots
+arlaxt6	Thief	none	Slots
+army01	Orc	none	Slots
+arnfgt01	Shadow Thief	rndtre06	Slots
+arnfgt01	Shadow Thief	rndtre06	Items
+arnwar07	Dedral	rndtre08	Slots
+arnwar07	Dedral	rndtre08	Items
+arnwar09	Shadow Thief	rndtre08	Slots
+arnwar09	Shadow Thief	rndtre08	Items
+b#tamoko	Tamoko	rndtre07	Slots
+b#tamoko	Tamoko	rndtre07	Items
+b#tazok	Tazok	rndtre07	Slots
+b#tazok	Tazok	rndtre07	Items
+baronp	Baron Ployer	rndtre07	Slots
+baronp	Baron Ployer	rndtre07	Items
+barsail1	Sailor	rndtre06	Slots
+barsail1	Sailor	rndtre06	Items
+barsail2	Sailor	rndtre06	Slots
+barsail2	Sailor	rndtre06	Items
+basgrt01	Greater Basilisk	rndtre08	Slots
+basgrt01	Greater Basilisk	rndtre08	Items
+basill	Basilisk	rndtre08	Slots
+basill	Basilisk	rndtre08	Items
+basles01	Lesser Basilisk	rndtre08	Slots
+basles01	Lesser Basilisk	rndtre08	Items
+bdact05	Zaren	rndtre06	Slots
+bdact05	Zaren	rndtre06	Items
+bdact07	Balmitance	rndtre06	Slots
+bdact07	Balmitance	rndtre06	Items
+bdact08	Karenina	rndtre06	Slots
+bdact08	Karenina	rndtre06	Items
+bdact09	Karenina	rndtre06	Slots
+bdact09	Karenina	rndtre06	Items
+bdbart01	Samuel Thunderburp	rndtre06	Slots
+bdbart01	Samuel Thunderburp	rndtre06	Items
+bdcoun02	Courtier	rndtre06	Slots
+bdcoun02	Courtier	rndtre06	Items
+bdcoun03	Bodyguard	rndtre06	Slots
+bdcoun03	Bodyguard	rndtre06	Items
+bdhigg01	Higgold	rndtre06	Slots
+bdhigg01	Higgold	rndtre06	Items
+bdturm01	Turmish Leader	none	Slots
+bdturm02	Turmish Thief	rndtre06	Slots
+bdturm02	Turmish Thief	rndtre06	Items
+bdturm04	Turmish Thug	rndtre06	Slots
+bdturm04	Turmish Thug	rndtre06	Items
+beast	Beastmaster	rndtre08	Slots
+beast	Beastmaster	rndtre08	Items
+beatrice	Duchess Duvaine	none	Slots
+behdir01	Director	none	Slots
+beheld01	Elder Orb	rndtre08	Slots
+beheld01	Elder Orb	rndtre08	Items
+behgas01	Gas Spore	rndtre08	Slots
+behgas01	Gas Spore	rndtre08	Items
+behgau01	Gauth	none	Slots
+behhiv01	Hive Mother	rndtre08	Slots
+behhiv01	Hive Mother	rndtre08	Items
+behobs01	Beholder	none	Slots
+behold01	Beholder	rndtre08	Slots
+behold01	Beholder	rndtre08	Items
+behspe01	Beholder	rndtre08	Slots
+behspe01	Beholder	rndtre08	Items
+behund01	Death Tyrant	rndtre08	Slots
+behund01	Death Tyrant	rndtre08	Items
+bernard	Bernard	rndtre07	Slots
+bernard	Bernard	rndtre07	Items
+bertrand	Bertrand the 'Companion'	rndtre07	Slots
+bertrand	Bertrand the 'Companion'	rndtre07	Items
+bggreet	Rivaldo	rndtre06	Slots
+bggreet	Rivaldo	rndtre06	Items
+bgigibb	Gibberling	rndtre06	Items
+bginfo1	Nobleman	rndtre06	Slots
+bginfo1	Nobleman	rndtre06	Items
+bginfo2	Noblewoman	rndtre06	Slots
+bginfo2	Noblewoman	rndtre06	Items
+bgsell1	Black Market Thief	rndtre08	Slots
+bgsell1	Black Market Thief	rndtre08	Items
+bgsell2	Black Market Thief	rndtre08	Slots
+bgsell2	Black Market Thief	rndtre08	Items
+bgtav1a	Doorman	rndtre08	Slots
+bgtav1a	Doorman	rndtre08	Items
+bgtav1b	Reception Lady	rndtre08	Slots
+bgtav1b	Reception Lady	rndtre08	Items
+bgtavst1	Noble Guest	none	Slots
+bgtavst2	Lady Guest	rndtre08	Slots
+bgtavst2	Lady Guest	rndtre08	Items
+bgtavst3	Noble Guest	rndtre08	Slots
+bgtavst3	Noble Guest	rndtre08	Items
+bgtavst4	Lady Guest	rndtre08	Slots
+bgtavst4	Lady Guest	rndtre08	Items
+bhcapt01	Elite Guard Captain	rndtre07	Slots
+bhcapt01	Elite Guard Captain	rndtre07	Items
+bheye	Unseeing Eye	rndtre08	Slots
+bheye	Unseeing Eye	rndtre08	Items
+bhgaal01	Elite Guard	rndtre07	Slots
+bhgaal01	Elite Guard	rndtre07	Items
+bhghoul1	Ghoul	rndtre08	Slots
+bhghoul1	Ghoul	rndtre08	Items
+bhguard	Elite Guard	rndtre06	Slots
+bhguard	Elite Guard	rndtre06	Items
+bhguard2	Elite Guard	rndtre07	Slots
+bhguard2	Elite Guard	rndtre07	Items
+bhlizgrd	Lizardman	rndtre07	Slots
+bhlizgrd	Lizardman	rndtre07	Items
+bhlizkng	Lizardman King	none	Slots
+bhlizsha	Lizardman Shaman	rndtre07	Slots
+bhlizsha	Lizardman Shaman	rndtre07	Items
+bhogre	Ogre	rndtre08	Slots
+bhogre	Ogre	rndtre08	Items
+bhoguard	Orc Guard	none	Slots
+bhorc01	Orc	none	Slots
+bhorc01d	Orc	none	Slots
+bhsharg2	Mercenary	rndtre08	Slots
+bhsharg2	Mercenary	rndtre08	Items
+bhtwen01	Tavern Wench	rndtre06	Slots
+bhtwen01	Tavern Wench	rndtre06	Items
+biff	Biff The Understudy	rndtre06	Slots
+biff	Biff The Understudy	rndtre06	Items
+binnkeep	Calbor	rndtre07	Slots
+binnkeep	Calbor	rndtre07	Items
+bmerch1	Qadeel	rndtre06	Slots
+bmerch1	Qadeel	rndtre06	Items
+bnoble1	Lord Feveran	rndtre08	Slots
+bnoble1	Lord Feveran	rndtre08	Items
+bnoble2	Lady Diana	none	Slots
+bogre1	Ogre	rndtre06	Slots
+bogre1	Ogre	rndtre06	Items
+bpdrpr18	Drow Priestess	none	Slots
+bpkuoarc	Kuo-Toan Archer	rndtre06	Slots
+bpkuoarc	Kuo-Toan Archer	rndtre06	Items
+bplizgrd	Lizard Man	rndtre07	Slots
+bplizgrd	Lizard Man	rndtre07	Items
+bplizkng	Lizard King	rndtre07	Slots
+bplizkng	Lizard King	rndtre07	Items
+bplizman	Lizard Man	none	Slots
+bplizsha	Lizard Shaman	rndtre07	Slots
+bplizsha	Lizard Shaman	rndtre07	Items
+bprost1	Courtesan	rndtre06	Slots
+bprost1	Courtesan	rndtre06	Items
+bprost2	Courtesan	rndtre06	Slots
+bprost2	Courtesan	rndtre06	Items
+bpsdwfgt	Shadow Thief	none	Slots
+bpsdwfth	Shadow Thief	rndtre06	Slots
+bpsdwfth	Shadow Thief	rndtre06	Items
+bpsfight	Shadow Thief	rndtre06	Slots
+bpsfight	Shadow Thief	rndtre06	Items
+bpskelar	Skeleton Archer	none	Slots
+bpskully	Skullen Crossbones	rndtre08	Slots
+bpskully	Skullen Crossbones	rndtre08	Items
+bpsthef2	Shadow Thief	rndtre06	Slots
+bpsthef2	Shadow Thief	rndtre06	Items
+bpsthef3	Shadow Thief	none	Slots
+braiwa1	Blind Priest	rndtre08	Slots
+braiwa1	Blind Priest	rndtre08	Items
+braiwa4	Blind Priest	rndtre07	Slots
+braiwa4	Blind Priest	rndtre07	Items
+brebar1	Bartender	rndtre07	Slots
+brebar1	Bartender	rndtre07	Items
+brefi7	Traveler	rndtre06	Slots
+brefi7	Traveler	rndtre06	Items
+brefi8	Deli Riversmouth	rndtre06	Slots
+brefi8	Deli Riversmouth	rndtre06	Items
+brefr1	Frost Giant	rndtre07	Slots
+brefr1	Frost Giant	rndtre07	Items
+brefr2	Frost Giant	rndtre07	Slots
+brefr2	Frost Giant	rndtre07	Items
+breg03	D'aerthe Guard	rndtre07	Slots
+breg03	D'aerthe Guard	rndtre07	Items
+bregg	Bregg	rndtre06	Slots
+bregg	Bregg	rndtre06	Items
+brelm	Brelm	none	Slots
+bryne	Bryne	none	Slots
+bsailor1	Sailor	rndtre06	Slots
+bsailor1	Sailor	rndtre06	Items
+bsailor2	Sailor	rndtre06	Slots
+bsailor2	Sailor	rndtre06	Items
+bshop01	Cutpurse	rndtre06	Slots
+bshop01	Cutpurse	rndtre06	Items
+bshop02	Sio'chaire	none	Slots
+bunkin	Bunkin	rndtre07	Slots
+bunkin	Bunkin	rndtre07	Items
+bwench	Elanda	rndtre06	Slots
+bwench	Elanda	rndtre06	Items
+bystand1	Ler	rndtre06	Slots
+bystand1	Ler	rndtre06	Items
+bystand2	Lady Beth	rndtre06	Slots
+bystand2	Lady Beth	rndtre06	Items
+c6bran	Branet Al-Thon	none	Slots
+c6drow1	Drow	none	Slots
+c6eric	Eric Vanstraaten	none	Slots
+c6eric3	Eric Vanstraaten	rndtre07	Slots
+c6eric3	Eric Vanstraaten	rndtre07	Items
+c6harp	Malchor Harpell	rndtre08	Slots
+c6harp	Malchor Harpell	rndtre08	Items
+c6kalden	Kalden	rndtre06	Slots
+c6kalden	Kalden	rndtre06	Items
+c6keria	Keria	none	Slots
+c6levin	Levin Rayn	rndtre07	Slots
+c6levin	Levin Rayn	rndtre07	Items
+c6nerit	Nerit	rndtre07	Slots
+c6nerit	Nerit	rndtre07	Items
+c6squire	Squire Cathras	none	Slots
+c6will	William Reirrac	rndtre07	Slots
+c6will	William Reirrac	rndtre07	Items
+caern	Caern	rndtre07	Slots
+caern	Caern	rndtre07	Items
+caldar	Cal'Dar	none	Slots
+calimart	Giblan	rndtre07	Slots
+calimart	Giblan	rndtre07	Items
+calistel	Store Guard	none	Slots
+calshop1	Trader	none	Slots
+calshop2	Trader	none	Slots
+caltorn	Cal'Torn	rndtre08	Slots
+caltorn	Cal'Torn	rndtre08	Items
+cb220bn1	Bandit Orc	rndtre08	Slots
+cb220bn1	Bandit Orc	rndtre08	Items
+cb220bn2	Bandit Orc	rndtre08	Slots
+cb220bn2	Bandit Orc	rndtre08	Items
+cb230bla	Squad Leader	none	Slots
+cb230blb	Squad Leader	rndtre08	Slots
+cb230blb	Squad Leader	rndtre08	Items
+cb230blc	Squad Leader	rndtre08	Slots
+cb230blc	Squad Leader	rndtre08	Items
+cb230bld	Squad Leader	rndtre08	Slots
+cb230bld	Squad Leader	rndtre08	Items
+cb232ld1	Squad Leader	rndtre08	Slots
+cb232ld1	Squad Leader	rndtre08	Items
+cb232ld2	Squad Leader	rndtre08	Slots
+cb232ld2	Squad Leader	rndtre08	Items
+cb257hlf	Halfling Thief	rndtre06	Slots
+cb257hlf	Halfling Thief	rndtre06	Items
+cb270ccb	Soubar Villager	rndtre07	Slots
+cb270ccb	Soubar Villager	rndtre07	Items
+cb270ccf	Soubar Villager	rndtre06	Slots
+cb270ccf	Soubar Villager	rndtre06	Items
+cb270ccg	Soubar Villager	rndtre06	Slots
+cb270ccg	Soubar Villager	rndtre06	Items
+cb285ft1	Fighter	rndtre06	Slots
+cb285ft1	Fighter	rndtre06	Items
+cb285ft4	Fighter	rndtre06	Slots
+cb285ft4	Fighter	rndtre06	Items
+cb300co1	Catapult Operator (First Squad)	rndtre08	Slots
+cb300co1	Catapult Operator (First Squad)	rndtre08	Items
+cb300co2	Catapult Operator (Second Squad)	none	Slots
+cb304tra	Triel Villager	rndtre06	Slots
+cb304tra	Triel Villager	rndtre06	Items
+cb304trb	Triel Villager	rndtre06	Slots
+cb304trb	Triel Villager	rndtre06	Items
+cb307sl1	Squad Leader	none	Slots
+cb307sl2	Squad Leader	rndtre08	Slots
+cb307sl2	Squad Leader	rndtre08	Items
+cb35assn	Assassin	rndtre08	Slots
+cb35assn	Assassin	rndtre08	Items
+cb4300ar	Bandit Archer	rndtre01	Slots
+cb4300ar	Bandit Archer	rndtre01	Items
+cb4300ct	Gatekeeper	rndtre08	Slots
+cb4300ct	Gatekeeper	rndtre08	Items
+cb4300or	Bandit Orc	none	Slots
+cb4304or	Bandit Orc	rndtre08	Slots
+cb4304or	Bandit Orc	rndtre08	Items
+cb4310sw	Bandit Orc	rndtre07	Slots
+cb4310sw	Bandit Orc	rndtre07	Items
+cb4311ar	Bandit Orc	rndtre01	Slots
+cb4311ar	Bandit Orc	rndtre01	Items
+cb585rng	Crowley	rndtre08	Slots
+cb585rng	Crowley	rndtre08	Items
+cb640ft4	Fighter	rndtre06	Slots
+cb640ft4	Fighter	rndtre06	Items
+cbbdaw02	<Invalid Strref -1>	rndtre06	Slots
+cbbdaw02	<Invalid Strref -1>	rndtre06	Items
+cbbdfhjd	<Invalid Strref -1>	rndtre06	Slots
+cbbdfhjd	<Invalid Strref -1>	rndtre06	Items
+cbbdfhje	<Invalid Strref -1>	none	Slots
+cbbgber1	Bugbear	rndtre06	Slots
+cbbgber1	Bugbear	rndtre06	Items
+cbbgber2	Bugbear	rndtre08	Slots
+cbbgber2	Bugbear	rndtre08	Items
+cbbgbera	Bugbear	rndtre06	Slots
+cbbgbera	Bugbear	rndtre06	Items
+cbbgberb	Bugbear	rndtre06	Slots
+cbbgberb	Bugbear	rndtre06	Items
+cbbgberc	Bugbear	none	Slots
+cbbgberd	Bugbear	none	Slots
+cbbgberw	Bugbear	none	Slots
+cbbgberx	Bugbear	rndtre06	Slots
+cbbgberx	Bugbear	rndtre06	Items
+cbbgbery	Bugbear	rndtre06	Slots
+cbbgbery	Bugbear	rndtre06	Items
+cbbgberz	Bugbear	rndtre06	Slots
+cbbgberz	Bugbear	rndtre06	Items
+cbbyrn03	Byron	rndtre01	Slots
+cbbyrn03	Byron	rndtre01	Items
+cbbyrn66	Byron	rndtre01	Slots
+cbbyrn66	Byron	rndtre01	Items
+cbc8ctc3	Cult Superior	none	Slots
+cbc8ctf1	Cult Fighter	rndtre06	Slots
+cbc8ctf1	Cult Fighter	rndtre06	Items
+cbc8ctf3	Cult Fighter	rndtre01	Slots
+cbc8ctf3	Cult Fighter	rndtre01	Items
+cbc8ctm1	Cult Mage	rndtre07	Slots
+cbc8ctm1	Cult Mage	rndtre07	Items
+cbc8ctm2	Cult Mage	none	Slots
+cbc8ctm3	Cult Mage	rndtre08	Slots
+cbc8ctm3	Cult Mage	rndtre08	Items
+cbc8ctu3	Undead Cultist	rndtre06	Slots
+cbc8ctu3	Undead Cultist	rndtre06	Items
+cbdriwz2	Drider Wizard	rndtre08	Slots
+cbdriwz2	Drider Wizard	rndtre08	Items
+cbdriwz3	Drider Wizard	none	Slots
+cbdrwhm2	Drow High Handmaiden of Lolth	rndtre08	Slots
+cbdrwhm2	Drow High Handmaiden of Lolth	rndtre08	Items
+cbdrwhm3	Drow High Handmaiden of Lolth	none	Slots
+cbdrwhp3	Drow High Priestess of Lolth	rndtre08	Slots
+cbdrwhp3	Drow High Priestess of Lolth	rndtre08	Items
+cbffcrw1	Nobleman	none	Slots
+cbffcrw2	Noblewoman	rndtre06	Slots
+cbffcrw2	Noblewoman	rndtre06	Items
+cbgonast	Gonthril Astinar	rndtre07	Slots
+cbgonast	Gonthril Astinar	rndtre07	Items
+cbharpy1	Harpy	rndtre06	Slots
+cbharpy1	Harpy	rndtre06	Items
+cbharpy2	Harpy	rndtre08	Slots
+cbharpy2	Harpy	rndtre08	Items
+cbharpya	Harpy	none	Slots
+cbharpyb	Harpy	rndtre06	Slots
+cbharpyb	Harpy	rndtre06	Items
+cbharpyc	Harpy	none	Slots
+cbharpyd	Harpy	rndtre06	Slots
+cbharpyd	Harpy	rndtre06	Items
+cbharpyw	Harpy	none	Slots
+cbharpyx	Harpy	rndtre06	Slots
+cbharpyx	Harpy	rndtre06	Items
+cbharpyy	Harpy	none	Slots
+cbharpyz	Harpy	rndtre06	Slots
+cbharpyz	Harpy	rndtre06	Items
+cbhlvlnt	Valiant	none	Slots
+cbldbuck	Lord Hammerhand Bucko	rndtre06	Slots
+cbldbuck	Lord Hammerhand Bucko	rndtre06	Items
+cblolth2	Avatar of Lolth	rndtre07	Slots
+cblolth2	Avatar of Lolth	rndtre07	Items
+cblybuck	Leeta Bucko	none	Slots
+cbmalr6	Druid Bodyguard	rndtre01	Slots
+cbmalr6	Druid Bodyguard	rndtre01	Items
+cbmalr7	Apprentice Bodyguard	none	Slots
+cbminto	Minto	rndtre07	Slots
+cbminto	Minto	rndtre07	Items
+cbnobl1w	Nobleman	rndtre06	Slots
+cbnobl1w	Nobleman	rndtre06	Items
+cbnobl2w	Noblewoman	rndtre08	Slots
+cbnobl2w	Noblewoman	rndtre08	Items
+cbnobl3w	Lord Ophal	rndtre08	Slots
+cbnobl3w	Lord Ophal	rndtre08	Items
+cbnobl4w	Nobleman	rndtre06	Slots
+cbnobl4w	Nobleman	rndtre06	Items
+cbnrt001	Northman	rndtre07	Slots
+cbnrt001	Northman	rndtre07	Items
+cbnrt002	Northman	rndtre07	Slots
+cbnrt002	Northman	rndtre07	Items
+cbnrt003	Northman	rndtre07	Slots
+cbnrt003	Northman	rndtre07	Items
+cbnrt004	Northman	rndtre07	Slots
+cbnrt004	Northman	rndtre07	Items
+cbnrt005	Northman	rndtre07	Slots
+cbnrt005	Northman	rndtre07	Items
+cbnrt010	Northman	rndtre07	Slots
+cbnrt010	Northman	rndtre07	Items
+cbnrt020	Northman Elder	rndtre07	Slots
+cbnrt020	Northman Elder	rndtre07	Items
+cbnrt025	Northman Elder	rndtre07	Slots
+cbnrt025	Northman Elder	rndtre07	Items
+cbowen03	Owen	rndtre01	Slots
+cbowen03	Owen	rndtre01	Items
+cbowen66	Owen	rndtre01	Slots
+cbowen66	Owen	rndtre01	Items
+cbrrrpip	Piper	rndtre06	Slots
+cbrrrpip	Piper	rndtre06	Items
+cbrtbda2	Bandit	rndtre06	Slots
+cbrtbda2	Bandit	rndtre06	Items
+cbrtbda3	Bandit	rndtre08	Slots
+cbrtbda3	Bandit	rndtre08	Items
+cbrtbdb2	Bandit	rndtre06	Slots
+cbrtbdb2	Bandit	rndtre06	Items
+cbrtbdb3	Bandit	rndtre08	Slots
+cbrtbdb3	Bandit	rndtre08	Items
+cbrtbdc2	Bandit	rndtre06	Slots
+cbrtbdc2	Bandit	rndtre06	Items
+cbrtbdc3	Bandit	none	Slots
+cbrtbdd2	Bandit	rndtre06	Slots
+cbrtbdd2	Bandit	rndtre06	Items
+cbrtbdd3	Bandit	rndtre08	Slots
+cbrtbdd3	Bandit	rndtre08	Items
+cbrtbde2	Bandit	rndtre06	Slots
+cbrtbde2	Bandit	rndtre06	Items
+cbrtbde3	Bandit	rndtre08	Slots
+cbrtbde3	Bandit	rndtre08	Items
+cbrtbdg2	Bandit	none	Slots
+cbrtbdg3	Bandit	none	Slots
+cbrtbdh2	Bandit	rndtre06	Slots
+cbrtbdh2	Bandit	rndtre06	Items
+cbrtbdh3	Bandit	rndtre08	Slots
+cbrtbdh3	Bandit	rndtre08	Items
+cbrtbdi2	Bandit	rndtre06	Slots
+cbrtbdi2	Bandit	rndtre06	Items
+cbrtbdi3	Bandit	rndtre08	Slots
+cbrtbdi3	Bandit	rndtre08	Items
+cbrtbdj2	Bandit	none	Slots
+cbrtbdj3	Bandit	none	Slots
+cbrtbdk2	Bandit	rndtre06	Slots
+cbrtbdk2	Bandit	rndtre06	Items
+cbrtbdk3	Bandit	rndtre08	Slots
+cbrtbdk3	Bandit	rndtre08	Items
+cbrtrbda	Squad Leader	rndtre07	Slots
+cbrtrbda	Squad Leader	rndtre07	Items
+cbrtrbdb	Squad Leader	rndtre07	Slots
+cbrtrbdb	Squad Leader	rndtre07	Items
+cbrtrbdc	Squad Leader	rndtre07	Slots
+cbrtrbdc	Squad Leader	rndtre07	Items
+cbrtrbdd	Squad Leader	none	Slots
+cbrtrbde	Squad Leader	rndtre07	Slots
+cbrtrbde	Squad Leader	rndtre07	Items
+cbrtrbdf	Squad Leader	rndtre07	Slots
+cbrtrbdf	Squad Leader	rndtre07	Items
+cbrtrbdg	Squad Leader	rndtre07	Slots
+cbrtrbdg	Squad Leader	rndtre07	Items
+cbrtrbdh	Squad Leader	rndtre07	Slots
+cbrtrbdh	Squad Leader	rndtre07	Items
+cbrtrbdi	Squad Leader	rndtre07	Slots
+cbrtrbdi	Squad Leader	rndtre07	Items
+cbrtrbdj	Squad Leader	none	Slots
+cbrtrbdk	Squad Leader	rndtre07	Slots
+cbrtrbdk	Squad Leader	rndtre07	Items
+cbsbin64	Johan Branding	rndtre06	Slots
+cbsbin64	Johan Branding	rndtre06	Items
+cbsbtvra	Soubar Villager	rndtre06	Slots
+cbsbtvra	Soubar Villager	rndtre06	Items
+cbsbtvrb	Soubar Villager	rndtre07	Slots
+cbsbtvrb	Soubar Villager	rndtre07	Items
+cbsbtvrf	Soubar Villager	none	Slots
+cbsbtvrh	Soubar Villager	none	Slots
+cbsbtvri	Soubar Villager	rndtre07	Slots
+cbsbtvri	Soubar Villager	rndtre07	Items
+cbsbtvrm	Soubar Villager	rndtre06	Slots
+cbsbtvrm	Soubar Villager	rndtre06	Items
+cbsbtvro	Soubar Villager	rndtre07	Slots
+cbsbtvro	Soubar Villager	rndtre07	Items
+cbsbwt64	Susan Branding	none	Slots
+cbsbwt67	Jill Ann Kross	rndtre06	Slots
+cbsbwt67	Jill Ann Kross	rndtre06	Items
+cbsccw01	Cowled Wizard	none	Slots
+cbsccw02	Cowled Wizard	rndtre08	Slots
+cbsccw02	Cowled Wizard	rndtre08	Items
+cbsccwen	Cowled Wizard	none	Slots
+cbshdrun	Shadow Thief	rndtre01	Slots
+cbshdrun	Shadow Thief	rndtre01	Items
+cbst0103	Shadow Thief	rndtre01	Slots
+cbst0103	Shadow Thief	rndtre01	Items
+cbst0166	Shadow Thief	rndtre01	Slots
+cbst0166	Shadow Thief	rndtre01	Items
+cbst0203	Shadow Thief	rndtre01	Slots
+cbst0203	Shadow Thief	rndtre01	Items
+cbst0266	Shadow Thief	rndtre01	Slots
+cbst0266	Shadow Thief	rndtre01	Items
+cbst0303	Shadow Thief	none	Slots
+cbst0366	Shadow Thief	rndtre01	Slots
+cbst0366	Shadow Thief	rndtre01	Items
+cbst0403	Shadow Thief	rndtre01	Slots
+cbst0403	Shadow Thief	rndtre01	Items
+cbst0466	Shadow Thief	none	Slots
+cbst0503	Shadow Thief	rndtre01	Slots
+cbst0503	Shadow Thief	rndtre01	Items
+cbst0566	Shadow Thief	rndtre01	Slots
+cbst0566	Shadow Thief	rndtre01	Items
+cbstks66	Shadow Thief	rndtre01	Slots
+cbstks66	Shadow Thief	rndtre01	Items
+cbsurayw	Surayah	rndtre06	Slots
+cbsurayw	Surayah	rndtre06	Items
+cbtaxcol	Tax Collector	rndtre08	Slots
+cbtaxcol	Tax Collector	rndtre08	Items
+cbtaxtwc	Town Crier	rndtre07	Slots
+cbtaxtwc	Town Crier	rndtre07	Items
+cbtreant	Treant	rndtre06	Slots
+cbtreant	Treant	rndtre06	Items
+cbtriel0	Triel Villager	rndtre06	Slots
+cbtriel0	Triel Villager	rndtre06	Items
+cbtriel1	Triel Villager	rndtre06	Slots
+cbtriel1	Triel Villager	rndtre06	Items
+cbtriel2	Triel Villager	none	Slots
+cbtriel3	Triel Villager	rndtre06	Slots
+cbtriel3	Triel Villager	rndtre06	Items
+cbtriel4	Triel Villager	rndtre06	Slots
+cbtriel4	Triel Villager	rndtre06	Items
+cbtriel5	Triel Villager	rndtre06	Slots
+cbtriel5	Triel Villager	rndtre06	Items
+cbtriel6	Triel Villager	rndtre06	Slots
+cbtriel6	Triel Villager	rndtre06	Items
+cbtriel7	Triel Villager	rndtre06	Slots
+cbtriel7	Triel Villager	rndtre06	Items
+cbtriel8	Triel Villager	rndtre06	Slots
+cbtriel8	Triel Villager	rndtre06	Items
+cbtriel9	Triel Villager	rndtre06	Slots
+cbtriel9	Triel Villager	rndtre06	Items
+cbvinnie	Vincenzo the Innkeep	rndtre06	Slots
+cbvinnie	Vincenzo the Innkeep	rndtre06	Items
+cbwillet	Willet the Stableboy	rndtre06	Slots
+cbwillet	Willet the Stableboy	rndtre06	Items
+cbzomb02	Dread Warrior	none	Slots
+cbzombd2	Dread Warrior	rndwep06	Slots
+cbzombd2	Dread Warrior	rndwep06	Items
+ccguard2	Copper Coronet Guard	none	Slots
+cefgt01	Shadow Druid	rndtre07	Slots
+cefgt01	Shadow Druid	rndtre07	Items
+cefgt03	Adherent	rndtre06	Slots
+cefgt03	Adherent	rndtre06	Items
+chak	Chak	none	Slots
+chevil03	Ogre Mage	rndtre08	Slots
+chevil03	Ogre Mage	rndtre08	Items
+chuyol	Chu'yol	rndtre07	Slots
+chuyol	Chu'yol	rndtre07	Items
+clelun01	Eluno	rndtre06	Slots
+clelun01	Eluno	rndtre06	Items
+clfjmp	Lord Jumpalota	rndtre07	Slots
+clfjmp	Lord Jumpalota	rndtre07	Items
+clmalg01	Malario Soldier	none	Slots
+cltcut03	Elite Guard	rndtre06	Slots
+cltcut03	Elite Guard	rndtre06	Items
+cltiva01	Ti'Vael	rndtre07	Slots
+cltiva01	Ti'Vael	rndtre07	Items
+cmggo1	Goblin	rndtre06	Slots
+cmggo1	Goblin	rndtre06	Items
+cmgnol01	Gnoll Clan Leader	none	Slots
+cmgnol02	Gnoll Clan Guard	none	Slots
+cmgnol03	Gnoll Elite Warrior	none	Items
+cmgnol04	Gnoll Veteran Warrior	rndtre06	Slots
+cmgnol04	Gnoll Veteran Warrior	rndtre06	Items
+cmhob01	Hobgoblin	none	Slots
+cmhob03	Hobgoblin General	rndtre07	Slots
+cmhob03	Hobgoblin General	rndtre07	Items
+cmkfc01	"The Colonel"	rndtre06	Slots
+cmkfc01	"The Colonel"	rndtre06	Items
+cmlog03	Ogre	none	Slots
+cmlog04	Ogre Mage	rndtre08	Slots
+cmlog04	Ogre Mage	rndtre08	Items
+cmlordas	Lord Ashram	rndtre06	Slots
+cmlordas	Lord Ashram	rndtre06	Items
+cmogregu	Half Ogre Guard	rndtre07	Slots
+cmogregu	Half Ogre Guard	rndtre07	Items
+cmogrem1	Ogre Mage	none	Slots
+cmske03	Skeleton	rndtre08	Slots
+cmske03	Skeleton	rndtre08	Items
+cmske04	Skeleton	rndtre08	Slots
+cmske04	Skeleton	rndtre08	Items
+cohrvale	Cohrvale	rndtre08	Slots
+cohrvale	Cohrvale	rndtre08	Items
+copcust2	Commoner	none	Slots
+copcust3	Nobleman	rndtre06	Slots
+copcust3	Nobleman	rndtre06	Items
+copgreet	Frankie	none	Slots
+cor	Cor Delryn	rndtre08	Slots
+cor	Cor Delryn	rndtre08	Items
+corgeig	Corgeig Axehand	rndtre07	Slots
+corgeig	Corgeig Axehand	rndtre07	Items
+cowenf1	Cowled Enforcer	rndtre08	Slots
+cowenf1	Cowled Enforcer	rndtre08	Items
+cowenf3	Cowled Enforcer	rndtre08	Slots
+cowenf3	Cowled Enforcer	rndtre08	Items
+cowled	Cowled Wizard	rndtre08	Slots
+cowled	Cowled Wizard	rndtre08	Items
+crthf03	Rilmi	rndtre06	Slots
+crthf03	Rilmi	rndtre06	Items
+cuguard	Baragh	rndtre06	Slots
+cuguard	Baragh	rndtre06	Items
+cultmo10	Ettin	rndtre07	Slots
+cultmo10	Ettin	rndtre07	Items
+cupris1	Elven Warrior	rndtre06	Slots
+cupris1	Elven Warrior	rndtre06	Items
+cupris2	Elven Warrior	rndtre06	Slots
+cupris2	Elven Warrior	rndtre06	Items
+cwshen	Hendak	rndtre07	Slots
+cwshen	Hendak	rndtre07	Items
+cwssal	Salvanas	rndtre07	Slots
+cwssal	Salvanas	rndtre07	Items
+cyclead	Cyclops Leader	rndtre07	Slots
+cyclead	Cyclops Leader	rndtre07	Items
+cyclop	Cyclops	rndtre06	Slots
+cyclop	Cyclops	rndtre06	Items
+cyclop2	Cyclops	rndtre06	Slots
+cyclop2	Cyclops	rndtre06	Items
+cyclop3	Cyclops	none	Slots
+cyclop4	Cyclops	none	Slots
+d0debt3	Debt Collector	rndtre08	Slots
+d0debt3	Debt Collector	rndtre08	Items
+d0guard4	Sanctioned Wizard	rndtre08	Slots
+d0guard4	Sanctioned Wizard	rndtre08	Items
+d0lender	Celile	rndtre06	Slots
+d0lender	Celile	rndtre06	Items
+d0poor	Moiya	rndtre06	Slots
+d0poor	Moiya	rndtre06	Items
+d0qpback	Cowled Escort	none	Slots
+d0qppotn	Jadarath	rndtre06	Slots
+d0qppotn	Jadarath	rndtre06	Items
+d0qpsy01	Sythillisian Soldier	rndtre08	Slots
+d0qpsy01	Sythillisian Soldier	rndtre08	Items
+d0qpsy02	Sythillisian Soldier	rndtre08	Slots
+d0qpsy02	Sythillisian Soldier	rndtre08	Items
+d0qpsy03	Sythillisian Soldier	rndtre08	Slots
+d0qpsy03	Sythillisian Soldier	rndtre08	Items
+d0qpsy05	Sythillisian Soldier	rndtre08	Slots
+d0qpsy05	Sythillisian Soldier	rndtre08	Items
+d0qpsy06	Sythillisian Soldier	rndtre08	Slots
+d0qpsy06	Sythillisian Soldier	rndtre08	Items
+d0qpsy07	Sythillisian Soldier	rndtre08	Slots
+d0qpsy07	Sythillisian Soldier	rndtre08	Items
+d0qpsy08	Sythillisian Soldier	none	Slots
+d0thug4	Pirate Bodyguard	rndtre06	Slots
+d0thug4	Pirate Bodyguard	rndtre06	Items
+dadrow3	Drow Slave Trader	rndtre07	Slots
+dadrow3	Drow Slave Trader	rndtre07	Items
+dagnoll	Gnoll	rndtre08	Slots
+dagnoll	Gnoll	rndtre08	Items
+danno	Danno Fairfoot	rndtre06	Slots
+danno	Danno Fairfoot	rndtre06	Items
+darorc2	Orc Bandit	rndtre07	Slots
+darorc2	Orc Bandit	rndtre07	Items
+darorc3	Orc Bandit	rndtre07	Slots
+darorc3	Orc Bandit	rndtre07	Items
+dd1700wi	Slurice	rndtre08	Slots
+dd1700wi	Slurice	rndtre08	Items
+ddhall01	Krent	rndtre07	Slots
+ddhall01	Krent	rndtre07	Items
+degard	Degardan	rndtre08	Slots
+degard	Degardan	rndtre08	Items
+delcia	Lady Delcia Caan	rndtre07	Slots
+delcia	Lady Delcia Caan	rndtre07	Items
+delei	Delei	rndtre07	Slots
+delei	Delei	rndtre07	Items
+delnob01	Nobleman	rndtre06	Slots
+delnob01	Nobleman	rndtre06	Items
+delnob02	Noblewoman	rndtre06	Slots
+delnob02	Noblewoman	rndtre06	Items
+demfig01	Falahar	none	Slots
+demfig02	Valeria	none	Slots
+desmage	Desperado Mage	rndtre08	Slots
+desmage	Desperado Mage	rndtre08	Items
+dhalf1	Halfling Man	none	Slots
+dharlot1	Harlot	none	Slots
+dinanmum	Johanna	rndtre06	Slots
+dinanmum	Johanna	rndtre06	Items
+dinmum2	Johanna	none	Slots
+dmark1	Fovem	none	Slots
+dmask1	Commoner	rndtre06	Slots
+dmask1	Commoner	rndtre06	Items
+docsol01	Amnish Soldier	rndtre06	Slots
+docsol01	Amnish Soldier	rndtre06	Items
+docsol02	Barracks Guard	none	Slots
+dopcle01	Kiel the Legion Killer	rndtre08	Slots
+dopcle01	Kiel the Legion Killer	rndtre08	Items
+dopgre01	Greater Doppelganger	rndtre08	Slots
+dopgre01	Greater Doppelganger	rndtre08	Items
+dopple01	Doppelganger	rndtre08	Slots
+dopple01	Doppelganger	rndtre08	Items
+dragbr1	Gnoll	rndtre08	Slots
+dragbr1	Gnoll	rndtre08	Items
+draug	Draug Fea	none	Slots
+drow01	Drow Warrior	rndtre01	Slots
+drow01	Drow Warrior	rndtre01	Items
+drow02	Drow Warrior	none	Slots
+drow03	Drow Wizard	none	Slots
+drow04	Drow Priestess	none	Slots
+drow05	Drow	rndtre06	Slots
+drow05	Drow	rndtre06	Items
+drow06	Drow	none	Slots
+drow07	Drow Priestess	rndtre06	Slots
+drow07	Drow Priestess	rndtre06	Items
+druff1	Ruffian	rndtre06	Slots
+druff1	Ruffian	rndtre06	Items
+druff2	Ruffian	rndtre06	Slots
+druff2	Ruffian	rndtre06	Items
+drush	Drush	rndtre08	Slots
+drush	Drush	rndtre08	Items
+dsailor1	Sailor	rndtre07	Slots
+dsailor1	Sailor	rndtre07	Items
+dsailor2	Sailor	rndtre07	Slots
+dsailor2	Sailor	rndtre07	Items
+dsarchdr	The Arch Druid	none	Slots
+dsgnollc	Gnoll Chieftan	rndtre06	Slots
+dsgnollc	Gnoll Chieftan	rndtre06	Items
+dsgobchf	Goblin Chief	rndtre06	Slots
+dsgobchf	Goblin Chief	rndtre06	Items
+dsgrunk	Grog	rndtre06	Slots
+dsgrunk	Grog	rndtre06	Items
+dshalf01	Gandolar Luckyfoot	rndtre08	Slots
+dshalf01	Gandolar Luckyfoot	rndtre08	Items
+dshalf02	Halfling Fighter	rndtre08	Slots
+dshalf02	Halfling Fighter	rndtre08	Items
+dshalf03	Halfling Fighter	rndtre08	Slots
+dshalf03	Halfling Fighter	rndtre08	Items
+dshalfd2	Halfling Fighter	rndtre08	Slots
+dshalfd2	Halfling Fighter	rndtre08	Items
+dshop01	Ikert	rndtre07	Slots
+dshop01	Ikert	rndtre07	Items
+dsorc01	Orc	rndtre07	Slots
+dsorc01	Orc	rndtre07	Items
+dw#abrop	Merchant	rndtre07	Slots
+dw#abrop	Merchant	rndtre07	Items
+dw#c3hb	Hobgoblin Elite	none	Slots
+dw#mulka	Kobold	rndtre06	Slots
+dw#mulka	Kobold	rndtre06	Items
+dw#oghob	Hobgoblin Elite	rndtre07	Slots
+dw#oghob	Hobgoblin Elite	rndtre07	Items
+dw#refg1	Bandit	rndtre06	Slots
+dw#refg1	Bandit	rndtre06	Items
+dw#trl01	Troll	rndtre08	Slots
+dw#trl01	Troll	rndtre08	Items
+dw#trlbl	Blizzard Troll	none	Slots
+dw#trlde	Desert Troll	rndtre08	Slots
+dw#trlde	Desert Troll	rndtre08	Items
+dw#trlfr	Troll	none	Slots
+dw#trlgi	Giant Troll	rndtre08	Slots
+dw#trlgi	Giant Troll	rndtre08	Items
+dw#trlic	Ice Troll	rndtre08	Slots
+dw#trlic	Ice Troll	rndtre08	Items
+dw#trlsi	Spirit Troll	rndtre08	Slots
+dw#trlsi	Spirit Troll	rndtre08	Items
+dw#tygol	Tyrant Golem	none	Slots
+e3eriale	Eriale	none	Slots
+e3sume	Sume	none	Slots
+egald1	Edomis Galdenburg	rndtre07	Slots
+egald1	Edomis Galdenburg	rndtre07	Items
+egald2	Edomis Galdenburg	none	Slots
+egald3	Edomis Galdenburg	rndtre07	Slots
+egald3	Edomis Galdenburg	rndtre07	Items
+elehob01	Goblin Commando	rndtre07	Slots
+elehob01	Goblin Commando	rndtre07	Items
+elotte	Squire Elotte	rndtre06	Slots
+elotte	Squire Elotte	rndtre06	Items
+ermag1	Castle Mage	none	Slots
+ermag2	Castle Mage	rndtre06	Slots
+ermag2	Castle Mage	rndtre06	Items
+ermag3	Castle Mage	none	Slots
+ermag4	Castle Mage	none	Slots
+esath	Esath	rndtre07	Slots
+esath	Esath	rndtre07	Items
+esath2	Esath	rndtre07	Slots
+esath2	Esath	rndtre07	Items
+esath3	Esath	none	Slots
+escort2	Kerstia	rndtre06	Slots
+escort2	Kerstia	rndtre06	Items
+escort2a	Kerstia	rndtre06	Slots
+escort2a	Kerstia	rndtre06	Items
+etter01	Ettercap	rndtre07	Slots
+etter01	Ettercap	rndtre07	Items
+ettin	Ettin	rndtre07	Slots
+ettin	Ettin	rndtre07	Items
+etting	Greater Ettin	none	Slots
+etting2	Greater Ettin	none	Slots
+f_gobele	Goblin Elite	rndtre06	Slots
+f_gobele	Goblin Elite	rndtre06	Items
+f_goblin	Goblin	none	Slots
+f_harpy	Harpy	none	Slots
+f_medusa	Medusa	rndtre08	Slots
+f_medusa	Medusa	rndtre08	Items
+f_orc	Orc	rndtre07	Slots
+f_orc	Orc	rndtre07	Items
+ffbart	Samuel Thunderburp	rndtre07	Slots
+ffbart	Samuel Thunderburp	rndtre07	Items
+ffcrowd1	Nobleman	rndtre06	Slots
+ffcrowd1	Nobleman	rndtre06	Items
+ffcrowd2	Noblewoman	rndtre06	Slots
+ffcrowd2	Noblewoman	rndtre06	Items
+ffcust05	Tavern Patron	rndtre06	Slots
+ffcust05	Tavern Patron	rndtre06	Items
+ffcust06	Belle	rndtre06	Slots
+ffcust06	Belle	rndtre06	Items
+ffcust07	H'rothgar Firehammer	none	Slots
+ffcust08	Jerry Jamtoes	rndtre06	Slots
+ffcust08	Jerry Jamtoes	rndtre06	Items
+ffcust09	Lord Sterk	rndtre06	Slots
+ffcust09	Lord Sterk	rndtre06	Items
+ffwench	Thalia Thunderburp	none	Slots
+firamb02	Gerg	none	Slots
+firban04	Orc	rndtre08	Slots
+firban04	Orc	rndtre08	Items
+firban05	Orc	rndtre08	Slots
+firban05	Orc	rndtre08	Items
+firorc02	Derg the Orc	rndtre08	Slots
+firorc02	Derg the Orc	rndtre08	Items
+frostgg	Greater Frost Giant	rndtre07	Slots
+frostgg	Greater Frost Giant	rndtre07	Items
+frostgi	Frost Giant	rndtre07	Slots
+frostgi	Frost Giant	rndtre07	Items
+frostgi2	Frost Giant	rndtre07	Slots
+frostgi2	Frost Giant	rndtre07	Items
+frostgi3	Frost Giant	rndtre06	Slots
+frostgi3	Frost Giant	rndtre06	Items
+frostgi4	Frost Giant	none	Slots
+frostham	Garth Frosthammer	rndtre07	Slots
+frostham	Garth Frosthammer	rndtre07	Items
+fshorde1	Goblin	rndtre06	Slots
+fshorde1	Goblin	rndtre06	Items
+fshorde3	Goblin	none	Slots
+fshorde4	Orc	rndtre07	Slots
+fshorde4	Orc	rndtre07	Items
+fshorde6	Orc Archer	rndtre07	Slots
+fshorde6	Orc Archer	rndtre07	Items
+ftown7	Tavern Patron	rndtre06	Slots
+ftown7	Tavern Patron	rndtre06	Items
+fyual	Greater Yuan-Ti Leader	rndtre08	Slots
+fyual	Greater Yuan-Ti Leader	rndtre08	Items
+fyuam	Greater Yuan-Ti Mage	rndtre06	Slots
+fyuam	Greater Yuan-Ti Mage	rndtre06	Items
+g3maid	Barmaid	rndtre06	Slots
+g3maid	Barmaid	rndtre06	Items
+g3mrsgtu	Mrs. The Unmanned	none	Slots
+g3sailr1	Sailor	none	Slots
+g3sailr2	Sailor	rndtre06	Slots
+g3sailr2	Sailor	rndtre06	Items
+g3sailr3	Sailor	none	Slots
+gaidan	Gaidan	rndtre08	Slots
+gaidan	Gaidan	rndtre08	Items
+gaidan2	Gaidan	none	Slots
+gall	Gallchobhair	rndtre08	Slots
+gall	Gallchobhair	rndtre08	Items
+gamguy	Gamesman	rndtre06	Slots
+gamguy	Gamesman	rndtre06	Items
+garkid01	Iltha	none	Slots
+garkid02	Taar	none	Slots
+gbhrep1e	Mage	rndtre08	Slots
+gbhrep1e	Mage	rndtre08	Items
+gemfar02	Erlin Hendrick	rndtre06	Slots
+gemfar02	Erlin Hendrick	rndtre06	Items
+gemjeb01	Jeb	rndtre06	Slots
+gemjeb01	Jeb	rndtre06	Items
+gfigh05	Calahan	rndtre06	Slots
+gfigh05	Calahan	rndtre06	Items
+ggiantf1	Greater Fire Giant	rndtre07	Slots
+ggiantf1	Greater Fire Giant	rndtre07	Items
+ggiantf2	Greater Fire Giant	rndtre07	Slots
+ggiantf2	Greater Fire Giant	rndtre07	Items
+ggiantf3	Greater Fire Giant	rndtre07	Slots
+ggiantf3	Greater Fire Giant	rndtre07	Items
+ggiantfr	Greater Fire Giant	none	Slots
+ghereg	Ghereg	none	Slots
+gholor01	Ghoul Lord	rndtre08	Slots
+gholor01	Ghoul Lord	rndtre08	Items
+ghoul	Ghoul	rndtre01	Slots
+ghoul	Ghoul	rndtre01	Items
+giantfr	Fire Giant	none	Slots
+gibmut01	Mutated Gibberling	rndtre06	Slots
+gibmut01	Mutated Gibberling	rndtre06	Items
+gnlcap01	Gnoll Captain	rndtre08	Slots
+gnlcap01	Gnoll Captain	rndtre08	Items
+gnleli01	Gnoll Elite	rndtre08	Slots
+gnleli01	Gnoll Elite	rndtre08	Items
+gnlfli01	Flind	rndtre08	Slots
+gnlfli01	Flind	rndtre08	Items
+gnlsla01	Gnoll Slasher	rndtre06	Slots
+gnlsla01	Gnoll Slasher	rndtre06	Items
+gnlvet01	Gnoll Veteran	rndtre06	Slots
+gnlvet01	Gnoll Veteran	rndtre06	Items
+gnlwar01	Gnoll	none	Slots
+gnoblef1	Noblewoman	none	Slots
+gnoblef2	Noblewoman	rndtre07	Slots
+gnoblef2	Noblewoman	rndtre07	Items
+gnoblem1	Nobleman	rndtre06	Slots
+gnoblem1	Nobleman	rndtre06	Items
+gnoblem2	Nobleman	rndtre06	Slots
+gnoblem2	Nobleman	rndtre06	Items
+gnoll01	Gnoll	none	Slots
+gnoll02	Gnoll	none	Slots
+gnoll03	Gnoll	rndtre06	Slots
+gnoll03	Gnoll	rndtre06	Items
+gnoll3	Gnoll	rndtre06	Slots
+gnoll3	Gnoll	rndtre06	Items
+gnollhp1	Gnoll	rndtre08	Slots
+gnollhp1	Gnoll	rndtre08	Items
+goblinsp	Crazy Goblin Marshal	rndtre06	Slots
+goblinsp	Crazy Goblin Marshal	rndtre06	Items
+godxva1	Xvart	rndtre06	Slots
+godxva1	Xvart	rndtre06	Items
+godxva2	Xvart	none	Slots
+godxva3	Xvart	rndtre06	Slots
+godxva3	Xvart	rndtre06	Items
+goliro01	Iron Golem	rndtre08	Slots
+goliro01	Iron Golem	rndtre08	Items
+goljug01	Juggernaut Golem	none	Slots
+golkill2	Adamantite Golem	none	Slots
+goralu01	Alu-Fiend	rndtre07	Slots
+goralu01	Alu-Fiend	rndtre07	Items
+gorcamb	Aesgareth	none	Slots
+gorcamb2	Tiefling	rndtre08	Slots
+gorcamb2	Tiefling	rndtre08	Items
+gorcamb4	Tiefling	rndtre08	Slots
+gorcamb4	Tiefling	rndtre08	Items
+gorcamb5	Tiefling	rndtre08	Slots
+gorcamb5	Tiefling	rndtre08	Items
+gorch	Gorch	rndtre06	Slots
+gorch	Gorch	rndtre06	Items
+gorje	Gorje Hilldark	rndtre07	Slots
+gorje	Gorje Hilldark	rndtre07	Items
+gororc01	Orc	rndtre07	Slots
+gororc01	Orc	rndtre07	Items
+gororc02	Orc Archer	rndtre07	Slots
+gororc02	Orc Archer	rndtre07	Items
+gorwom01	Nalmissra	rndtre08	Slots
+gorwom01	Nalmissra	rndtre08	Items
+gorwom04	Ameralis Zauviir	rndtre08	Slots
+gorwom04	Ameralis Zauviir	rndtre08	Items
+gpfight1	Boz	rndtre06	Slots
+gpfight1	Boz	rndtre06	Items
+gphil02	Philosopher	rndtre06	Slots
+gphil02	Philosopher	rndtre06	Items
+gpsimb	Simbja	rndtre06	Slots
+gpsimb	Simbja	rndtre06	Items
+gromg07	Il-Khan Soldier	rndtre08	Slots
+gromg07	Il-Khan Soldier	rndtre08	Items
+gromg10	Berena Elkan	rndtre08	Slots
+gromg10	Berena Elkan	rndtre08	Items
+gtcit1	Ghoul	rndtre08	Slots
+gtcit1	Ghoul	rndtre08	Items
+gtcit2	Ghoul	rndtre08	Slots
+gtcit2	Ghoul	rndtre08	Items
+guard1	Bouncer	rndtre08	Slots
+guard1	Bouncer	rndtre08	Items
+guard2	Copper Coronet Guard	rndtre08	Slots
+guard2	Copper Coronet Guard	rndtre08	Items
+guard3	Copper Coronet Guard	rndtre08	Slots
+guard3	Copper Coronet Guard	rndtre08	Items
+gzombie	I had some more questions about Kuldahar.	rndtre08	Slots
+gzombie	I had some more questions about Kuldahar.	rndtre08	Items
+hacton	Acton Balthis	rndtre08	Slots
+hacton	Acton Balthis	rndtre08	Items
+hapip	Pip	rndtre07	Slots
+hapip	Pip	rndtre07	Items
+hawker01	Hawker	rndtre06	Slots
+hawker01	Hawker	rndtre06	Items
+hedorc1	Orc	rndtre07	Slots
+hedorc1	Orc	rndtre07	Items
+hedorc2	Orc	none	Slots
+hedorc3	Orc	none	Slots
+hedorc4	Orc	rndtre06	Slots
+hedorc4	Orc	rndtre06	Items
+hedorc5	Orc	rndtre06	Slots
+hedorc5	Orc	rndtre06	Items
+hedorc6	Orc	rndtre06	Slots
+hedorc6	Orc	rndtre06	Items
+hendak	Hendak	rndtre07	Slots
+hendak	Hendak	rndtre07	Items
+hgkar01	Karthis al-Hezzar	rndtre07	Slots
+hgkar01	Karthis al-Hezzar	rndtre07	Items
+hgnya01	Nyalee	none	Slots
+hgsal01	Fire Salamander	none	Slots
+hgwar01	Fire Giant	rndtre08	Slots
+hgwar01	Fire Giant	rndtre08	Items
+hgwar02	Elite Fire Giant	rndtre08	Slots
+hgwar02	Elite Fire Giant	rndtre08	Items
+hist1	Historian	rndtre06	Slots
+hist1	Historian	rndtre06	Items
+hlfight	Fighter	none	Slots
+hobarc01	Hobgoblin Archer	rndtre08	Slots
+hobarc01	Hobgoblin Archer	rndtre08	Items
+hobarc02	Hobgoblin Archer	rndtre08	Slots
+hobarc02	Hobgoblin Archer	rndtre08	Items
+hobarc03	Hobgoblin Archer	none	Slots
+hobcap01	Hobgoblin Captain	rndtre07	Slots
+hobcap01	Hobgoblin Captain	rndtre07	Items
+hobeli01	Hobgoblin Elite	rndtre08	Slots
+hobeli01	Hobgoblin Elite	rndtre08	Items
+hobgo2	Hobgoblin	none	Slots
+hobgo3	Hobgoblin	rndtre07	Slots
+hobgo3	Hobgoblin	rndtre07	Items
+hobgo4	Hobgoblin	none	Slots
+hobgo6	Hobgoblin	rndtre07	Slots
+hobgo6	Hobgoblin	rndtre07	Items
+hobgob01	Gerg	none	Slots
+hobgob03	Hobgoblin	rndtre07	Slots
+hobgob03	Hobgoblin	rndtre07	Items
+hobgob04	Hobgoblin	rndtre07	Slots
+hobgob04	Hobgoblin	rndtre07	Items
+hobgob05	Hobgoblin	rndtre07	Slots
+hobgob05	Hobgoblin	rndtre07	Items
+hobgod	Hobgoblin	rndtre07	Slots
+hobgod	Hobgoblin	rndtre07	Items
+hobwar01	Hobgoblin Warrior	rndtre07	Slots
+hobwar01	Hobgoblin Warrior	rndtre07	Items
+horsesal	Trader	rndtre07	Slots
+horsesal	Trader	rndtre07	Items
+icebeard	Thorin Icebeard	none	Slots
+icgob03	Goblin	rndtre06	Slots
+icgob03	Goblin	rndtre06	Items
+icgob04	Goblin Captain	rndtre06	Slots
+icgob04	Goblin Captain	rndtre06	Items
+icliz01	Lizard Man	rndtre06	Slots
+icliz01	Lizard Man	rndtre06	Items
+icliz02	Gorkale	rndtre06	Slots
+icliz02	Gorkale	rndtre06	Items
+icliz03	Lizard Man	none	Slots
+icliz03	Lizard Man	none	Items
+icliz04	Lizard Man	rndtre06	Slots
+icliz04	Lizard Man	rndtre06	Items
+icliz05	Lizard Man	none	Slots
+icliz05	Lizard Man	none	Items
+icliz06	Lizard Man	rndtre06	Slots
+icliz06	Lizard Man	rndtre06	Items
+icliz07	Lizard Man	none	Slots
+idemon01	Cambion	rndtre07	Slots
+idemon01	Cambion	rndtre07	Items
+imnbook1	Book Merchant	rndtre07	Slots
+imnbook1	Book Merchant	rndtre07	Items
+innwen	Tavern Wench	none	Slots
+iwdgob2	Goblin Captain	none	Slots
+j#falpal	Fallen Paladin	rndtre07	Slots
+j#falpal	Fallen Paladin	rndtre07	Items
+j#im8wif	Lillian	none	Slots
+j#kasset	Kassetha	rndtre08	Slots
+j#kasset	Kassetha	rndtre08	Items
+j#morrid	Morridhan	rndtre08	Slots
+j#morrid	Morridhan	rndtre08	Items
+j#pura	Pura Parteth	rndtre08	Slots
+j#pura	Pura Parteth	rndtre08	Items
+j#rumil	Rumil	rndtre07	Slots
+j#rumil	Rumil	rndtre07	Items
+jade2	Thenry	rndtre08	Slots
+jade2	Thenry	rndtre08	Items
+jaga1	Bessen	rndtre08	Slots
+jaga1	Bessen	rndtre08	Items
+jahei2	Harper	rndtre08	Slots
+jahei2	Harper	rndtre08	Items
+jarev2	Harper	rndtre08	Slots
+jarev2	Harper	rndtre08	Items
+jenavi	Jenavieve	rndtre07	Slots
+jenavi	Jenavieve	rndtre07	Items
+jugcol01	Colette	none	Slots
+jugdar01	Daar	rndtre06	Slots
+jugdar01	Daar	rndtre06	Items
+jzdad1	Aerie's Father	rndtre07	Slots
+jzdad1	Aerie's Father	rndtre07	Items
+jzhawker	Hawker	rndtre06	Slots
+jzhawker	Hawker	rndtre06	Items
+jzmaria	Lady Maria	rndtre06	Slots
+jzmaria	Lady Maria	rndtre06	Items
+jzrumar	Rumar	rndtre07	Slots
+jzrumar	Rumar	rndtre07	Items
+jzwilly	Sir William of Thorpe	rndtre06	Slots
+jzwilly	Sir William of Thorpe	rndtre06	Items
+k#orc	Orog	none	Slots
+kaysmg01	Rindus	rndtre07	Slots
+kaysmg01	Rindus	rndtre07	Items
+kessen	Kessen	rndtre06	Slots
+kessen	Kessen	rndtre06	Items
+khellor	Khellor Ahmson	rndtre06	Slots
+khellor	Khellor Ahmson	rndtre06	Items
+kindast	Kindast	none	Slots
+kobcap01	Kobold Captain	rndtre08	Slots
+kobcap01	Kobold Captain	rndtre08	Items
+kobscr01	Kobold Scribe	rndscr03	Slots
+kobscr01	Kobold Scribe	rndscr03	Items
+korpim	Pimlico	rndtre07	Slots
+korpim	Pimlico	rndtre07	Items
+kpbutl01	Metigo the Butler	rndtre06	Slots
+kpbutl01	Metigo the Butler	rndtre06	Items
+kpcapt01	Captain Arat	rndtre06	Slots
+kpcapt01	Captain Arat	rndtre06	Items
+kpcapt02	Captain Cernick	none	Slots
+kpcapt03	Captain Cernick	rndtre07	Slots
+kpcapt03	Captain Cernick	rndtre07	Items
+kpdomo01	Major Domo	rndtre06	Slots
+kpdomo01	Major Domo	rndtre06	Items
+kpglai04	Gorvin	rndtre06	Slots
+kpglai04	Gorvin	rndtre06	Items
+kpgrd01	Lastin	rndtre06	Slots
+kpgrd01	Lastin	rndtre06	Items
+kplend01	Moneylender	rndtre06	Slots
+kplend01	Moneylender	rndtre06	Items
+kpsold01	Hendron	rndtre06	Slots
+kpsold01	Hendron	rndtre06	Items
+kpsold06	de'Arnise Guard	none	Slots
+krdualwf	Fighter	rndtre07	Slots
+krdualwf	Fighter	rndtre07	Items
+krfight	Fighter	none	Slots
+kuoarc20	Kuo-Toa Archer	none	Slots
+kuocap01	Kuo-Toa Captain	rndtre08	Slots
+kuocap01	Kuo-Toa Captain	rndtre08	Items
+kuocle20	Kuo-Toa Captain	rndtre08	Slots
+kuocle20	Kuo-Toa Captain	rndtre08	Items
+kuolie01	Kuo-Toa Lieutenant	rndtre08	Slots
+kuolie01	Kuo-Toa Lieutenant	rndtre08	Items
+kuomag01	Kuo-Toa Wizard	none	Slots
+kuomon01	Kuo-Toa Monitor	rndtre08	Slots
+kuomon01	Kuo-Toa Monitor	rndtre08	Items
+kuopri01	Kuo-Toa Priest	rndtre08	Slots
+kuopri01	Kuo-Toa Priest	rndtre08	Items
+kuorc	Orog	rndtre07	Slots
+kuorc	Orog	rndtre07	Items
+kuowar20	Kuo-Toa Warrior	rndtre08	Slots
+kuowar20	Kuo-Toa Warrior	rndtre08	Items
+kuowhi01	Kuo-Toa Whip	none	Slots
+lacedo01	Lacedon	rndtre08	Slots
+lacedo01	Lacedon	rndtre08	Items
+landlord	Landlord	rndtre07	Slots
+landlord	Landlord	rndtre07	Items
+lando	Lando	rndtre07	Slots
+lando	Lando	rndtre07	Items
+laron1	Laron	rndtre07	Slots
+laron1	Laron	rndtre07	Items
+lavok01	Lavok	rndtre08	Slots
+lavok01	Lavok	rndtre08	Items
+leander	Leander	rndtre08	Slots
+leander	Leander	rndtre08	Items
+lester	Uncle Lester	none	Slots
+lizdead	Lizard Man	none	Slots
+lizdead	Lizard Man	none	Items
+lizking	Lizardman King	rndtre06	Slots
+lizking	Lizardman King	rndtre06	Items
+lk#xwz1	Drow Wizard	rndtre08	Slots
+lk#xwz1	Drow Wizard	rndtre08	Items
+m#ygspm1	Ymmyrt's Guard	rndtre06	Slots
+m#ygspm1	Ymmyrt's Guard	rndtre06	Items
+m#ygspm2	Ymmyrt's Guard	rndtre06	Slots
+m#ygspm2	Ymmyrt's Guard	rndtre06	Items
+m#ygspm3	Ymmyrt's Guard	none	Slots
+m#ygspm4	Ymmyrt's Guard	rndtre06	Slots
+m#ygspm4	Ymmyrt's Guard	rndtre06	Items
+m#ygspm5	Ymmyrt's Guard	rndtre06	Slots
+m#ygspm5	Ymmyrt's Guard	rndtre06	Items
+m#ygswm1	Ymmyrt's Guard	none	Slots
+m#yguna1	Ymmyrt's Guard	rndtre06	Slots
+m#yguna1	Ymmyrt's Guard	rndtre06	Items
+madam	Madam Nin	rndtre08	Slots
+madam	Madam Nin	rndtre08	Items
+maenc01	Ogre Mage	rndtre08	Slots
+maenc01	Ogre Mage	rndtre08	Items
+maenc02	Ogre	rndtre08	Slots
+maenc02	Ogre	rndtre08	Items
+maenc03	Ogrillon	rndtre07	Slots
+maenc03	Ogrillon	rndtre07	Items
+mage18a	Cowled Wizard	rndtre08	Slots
+mage18a	Cowled Wizard	rndtre08	Items
+mage18z	Zallanora	none	Slots
+marcus	Marcus	rndtre06	Slots
+marcus	Marcus	rndtre06	Items
+maria	Lady Maria	rndtre06	Slots
+maria	Lady Maria	rndtre06	Items
+matrim	Matrim	rndtre08	Slots
+matrim	Matrim	rndtre08	Items
+maydobr	Mayor Dobrine	rndtre07	Slots
+maydobr	Mayor Dobrine	rndtre07	Items
+mekimp01	Imp	rndtre06	Slots
+mekimp01	Imp	rndtre06	Items
+mekrat	Mekrath	rndtre08	Slots
+mekrat	Mekrath	rndtre08	Items
+merchant	Bel Dalemark	rndtre06	Slots
+merchant	Bel Dalemark	rndtre06	Items
+messen	Flydian	rndtre06	Slots
+messen	Flydian	rndtre06	Items
+mgass01	Sergeant Natula	none	Slots
+mgass02	Tyrian	rndtre06	Slots
+mgass02	Tyrian	rndtre06	Items
+mgass03	Vilhelm	rndtre06	Slots
+mgass03	Vilhelm	rndtre06	Items
+mgcwe00	Cowled Enforcer	none	Slots
+mgket01	Lord Ketlaar Argrim	rndtre06	Slots
+mgket01	Lord Ketlaar Argrim	rndtre06	Items
+mimic01	Killer Mimic	rndtre08	Slots
+mimic01	Killer Mimic	rndtre08	Items
+minodar1	Minion of Darkness	none	Slots
+minodar2	Minion of Darkness	none	Slots
+mirlanda	Mirlanda	rndtre08	Slots
+mirlanda	Mirlanda	rndtre08	Items
+mistcd01	Crimson Death	rndtre08	Slots
+mistcd01	Crimson Death	rndtre08	Items
+mistho01	Mist Horror	rndtre08	Slots
+mistho01	Mist Horror	rndtre08	Items
+mistpo01	Poison Mist	rndtre08	Slots
+mistpo01	Poison Mist	rndtre08	Items
+mistva01	Vampiric Mist	rndtre08	Slots
+mistva01	Vampiric Mist	rndtre08	Items
+mistwa01	Wandering Horror	rndtre08	Slots
+mistwa01	Wandering Horror	rndtre08	Items
+mourner2	Mourner	rndtre06	Slots
+mourner2	Mourner	rndtre06	Items
+mourner4	Maggie	rndtre07	Slots
+mourner4	Maggie	rndtre07	Items
+mourner7	Risa	rndtre06	Slots
+mourner7	Risa	rndtre06	Items
+msold01	Mercenary	rndtre06	Slots
+msold01	Mercenary	rndtre06	Items
+mtown6	Commoner	none	Slots
+mugger1	Shady Character	rndtre07	Slots
+mugger1	Shady Character	rndtre07	Items
+mumgre01	Greater Mummy	none	Slots
+mummy01	Mummy	rndtre08	Slots
+mummy01	Mummy	rndtre08	Items
+myband1	Trained Bandit	none	Slots
+mymugg1	Trained Mugger	rndtre06	Slots
+mymugg1	Trained Mugger	rndtre06	Items
+mymugg2	Trained Mugger	rndtre06	Slots
+mymugg2	Trained Mugger	rndtre06	Items
+mythug	Trained Thug	rndtre06	Slots
+mythug	Trained Thug	rndtre06	Items
+nanny	Nanny	rndtre06	Slots
+nanny	Nanny	rndtre06	Items
+nevm1	Wight	rndtre08	Slots
+nevm1	Wight	rndtre08	Items
+nmonk	Nakanishi Acolyte	rndtre08	Slots
+nmonk	Nakanishi Acolyte	rndtre08	Items
+noble1	Nobleman	none	Slots
+noble2	Nobleman	rndtre07	Slots
+noble2	Nobleman	rndtre07	Items
+noblem1	Nobleman	rndtre06	Slots
+noblem1	Nobleman	rndtre06	Items
+noblem2	Nobleman	rndtre07	Slots
+noblem2	Nobleman	rndtre07	Items
+noblem3	Lord Ophal	rndtre08	Slots
+noblem3	Lord Ophal	rndtre08	Items
+noblew1	Noblewoman	rndtre06	Slots
+noblew1	Noblewoman	rndtre06	Items
+noblew2	Noblewoman	rndtre08	Slots
+noblew2	Noblewoman	rndtre08	Items
+noblew3	Lady Ophal	rndtre08	Slots
+noblew3	Lady Ophal	rndtre08	Items
+nscom001	Barkeep	none	Slots
+nsflower	Hana	rndtre01	Slots
+nsflower	Hana	rndtre01	Items
+nsmage01	Young Mage	rndtre08	Slots
+nsmage01	Young Mage	rndtre08	Items
+nsprey01	Lord Reginald	rndtre06	Slots
+nsprey01	Lord Reginald	rndtre06	Items
+nstief02	Tiefling	rndtre08	Slots
+nstief02	Tiefling	rndtre08	Items
+ntdemon	Doomsayer	rndtre08	Slots
+ntdemon	Doomsayer	rndtre08	Items
+nthells1	Fire Salamander	none	Slots
+nthells2	Humbaba	none	Slots
+nthellsa	Oogoor	rndtre08	Slots
+nthellsa	Oogoor	rndtre08	Items
+nthobgod	Hobgod	rndtre07	Slots
+nthobgod	Hobgod	rndtre07	Items
+o!gobl	Jerry	rndtre07	Slots
+o!gobl	Jerry	rndtre07	Items
+o#crchri	Chris	none	Slots
+o#crlah	Lahar Feenick	rndtre06	Slots
+o#crlah	Lahar Feenick	rndtre06	Items
+o#crsoph	Lady Sofia	rndtre08	Slots
+o#crsoph	Lady Sofia	rndtre08	Items
+o#crstg1	Thug	rndtre06	Slots
+o#crstg1	Thug	rndtre06	Items
+o#crstg2	Thug	none	Slots
+o#damir	Lord Damir	rndtre06	Slots
+o#damir	Lord Damir	rndtre06	Items
+o#khagg	Khaggoth	none	Slots
+o#thadd	Lord Thaddeus Leoncourt	rndtre06	Slots
+o#thadd	Lord Thaddeus Leoncourt	rndtre06	Items
+oenmage1	Mage	rndtre06	Slots
+oenmage1	Mage	rndtre06	Items
+oenmage2	Battle Mage	rndtre06	Slots
+oenmage2	Battle Mage	rndtre06	Items
+oenmage3	Battle Mage	rndtre06	Slots
+oenmage3	Battle Mage	rndtre06	Items
+ogre01	Ogre	rndtre08	Slots
+ogre01	Ogre	rndtre08	Items
+ogregr_a	Ogrillon	rndtre07	Slots
+ogregr_a	Ogrillon	rndtre07	Items
+ogregr1	Ogrillon	none	Slots
+ogregr2	Ogrillon	rndtre07	Slots
+ogregr2	Ogrillon	rndtre07	Items
+ogregr3	Ogrillon	rndtre07	Slots
+ogregr3	Ogrillon	rndtre07	Items
+ogregr4	Ogrillon	rndtre07	Slots
+ogregr4	Ogrillon	rndtre07	Items
+ogreha_a	Half Ogre	rndtre07	Slots
+ogreha_a	Half Ogre	rndtre07	Items
+ogreha_c	Half Ogre	rndtre07	Slots
+ogreha_c	Half Ogre	rndtre07	Items
+ogreha_d	Half Ogre	rndtre07	Slots
+ogreha_d	Half Ogre	rndtre07	Items
+ogreha_e	Half Ogre	rndtre07	Slots
+ogreha_e	Half Ogre	rndtre07	Items
+ogreha1	Half Ogre	rndtre07	Slots
+ogreha1	Half Ogre	rndtre07	Items
+ogreha2	Half Ogre	rndtre07	Slots
+ogreha2	Half Ogre	rndtre07	Items
+ogreha3	Half Ogre	rndtre07	Slots
+ogreha3	Half Ogre	rndtre07	Items
+ogreha4	Half Ogre	none	Slots
+ogreha5	Half Ogre	rndtre07	Slots
+ogreha5	Half Ogre	rndtre07	Items
+ogrelesu	Ogrillon	rndtre08	Slots
+ogrelesu	Ogrillon	rndtre08	Items
+ogrema01	Ogre Mage	rndtre08	Slots
+ogrema01	Ogre Mage	rndtre08	Items
+ogresu	Ogre	rndtre08	Slots
+ogresu	Ogre	rndtre08	Items
+ogrhal01	Half Ogre	rndtre08	Slots
+ogrhal01	Half Ogre	rndtre08	Items
+ogrill01	Ogrillon	rndtre08	Slots
+ogrill01	Ogrillon	rndtre08	Items
+ogrmag01	Ogre Mage	rndtre08	Slots
+ogrmag01	Ogre Mage	rndtre08	Items
+olmwar40	Olmar's Warrior	none	Slots
+olmwar41	Olmar's Warrior	none	Slots
+olmwar42	Elite Warrior	rndtre01	Slots
+olmwar42	Elite Warrior	rndtre01	Items
+olmwar43	Elite Warrior	rndtre07	Slots
+olmwar43	Elite Warrior	rndtre07	Items
+olmwar44	Elite Captain	rndtre07	Slots
+olmwar44	Elite Captain	rndtre07	Items
+olmwar45	Olmar's Warrior	rndtre07	Slots
+olmwar45	Olmar's Warrior	rndtre07	Items
+olmwar46	Elite Warrior	rndtre07	Slots
+olmwar46	Elite Warrior	rndtre07	Items
+olmwar47	Elite Warrior	rndtre01	Slots
+olmwar47	Elite Warrior	rndtre01	Items
+olmwar51	Olmar's Warrior	none	Slots
+olmwar52	Olmar's Warrior	rndtre07	Slots
+olmwar52	Olmar's Warrior	rndtre07	Items
+olmwar53	Olmar's Warrior	rndtre07	Slots
+olmwar53	Olmar's Warrior	rndtre07	Items
+olmwar54	Olmar's Warrior	rndtre07	Slots
+olmwar54	Olmar's Warrior	rndtre07	Items
+olmwar55	Olmar's Warrior	rndtre07	Slots
+olmwar55	Olmar's Warrior	rndtre07	Items
+olmwar56	Olmar's Warrior	rndtre07	Slots
+olmwar56	Olmar's Warrior	rndtre07	Items
+olmwar57	Olmar's Warrior	rndtre07	Slots
+olmwar57	Olmar's Warrior	rndtre07	Items
+olmwar58	Olmar's Warrior	rndtre07	Slots
+olmwar58	Olmar's Warrior	rndtre07	Items
+olmwar59	Olmar's Warrior	rndtre07	Slots
+olmwar59	Olmar's Warrior	rndtre07	Items
+olmwar60	Elite Warrior	rndtre01	Slots
+olmwar60	Elite Warrior	rndtre01	Items
+olmwar61	Elite Warrior	rndtre01	Slots
+olmwar61	Elite Warrior	rndtre01	Items
+olmwar62	Elite Warrior	rndtre01	Slots
+olmwar62	Elite Warrior	rndtre01	Items
+olmwar63	Elite Warrior	rndtre01	Slots
+olmwar63	Elite Warrior	rndtre01	Items
+olmwar64	Elite Warrior	rndtre01	Slots
+olmwar64	Elite Warrior	rndtre01	Items
+olmwar65	Elite Warrior	rndtre07	Slots
+olmwar65	Elite Warrior	rndtre07	Items
+olmwar66	Elite Warrior	rndtre07	Slots
+olmwar66	Elite Warrior	rndtre07	Items
+olmwar67	Elite Warrior	rndtre07	Slots
+olmwar67	Elite Warrior	rndtre07	Items
+olmwar68	Elite Warrior	rndtre07	Slots
+olmwar68	Elite Warrior	rndtre07	Items
+olmwar69	Elite Warrior	rndtre07	Slots
+olmwar69	Elite Warrior	rndtre07	Items
+orc01	Orc	rndtre08	Slots
+orc01	Orc	rndtre08	Items
+orc02	Orc Archer	rndtre08	Slots
+orc02	Orc Archer	rndtre08	Items
+orc03	Orc Priest	rndtre08	Slots
+orc03	Orc Priest	rndtre08	Items
+orc04	Orc Mage	none	Slots
+orc05	Orog	rndtre07	Slots
+orc05	Orog	rndtre07	Items
+orc06	Orog	rndtre08	Slots
+orc06	Orog	rndtre08	Items
+orc07	Orog Leader	rndtre07	Slots
+orc07	Orog Leader	rndtre07	Items
+orc10	Orc	none	Slots
+orcded	<Invalid Strref -1>	none	Slots
+orcsum	Orc	rndtre07	Slots
+orcsum	Orc	rndtre07	Items
+oriana	Oriana	rndtre06	Slots
+oriana	Oriana	rndtre06	Items
+outorc1	Elite Orc Leader	rndtre06	Slots
+outorc1	Elite Orc Leader	rndtre06	Items
+outorc5	Elite Orc Archer	none	Slots
+p#neiros	Neiros Gellantara	rndtre07	Slots
+p#neiros	Neiros Gellantara	rndtre07	Items
+parmonk	Mahar	none	Slots
+parthf	Alnarow	rndtre06	Slots
+parthf	Alnarow	rndtre06	Items
+pashtrav	Pasha Khazun	rndtre06	Slots
+pashtrav	Pasha Khazun	rndtre06	Items
+pbhunt01	Aawill	none	Slots
+pdwarf01	Dwarf Thrall	rndtre07	Slots
+pdwarf01	Dwarf Thrall	rndtre07	Items
+pgulga	Ulga	rndtre06	Slots
+pgulga	Ulga	rndtre06	Items
+pibble	Pibble	rndtre07	Slots
+pibble	Pibble	rndtre07	Items
+pibble2	Pibble	rndtre07	Slots
+pibble2	Pibble	rndtre07	Items
+pirbob01	Captn' Bob Holmes	rndtre06	Slots
+pirbob01	Captn' Bob Holmes	rndtre06	Items
+pircor02	Ginia	rndtre06	Slots
+pircor02	Ginia	rndtre06	Items
+pirdoc01	Dockhand	rndtre06	Slots
+pirdoc01	Dockhand	rndtre06	Items
+pirfsh01	Fisherman	rndtre06	Slots
+pirfsh01	Fisherman	rndtre06	Items
+pirfsh02	Fishwife	rndtre06	Slots
+pirfsh02	Fishwife	rndtre06	Items
+pirpir05	Chremy	none	Slots
+pirpir12	Pirate Newf	rndtre06	Slots
+pirpir12	Pirate Newf	rndtre06	Items
+pkagal	Agal	rndtre08	Slots
+pkagal	Agal	rndtre08	Items
+pkagalb	Agal	none	Slots
+pkfatty1	Branthor	none	Slots
+pkfatty2	Dindil	rndtre07	Slots
+pkfatty2	Dindil	rndtre07	Items
+pkfatxy2	Dindil	rndtre07	Slots
+pkfatxy2	Dindil	rndtre07	Items
+pkgard1	Horkvar	rndtre08	Slots
+pkgard1	Horkvar	rndtre08	Items
+pkgard2	Guard	rndtre08	Slots
+pkgard2	Guard	rndtre08	Items
+pkhohom1	Kroldhir	rndtre08	Slots
+pkhohom1	Kroldhir	rndtre08	Items
+pkhohom2	Fjord	rndtre08	Slots
+pkhohom2	Fjord	rndtre08	Items
+pkhohom3	Bjodlaug	rndtre08	Slots
+pkhohom3	Bjodlaug	rndtre08	Items
+pkmarcus	Marcus	none	Slots
+pkmess	Rane	rndtre08	Slots
+pkmess	Rane	rndtre08	Items
+pkmess2	Rane	rndtre08	Slots
+pkmess2	Rane	rndtre08	Items
+pkorfa	Orfa	rndtre08	Slots
+pkorfa	Orfa	rndtre08	Items
+pkstore1	Deneron	none	Slots
+pkstore2	Carval	rndtre07	Slots
+pkstore2	Carval	rndtre07	Items
+plfarm05	Pardo	rndtre06	Slots
+plfarm05	Pardo	rndtre06	Items
+plfarm06	Moreno	rndtre06	Slots
+plfarm06	Moreno	rndtre06	Items
+plshhg01	Hobgoblin Slayer	rndtre07	Slots
+plshhg01	Hobgoblin Slayer	rndtre07	Items
+plshom01	Ogre Mage	rndtre08	Slots
+plshom01	Ogre Mage	rndtre08	Items
+plybass	Lesser Basilisk	rndtre08	Slots
+plybass	Lesser Basilisk	rndtre08	Items
+plyflind	Flind	rndtre08	Slots
+plyflind	Flind	rndtre08	Items
+plyogre	Ogre	rndtre08	Slots
+plyogre	Ogre	rndtre08	Items
+plysala	Fire Salamander	rndtre08	Slots
+plysala	Fire Salamander	rndtre08	Items
+postul2	Commoner	rndtre06	Slots
+postul2	Commoner	rndtre06	Items
+postul6	Nobleman	rndtre06	Slots
+postul6	Nobleman	rndtre06	Items
+potselca	Potion Seller	rndtre07	Slots
+potselca	Potion Seller	rndtre07	Items
+ppgirl2	Cayia	rndtre06	Slots
+ppgirl2	Cayia	rndtre06	Items
+pplackey	Pirate	rndtre06	Slots
+pplackey	Pirate	rndtre06	Items
+ppldr01	Pirate Leader	none	Slots
+pptown4	Peasant	rndtre06	Slots
+pptown4	Peasant	rndtre06	Items
+prengoon	Prenash's Soldier	rndtre06	Items
+psadv02	Adventurer	rndtre06	Slots
+psadv02	Adventurer	rndtre06	Items
+psdmad02	Pompous Adventurer's Sidekick	none	Slots
+psdmad03	Pompous Adventurer's Sidekick	rndtre06	Slots
+psdmad03	Pompous Adventurer's Sidekick	rndtre06	Items
+pspain	Pain Elemental	rndtre08	Slots
+pspain	Pain Elemental	rndtre08	Items
+psqtpa1	Wraith	rndtre06	Slots
+psqtpa1	Wraith	rndtre06	Items
+psqtpa2	Wraith	none	Slots
+psqtpa3	Wraith	rndtre06	Slots
+psqtpa3	Wraith	rndtre06	Items
+purang	Purang Berserker	rndtre08	Slots
+purang	Purang Berserker	rndtre08	Items
+qloot3	Chobenhair	rndtre08	Slots
+qloot3	Chobenhair	rndtre08	Items
+radeel	Radeel	rndtre06	Slots
+radeel	Radeel	rndtre06	Items
+ragefa	Ragefast	rndtre01	Slots
+ragefa	Ragefast	rndtre01	Items
+re_ilona	Ilona	none	Slots
+redilav	Dilav	rndtre06	Slots
+redilav	Dilav	rndtre06	Items
+reedle	Reedle	rndtre07	Slots
+reedle	Reedle	rndtre07	Items
+reevor	Reevor	rndmag06	Slots
+reevor	Reevor	rndmag06	Items
+reevor2	Reevor	rndmag06	Slots
+reevor2	Reevor	rndmag06	Items
+remorhaz	Abishai	rndtre06	Slots
+remorhaz	Abishai	rndtre06	Items
+remorle	Abishai Leader	none	Slots
+renfeld	Renfeld	rndtre06	Slots
+renfeld	Renfeld	rndtre06	Items
+renfield	Renfeld	rndtre06	Slots
+renfield	Renfeld	rndtre06	Items
+rengaa	Rengaard	rndtre08	Slots
+rengaa	Rengaard	rndtre08	Items
+rethie02	Slaver	rndtre06	Slots
+rethie02	Slaver	rndtre06	Items
+riatgate	Gatesman	rndtre07	Slots
+riatgate	Gatesman	rndtre07	Items
+rigen01	Lord Igen Tombelthen	none	Slots
+rock	Rock	none	Slots
+roend	Roend	none	Slots
+rorca01	Orc Archer	rndtre07	Slots
+rorca01	Orc Archer	rndtre07	Items
+rorcl01	Orog Leader	rndtre07	Slots
+rorcl01	Orog Leader	rndtre07	Items
+rorcs01	Orog	rndtre07	Slots
+rorcs01	Orog	rndtre07	Items
+rskel02	Skeleton Warrior	rndtre08	Slots
+rskel02	Skeleton Warrior	rndtre08	Items
+rskel03	Skeleton	rndtre07	Slots
+rskel03	Skeleton	rndtre07	Items
+rumar	Rumar	rndtre07	Slots
+rumar	Rumar	rndtre07	Items
+sacorc01	Gorrek	none	Slots
+sacorc02	Orc Archer	rndtre07	Slots
+sacorc02	Orc Archer	rndtre07	Items
+sacorc05	Orc	rndtre07	Slots
+sacorc05	Orc	rndtre07	Items
+sacorc06	Orc Archer	rndtre07	Slots
+sacorc06	Orc Archer	rndtre07	Items
+sacorc10	Orc	rndtre07	Slots
+sacorc10	Orc	rndtre07	Items
+sacorc9	Orc Archer	none	Slots
+sahangu	Anguiliian	none	Slots
+sahlace	Lacedon	rndtre08	Slots
+sahlace	Lacedon	rndtre08	Items
+sahzom01	Sea Zombie Lord	none	Slots
+salvanas	Salvanas	rndtre07	Slots
+salvanas	Salvanas	rndtre07	Items
+samia	Samia	rndtre07	Slots
+samia	Samia	rndtre07	Items
+scdur	Unger Hilldark	none	Slots
+scljyss	Lady Jysstev	rndtre06	Slots
+scljyss	Lady Jysstev	rndtre06	Items
+scqar	Qar Jysstev	rndtre06	Slots
+scqar	Qar Jysstev	rndtre06	Items
+scroll01	Lady Yuth	rndtre06	Slots
+scroll01	Lady Yuth	rndtre06	Items
+scsarles	Sir Sarles	none	Slots
+senorc01	Derro Berserker	none	Slots
+senorc02	Derro	rndtre07	Slots
+senorc02	Derro	rndtre07	Items
+senorc03	Derro Berserker	rndtre07	Slots
+senorc03	Derro Berserker	rndtre07	Items
+senorc04	Derro	none	Slots
+sensmsp2	Orog	none	Slots
+sevpat04	Smaeluv Orcslicer	rndtre08	Slots
+sevpat04	Smaeluv Orcslicer	rndtre08	Items
+sevpat05	Brennan Risling	rndtre08	Slots
+sevpat05	Brennan Risling	rndtre08	Items
+sewdue01	Duergar Sapper	rndtre08	Slots
+sewdue01	Duergar Sapper	rndtre08	Items
+sewdue02	Duergar Sapper	rndtre08	Slots
+sewdue02	Duergar Sapper	rndtre08	Items
+sewerm1	Quallo	none	Slots
+sewrak01	Rakshasa	rndtre08	Slots
+sewrak01	Rakshasa	rndtre08	Items
+sewyag03	Elite Orog	rndtre08	Slots
+sewyag03	Elite Orog	rndtre08	Items
+shobsl01	Hobgoblin Slayer	rndtre07	Slots
+shobsl01	Hobgoblin Slayer	rndtre07	Items
+shop01	Mira	rndtre06	Slots
+shop01	Mira	rndtre06	Items
+shop02	Arnolinus	none	Slots
+shop05	Perter	rndtre06	Slots
+shop05	Perter	rndtre06	Items
+shth01	Hanz	rndtre06	Slots
+shth01	Hanz	rndtre06	Items
+shth05	Joster	rndtre07	Slots
+shth05	Joster	rndtre07	Items
+shthass1	Ama	rndtre08	Slots
+shthass1	Ama	rndtre08	Items
+shthdr01	Brannel	rndtre06	Slots
+shthdr01	Brannel	rndtre06	Items
+shthstor	Rattell	none	Slots
+sk#noble	Lord Crawford	none	Slots
+skelar01	Skeleton Archer	none	Slots
+skelar02	Skeleton Archer	rndtre08	Slots
+skelar02	Skeleton Archer	rndtre08	Items
+skelet01	Skeleton	rndtre08	Slots
+skelet01	Skeleton	rndtre08	Items
+skelwa02	Skeleton Warrior	rndtre08	Slots
+skelwa02	Skeleton Warrior	rndtre08	Items
+skelwa03	Skeleton Warrior	none	Slots
+slandor	Andorian	rndtre06	Slots
+slandor	Andorian	rndtre06	Items
+slhalf01	Halfling Man	rndtre06	Slots
+slhalf01	Halfling Man	rndtre06	Items
+slshop02	Storekeep	rndtre07	Slots
+slshop02	Storekeep	rndtre07	Items
+slumm3	Peasant	none	Slots
+slvic01	Tourist	rndtre06	Slots
+slvic01	Tourist	rndtre06	Items
+speselca	Spell Seller	rndtre07	Slots
+speselca	Spell Seller	rndtre07	Items
+spmugg	Mugger	rndtre06	Slots
+spmugg	Mugger	rndtre06	Items
+spmugg2	Ruffian Captain	rndtre06	Slots
+spmugg2	Ruffian Captain	rndtre06	Items
+spmugg3	Thug	rndtre06	Slots
+spmugg3	Thug	rndtre06	Items
+stage01	Peasant	rndtre06	Slots
+stage01	Peasant	rndtre06	Items
+strak	Strak	rndtre08	Slots
+strak	Strak	rndtre08	Items
+sumeat1	Rojo	none	Slots
+sumeat2	Lowell	rndtre06	Slots
+sumeat2	Lowell	rndtre06	Items
+sumeat3	Friddel	rndtre06	Slots
+sumeat3	Friddel	rndtre06	Items
+surayah	Surayah	rndtre06	Slots
+surayah	Surayah	rndtre06	Items
+surly	Surly	rndtre07	Slots
+surly	Surly	rndtre07	Items
+suthess1	Flunky	rndtre06	Slots
+suthess1	Flunky	rndtre06	Items
+t#mdomo	Majordomo	none	Slots
+talwar40	Talavan's Warrior	rndtre06	Slots
+talwar40	Talavan's Warrior	rndtre06	Items
+talwar41	Talavan's Warrior	rndtre07	Slots
+talwar41	Talavan's Warrior	rndtre07	Items
+talwar42	Elite Warrior	rndtre01	Slots
+talwar42	Elite Warrior	rndtre01	Items
+talwar43	Elite Warrior	rndtre07	Slots
+talwar43	Elite Warrior	rndtre07	Items
+talwar44	Commander Tylin	none	Slots
+talwar45	Talavan's Warrior	rndtre07	Slots
+talwar45	Talavan's Warrior	rndtre07	Items
+talwar46	Elite Warrior	rndtre07	Slots
+talwar46	Elite Warrior	rndtre07	Items
+talwar47	Elite Warrior	rndtre07	Slots
+talwar47	Elite Warrior	rndtre07	Items
+talwar48	Elite Warrior	rndtre07	Slots
+talwar48	Elite Warrior	rndtre07	Items
+talwar49	Elite Warrior	none	Slots
+talwar50	Elite Warrior	none	Slots
+tannar2	Tanar'ri	none	Slots
+tannar3	Tanar'ri	rndtre06	Slots
+tannar3	Tanar'ri	rndtre06	Items
+tarnor	Tarnor the Hatchetman	rndtre08	Slots
+tarnor	Tarnor the Hatchetman	rndtre08	Items
+tasloisu	Tasloi	rndtre06	Items
+tavekee	Tavern Keeper	rndtre07	Slots
+tavekee	Tavern Keeper	rndtre07	Items
+taxcoll	Tax Collector	rndtre06	Slots
+taxcoll	Tax Collector	rndtre06	Items
+tazok	Tazok	rndtre07	Slots
+tazok	Tazok	rndtre07	Items
+tb#lotga	Orc Tenant	rndtre07	Slots
+tb#lotga	Orc Tenant	rndtre07	Items
+tb#lotgw	Ogre Tenant	rndtre07	Slots
+tb#lotgw	Ogre Tenant	rndtre07	Items
+tb#lotr	Maniar	rndtre06	Slots
+tb#lotr	Maniar	rndtre06	Items
+tb#lotr1	Lieutenant Beldor	rndtre07	Slots
+tb#lotr1	Lieutenant Beldor	rndtre07	Items
+tb#lotra	Orc Archer	none	Slots
+tb#lotrg	General Argor	rndtre08	Slots
+tb#lotrg	General Argor	rndtre08	Items
+tb#lotro	Orc	none	Slots
+tb#prsp	Mystra's witness	rndtre06	Slots
+tb#prsp	Mystra's witness	rndtre06	Items
+teltief1	Tiefling	rndtre07	Slots
+teltief1	Tiefling	rndtre07	Items
+teltief2	Tiefling	rndtre08	Slots
+teltief2	Tiefling	rndtre08	Items
+tenmage1	Mage	rndtre06	Slots
+tenmage1	Mage	rndtre06	Items
+tenmage2	Castle Mage	rndtre06	Slots
+tenmage2	Castle Mage	rndtre06	Items
+tenmage3	Castle Mage	rndtre06	Slots
+tenmage3	Castle Mage	rndtre06	Items
+terrece	Terrece	none	Slots
+thief5	Gorvin	rndtre06	Slots
+thief5	Gorvin	rndtre06	Items
+thork1	Thorknar	none	Slots
+thork2	Thorknar	rndtre08	Slots
+thork2	Thorknar	rndtre08	Items
+thork3	Thorknar	rndtre08	Slots
+thork3	Thorknar	rndtre08	Items
+thork4	Thorknar	rndtre08	Slots
+thork4	Thorknar	rndtre08	Items
+tobban03	Orc	none	Slots
+torgal	TorGal	rndtre08	Slots
+torgal	TorGal	rndtre08	Items
+torgal2	TorGal	rndtre08	Slots
+torgal2	TorGal	rndtre08	Items
+torgal3	TorGal	none	Slots
+townc01	Town Crier Neckeith	rndtre07	Slots
+townc01	Town Crier Neckeith	rndtre07	Items
+trcut02	Nobleman	none	Slots
+tresham1	Tresham	rndtre07	Slots
+tresham1	Tresham	rndtre07	Items
+trevil01	Lord Khellon Menold	rndtre08	Slots
+trevil01	Lord Khellon Menold	rndtre08	Items
+trftow01	Trissa	rndtre06	Slots
+trftow01	Trissa	rndtre06	Items
+trhmer01	Guildmistress Busya	rndtre07	Slots
+trhmer01	Guildmistress Busya	rndtre07	Items
+trnobm02	Nobleman	rndtre06	Slots
+trnobm02	Nobleman	rndtre06	Items
+trolde01	Desert Troll	none	Slots
+trolde02	Desert Troll	none	Slots
+trolfr01	Troll	rndtre08	Slots
+trolfr01	Troll	rndtre08	Items
+trolfr02	Troll	rndtre08	Slots
+trolfr02	Troll	rndtre08	Items
+trolgi01	Giant Troll	rndtre08	Slots
+trolgi01	Giant Troll	rndtre08	Items
+trolgi02	Giant Troll	rndtre08	Slots
+trolgi02	Giant Troll	rndtre08	Items
+trolic01	Ice Troll	none	Slots
+trolic02	Ice Troll	rndtre08	Slots
+trolic02	Ice Troll	rndtre08	Items
+trolic03	Blizzard Troll	rndtre08	Slots
+trolic03	Blizzard Troll	rndtre08	Items
+trolic04	Blizzard Troll	rndtre08	Slots
+trolic04	Blizzard Troll	rndtre08	Items
+troll01	Troll	none	Slots
+troll02	Troll	rndtre08	Slots
+troll02	Troll	rndtre08	Items
+troll03	Troll	rndtre08	Slots
+troll03	Troll	rndtre08	Items
+trolsi01	Spirit Troll	rndtre08	Slots
+trolsi01	Spirit Troll	rndtre08	Items
+trolsi02	Spirit Troll	rndtre08	Slots
+trolsi02	Spirit Troll	rndtre08	Items
+trtavp01	Tavern Drunk	none	Slots
+trtavp02	Lady Merana	rndtre06	Slots
+trtavp02	Lady Merana	rndtre06	Items
+trwen01	Ulma	rndtre06	Slots
+trwen01	Ulma	rndtre06	Items
+ts5bad	Cpt. Sterling	none	Slots
+ts5door	Lt. Betta	rndtre08	Slots
+ts5door	Lt. Betta	rndtre08	Items
+ts5grd	Barracks Guard	rndtre07	Slots
+ts5grd	Barracks Guard	rndtre07	Items
+ts5grd1	Barracks Guard	none	Slots
+ts5grd2	Barracks Guard	none	Slots
+ts5thf1	Myriza	rndtre07	Slots
+ts5thf1	Myriza	rndtre07	Items
+ts5thf2	Keltar	none	Slots
+ts5thf3	Genja	rndtre07	Slots
+ts5thf3	Genja	rndtre07	Items
+ts5thf4	Gelt Foldum	none	Slots
+ts5thf5	Issa Kealn	rndtre07	Slots
+ts5thf5	Issa Kealn	rndtre07	Items
+ts5thf6	Hawrath	none	Slots
+ts5wiz	Militia Wizard	rndtre08	Slots
+ts5wiz	Militia Wizard	rndtre08	Items
+tsama1	Ama	rndtre08	Slots
+tsama1	Ama	rndtre08	Items
+tsdrunk1	Bert	rndtre06	Slots
+tsdrunk1	Bert	rndtre06	Items
+tsdrunk2	Tom	rndtre06	Slots
+tsdrunk2	Tom	rndtre06	Items
+tsdrunk3	Bill Huggins	rndtre06	Slots
+tsdrunk3	Bill Huggins	rndtre06	Items
+tsgrd02	Cowled Enforcer	rndtre08	Slots
+tsgrd02	Cowled Enforcer	rndtre08	Items
+tsjflirt	Lady Arlluvia	rndtre07	Slots
+tsjflirt	Lady Arlluvia	rndtre07	Items
+tspick1	Nobleman	rndtre08	Slots
+tspick1	Nobleman	rndtre08	Items
+tspick2	Noblewoman	none	Slots
+tspick3	Commoner	rndtre07	Slots
+tspick3	Commoner	rndtre07	Items
+tspick4	Commoner	rndtre07	Slots
+tspick4	Commoner	rndtre07	Items
+tspick5	Sailor	rndtre08	Slots
+tspick5	Sailor	rndtre08	Items
+tspick6	Sailor	none	Slots
+tspick7	Peasant	rndtre06	Slots
+tspick7	Peasant	rndtre06	Items
+tspick8	Peasant	rndtre06	Slots
+tspick8	Peasant	rndtre06	Items
+tswench1	Jancie	rndtre06	Slots
+tswench1	Jancie	rndtre06	Items
+tupung	Pung	none	Slots
+tupungcs	Pung	rndtre06	Slots
+tupungcs	Pung	rndtre06	Items
+u#conlan	Conlan	rndtre06	Slots
+u#conlan	Conlan	rndtre06	Items
+udcom01	Commoner	rndtre06	Slots
+udcom01	Commoner	rndtre06	Items
+uddoor05	Drow Wizard	none	Slots
+uddrow05	Drow Cook	rndtre06	Slots
+uddrow05	Drow Cook	rndtre06	Items
+uddrow07	Merinid	none	Slots
+uhfem01	Mistress Eina	none	Slots
+uhfem02	Johanna	rndtre06	Slots
+uhfem02	Johanna	rndtre06	Items
+uhinn01	Vincenzo the Innkeep	none	Slots
+uhinn02	Willet the Stableboy	rndtre06	Slots
+uhinn02	Willet the Stableboy	rndtre06	Items
+uhman02	Nelleck	rndtre06	Slots
+uhman02	Nelleck	rndtre06	Items
+uhmay01	Minister Lloyd	rndtre07	Slots
+uhmay01	Minister Lloyd	rndtre07	Items
+uhmer01	Elence Fielding	rndtre06	Slots
+uhmer01	Elence Fielding	rndtre06	Items
+uhmer02	Min Minling	none	Slots
+uhmer03	Beherant Diir	rndtre08	Slots
+uhmer03	Beherant Diir	rndtre08	Items
+uhogre01	Madulf	none	Slots
+uhogre02	Ogre	rndtre06	Slots
+uhogre02	Ogre	rndtre06	Items
+uhogre03	Minotaur	none	Slots
+uhogre04	Gnoll	rndtre08	Slots
+uhogre04	Gnoll	rndtre08	Items
+uhogre05	Orc	rndtre08	Slots
+uhogre05	Orc	rndtre08	Items
+ulogre2	Enchanted Ogre Mage	rndtre08	Slots
+ulogre2	Enchanted Ogre Mage	rndtre08	Items
+ulorc3	Enchanted Orog	none	Slots
+ulorc4	Enchanted Orc	none	Slots
+ulorc5	Enchanted Orc Archer	rndtre07	Slots
+ulorc5	Enchanted Orc Archer	rndtre07	Items
+umbhul01	Umber Hulk	rndtre08	Slots
+umbhul01	Umber Hulk	rndtre08	Items
+umbhul02	Umber Hulk Elder	none	Slots
+unsee	The Unseeing Eye	rndtre08	Slots
+unsee	The Unseeing Eye	rndtre08	Items
+va#fsala	Fire Salamander	rndtre08	Slots
+va#fsala	Fire Salamander	rndtre08	Items
+va#kergo	Captain Kergo	rndtre06	Slots
+va#kergo	Captain Kergo	rndtre06	Items
+va#orc	Orc Archer	rndtre07	Slots
+va#orc	Orc Archer	rndtre07	Items
+va#orog	Orog	rndtre07	Slots
+va#orog	Orog	rndtre07	Items
+vakthf01	Thug	rndtre06	Slots
+vakthf01	Thug	rndtre06	Items
+victown3	Nobleman	none	Slots
+victown4	Noblewoman	rndtre06	Slots
+victown4	Noblewoman	rndtre06	Items
+walla	Wallace	rndtre06	Slots
+walla	Wallace	rndtre06	Items
+wardabi1	Silver Abishai	rndtre07	Slots
+wardabi1	Silver Abishai	rndtre07	Items
+wardabi2	Silver Abishai	rndtre07	Slots
+wardabi2	Silver Abishai	rndtre07	Items
+wardnob1	Greeter	rndtre07	Slots
+wardnob1	Greeter	rndtre07	Items
+waylane	Waylane	rndtre06	Slots
+waylane	Waylane	rndtre06	Items
+wblance	Lance	rndtre06	Slots
+wblance	Lance	rndtre06	Items
+wbmum	Willie's Mum	rndtre06	Slots
+wbmum	Willie's Mum	rndtre06	Items
+wcust02	Debutante Alicia	rndtre07	Slots
+wcust02	Debutante Alicia	rndtre07	Items
+wcust03	Largo	rndtre06	Slots
+wcust03	Largo	rndtre06	Items
+wcust05	Lady Lasalla	rndtre06	Slots
+wcust05	Lady Lasalla	rndtre06	Items
+weenog	Weenog	none	Slots
+wench1	Tavern Wench	none	Slots
+willia	Sir William of Thorpe	rndtre06	Slots
+willia	Sir William of Thorpe	rndtre06	Items
+winthr2	Winthrop	rndtre06	Slots
+winthr2	Winthrop	rndtre06	Items
+wmart1	Joluv	rndtre06	Slots
+wmart1	Joluv	rndtre06	Items
+wtthork5	Thorknar	rndtre08	Slots
+wtthork5	Thorknar	rndtre08	Items
+wtthork6	Thorknar	rndtre08	Slots
+wtthork6	Thorknar	rndtre08	Items
+wwench	Rebecca	rndtre06	Slots
+wwench	Rebecca	rndtre06	Items
+wyvern01	Wyvern	rndtre08	Slots
+wyvern01	Wyvern	rndtre08	Items
+wyvgre01	Greater Wyvern	none	Slots
+x#chop	Chop The Lady Ogre	rndtre06	Slots
+x#chop	Chop The Lady Ogre	rndtre06	Items
+x#cru11	Cru The Lady Ogre	none	Slots
+x#dgnle1	Gnoll	rndtre06	Slots
+x#dgnle1	Gnoll	rndtre06	Items
+x#dgnle2	Gnoll	none	Slots
+x#dgnle2	Gnoll	none	Items
+x#dgnle3	Gnoll	rndtre06	Slots
+x#dgnle3	Gnoll	rndtre06	Items
+x#dgnle4	Gnoll	rndtre06	Slots
+x#dgnle4	Gnoll	rndtre06	Items
+x#dgnlg1	Gnoll	rndtre06	Slots
+x#dgnlg1	Gnoll	rndtre06	Items
+x#dgnlg2	Gnoll	rndtre06	Slots
+x#dgnlg2	Gnoll	rndtre06	Items
+x#dgnlg3	Gnoll	rndtre06	Slots
+x#dgnlg3	Gnoll	rndtre06	Items
+x#dgnlg4	Gnoll	rndtre06	Slots
+x#dgnlg4	Gnoll	rndtre06	Items
+xangiber	Fighter	rndtre06	Slots
+xangiber	Fighter	rndtre06	Items
+xvart_d	Xvart Protector	rndtre06	Slots
+xvart_d	Xvart Protector	rndtre06	Items
+yaga03	Lieutenant Fighter	rndtre08	Slots
+yaga03	Lieutenant Fighter	rndtre08	Items
+yaga05	Lieutenant Thief	none	Slots
+yscara01	Merchant	rndtre07	Slots
+yscara01	Merchant	rndtre07	Items
+yscara02	Merchant	rndtre06	Slots
+yscara02	Merchant	rndtre06	Items
+ysdivelf	Divalir's Guard	rndtre06	Items
+ysfire01	Fire Giant	rndtre08	Slots
+ysfire01	Fire Giant	rndtre08	Items
+ysfire02	Fire Giant	rndtre07	Slots
+ysfire02	Fire Giant	rndtre07	Items
+ysg2	Fire Giant	rndtre08	Slots
+ysg2	Fire Giant	rndtre08	Items
+ysgp01	Toop the Brave	rndtre08	Slots
+ysgp01	Toop the Brave	rndtre08	Items
+yssold01	Yaga-Shura Soldier	rndtre06	Slots
+yssold01	Yaga-Shura Soldier	rndtre06	Items
+yssold04	Yaga-Shura Elite	none	Slots
+yssold10	Fire Giant	rndtre08	Slots
+yssold10	Fire Giant	rndtre08	Items
+yssold13	Yaga-Shura Soldier	rndtre06	Slots
+yssold13	Yaga-Shura Soldier	rndtre06	Items
+yugalu01	Alu-Fiend	none	Slots
+z#arch2	Shadow Thief	rndtre06	Slots
+z#arch2	Shadow Thief	rndtre06	Items
+z#archbv	Shadow Thief	rndtre06	Slots
+z#archbv	Shadow Thief	rndtre06	Items
+z#cw18	Cowled Wizard	none	Slots
+z#mage2	Shadow Thief Mage	rndtre08	Slots
+z#mage2	Shadow Thief Mage	rndtre08	Items
+z#nob1	Nobleman	none	Slots
+z#nob2	Noblewoman	rndtre08	Slots
+z#nob2	Noblewoman	rndtre08	Items
+z#nob3	Nobleman	rndtre07	Slots
+z#nob3	Nobleman	rndtre07	Items
+zyors1aa	Orc Raider	rndtre06	Slots
+zyors1aa	Orc Raider	rndtre06	Items
+zyors1ab	Orc Raider	none	Slots
+zyors1ac	Orc Raider	rndtre06	Slots
+zyors1ac	Orc Raider	rndtre06	Items
+zyors1ad	Orc Raider	rndtre06	Slots
+zyors1ad	Orc Raider	rndtre06	Items
+zyors1ae	Orc Raider	rndtre06	Slots
+zyors1ae	Orc Raider	rndtre06	Items
+zyors1af	Orc Raider	rndtre06	Slots
+zyors1af	Orc Raider	rndtre06	Items
+zyors1ag	Orc Raider	rndtre06	Slots
+zyors1ag	Orc Raider	rndtre06	Items
+zyors1ah	Orc Raider	none	Slots
+zyors1ai	Orc Raider	rndtre06	Slots
+zyors1ai	Orc Raider	rndtre06	Items
+zyors1aj	Orc Raider	rndtre06	Slots
+zyors1aj	Orc Raider	rndtre06	Items
+zyors1ak	Orc Raider	none	Slots
+zyors1al	Orc Raider	none	Slots
+zyors1am	Orc Raider	rndtre06	Slots
+zyors1am	Orc Raider	rndtre06	Items
+zyors2aa	Orc Chieftain	none	Slots
+zyors2ab	Orc Chieftain	rndtre06	Slots
+zyors2ab	Orc Chieftain	rndtre06	Items
+zyors2ac	Orc Chieftain	rndtre06	Slots
+zyors2ac	Orc Chieftain	rndtre06	Items
+zyors2ad	Orc Chieftain	rndtre06	Slots
+zyors2ad	Orc Chieftain	rndtre06	Items
+zyors2ae	Orc Chieftain	rndtre06	Slots
+zyors2ae	Orc Chieftain	rndtre06	Items
+zyors2af	Orc Chieftain	rndtre06	Slots
+zyors2af	Orc Chieftain	rndtre06	Items
+zyors2ag	Orc Chieftain	rndtre06	Slots
+zyors2ag	Orc Chieftain	rndtre06	Items
+zyors2ah	Orc Chieftain	rndtre06	Slots
+zyors2ah	Orc Chieftain	rndtre06	Items
+zyors2ai	Orc Chieftain	rndtre06	Slots
+zyors2ai	Orc Chieftain	rndtre06	Items
+zyors2aj	Orc Chieftain	rndtre06	Slots
+zyors2aj	Orc Chieftain	rndtre06	Items
+zyors2ak	Orc Chieftain	rndtre06	Slots
+zyors2ak	Orc Chieftain	rndtre06	Items
+zyors2al	Orc Chieftain	none	Slots
+zyors2am	Orc Chieftain	none	Slots
+zyors3aa	Orc Champion	rndtre06	Slots
+zyors3aa	Orc Champion	rndtre06	Items
+zyors3ab	Orc Champion	rndtre06	Slots
+zyors3ab	Orc Champion	rndtre06	Items
+zyors3ac	Orc Champion	rndtre06	Slots
+zyors3ac	Orc Champion	rndtre06	Items
+zyors3ad	Orc Champion	rndtre06	Slots
+zyors3ad	Orc Champion	rndtre06	Items
+zyors3ae	Orc Champion	none	Slots
+zyors3af	Orc Champion	rndtre06	Slots
+zyors3af	Orc Champion	rndtre06	Items
+zyors3ag	Orc Champion	rndtre06	Slots
+zyors3ag	Orc Champion	rndtre06	Items
+zyors3ah	Orc Champion	none	Slots
+zyors3ai	Orc Champion	rndtre06	Slots
+zyors3ai	Orc Champion	rndtre06	Items
+zyors3aj	Orc Champion	rndtre06	Slots
+zyors3aj	Orc Champion	rndtre06	Items
+zyors3ak	Orc Champion	rndtre06	Slots
+zyors3ak	Orc Champion	rndtre06	Items
+zyors3al	Orc Champion	rndtre06	Slots
+zyors3al	Orc Champion	rndtre06	Items
+zyors3am	Orc Champion	rndtre06	Slots
+zyors3am	Orc Champion	rndtre06	Items
+zyors4aa	Orc Warlord	rndtre06	Slots
+zyors4aa	Orc Warlord	rndtre06	Items
+zyors4ab	Orc Warlord	rndtre06	Slots
+zyors4ab	Orc Warlord	rndtre06	Items
+zyors4ac	Orc Warlord	rndtre06	Slots
+zyors4ac	Orc Warlord	rndtre06	Items
+zyors4ad	Orc Warlord	none	Slots
+zyors4ae	Orc Warlord	rndtre06	Slots
+zyors4ae	Orc Warlord	rndtre06	Items
+zyors4af	Orc Warlord	rndtre06	Slots
+zyors4af	Orc Warlord	rndtre06	Items
+zyors4ag	Orc Warlord	rndtre06	Slots
+zyors4ag	Orc Warlord	rndtre06	Items
+zyors4ah	Orc Warlord	rndtre06	Slots
+zyors4ah	Orc Warlord	rndtre06	Items
+zyors4ai	Orc Warlord	none	Slots
+zyors4aj	Orc Warlord	none	Slots
+zyors4ak	Orc Warlord	rndtre06	Slots
+zyors4ak	Orc Warlord	rndtre06	Items
+zyors4al	Orc Warlord	none	Slots
+zyors4am	Orc Warlord	none	Slots
+zyorsmaa	Orcish Warrior	rndtre06	Slots
+zyorsmaa	Orcish Warrior	rndtre06	Items
+zyorsmab	Orcish Warrior	none	Slots
+zyorsmac	Orcish Warrior	rndtre06	Slots
+zyorsmac	Orcish Warrior	rndtre06	Items
+zyorsmad	Orcish Warrior	rndtre06	Slots
+zyorsmad	Orcish Warrior	rndtre06	Items
+zyorsmae	Orcish Warrior	rndtre06	Slots
+zyorsmae	Orcish Warrior	rndtre06	Items
+zyorsmaf	Orcish Warrior	rndtre06	Slots
+zyorsmaf	Orcish Warrior	rndtre06	Items
+zyorsmag	Orcish Warrior	rndtre06	Slots
+zyorsmag	Orcish Warrior	rndtre06	Items
+zyorsmah	Orcish Warrior	none	Slots
+zyorsmai	Orcish Warrior	rndtre06	Slots
+zyorsmai	Orcish Warrior	rndtre06	Items
+zyorsmaj	Orcish Warrior	rndtre06	Slots
+zyorsmaj	Orcish Warrior	rndtre06	Items
+zyorsmak	Orcish Warrior	rndtre06	Slots
+zyorsmak	Orcish Warrior	rndtre06	Items
+zyorsmal	Orcish Warrior	rndtre06	Slots
+zyorsmal	Orcish Warrior	rndtre06	Items
+zyorsmam	Orcish Warrior	rndtre06	Slots
+zyorsmam	Orcish Warrior	rndtre06	Items

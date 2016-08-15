@@ -1,0 +1,11 @@
+IF
+  Global("agsrubys","LOCALS",0)
+  GlobalLT("agsruby","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("agsrubys","LOCALS",1)
+  RESPONSE #15
+    SetGlobal("agsrubys","LOCALS",1)
+    IncrementGlobal("agsruby","GLOBAL",1)
+    GiveItemCreate("aggem02",Myself,1,0,0)
+END

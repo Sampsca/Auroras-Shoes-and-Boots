@@ -1,0 +1,847 @@
+@0 = ~Laissez-moi le temps de réfléchir...~ [AGAU026]
+@1 = ~Vous voulez quelques potins...~ [AGAU034]
+@2 = ~Je n'arrive pas à croire que les réparations de la Promenade de Waukyne puissent prendre autant de temps ! Personne n'est en mesure de décider qui sera chargé de la reconstruction. Les marchands disent que les Mages Cagoulés devraient s'en charger, les Mages Cagoulés disent qu'il en est de la responsabilité de la cité, et les dirigeants de la cité disent que c'est aux marchands de s'en occuper. Personne ne veut endosser la responsabilité, tout le monde garde son argent, et les ruines restent en l'état.~ [AGAU042]
+@3 = ~J'ai entendu dire que le jeune Seigneur Corthala a tué une demi-douzaine de Mages Cagoulés avant de s'enfuir. Bon... cette famille a toujours été un peu étrange. Il parait que Dame Corthala s'est transformée en liche. Ou était-ce un vampire ? Je sais qu'il s'agissait de quelque chose de sinistre dans ce goût-là.~ [AGAU048]  
+@4 = ~J'ai entendu dire que le jeune Seigneur Corthala avait des problèmes avec les Mages Cagoulés. Ils disent qu'il a perdu son sang-froid et qu'il a tué une douzaine des leurs, avant d'être traqué et abattu.~
+@5 = ~Un jeune homme si séduisant.... quel dommage. Bon, cette famille a toujours été un peu étrange. Il parait que Dame Corthala s'est transformée en liche. Ou était-ce un vampire ? Je sais qu'il s'agissait de quelque chose de sinistre dans ce goût-là.~
+@6 = ~Avez-vous été dans le magasin de Mayona récemment ? Ses desserts sont presque *trop* bons, je vous le dis !~ [AGAU029]
+@7 = ~Elle semble un peu seule, cela dit, vous ne pensez pas ? Il est temps que quelqu'un l'aide à faire des rencontres. Il y a bien ce beau garde qui patrouille là-bas tout les soirs. Je me demande.... peut-être que si je "trébuchais" en sortant de chez elle... Hmmm... il faut que je planifie tout ça.~
+@8 = ~Oriana gagne énormément d'argent avec son travail. Pensez-vous qu'elle fasse chanter quelques-uns de ses clients ?~ [AGAU041]
+@9 = ~Vous savez, j'ai discuté avec Rose récemment. Cette fille a l'air beaucoup trop instruite pour ce qu'elle est devenue. Je pense qu'elle doit être noble. Peut-être vient-elle de Portcalim. Pensez-vous qu'elle puisse avoir été kidnappée ? Ou peut-être s'est-elle enfuie de chez elle...~ [AGAU035]
+@10 = ~Avez-vous entendu parler de Belmin ? Ce pauvre homme a sombré dans la folie. J'ai entendu dire que sa femme s'est enfuie avec un amant elfe et a emmené ses enfants avec elle. Leurs corps ont été retrouvés une semaine plus tard. Belmin n'a plus été le même depuis. Maintenant, il gâche sa vie à errer dans la Promenade en aboyant sur les autres passants. Quel dommage.~ [AGAU014]
+@11 = ~Il se passe quelque chose d'étrange avec les Voleurs de l'Ombre. J'ai eu la visite de trois personnes différentes pour prélever la taxe de "protection". Ils sont habituellement bien mieux organisés que cela. Je ne saurais pas qui payer même si j'en avais l'intention. Ce qui n'est pas le cas par ailleurs.~ [AGAU045]
+@12 = ~C'est dommage que le Seigneur Cor ait perdu son calme, n'est-ce pas ? Je veux dire, c'était un homme de goût en ce qui concerne les chaussures. Je recevais certaines des plus belles pièces de mon stock de sa part. Maintenant, je dois traiter avec le Seigneur Farrahd, et il faut avouer qu'il est rapide dans ses livraisons, à la différence du Seigneur Cor. Cependant, il n'a aucun sens de l'esthétique. Aucun style.~ [AGAU027]
+@13 = ~La façon dont le Lotus Noir se propage dans la cité est terrible, absolument terrible.~ [AGAU046]
+@14 = ~Remarquez, je n'ai rien contre un peu de détente, j'ai essayé moi-même une ou deux fois. J'en ai peut-être même vendu... à l'occasion.~
+@15 = ~Mais les gens d'ici, ils ne savent pas quand s'arrêter. Ils en prennent, encore, et encore. Rapidement cela devient une addiction et leurs vies sont finies.~
+@16 = ~C'est horrible.~
+@17 = ~Avez-vous déjà mis les pieds à la Bonté Marine ? De bonnes boissons, mais je ne crois pas une seule seconde que Le Pouce ait été pirate un jour. Je pense que c'est juste un rôle qu'il joue pour les clients. Oh, je ne dirais pas qu'il n'a jamais pris la mer, mais la piraterie ? Je ne pense pas qu'il ait ça dans le sang !~ [AGAU033]
+@18 = ~Gracie, par contre... cette fille manigance clairement quelque chose !~
+@19 = ~Avez-vous vu des Mages Cagoulés dans le coin ? Regardez leurs chaussures si vous en avez l'occasion.~ [AGAU011]
+@20 = ~Ils sont peut être doués en magie mais ils n'y connaissent absolument *rien* en bottes. Ils les font eux-mêmes, j'ai entendu dire, et je n'ai jamais vu une qualité aussi médiocre ! Un de ces jours, un jeune magicien va lancer un sort, et ses chaussures vont tomber en morceaux, et où en sera-t-il ?~ 
+@21 = ~Vous avez remarqué le grand nombre de voyageurs qui se baladent ces derniers jours ? Je me demande ce qui les amène ici. C'est une bonne chose pour les affaires, c'est vrai, mais ils ont tendance à être très impatients. Ils doivent tous être ailleurs la semaine d'après et ne peuvent pas attendre que leurs chaussures soient correctement terminées. Je préfère de loin une clientèle plus sédentaire.~ [AGAU025]
+@22 = ~Vous savez, le Seigneur Ophal et Dame Ophal sont des gens terriblement snobs. Ils adressent rarement la parole à quelqu'un qui n'a pas un pedigree noble, signé et marqué du sceau officiel du gouvernement. Ils ne viennent même pas eux-mêmes essayer leurs nouvelles chaussures, ce que j'ai énormément de mal à comprendre.~ [AGAU018]
+@23 = ~Mais, d'après ce que j'ai entendu, ils sont en train de descendre de leur piédestal. Ils doivent de l'argent à un certain nombre de personnes, et ces personnes vont vouloir récupérer leur dû.~ 
+@24 = ~Avez-vous déjà fait halte à l'Antre des Sept Vaux ? Vous devriez vraiment y aller si vous voulez faire un bon repas. Le cuisinier est *superbe*. Patricia, la propriétaire, est une de mes bonnes amies.~ [AGAU020]
+@25 = ~Dommage qu'elle est remontée contre les hommes en ce moment - sauf en ce qui concerne cet horrible De Bonito, ou je ne sais quel nom il se donne. Je n'arrive pas à *comprendre* pourquoi elle continue à le garder auprès d'elle. Il n'est ni un bon barde, ni un mage doué. Je me demande s'ils ne seraient pas parents d'une certaine manière.~ 
+@26 = ~C'est étrange, de très nombreuses personnes ont disparu récemment... La plupart sont des mendiants et des voleurs, des personnes que l'on s'attend à voir disparaitre de temps en temps. Mais certains sont des gens plutôt ordinaires. Bene, par exemple. Je ne l'ai pas vu dans le coin ces derniers jours. Je me demande ce qui a bien pu lui arriver.~ [AGAU028]
+@27 = ~Vous avez des affaires à régler dans le bâtiment du gouvernement ? Si c'est le cas, essayez d'y aller quand Llarsh n'est pas à son poste. Il est juste là-bas pour distribuer et remplir les formulaires, mais la façon qu'il a de se comporter pourrait vous faire croire que toute la cité d'Athkatla dépend de lui. J'ai dû remplir mon formulaire de taxation *trois fois* avant qu'il ne l'accepte. Et cela *avec* paiement !~ [AGAU022]
+@28 = ~Il doit probablement cacher un joli petit butin quelque part. Je pourrais presque l'admirer, si seulement il avait un peu plus de style.~
+@29 = ~Dame Beth est toujours en train de parler de son garçon d'écurie. Je me demande si elle n'obtient de lui que des informations...~ [AGAU017]
+@30 = ~Avez-vous été dans le marché de Ribald dernièrement ? Que pensez-vous de Dame Yuth ? Vous savez, les gens disent que leur relation n'est basée que sur les affaires, mais je me demande.... Elle et Ribald semblent vraiment très proches, si vous voyez ce que je veux dire.~ [AGAU032]
+@31 = ~Je me demande... Pip prétend qu'il n'est que le secrétaire du Seigneur Balthis et que le Seigneur n'agit que d'après le Conseil. Vous ne pensez pas que vous faire passer pour un secrétaire serait un excellent moyen de vous dissimuler si vous étiez *vraiment* la personne au pouvoir ? Ce halfelin mérite que l'on s'y attarde.~ [AGAU031]
+@32 = ~Je me sens désolée pour Enge qui doit faire tourner sa boutique lui-même. Le jeune Biff s'est réveillé un matin et a décidé de devenir acteur. C'était un excellent vendeur. Je doute qu'il s'en tire aussi bien sur les planches...~ [AGAU021]
+@33 = ~Pouvez-vous me dire comment cela se fait que parmi tous les gens au monde, c'est Calibur qui a fini par diriger une auberge ? J'ai du mal à imaginer quelqu'un de moins qualifié pour ce genre de travail.~ [AGAU010]
+@34 = ~Je me demande si quelqu'un ne lui aurait pas légué l'établissement à sa mort. Comme une forme de vengeance peut-être ?~ 
+@35 = ~Avez-vous entendu parler des meurtres atroces ? Des gens écorchés vifs, qu'ils disent ! Je sais me défendre, mais ça me donne la chair de poule !~ [AGAU023]
+@36 = ~Il y a tout de même un bon côté à tout cela. Ce beau et jeune lieutenant qu'ils ont envoyé pour enquêter, Aegisfield. Il veut toujours raccompagner les dames chez elles quand il fait noir. Je serai presque triste quand les meurtres seront élucidés et qu'il sera affecté ailleurs.~  
+@37 = ~J'ai entendu dire que nous devons vous remercier d'avoir mis fin à ces meurtres atroces. Est-il vrai que le meurtrier écorchait ses victimes vivantes ? C'est vraiment très dommage que ce pauvre Lieutenant Aegisfield ait été tué. C'était un si beau jeune homme, il prenait toujours le temps de rester quelques instants pour discuter.~ [AGAU038]
+@38 = ~Le Lieutenant Aegisfield m'a dit que nous devons vous remercier d'avoir mis fin à ces meurtres atroces. Je n'arrive pas à croire que c'était Rejiek. Vous savez, je fais des affaires avec lui depuis des années ! Et pendant tout ce temps... je tremble quand j'y pense !~ [AGAU039]
+@39 = ~Désolée, j'ai bien peur de vous avoir raconté tout ce que je sais d'intéressant.~ [AGAU036]
+
+//GREETINGS
+@40 = ~Bonjour, mon mignon. Que fait quelqu'un comme vous dans de telles bottes ?~ [AGAU024] ~Bonjour, ma mignonne. Que fait quelqu'un comme vous dans de telles bottes ?~ [AGAU024]
+@41 = ~Bonjour.~
+@42 = ~Quoi ?~
+@43 = ~J'étais en train d'en souhaiter de nouvelles. Puis-je voir votre stock ?~
+@44 = ~Je marche. Sans m'arrêter.~
+@45 = ~Vous êtes nouveau dans la région, n'est-ce pas ?~ ~Vous êtes nouvelle dans la région, n'est-ce pas ?~ 
+@46 = ~Oui.~
+@47 = ~Est-ce que cela se voit tant que ça ?~
+@48 = ~Non.~
+@49 = ~Pouvons-nous écourter le bavardage et passer aux affaires ?~
+@50 = ~C'est ce que je me disais. Je n'aurais pas raté quelqu'un d'aussi séduisant que vous devant ma boutique. Je dois dire que cela me change agréablement.~
+@51 = ~Et c'est un plaisir de rencontrer une femme aussi attirante que vous.~
+@52 = ~Hum... merci, j'imagine...~ 
+@53 = ~Je préfère les discussions plus orientées sur les affaires lorsque je bavarde avec une marchande.~
+@54 = ~Je connais la plupart des gens qui passent ici et je ne vous avais jamais vu avant.~ ~Je connais la plupart des gens qui passent ici et je ne vous avais jamais vue avant.~
+@55 = ~Donc vous faites attention à tous ceux qui passent ici ?~
+@56 = ~Oh, c'est donc pour ça. J'avais peur d'être trop voyant.~ ~Oh, c'est donc pour ça. J'avais peur d'être trop voyante.~
+@57 = ~Vraiment ? Je connais la plupart des gens ici, et je suis sûre de ne vous avoir jamais vu dans le coin.~ ~Vraiment ? Je connais la plupart des gens ici, et je suis sûre de ne vous avoir jamais vue dans le coin.~
+@58 = ~Eh bien, vous avez dû me rater.~
+@59 = ~C'est vrai, je suis nouveau. Je suis seulement fatigué d'en parler.~ ~C'est vrai, je suis nouvelle. Je suis seulement fatiguée d'en parler.~
+@60 = ~Si c'est comme cela que vous l'entendez.~
+@61 = ~Eh bien, merci !~
+@62 = ~Et modeste avec ça. Vraiment charmant !~
+@63 = ~C'est si formel ! Bon, comme vous voulez !~
+@64 = ~Bien entendu ! Cela ne sert à rien d'être dans les affaires si vous ne gardez pas un oeil sur ce qui se passe.~
+@65 = ~Nous sommes dans une ville de marchands. Les gens viennent de partout. Vous devriez être *vraiment* étrange pour détoner ici !~
+@66 = ~Si vous voulez.~
+@67 = ~Pourquoi ?~
+@68 = ~Alors, qu'est-ce qui vous amène à Athkatla ?~
+@69 = ~Je suis à la recherche d'une vieille amie, Imoen, qui a été arrêtée par les Mages Cagoulés. Savez-vous où ils auraient pu l'emmener ?~ 
+@70 = ~Je suis à la recherche d'un mage, Irenicus, qui a été arrêté par les Mages Cagoulés. Savez-vous où ils auraient pu l'emmener ?~
+@71 = ~J'espère pouvoir faire quelques emplettes. Qu'est-ce que vous vendez ?~
+@72 = ~Cela ne vous regarde pas. Maintenant, montrez-moi ce que vous vendez.~
+@73 = ~Comment votre amie s'est-elle débrouillée pour susciter l'ire des Cagoulés ? Bonne chance pour la retrouver en tout cas. Personne ne sait vraiment ce que les mages font aux personnes qu'ils arrêtent. En fait, le plus souvent, on ne les revoit jamais.~
+@74 = ~Un mage ? Si vous voulez un mage, pourquoi ne pas recruter un des Cagoulés ? Mais si vous insistez vraiment pour trouver *ce* mage, je ne peux pas vous aider. Personne ne sait vraiment où les cagoulés détiennent les gens.~
+@75 = ~J'ai les meilleures chaussures et bottes de tout Amn ! N'importe qui trouvera chaussure à son pied ici. Jetez un oeil !~ [AGAU051]
+@76 = ~J'essayais juste d'être polie ! Contrairement à vous. Voilà.~ [AGAU052]
+@77 = ~Bonjour ! Nouveau dans le coin, n'est-ce pas ?~ ~Bonjour ! Nouvelle dans le coin, n'est-ce pas ?~ [AGAU016]
+@78 = ~C'est bien ce que je pensais. Je connais la plupart des gens qui passent ici, et je ne vous avais jamais vu auparavant.~ ~C'est bien ce que je pensais. Je connais la plupart des gens qui passent ici, et je ne vous avais jamais vue auparavant.~
+@80 = ~Comment votre amie s'est-elle débrouillée pour susciter l'ire des Cagoulés ? Bonne chance pour la retrouver en tout cas. Personne ne sait vraiment ce que les mages font aux personnes qu'ils arrêtent.~
+@81 = ~Re bonjour, mon mignon !~ ~Re bonjour, ma mignonne !~
+@82 = ~Bienvenue !~
+@83 = ~Chaussures et bottes ! La meilleure qualité d'Amn !~
+@84 = ~Faites-moi voir ce que vous avez.~
+@85 = ~Je ne vais rien acheter aujourd'hui.~
+
+//LA CAPE
+@86 = ~Est-ce que c'est... oui, c'est elle, mon ancienne cape !~ [AGAU030]
+@87 = ~Je suis surprise de la revoir après tout ce temps. Cela me rappelle des souvenirs. Elle m'a vu grandir, cette cape. Je suis passée d'une jeune guerrière en herbe, vernie de survivre à ses premières rencontres avec le danger, à quelqu'un que l'on embaucherait volontiers.~
+@88 = ~Cependant, je n'ai pas été *assez* expérimentée pour éviter de perdre cette cape.~
+@89 = ~Que s'est-il passé ?~
+@90 = ~Comment l'avez-vous perdue ?~
+@91 = ~La seule chose qui m'intéresse, est d'acheter des chaussures.~
+@92 = ~J'en savais assez à l'époque pour reconnaitre une mauvaise tempête quand je la voyais se préparer, mais pas assez pour en convaincre quelqu'un d'autre. Et certainement pas assez pour convaincre le conducteur de la caravane. Il était pressé de retourner en ville pour retrouver sa famille.~
+@93 = ~Comme je le craignais, la pluie commença à tomber dans les montagnes et la rivière sortit de son lit. Cet inconscient tenta de la traverser tout de même, "avant que ça n'empire." J'ai essayé de lui dire que la situation était *déjà* très mauvaise et que nous devrions monter sur la colline, rapidement, mais il ne m'a pas écoutée. Je n'étais qu'une garde après tout.~
+@94 = ~Ça a dû être frustrant !~
+@95 = ~Je suppose qu'il avait quelques années d'expérience de plus que vous.~
+@96 = ~Je pense que je peux deviner la fin de l'histoire. Permettez-moi de voir ce que vous vendez.~
+@97 = ~Très. Si j'avais eu un peu de bon sens, je l'aurais alors abandonné ou je serais restée en arrière, en dehors de tout ça. Mais, je me sentais terriblement importante et honorable ce jour-là, donc je me suis retrouvée coincée dans ce désastre.~
+@98 = ~Son "expérience" a coûté la vie à d'innombrables personnes. Elle a presque coûté la mienne.~
+@99 = ~Environ la moitié de la caravane avait traversé lorsque la véritable crue survint. Je me suis retrouvée au milieu de la rivière, m'agrippant à un chariot et à ma vie, essayant de convaincre les boeufs de continuer à avancer droit devant eux.~
+@100 = ~Heureusement pour moi, c'est ce qu'ils ont fait. J'ai perdu ma cape dans la tempête, mais pas ma vie. Les gens derrière moi n'ont pas eu la même chance, pas plus que ceux derrière eux. J'aimerais pouvoir dire que l'idiot qui nous a menés dans cette pagaille a payé pour cela, mais bien entendu, il était parmi ceux qui se trouvaient en tête de la caravane. Toutefois, je doute que quelqu'un l'ait embauché pour mener une caravane après ça.~
+@101 = ~Vous "doutez" ? Cela veut dire que vous n'en savez rien ?~
+@102 = ~Je ne pense pas, en effet.~
+@103 = ~Vous avez de la chance d'être encore en vie. Puis-je voir ce que vous avez à vendre aujourd'hui ?~
+@104 = ~Non, j'ai des choses bien plus importantes à faire que de suivre la carrière d'un conducteur de caravanes. Je me suis engagée pour escorter un noble vers Portcalim le lendemain. Je pensais qu'il serait amusant de voir un autre pays. Et, après... eh bien, j'ai trouvé des choses plus intéressantes à faire. Ca me fait plaisir de revoir cette vieille cape. Seriez-vous disposé à me la vendre ?~ ~Non, j'ai des choses bien plus importantes à faire que de suivre la carrière d'un conducteur de caravane. Je me suis engagée pour escorter un noble vers Portcalim le lendemain. Je pensais qu'il serait amusant de voir un autre pays. Et, après... eh bien, j'ai trouvé des choses plus intéressantes à faire. Ça me fait plaisir de revoir cette vieille cape. Seriez-vous disposée à me la vendre ?~ 
+@105 = ~Je ne vais pas vous demander de payer cette vieille cape. Laissez-moi vous en faire cadeau.~
+@106 = ~Je vous la vends pour 100 pièces d'or.~
+@107 = ~Je vous la vends pour 200 pièces d'or.~
+@108 = ~500 pièces d'or et elle est à vous.~
+@109 = ~Pas que je le sache vraiment, en réalité. J'avais bien mieux à faire que de suivre la carrière d'un simple conducteur de caravane. Je me suis engagée pour escorter un noble vers Portcalim le lendemain. Je pensais qu'il serait amusant de voir un autre pays. Et, après... eh bien, d'autres aventures m'attendaient. Ca me fait plaisir de revoir cette vieille cape. Seriez-vous disposé à me la vendre ?~ ~Pas que je le sache vraiment, en réalité. J'avais bien mieux à faire que de suivre la carrière d'un simple conducteur de caravane. Je me suis engagée pour escorter un noble vers Portcalim le lendemain. Je pensais qu'il serait amusant de voir un autre pays. Et, après... eh bien, d'autres aventures m'attendaient. Ça me fait plaisir de revoir cette vieille cape. Seriez-vous disposée à me la vendre ?~
+@110 = ~Oh, bien entendu. Mais avant, pourrais-je vous racheter cette cape ? Elle fait ressurgir en moi énormément de souvenirs.~
+@111 = ~Merci.~
+@112 = ~Ca me parait juste. Voilà pour vous.~
+@113 = ~C'est une lourde somme à payer pour des souvenirs, mais... c'est d'accord.~
+@114 = ~Les souvenirs sont bons, mais pas à *ce* point. Je ne paierai pas ce prix.~
+@115 = ~Que pensez-vous de 100 pièces d'or dans ce cas ?~
+@116 = ~Alors 200 pièces d'or.~
+@117 = ~Dans ce cas, je pense que nous ne vous la vendrons pas finalement.~
+
+//THE RING
+@108 = ~Je reconnais cet anneau ! Je ne pensais pas le revoir un jour...~ [AGAU043]  
+@119 = ~Comment l'avez-vous perdu ?~
+@120 = ~Vraiment ?~
+@121 = ~Tout ce que je veux, c'est voir vos marchandises.~
+@122 = ~Je ne m'en suis pas séparée de plein gré, je peux vous le dire.~
+@123 = ~Le groupe que j'accompagnais a connu une accumulation de malchance. Des marchands nous embauchèrent puis firent banqueroute... plusieurs trésors n'étaient pas là où ils auraient dû être... Notre prêtre nous quitta pour un poste plus rémunérateur...~
+@124 = ~Puis des bandits ont attaqué la caravane que nous étions censés garder. Un revirement de situation a fait que le groupe qui était supposé assurer la garde *avec* nous a décidé que les bandits proposaient de meilleures conditions. Je ne peux pas dire que je leur en veux vraiment pour ça : le marchand *était* pingre. Mais je pense qu'ils auraient dû nous avertir, au moins, et nous laisser le temps de fuir.~
+@125 = ~Attendez... Des bandits vous ont attaqués et vous étiez plus soucieux de sauver votre peau que de faire votre travail ?~
+@126 = ~Et que s'est-il passé ?~
+@127 = ~Je suppose qu'ils ont eu peur que vous alertiez la caravane.~
+@128 = ~Avec la moitié des "gardes" du côté des bandits, nous n'avions aucune chance.~
+@129 = ~Nous avons combattu pour nos vies et nous avons couru vers les montagnes en n'emportant pratiquement aucune marchandise.~
+@130 = ~Aucune chance ! L'homme à protéger faisait partie des gens les plus détestables que j'ai eu la malchance de connaître. Après trois jours, nous aurions aimé l'assassiner nous-mêmes. C'est plutôt qu'ils avaient peur de nous voir demander notre part du butin.~
+@131 = ~Peu importe la raison, ils ne nous ont pas prévenus.~ 
+@132 = ~Et, bien entendu, certains d'entre nous étaient blessés. Nous avons eu la chance d'atteindre un petit village dans les jours qui suivirent. Cependant, je pense que nous aurions eu plus de chance de ne *pas* nous arrêter dans un village rempli de bandits.~
+@133 = ~Qu'est ce qui vous a fait croire qu'il s'agissait du village des bandits ?~
+@134 = ~Avez-vous dit quelque chose ?~
+@135 = ~Je préfère ne pas me poser de question sur la chance.~
+@136 = ~C'était le cas, si près de leur repère. Mais j'ai également reconnu quelques marchandises dans les magasins.~
+@137 = ~Bien sûr que non. J'ai un *fond* de bon sens.~
+@138 = ~Oh, nous avons tous remercié Tymora comme il se doit. Cela aurait pu être mieux mais cela aurait aussi pu être bien pire.~
+@139 = ~Ce fut un moment difficile. Ils nous ont fait payer pour tout. Cela nous a coûté tous les bijoux que nous portions, quelques pièces d'armure, et même quelques armes pour faire soigner tout le monde. Et, bien entendu, rien n'a été évalué à sa vraie valeur. J'ai essayé de garder l'anneau, j'ai même vendu mes chaussures de danse avant de l'offrir. Mais, à la fin, j'ai eu le choix entre vendre l'anneau ou descendre de la montagne sans aucune provision.~
+@140 = ~D'accord, et qu'en est-il de l'inscription ?~
+@141 = ~Au moins vous vous en êtes sortie vivante.~
+@142 = ~Une histoire intéressante. Puis-je jeter un coup d'oeil à vos articles maintenant ?~
+@143 = ~Que voulez-vous savoir ?~
+@144 = ~"Pour le rayon de soleil de ma vie." Qui l'a écrit ?~
+@145 = ~A qui fait-elle référence ?~
+@146 = ~Qui l'a faite faire pour vous ?~
+@147 = ~Oui, c'est vrai, et nous en étions très heureux.~
+@148 = ~C'est une histoire que je ne vous raconterai pas. Certains souvenirs sont bien trop précieux pour pouvoir être partagés, même avec des amis.~
+@149 = ~Il y a énormément de souvenirs liés à cet anneau. Je voudrais vous le racheter.~
+@150 = ~Je ne veux pas vous faire payer pour quelque chose qui représente tant pour vous. Voilà, considérez cela comme un cadeau.~
+@151 = ~Il est à vous pour 500 pièces d'or.~
+@152 = ~Pour 800 pièces d'or, il est à vous.~
+@153 = ~Pour 1 500 pièces d'or, vous pouvez l'avoir.~ 
+@154 = ~J'aime l'anneau, mais pas à *ce* point. Je ne vais pas payer autant.~
+@155 = ~Que pensez-vous de 500 pièces d'or dans ce cas ?~
+@156 = ~Alors 800 pièces d'or.~
+@157 = ~Vous allez les avoir vos articles, ne vous en faites pas. Mais il y a quelque chose que j'aimerais vous demander avant.~
+
+//THE EARRING
+@158 = ~Je reconnais cette boucle d'oreille ! J'ai encore la seconde.~ [AGAU012]
+@159 = ~Comment avez-vous perdu celle-ci ?~
+@160 = ~Seriez-vous intéressée par nous la racheter ?~
+@161 = ~Tout ce que je veux c'est voir vos marchandises.~
+@162 = ~Je l'ai perdue dans un donjon, il y a bien longtemps.~
+@163 = ~Nous avons été embauchés pour ramener un trésor familial perdu - ou plutôt, notre employeur nous a dit qu'il s'agissait d'un trésor familial, et nous n'avons pas discuté davantage.~
+@164 = ~C'était en donjon typique en tous points sauf un. Il était humide, froid, sombre et complètement vide des habituels araignées, fantômes et gobelins. Au départ, nous étions contents. Notre travail s'en est vu grandement facilité. Nous avons donc trouvé le trésor, exactement à l'endroit où il était supposé être, et nous avons rebroussé chemin.~
+@165 = ~Et ensuite ?~
+@166 = ~Laissez-moi deviner, les habitants du donjon, invisibles jusque là, sont apparus d'un coup ?~
+@167 = ~Ensuite les "habitants manquants" du donjon sont apparus... une petite armée de golems d'os.~
+@168 = ~Vous avez raison... une petite armée de golems d'os.~
+@169 = ~Ce fut un combat intense et nous nous en sommes sortis de peu.~
+@170 = ~Roc fut gravement blessé. Nous n'avions pas de prêtre avec nous, et il n'y avait rien que nous puissions faire.~
+@171 = ~Il est mort le lendemain. Nous l'avons enterré avec ce qui restait de son armure et sa seconde meilleure paire de bottes.~
+@172 = ~Pourquoi sa "seconde meilleure" paire de bottes ?~
+@173 = ~N'était-ce pas un peu froid de votre part ?~
+@174 = ~Sa meilleure paire était de trop bonne qualité pour être enterrée. C'était la première paire de bonnes bottes qu'il avait pu s'offrir. Il en était si fier. Il avait grandi pauvrement et n'avait pu s'offrir de bonnes chaussures qu'alors que nous voyagions depuis des mois.~
+@175 = ~Nous avons pensé les ramener à sa famille, mais nous avons réalisé qu'aucun de nous ne savait où elle se trouvait. Nous n'étions même pas sûrs que Roc soit son vrai nom. Finalement, nous les avons vendues et nous avons utilisé l'argent pour acheter de l'équipement.~
+@176 = ~Vous devenez impatient ? Avant de jeter un oeil aux marchandises, j'aimerais vous demander quelque chose.~ ~Vous devenez impatiente ? Avant de jeter un oeil aux marchandises, j'aimerais vous demander quelque chose.~
+@177 = ~Il y a beaucoup de souvenirs liés à cette boucle d'oreille. J'aimerais vous la racheter.~
+@178 = ~Je ne voudrais pas vous faire payer pour une seule boucle d'oreille. Tenez, considérez-la comme un cadeau.~
+@179 = ~Elle est à vous pour 100 pièces d'or.~
+@180 = ~Pour 200 pièces d'or, elle est à vous.~
+@181 = ~Pour 500 pièces d'or, vous pouvez l'avoir.~
+
+//THE SHOES
+@182 = ~Je peux y jeter un oeil ? Je n'y crois pas ! C'est ma première paire de bottes d'aventurier.~ [AGAU044]
+@183 = ~Vraiment ?~
+@184 = ~Oh ?~
+@185 = ~Justement, je me disais qu'elles sont dans le style des choses que vous portez.~
+@186 = ~Je m'en moque complètement.~
+@187 = ~Oh, j'adorais ces chaussures ! J'ai vraiment mal supporté de m'en séparer... bien que c'était pour une bonne cause. Me croiriez-vous si je vous disais que j'ai tué un dragon en les portant ?~ 
+@188 = ~Comment est-ce arrivé ?~
+@189 = ~Etes-vous sérieuse ?~
+@190 = ~Je ne vous crois pas.~
+@191 = ~Je veux des chaussures, pas une histoire.~
+@192 = ~*Quelqu'un* est de mauvaise humeur aujourd'hui. Voilà, achetez ce que vous voulez et sortez d'ici.~
+@193 = ~Oh, très bien. Voilà.~
+@194 = ~Bien entendu, ce n'était pas un *gros* dragon.~
+@195 = ~Cela dit, il nous a bien fait peur à l'époque.~
+@196 = ~Nous étions là, une bande de gamins, à peine assez âgés pour se retrouver sur la route. Pourquoi quelqu'un a eu l'idée de nous engager, je n'en sais rien. Peu importe, c'était une chaude journée et nous avons décidé de nous arrêter et de patauger dans un cours d'eau qui traversait la route.~
+@197 = ~A quel moment le dragon fait-il son apparition ?~
+@198 = ~Ne vous arrêtez pas. Continuez de nous raconter cette histoire !~
+@199 = ~Je suis sûr que cela devait être très excitant, mais la seule chose que je veux vraiment, ce sont les marchandises.~ ~Je suis sûre que cela devait être très excitant, mais la seule chose que je veux vraiment, ce sont les marchandises.~
+@200 = ~Notre mage, Tessa, non plus, mais c'est arrivé !~
+@201 = ~Comment est-ce arrivé ?~
+@202 = ~Continuez dans ce cas.~
+@203 = ~Aucun de nous n'a pensé à organiser un tour de garde. Et après réflexion, c'est peut-être ce qui nous a sauvé la vie puisque le dragon s'est posé au lieu de nous brûler.~
+@204 = ~Il s'est posé sur le banc en face de nous et s'est incliné. Je suppose qu'il ne voulait peut-être qu'étancher sa soif.~
+@205 = ~Nous n'avons pas fait une forte impression, j'en ai peur... Nous avons paniqué. Tessa a commencé à lancer des sorts, Roc a plongé pour récupérer son épée.~
+@206 = ~Et vous ?~
+@207 = ~Cette histoire est bien trop longue, s'il vous plait, contentez-vous de nous montrer ce que vous avez en stock.~
+@208 = ~Et moi, j'ai lancé mes chaussures.~
+@209 = ~Elles ont touché le dragon à l'oeil, ce qui l'a surpris. Il a ouvert sa gueule, pour rugir, je suppose, et le sortilège suivant de Tessa s'est logé directement dans sa gorge et l'a cloué au sol. Cela permit à Roc d'avoir le temps de récupérer son épée et de couper la tête du dragon. Bien entendu, il a dit que c'était *lui* qui l'avait tué, et Tessa affirma que c'était *elle*, mais aucun des deux n'aurait pu faire quoi que ce soit sans l'intervention de mes chaussures. Je n'ai pas pu m'en offrir d'aussi belles pendant un long moment. Nous n'avons jamais trouvé le trésor du dragon.~
+@210 = ~Je m'en souviendrai la prochaine fois que j'affronterai un dragon.~
+@211 = ~Une histoire intéressante. Merci de nous en avoir fait part.~
+@212 = ~Quelle histoire improbable.~
+@213 = ~En parlant de chaussures, nous pourrions en avoir besoin. Pouvons-nous jeter un coup d'oeil à ce que vous proposez ?~
+@214 = ~Revoir ces chaussures ramène à la surface tant de souvenirs. Je serais heureuse de vous les racheter.~
+@215 = ~Je m'en voudrais de vous faire payer pour une vieille paire de chaussures. Je vous les laisse sans contrepartie.~
+@216 = ~Je vous les vendrai pour 100 pièces d'or.~
+@217 = ~Je vous les vendrai pour 200 pièces d'or.~
+@218 = ~Pour 500 pièces d'or, elles sont à vous.~
+@219 = ~Mais avant de jeter un oeil dans mon stock...~
+@220 = ~Et pourtant ça a eu lieu. Comment nous en sommes sortis vivant et par là même, nous rendre compte de notre chance, dépasse ma compréhension par moment.~
+@221 = ~Dans ce cas, je pense que nous ne vous les vendrons pas finalement.~
+
+//THE SWORD
+@222 = ~C'est mon épée !~
+@223 = ~Vous la reconnaissez ?~
+@224 = ~C'est très bien. Pouvons-nous parler affaires maintenant ?~
+@225 = ~Je connais le joyau. Je l'ai fait sertir moi-même. J'ai reçu cette épée quand j'ai chevauché avec l'Ordre pour sauver un petit village sur la côte.~
+@226 = ~*Vous* avez chevauché avec l'Ordre ?~
+@227 = ~Ne faites pas l'étonné. J'ai aussi eu ma part d'actes héroïques.~ ~Ne faites pas l'étonnée. J'ai aussi eu ma part d'actes héroïques.~
+@228 = ~Quand avez-vous chevauché avec l'Ordre ?~
+@229 = ~Ça sonne très héroïque.~
+@230 = ~Je suppose qu'il y a une histoire derrière tout cela ?~
+@231 = ~C'était il y a quelques temps déjà. L'Ordre était disséminé un peu partout, embourbé dans cette guerre, et cette campagne, et je ne sais quoi encore. Quelques chevaliers avaient pour tâche de protéger une zone côtière des attaques. Trop peu, comme ils finirent par s'en rendre compte. Après l'incendie du troisième village, ils lancèrent un appel aux volontaires.~
+@232 = ~Je venais de terminer une bonne petite mission rémunératrice et j'avais un peu de temps disponible, alors j'ai pensé "pourquoi pas ?". J'ai toujours aimé les chevaliers, les regarder tout du moins.~
+@233 = ~Ils ont rassemblé quelques-uns d'entre nous, des marchands et des paysans pour la plupart qui n'avaient *aucune* idée de quoi faire avec une épée. Ils nous ont entraînés un jour ou deux et ensuite nous sommes partis, essayant de devancer les pirates avant qu'ils n'atteignent leur prochaine cible.~ 
+@234 = ~Avez-vous réussi ?~
+@235 = ~Je pense deviner la fin. Puis-je voir ce que vous avez en stock ?~
+@236 = ~Laissez-moi vous dire que ces chevaliers savent marcher ! Je n'aurais jamais cru qu'ils pourraient aller aussi vite avec toute leur armure et leur équipement. Nous avons semé quelques recrues, ici et là, mais nous sommes arrivés tout juste au moment où les pirates débarquaient.~
+@237 = ~Ce fut un combat difficile, mais nous avons finalement gagné. Je dois dire que cela aide grandement d'avoir quelques bons prêtres avec soi.~
+@238 = ~Et l'épée ?~
+@239 = ~J'en suis arrivé à la même conclusion.~ ~J'en suis arrivée à la même conclusion.~
+@240 = ~Et comment cela s'est-il terminé ?~
+@241 = ~C'était plutôt agréable d'être si héroïque, nous avions sauvé la ville et le reste. Bien entendu, les gens de l'Ordre restèrent solennels et nobles, et refusèrent tous les paiements en or, mais ils nous laissèrent garder ce que nous pouvions trouver sur le champ de bataille. Cette épée fut de loin la meilleure chose que je parvins à dénicher.~
+@242 = ~Et donc, quel est son nom ?~
+@243 = ~Et comment l'avez-vous perdue ?~
+@244 = ~Avez-vous encore travaillé pour l'Ordre après cela ?~
+@245 = ~Merci pour cette histoire. Puis-je voir ce que vous avez en stock maintenant ?~
+@246 = ~Elle n'a pas de nom. N'avez-vous jamais remarqué que les gens qui parcourent le monde avec une épée légendaire meurent toujours jeunes ? Et ensuite, la seule chose dont les gens parlent c'est de *l'épée*. Non, je n'allais pas donner de nom à mon épée !~
+@247 = ~Oh, J'ai eu une période creuse sans aucun travail. Finalement, j'ai dû la vendre pour pouvoir m'offrir le voyage pour aller ailleurs, chercher du boulot. J'ai toujours eu l'intention de retourner la racheter, mais vous savez comment les choses se passent !~
+@248 = ~Et donc, comment s'appelle l'épée ?~
+@249 = ~Oh, de temps en temps. Bien que cette fois est celle dont je me souviens le mieux.~
+@250 = ~Comment êtes-vous arrivée à la perdre ?~
+@251 = ~Bien entendu. Mais avant, il est bon de revoir ma vieille épée. Je n'en ai plus jamais eu d'aussi bonne. Est-ce que je peux vous la racheter ?~
+@252 = ~Je ne voudrais pas vous faire payer pour votre propre épée. Je vous la laisse sans aucune contrepartie.~
+@253 = ~Je vous la vendrai pour 6000 pièces d'or.~
+@254 = ~Je vous la vendrai pour 8000 pièces d'or.~
+@255 = ~Pour 10,000 pièces d'or, elle est à vous.~
+@256 = ~C'est une bonne épée, mais pas bonne à ce *point*. Je ne paierai pas ce prix.~
+@257 = ~Que pensez-vous de 6000 pièces d'or dans ce cas ?~
+@258 = ~Alors 8000 pièces d'or.~
+@259 = ~Dans ce cas, je pense que nous n'allons pas vous la vendre finalement.~
+
+//AURORA'S GEAR
+@260 = ~Les objets perdus d'Aurora
+
+Nous avons trouvé certaines pièces de l'ancien équipement d'Aurora au cours de nos voyages. Elle a été ravie de les revoir, disant qu'elles lui rappelaient des souvenirs, et elle nous a demandé de ramener tout autre objet que nous serions susceptibles de trouver sur notre route.~
+@261 = ~Les objets perdus d'Aurora
+
+Nous avons pu ramener à Aurora la plus grande partie de son équipement. Elle semble très attachée à ces souvenirs de ses précédents voyages.~
+
+//THE NECKLACE
+@262 = ~Mais, c'est mon pendentif que vous avez là !~ [AGAU040]
+@263 = ~Je ne l'ai pas vu depuis des années, pas depuis qu'il m'a été dérobé.~
+@264 = ~Je suis surpris que vous n'ayez pas suivi la trace du voleur vous-même.~ ~Je suis surprise que vous n'ayez pas suivi la trace du voleur vous-même.~
+@265 = ~Comment l'avez-vous obtenu, au départ ?~
+@266 = ~Vraiment, la seule chose que je veux, c'est vous acheter de l'équipement. Puis-je voir ce que vous offrez ?~
+@267 = ~Je l'aurais fait, mais Shana était pressée de partir à la recherche d'un trésor dont elle avait entendu parler. Il s'agissait en fait du minuscule butin d'un kobold insignifiant, mais le temps de revenir en ville, le voleur avait mis les voiles depuis longtemps.~
+@268 = ~Pourriez-vous croire que c'est un pirate qui me l'a donné ?~
+@269 = ~En un sens, cela ne me surprend pas.~
+@270 = ~Vous êtes grincheux au point d'effrayer les araignées, aujourd'hui. Avez-vous passé une mauvaise nuit ? Bien, si vous n'êtes pas d'humeur pour une histoire, passons directement aux affaires.~ ~Vous êtes grincheuse au point d'effrayer les araignées, aujourd'hui. Avez-vous passé une mauvaise nuit ? Bien, si vous n'êtes pas d'humeur pour une histoire, passons directement aux affaires.~
+@271 = ~C'était un type très beau en plus. J'ai été triste de me séparer de lui.~
+@272 = ~Eh bien, pourquoi l'avoir fait ?~
+@273 = ~J'en suis persuadé.~ ~J'en suis persuadée.~
+@274 = ~Laissez-moi deviner, c'était le capitaine d'un superbe bateau ?~
+@275 = ~J'ai commencé à vouloir voir davantage que des ports par-ci par-là. Et, le capitaine du bateau commençait à parler de prendre des esclaves. J'ai fait énormément de choses dans ma vie, mais là c'est une ligne que je n'ai jamais voulu franchir.~
+@276 = ~Il avait les yeux les plus verts qu'il m'ait été donné de voir et des cheveux d'un noir de jais.~
+@277 = ~C'est à moitié vrai. Le bateau était effectivement superbe, cependant le pirate n'était pas capitaine, il était barreur. C'est comme cela que je l'ai connu, à traîner autour de lui en l'interrogeant sur la façon de garder le cap.~  
+@278 = ~Mais comment avez-vous atterri chez les pirates, en fait ?~
+@279 = ~Mais que faisiez-vous sur un bateau pirate, au départ ?~
+@280 = ~Et il vous a donné le pendentif en témoignage de son amour ?~ 
+@281 = ~C'est comme cela que nous nous sommes quittés.~
+@282 = ~Il tenait la barre du bateau. C'est comme cela que je l'ai connu, à traîner autour de lui en l'interrogeant sur la façon de garder le cap.~
+@283 = ~Je ne faisais pas toujours attention avec qui je m'engageais, en ces temps-là. J'avais entendu dire que quelqu'un embauchait des gens qui savaient se battre, et j'ai signé. Ce n'est que plus tard que j'ai appris qu'il s'agissait de pirates mais il était trop tard pour revenir en arrière. Donc, j'ai essayé de m'en tirer au mieux.~ 
+@284 = ~J'ai l'impression que vous y avez pris du plaisir cependant.~
+@285 = ~Vous auriez vraiment dû être plus prudente.~
+@286 = ~Je n'arrive pas à croire que vous parliez de piraterie aussi légèrement !~
+@287 = ~Je pense qu'il a plutôt essayé de m'impressionner avec sa fortune et sa générosité. Ce n'est pas pour ça que je n'ai pas apprécié le pendentif. Comme je l'ai dit, j'ai été furieuse quand on me l'a dérobé.~
+@288 = ~Eh bien, il est revenu auprès de vous.~
+@289 = ~Oh, ça a été le cas, pendant un moment. C'était très excitant d'apprendre à vivre à bord d'un bateau, de dévaliser les villes. Cependant... tuer des enfants n'était pas ma tasse de thé. Habituellement, je laissais cette tâche aux autres et me contentais de croiser le fer avec ceux qui pouvaient répliquer.~
+@290 = ~Probablement, mais si j'avais été prudente, je n'aurais jamais eu autant de plaisir, au final.~ 
+@291 = ~J'étais sur le bateau. Si je m'étais plainte, je me serais fait tuer.~
+@292 = ~J'ai porté ce pendentif pendant des années. Cela fait du bien de le revoir. Pourriez-vous me le vendre ?~ 
+@293 = ~Cela m'embête de vous demander de l'argent pour quelque chose qui a autant de valeur à vos yeux. Je vous en fais cadeau.~
+@294 = ~Je vous le vendrai pour 100 pièces d'or.~
+@295 = ~Je vous le vendrai pour 200 pièces d'or.~
+@296 = ~Pour 500 pièces d'or, il est à vous.~
+@297 = ~Avant de vous montrer ce que j'ai en stock, il y a quelque chose que j'aimerais vous demander.~
+@298 = ~Les souvenirs sont agréables, mais pas à *ce* point. Je ne paierai pas ce prix.~
+@299 = ~Dans ce cas, je pense que nous n'allons pas vous le vendre.~
+@300 = ~Comme vous voulez.~
+@301 = ~Au fait, si jamais vous veniez à trouver autre chose qui m'appartient, j'apprécierais que vous me le rameniez.~
+
+//YOSHIMO
+@302 = ~Vous n'êtes pas d'ici, n'est ce pas ?~
+@303 = ~Je l'admets, je découvre cette charmante ville et ses habitants.~
+@304 = ~D'où venez-vous dans ce cas ?~
+@305 = ~Je viens de la lointaine Kara-Tur, gracieuse dame.~
+@306 = ~Eh bien ! Séduisant et poli avec ça.~
+@307 = ~Vous savez, je n'ai jamais vu de marchandises en provenance de Kara-Tur. Quel genre de chaussures portez-vous ?~
+@308 = ~Gracieuse dame...~
+@309 = ~Je vous en prie, appelez-moi Aurora.~
+@310 = ~Aurora, dans ce cas. J'en sais malheureusement très peu sur la fabrication de chaussures.~
+@311 = ~Vous savez, les gens s'aperçoivent souvent qu'ils en savent plus que ce qu'ils pensaient. Pourquoi ne pas repasser un soir, après la fermeture du magasin, nous pourrions discuter de choses et d'autres en paix ?~
+@312 = ~Une charmante perspective, j'en suis convaincu.~
+
+//KORGAN
+@313 = ~Vous, le nain ! Qu'*avez-vous* fait avec vos chaussures ?!~
+@314 = ~T'es en train d'insulter mes bottes, gamine ?!~
+@315 = ~Des bottes ? C'étaient *peut-être* des bottes à une époque, mais maintenant ? Elles ont du mal à rester en un seul morceau ! Vous devriez les nettoyer et les cirer, ou mieux, les remplacer.~
+@316 = ~J'ai pas l'temps pour ce genre d'bêtises fantaisistes, fillette ! Contente-toi d'ouvrir la boutique pour que <CHARNAME> puisse faire ses courses et que l'on puisse sortir d'là !~
+@317 = ~Si vous ne prenez pas le temps pour ces "bêtises fantaisistes", comme vous le dites, vos bottes vont tomber en miettes au milieu d'une bataille et vous allez tomber tête la première sur votre propre hache. Maintenant, jetez un oeil ici - regardons si nous ne pouvons pas trouver quelque chose qui vous conviendrait...~
+
+//EDWIN
+@318 = ~Vous êtes un Magicien Rouge ?~
+@319 = ~Je pensais que ça semblait évident, même pour quelqu'un affichant une intelligence aussi limitée que la vôtre.~
+@320 = ~On ne sait jamais. Certaines personnes aiment se déguiser par pur plaisir. Mais vous êtes suffisamment grossier pour être un Magicien Rouge, pas de doute. Ce n'est pas que j'en ai croisé par le passé, mais j'ai entendu des histoires les concernant.~
+@321 = ~Je ne vais pas rester là et me laisser insulter par une *boutiquière* de bas étage. Bah.~
+@322 = ~Je dois avouer cependant que vos pairs ont très bon goût pour les vêtements. Les broderies sur votre cape... Elles sont splendides ! Et le peu de fois où j'ai pu obtenir des chaussures de votre pays - un travail remarquable, pour dire la vérité !~
+@323 = ~Nous formons bien nos esclaves.~
+@324 = ~Ah, oui. Des esclaves.~
+
+//GOSSIP WITH THE PC
+@325 = ~Bonjour !~
+@326 = ~Avez-vous déjà rencontré le nouveau propriétaire de la Couronne de Cuivre ? Un *si* bel homme !~ [AGAU019]
+@327 = ~Hendak ? Oui, en fait je l'ai aidé à se libérer.~
+@328 = ~Bel homme ? Je... suppose que c'est vrai.~
+@329 = ~Si vous le dites. Pouvons-nous voir les chaussures maintenant ?~
+@330 = ~C'est vrai ? Eh bien, je dois vous dire que vous nous avez fait une faveur ! Nous débarrasser de ces horribles esclavagistes et mettre quelqu'un comme lui à la place !~
+@331 = ~Hendak, vous dites ? Je vais devoir descendre en ville pour le rencontrer, c'est sûr. Lui souhaiter la bienvenue dans la cité et ce genre de choses. Peut-être même lui offrir quelques chaussures. La captivité n'a sûrement pas été douce avec ses pieds !~
+@332 = ~C'est vrai ? Oui, bien entendu. Comment une femme pourrait-elle résister aux appels à l'aide d'un si bel homme ?~
+@333 = ~Hendak, vous dites ? Est-ce que vous verriez un inconvénient à ce que je lui rende visite ? Pour lui souhaiter la bienvenue en ville et ce genre de choses ?~ 
+@334 = ~Non, bien sûr que non... pourquoi cela me poserait-il un problème ?~
+@335 = ~C'est à vous de voir.~
+@336 = ~Ne l'approchez pas !~
+@337 = ~Je voudrais voir les chaussures maintenant.~
+@338 = ~Vous supposez ? Ah bien, je suppose que vous vous intéressez plutôt aux femmes.~
+@339 = ~Et à faire en sorte qu'elles vous regardent, je présume.~
+@340 = ~Vous supposez ! Qu'est ce qui cloche avec vous, ma fille ! Cet homme est un rêve devenu réalité.~
+@341 = ~Ah bien. Cela laisse la voie libre pour nous autres.~
+@342 = ~Je suis contente que ce soit réglé dans ce cas.~
+@343 = ~Mon Dieu ! Si vous avez des vues dessus, dites-le !~
+@344 = ~Je resterai à l'écart, alors, pour le moment.~
+
+//JAN HAS BEEN IN JAIL
+@345 = ~Jan, vieille fripouille ! J'ai entendu dire que tu avais été emprisonné !~
+@346 = ~On ne peut pas retenir un Jansen contre sa volonté, Aurora, tu le sais !~
+@347 = ~<CHARNAME> a payé ma caution. Je vais voyager avec lui pendant un moment.~ ~<CHARNAME> a payé ma caution. Je vais voyager avec elle pendant un moment.~
+@348 = ~Bien ! Il était temps que quelqu'un te sorte de la ville et de tes embrouilles, de toute façon.~
+
+//JAN HAS NOT BEEN IN JAIL
+@349 = ~Jan, vieille fripouille ! Pas encore en prison à ce que je vois.~
+@350 = ~Personne ne peut surprendre un Jansen, tu le sais !~
+@351 = ~Je sais, je ne suis pas encore arrivée à te surprendre lorsque tu m'arnaques.~
+@352 = ~Tu penses que je pourrais t'arnaquer ? Je suis choqué, Aurora ! Vraiment blessé !~
+@353 = ~Ces bottes au parfum de navet...~
+@354 = ~Auraient pu être au centre de toutes les discussions en ville, je t'assure !~
+@355 = ~J'en suis certaine.~
+@356 = ~Alors quels sont tes projets ?~
+@357 = ~Je vais voyager avec <CHARNAME>, pour l'aider dans sa quête.~
+@358 = ~Bien ! Cela te permettra de sortir de la ville, et de tes embrouilles par la même occasion, pour un moment.~
+
+//VALYGAR
+@359 = ~Seigneur Corthala ! Qu'il est bon de vous voir ! J'ai entendu dire... eh bien, peu importe ce que j'ai entendu. Comment allez-vous ?~
+@360 = ~Plutôt bien. Laissez-moi deviner : vous avez entendu dire que je suis devenu fou et que j'ai tué deux Mages Cagoulés.~
+@361 = ~Quelque chose comme ça, oui. J'aurais dû le savoir. Quelqu'un avec un goût pour les chaussures comme le vôtre ne peut *raisonnablement* pas être fou.~
+@362 = ~Je n'en suis pas si sûr, Aurora. La prudence paye toujours.~
+@363 = ~C'est vrai.~
+@364 = ~Seigneur Corthala ! Je suis heureuse de vous revoir. Comment allez-vous en cette belle journée ?~
+@365 = ~Je vais bien. Cela fait même des années que je ne me suis pas senti aussi bien, et je le dois à <CHARNAME>.~
+@366 = ~C'est la vérité.~
+@367 = ~Seriez-vous disposé à satisfaire la curiosité d'une femme ?~
+@368 = ~Qu'y a t'il, Aurora ? (Soupir)~
+@369 = ~J'ai entendu les histoires les plus étranges sur votre compte... Ils ont dit que vous étiez devenu fou et que vous avez tué une douzaine de Mages Cagoulés !~
+@370 = ~Et pourtant je suis là.~
+@371 = ~C'est la seule chose que vous allez me dire ? Que vous êtes vivant ? C'est une honte, Seigneur Corthala !~
+@372 = ~Je suis certain qu'"ils" vous raconteront une histoire bien meilleure que la mienne.~
+@373 = ~Oh, très bien. Vous êtes bien trop beau pour que je puisse vous en vouloir.~
+
+//AFTER LISSA
+@374 = ~Bienvenue !~
+@375 = ~Oh, patientez un instant je vous prie...~
+@376 = ~Je suis désolée de vous avoir fait attendre. Elle est - ou plutôt était - une de mes meilleures clientes.~
+@377 = ~Aucun problème. Je suis heureux de savoir que vous tenez à garder des standards de qualité élevés.~ ~Aucun problème. Je suis heureuse de savoir que vous tenez à garder des standards de qualité élevés.~
+@378 = ~Cela ne me pose pas de problème d'attendre pour une marchandise de qualité comme la vôtre.~
+@379 = ~J'ai l'habitude des files d'attente. Puis-je voir vos articles maintenant ?~
+@380 = ~Je ne suis *pas* habitué à attendre. Il vaudrait mieux que cela ne se reproduise plus ! Montrez-moi ce que vous vendez maintenant.~ ~Je ne suis *pas* habituée à attendre. Il vaudrait mieux que cela ne se reproduise plus ! Montrez-moi ce que vous vendez maintenant.~
+@381 = ~Nous n'achèterons rien aujourd'hui. Merci quand même !~
+@382 = ~Je ne veux plus rien entendre qui vienne de votre bouche, plus jamais.~
+@383 = ~C'est un plaisir d'avoir des clients qui savent reconnaitre les objets de qualité comme vous.~
+@384 = ~Comme vous pouvez le voir, tout le monde ne s'en soucie pas autant que vous. Lissa, là... était une cliente fidèle, mais elle n'apprécie pas un travail de qualité à sa juste valeur et n'a aucune patience. Elle peut être, comme vous venez de le voir, très pénible par moment.~
+
+//ABOUT VICONIA
+@385 = ~Vous couchez avec elle ?~ [AGAU049]
+@386 = ~C'est à moi que vous vous adressez ?~
+@387 = ~Ce ne sont pas vos affaires.~
+@388 = ~L'elfe noire, Viconia. Couchez-vous avec elle ?~
+@389 = ~Euh... non.~
+@390 = ~Grands Dieux, non !~
+@391 = ~Pas encore.~
+@392 = ~Bien entendu !~
+@393 = ~Et alors ? ~
+@394 = ~Bien entendu. *Couchez*-vous avec elle ?~
+@395 = ~D'accord ! Je ne voulais pas être indiscrète !~
+@396 = ~Bien, prenez ceci au cas où les choses évolueraient. D'après ce que j'ai entendu, vous allez en avoir besoin.~
+@397 = ~Contente pour vous ! Ceci est un petit cadeau de ma part. D'après ce que j'ai entendu, vous en aurez besoin !~
+@398 = ~Rien ! Rien ! Vraiment, certaines personnes sont *si* promptes à se sentir agressées !~
+@399 = ~Bonne chance dans ce cas. Et ceci est un petit cadeau de ma part, au cas où les choses viendraient à évoluer. Si la moitié de ce que j'ai entendu est vraie, vous en aurez besoin.~
+
+//AERIE
+@400 = ~Ma chère ! Vous boîtez !~
+@401 = ~Mes... Mes pieds me font un peu mal, c'est vrai.~
+@402 = ~Et ce n'est pas étonnant, j'en suis sûre, avec les longues marches que vous devez faire.~
+@403 = ~Nous devons vous trouver des chaussures décentes rapidement !~
+@404 = ~Je suis sûre que vous allez en trouver dans mon stock.~
+
+//ANOMEN
+@405 = ~Anomen Delryn, c'est bien vous ? Eh bien, quel beau jeune homme vous êtes devenu !~
+@406 = ~Vous vous souvenez de moi ? Vous veniez de temps en temps avec votre mère. Une de mes meilleures clientes, qu'elle était, elle s'y connaissait en chaussures. Habituellement vous vous asseyiez dans ce coin en l'attendant.Parfois, vous preniez un gâteau ou deux quand elle avait le dos tourné.~
+@407 = ~Vous étiez un si gentil garçon, et vous l'aidiez toujours à porter ses paquets.~
+@408 = ~Je... me souviens très bien de vos gâteaux, Dame Aurora. Et comment pourrais-je oublier une femme si... extraordinaire ?~
+@409 = ~Toujours aussi poli ! Et maintenant vous partez à l'aventure... Oh, ils grandissent si vite !~
+@410 = ~Bien, jetez un oeil aux chaussures. Je vous ferai une petite remise en souvenir du bon vieux temps.~
+@411 = ~Anomen, je voulais vous dire à quel point je suis désolée pour la mort de Moira. C'était une fille tellement jolie, pleine de vie et d'espoir.~
+@412 = ~Je... vous remercie, Dame Aurora.~
+@413 = ~Je me souviens d'elle quand elle était petite, jouant avec votre mère dans le parc... elles riaient et riaient encore...~
+@414 = ~Vous vous souvenez de ma mère ?~
+@415 = ~En dehors de la boutique ? Oui. Je ne la connaissais pas bien, toutefois. Elle était toujours très respectueuse, et bien sûr noble, ce que je ne suis pas.~ 
+@416 = ~Mais nous nous sommes rencontrées, de temps en temps. Malgré ses prérogatives, elle savait comment s'amuser. Je me souviens d'une nuit, elle devait avoir à peu près seize ans, je pense, elle s'est glissée hors de la maison pour rejoindre une fête.~
+@417 = ~Elle s'est glissée hors de la maison ?~
+@418 = ~Ne soyez pas aussi choqué ! C'était une fille obéissante, mais cela ne veut pas dire qu'elle n'a *jamais* enfreint les règles.~
+@419 = ~Comme je le disais, elle a rejoint notre petite fête... sans invitation pour autant que je sache. Elle en devint le coeur et l'âme presque immédiatement... flirtant avec tous les garçons présents, dansant et riant jusqu'à l'aube. Ah, elle avait un rire magnifique, tous ceux qui l'entendaient ne pouvaient que rire avec elle. Je ne l'ai pas revue souvent après cela. J'ai pris la voie de l'aventure et elle a épousé votre père.~
+@420 = ~Oui, en effet.~
+@421 = ~Et elle vous a eus, les enfants. Elle vous adorait tous les deux. Elle disait toujours à qui voulait l'entendre à quel point elle avait de beaux enfants, merveilleux et intelligents.~
+@422 = ~Je ne faisais pas souvent partie de ses auditeurs, si je pouvais l'éviter. Les enfants ont tendance à m'ennuyer assez rapidement.~
+@423 = ~Je... vous remercie, Dame Aurora, d'avoir partagé vos souvenirs.~
+@424 = ~Mais de rien. Ce n'est pas tous les jours que j'ai droit à un public aussi attentif.~
+@425 = ~Bien, je suis sûre que <CHARNAME> n'a pas fait halte ici juste pour m'entendre bavarder.~
+
+//HAER'DALIS
+@426 = ~Vous êtes le bel acteur des Cinq Chopes !~
+@427 = ~Moi, mon faucon ?~
+@428 = ~Il n'y a pas tant d'elfes à la chevelure bleue que ça à Athkatla. Vous voyagez avec <CHARNAME>. Cela veut-il dire que vous êtes un héros dans la vie comme sur scène ?~
+@429 = ~Votre question m'est difficile, chère dame. Qui peut dire réellement ce qui sépare l'acteur de son rôle ? C'est une tâche qui va bien au delà de ces pouvoirs de moineau.~
+@430 = ~Eh bien, vous parlez vraiment comme lorsque vous êtes sur scène.~
+@431 = ~Que sont les mondes sinon des scènes sur lesquelles nous jouons nos différents rôles ?~
+@432 = ~Ce monde est celui où vous pouvez acheter des chaussures. Avez-vous l'intention de le faire ?~
+@433 = ~Hélas ! Le banal s'impose... Je pense que je vais laisser cette décision à <CHARNAME> pendant que je médite sur la beauté des cieux.~
+@434 = ~Quelle poésie... Oh, mais parlons affaires.~
+@435 = ~Ce moineau pourrait-il avoir une partie de votre temps pour satisfaire sa curiosité ?~
+@436 = ~Si cela veut dire que vous voulez me poser une question, allez-y.~
+@437 = ~Comment se fait-il qu'un faucon radieux tel que vous soit attaché dans un lieu de commerce ? Ne serait-il pas mieux de rompre vos liens sordides et de goûter au plaisir du voyage une fois encore ?~
+@438 = ~Des liens sordides ? Il s'agit de la boutique vendant les meilleures chaussures d'Amn !~
+@439 = ~Les meilleures ou les plus usées, ce n'est pas la place pour l'âme d'un guerrier.~
+@440 = ~Je pense être *la* seule en droit d'en juger.~
+@441 = ~Quant à la façon dont je suis arrivée ici...~
+@442 = ~Oui ?~
+@443 = ~Le groupe avec lequel j'étais depuis un an a été embauché pour garder une cargaison à destination d'Athkatla. Quand nous sommes arrivés, nous avons découvert que le marchand avait fait banqueroute. Nous nous sommes fait payer en nature. Il y avait alors plusieurs articles, et de solides chaussures parmi eux, et, bien entendu, j'ai choisi de les prendre. La bande s'est séparée, j'ai vu cette échoppe et je me suis dit : "Pourquoi pas ?" Depuis ce jour, je suis ici.~
+@444 = ~Et donc une grande carrière s'est terminée ici, au milieu des odeurs de cuir et du son des colporteurs qui clament leurs offres.~
+@445 = ~Et c'est ainsi qu'une nouvelle carrière a commencé. Allez-vous rester planté là toute la journée ou voulez-vous faire affaire ?~ 
+
+//NALIA
+@446 = ~Nalia De Arnise, n'est-ce pas ? Appréciez-vous votre voyage ? Et comment se porte cet Isaea ? J'ai entendu dire qu'il avait demandé votre main, ma chère.~
+@447 = ~J'ai enfin la chance d'aider les autres et de faire quelque chose qui compte. Vais-je devoir l'expliquer à tout le monde ?! Je ne vais *pas* épouser Isaea ! C'est un porc belliqueux et grossier, et je préfèrerais épouser un cheval !~
+@448 = ~Ce n'est pas moi qui vais vous dire de l'épouser ! Parcourez le monde tant que vous le pouvez et ne vous installez que le jour où vous aurez plein d'histoires à raconter !~
+@449 = ~Mais, si je puis me permettre, vos mains ont l'air un peu gercées aujourd'hui.~
+@450 = ~Oh, cela vient du temps.~
+@451 = ~Bien sûr que cela vient du temps ! Mais vous ne devez pas le laisser abîmer vos mains.~
+@452 = ~Tenez, essayez ça. C'est ce que j'utilisais quand je voyageais, et cela m'a aidé au plus haut point.~
+@453 = ~Je... suppose que je vous dois des remerciements.~
+
+//ABOUT ANOMEN
+@454 = ~Que faites-vous ici ?~ [AGAU047]
+@455 = ~Quoi ?!~
+@456 = ~Je regarde les chaussures, bien entendu.~
+@457 = ~Est ce que ça n'est pas évident ?~
+@458 = ~Est-ce votre façon habituelle de saluer les gens ?~
+@459 = ~Si un homme me regardait de la façon dont le jeune Delryn vous dévisage, croyez bien que je ferais autre chose avec lui que de l'amener acheter des chaussures.~
+@460 = ~Vous vous faites des idées. Anomen est un ami, ça s'arrête là.~
+@461 = ~Anomen ? Lui et moi pouvons tout juste nous tolérer !~
+@462 = ~J'ai bien eu quelques idées, de temps en temps. Nous en avons même mis certaines en pratique.~
+@463 = ~J'espère qu'il va *arrêter* de me regarder comme ça.~
+@464 = ~Anomen ?! Ugh. J'espère très sincèrement que vous vous trompez !~
+@465 = ~Vous insinuez qu'il y a quelque chose de plus intéressant que d'acheter de nouvelles chaussures ?~
+@466 = ~Cela ne vous concerne absolument pas, vous savez.~
+@467 = ~Un ami très *proche*, d'après ce que je vois.~
+@468 = ~Nous nous permettons une certaine... proximité de temps en temps.~
+@469 = ~J'espère qu'il va *arrêter* de me regarder comme ça.~
+@470 = ~Croyez-moi, les meilleurs amants sont ceux avec qui on peut se disputer.~
+@471 = ~Anomen n'est pas et ne sera jamais mon amant !~
+@472 = ~C'est tellement vrai... et il a une façon charmante de s'excuser.~
+@473 = ~Je comprends votre point de vue.~
+@474 = ~Anomen ?! Argh ! Plus vite son intérêt pour moi s'estompera, mieux ce sera !~
+@475 = ~Je suis contente pour vous ! Rien de tel qu'un peu d'amour pour mettre du piment dans la vie !~
+@476 = ~Qu'est-ce qui ne tourne pas *rond* chez vous ? Un beau jeune homme est dingue de vous et cela vous met de mauvaise humeur ?~
+@477 = ~J'ai du bon sens, voilà ce qui ne va pas !~
+@478 = ~Je n'aime pas les jeunes gens lunatiques et pleurnichards, voilà ce qui ne va pas !~
+@479 = ~Il a un tempérament *exécrable*.~
+@480 = ~Je dois sauver mon amie. Je n'ai pas le temps pour une histoire d'amour !~
+@481 = ~J'ai perdu mon âme et je dois la récupérer auprès d'un fou. Je n'ai pas le temps pour une histoire d'amour !~
+@482 = ~J'ai besoin de plus de temps pour y réfléchir.~
+@483 = ~Si vous le trouvez si beau, pourquoi ne couchez-*vous* pas avec lui ?~
+@484 = ~Je vous dis que ce beau jeune homme est fou de vous et vous espérez que je me trompe ? Qu'est ce qui ne tourne pas *rond* chez vous ?~
+@485 = ~Les chaussures seront toujours là demain. Profitez de l'homme tant que vous le pouvez ! Maintenant, faites votre choix rapidement et trouvez-vous une belle chambre confortable dans une auberge.~
+@486 = ~J'essayais d'être polie ! Bien, Si vous le prenez comme cela, je ne vais pas vous empêcher de procéder à vos emplettes plus longtemps !~
+@487 = ~Et une bonne excuse vaut mieux qu'une centaine de disputes, vous pouvez me croire.~
+@488 = ~Bien ! Maintenant je vous suggère d'expédier vos courses et de trouver une belle chambre au calme dans une auberge pour vous y relaxer.~
+@489 = ~Le bon sens ? Ma chère enfant, le bon sens c'est l'ennui avec un autre nom. Tentez votre chance pendant qu'elle vous sourit !~
+@490 = ~Eh bien, je suppose que vous allez devoir vous faire votre propre idée.~
+@491 = ~Croyez-moi, ce sont les personnes avec qui vous vous disputez le plus qui font les meilleurs amants.~
+@492 = ~C'est tellement vrai... et il a une façon si charmante de s'excuser.~
+@493 = ~Anomen, mon amant ? Ugh !~
+@494 = ~De vous à moi, si vous ne trouvez pas le temps pour une histoire d'amour maintenant, vous ne le trouverez jamais !~
+@495 = ~Plus de temps ? Avec le style de vie que vous menez, "plus de temps" n'est pas une option. Vous pourriez mourir demain ! Ou lui. Vous devez vivre *aujourd'hui*.~ 
+@496 = ~Parce qu'il est du style à n'avoir de la place que pour un seul amour à la fois. En plus, je l'ai connu alors qu'il portait encore des couches.~
+
+//CHAT WITH PC
+@497 = ~Bonne journée !~ [AGAU013]
+@498 = ~Qu'elle le soit aussi pour vous, Aurora.~
+@499 = ~Ce n'est pas une bonne journée du tout - de quoi *parlez*-vous ?~
+@500 = ~Je n'ai pas envie de discuter, Aurora. Montrez-moi ce que vous vendez.~
+@501 = ~Je suis pressé. Nous discuterons plus tard.~ ~Je suis pressée. Nous discuterons plus tard.~
+@502 = ~Je passe une merveilleuse journée, merci.~
+@503 = ~Bien entendu, il fait un peu chaud. Cela me fait presque regretter d'avoir un jour refusé une boutique sur la Promenade de Waukyne, lorsque l'occasion s'est présentée.~
+@504 = ~Pourquoi avoir refusé ?~
+@505 = ~J'aime bien le temps qu'il fait, en fait.~
+@506 = ~Il *fait* chaud. Une belle boutique au frais serait très agréable.~
+@507 = ~Je ne suis pas intéressé par la discussion. Montrez-moi ce que vous vendez.~ ~Je ne suis pas intéressée par la discussion. Montrez-moi ce que vous vendez.~
+@508 = ~C'est un jour très chaud pour marcher dehors comme vous le faites. Il fait même trop chaud pour rester ici. Cela me fait presque regretter d'avoir un jour refusé une boutique sur la Promenade de Waukyne, lorsque l'occasion s'est présentée.~
+@509 = ~Trop encaqué. Est-ce que vous me voyez, franchement, assise à l'intérieur, attendant que les gens viennent chez moi ? En plus, des gens comme Rampah, là-bas, ne mettront jamais un pied dans une boutique. Ici, je peux parler à n'importe qui. Et comme cela, je suis toujours au courant de ce qui se trame.~
+@510 = ~Vraiment ? De quel désert sortez-vous ? J'aime lorsqu'il y a quelques rayons de soleil, mais aujourd'hui il fait assez chaud pour me faire regretter de ne pas avoir installé ma boutique sur la Promenade.~
+@511 = ~Un peu d'ombre serait bienvenue. Cependant, il y a des désavantages à avoir une boutique. Est-ce que vous me voyez, franchement, assise à l'intérieur, attendant que les gens entrent chez moi ? En plus, des gens comme Rampah, là-bas, ne mettront jamais un pied dans une boutique. Ici, je peux parler à n'importe qui. Et comme cela, je suis toujours au courant de ce qui se trame.~
+
+//KELDORN
+@512 = ~Seigneur Firecam, qu'il est bon de vous voir.~
+@513 = ~Une bonne journée à vous, Dame Aurora.~
+@514 = ~Je ne vous ai pas vu beaucoup en ville ces derniers temps. On dirait que l'Ordre vous fait courir.~
+@515 = ~C'est un devoir et un plaisir de servir Torm.~
+@516 = ~Oh, bien sûr.~
+@517 = ~Je suis heureux de savoir qu'elles vont bien.~ 
+@518 = ~Maria et moi sommes très fiers de nos deux filles.~
+@519 = ~Seigneur Firecam, Je voulais juste vous dire à quel point j'étais désolée pour ce qui est arrivé à votre femme...~
+@520 = ~Il vaut mieux garder le silence à propos de certaines choses.~
+@521 = ~Oh, bien sûr... mais sachez que j'en suis tout de même désolée.~
+
+//IMOEN
+@522 = ~Hey !~
+@523 = ~Bonjour à vous ! Que puis-je faire pour vous en cette belle journée ?~
+@524 = ~Tu n'aurais pas des bottes de couleur rose par hasard ?~
+@525 = ~Pas pour le moment, mais soyez sûre que je peux en faire teindre une paire pour vous. Quelle sorte de bottes voulez-vous ?~
+@526 = ~Quelque chose dans lequel je peux me déplacer sans bruit, tu sais, s'approcher furtivement des gens et autres choses du même style.~
+@527 = ~Je vois ce que vous voulez dire ! Revenez dans une semaine et elles seront prêtes.~
+@528 = ~Hey Aurora !~
+@529 = ~Bonjour, Imoen !~
+@530 = ~Juste par curiosité... as-tu déjà reçu mes bottes ?~
+@531 = ~Oui, elles sont prêtes !~
+@532 = ~Elles sont là, une paire de bottes furtives aussi belles qu'on pourrait le désirer. Je peux vous les vendre pour mille huit cents pièces d'or.~
+@533 = ~Je n'ai pas une telle somme pour le moment. Je reviendrai dès que je l'aurai réunie.~
+@534 = ~Oui, elles sont... eh bien, roses. Mais comme Imoen les veut, je suis content de vous payer le prix.~ ~Oui, elles sont... eh bien, roses. Mais comme Imoen les veut, je suis contente de vous payer le prix.~
+@535 = ~Mille huit cents pièces d'or ? Ne pensez-vous pas que c'est un peu beaucoup ?~
+@536 = ~Je ne vais pas payer pour *ça* !~
+@537 = ~Elles resteront ici... du moins si personne d'autre ne les achète.~
+@538 = ~Les travaux de personnalisation coûtent cher. Je pense que vous trouverez qu'elles valent leur prix.~
+@539 = ~Je suis désolé, je n'ai pas une telle somme d'argent sur moi. Je reviendrai quand ce sera le cas.~ ~Je suis désolée, je n'ai pas une telle somme d'argent sur moi. Je reviendrai quand ce sera le cas.~
+@540 = ~Bien, elles ont l'air assez roses pour Imoen. Puisqu'elle les veut, je suppose qu'elles valent leur prix.~
+@541 = ~C'est une somme extravagante ! Je ne pense pas que nous allons *les* acheter, merci bien.~
+@542 = ~Comme vous voulez. Je suis sûre que je leur trouverai un autre acheteur.~
+@543 = ~Un bon travail nécessite du temps. Revenez dans quelques jours et elles seront prêtes.~
+
+//MINSC
+@544 = ~Est-ce que c'est une souris qui se balade sur ma table ?!~
+@545 = ~Bouh n'est pas une souris ! Bouh est un hamster géant de l'espace miniature !~
+@546 = ~Ah... je vois. Pouvez-vous s'il vous plaît enlever Bouh de mon comptoir avant qu'il n'y fasse une saleté géante miniature ?~
+@547 = ~Bouh ne ferait pas de saletés sur les chaussures d'une amie ! Bouh ne fait pas de saletés... Euh, bon, il éparpille parfois des miettes de biscuit, mais Minsc le fait aussi. C'est difficile d'éviter aux miettes de tomber.~
+@548 = ~Etes-vous sûr qu'il ne va pas mâchouiller le cuir ?~
+@549 = ~Minsc en est persuadé !~
+@550 = ~Vérifiez bien qu'il ne le fasse pas, ou vous paierez pour les dégâts.~
+@551 = ~Comment va Bouh aujourd'hui ?~
+@552 = ~Bouh dit qu'il va bien, à part peut-être une petite faim.~
+@553 = ~Une petite faim ? Eh bien, j'ai quelques gâteaux ici pour lui, et pour vous, si vous pouvez éviter de mettre des miettes sur le comptoir.~
+@554 = ~Oh, c'est très facile ! Nous irons les manger là où les petits oiseaux peuvent récupérer ce qui tombe.~
+
+//JAHEIRA
+@555 = ~Vous êtes une druidesse, c'est bien ça ?~
+@556 = ~Oui.~
+@557 = ~Je n'ai jamais compris ce qui pousse certaines personnes à quitter la ville pour quelques rochers et quelques arbres.~
+@558 = ~Et *moi*, je n'ai jamais compris la fascination pour le bruit et la crasse des villes.~
+@559 = ~Il en faut pour tous les goûts, comme on dit.~
+
+//VICONIA
+@560 = ~Il parait que les elfes noires sont à leur avantage dans une chambre à coucher.~
+@561 = ~Les elfes noires savent pratiquer les arts érotiques, c'est vrai. Qu'est-ce que tu attends de moi, rivvil ? Des conseils peut-être ?~
+@562 = ~Eh bien, entre filles, pourquoi pas.~
+@563 = ~Les elfes noirs ne servent *pas* de professeur aux races inférieures, sauf s'ils sont leurs esclaves, et je doute que quelqu'un comme toi survivrait à la première nuit de souffrance.~
+@564 = ~Vous auriez pu vous contenter de dire non.~
+@565 = ~Et ce n'est pas comme si j'étais particulièrement mauvaise dans ce domaine.~
+@566 = ~Ne te lance pas de fleurs, fagotée comme tu es. Je suis sûre que tes efforts pathétiques pourraient donner du plaisir aux rebuts de la surface, mais ton habilité n'est rien comparée à la mienne.~
+@567 = ~Si vous le dites.~
+
+//CERND
+@568 = ~Est-ce que je ne vous aurais pas déjà vu dans le coin auparavant ?~
+@569 = ~J'ai vécu dans cette ville pendant un moment, mais la Nature m'a rappelé à son service, et j'y ai répondu volontiers. La ville et ses foules n'ont que peu d'attrait à mes yeux.~
+@570 = ~Je vois. Et... vous portez des chaussures, n'est-ce pas ?~
+@571 = ~Bien entendu. Pourquoi n'en porterais-je pas ?~
+@572 = ~Vous m'avez l'air un peu... anticonformiste.~
+
+//MAZZY
+@573 = ~Je ne croise pas souvent des Halfelins par ici. Je ne suis pas certaine de trouver chaussure à votre pied... Je n'ai pas énormément de chaussures pour enfant.~
+@574 = ~Je ne sais pas pourquoi vous autres persistez à nous considérer comme des enfants, en ce qui me concerne, je suis bien plus âgée que vous Aurora. Je vous serai reconnaissante de revoir vos opinions.~
+@575 = ~Je parlais de la *taille* de vos chaussures, pas de votre personnalité. Laissez-moi voir... Celles-ci devraient aller mais elles ne sont pas faites pour une guerrière.~
+@576 = ~L'achat des marchandises est entre les mains de <CHARNAME>, et il connaît mes désirs en la matière.~ ~L'achat des marchandises est entre les mains de <CHARNAME>, et elle connaît mes désirs en la matière.~
+@577 = ~C'est mieux comme cela, si vous voulez mon avis.~
+
+//PC RESPONSES
+@578 = ~Puis-je vous être utile aujourd'hui ?~
+@579 = ~Avez-vous des potins à partager ?~
+@580 = ~Je voudrais voir vos marchandises, s'il vous plaît.~
+@581 = ~Rien pour aujourd'hui, merci.~
+@582 = ~Je voudrais acheter ces bottes roses qu'Imoen vous a demandé de fabriquer.~
+@583 = ~Vous reste-t-il encore de cette lotion que vous avez donnée à Nalia ?~
+@584 = ~Vous reste-t-il encore de ce baume pour les muscles ?~
+@585 = ~Ah, ces magnifiques bottes. Je les ai toujours ici, toutes prêtes pour Imoen.~
+@586 = ~Oui. Mais s'il vous en faut plus, je vais devoir vous les faire payer. Après tout, je *dirige* une petite affaire, et il s'agit d'une recette exclusive. Je vous les fais à 100 pièces d'or l'unité pour des amis tels que vous.~
+@587 = ~Marché conclu.~
+@588 = ~J'ai changé d'avis.~
+@589 = ~Désolée, mais je n'en ai plus.~
+@590 = ~Donc vous l'avez trouvé utile ? Il m'en reste quelques-uns, mais j'ai bien peur de ne pas pouvoir vous les laisser gratuitement. Que pensez-vous de 35 pièces d'or l'unité ?~
+@591 = ~J'ai changé d'avis.~
+
+//KELDORN ADDITION
+@592 = ~Dame Maria et Vesper se sont arrêtées ici l'autre jour. Je peux vous dire que cette fille devient plus jolie d'heure en heure ! Vous allez devoir chasser les prétendants par troupeaux.~
+
+//MTS PIPE
+@593 = ~Quelle pipe remarquable !~ [AGAU037]
+@594 = ~S'il s'agit bien de celle à laquelle je pense, vous devriez en prendre grand soin. Elle possède une assez longue histoire - J'ai entendu dire qu'elle a appartenu au fameux Maire Tom Sawyer en personne.~ [AGAU015]
+
+//K'aeloree 5/5/09 boot dialogue addition
+@595 = ~Bien, je ne vois plus d'utilité pour ces vieilles bottes... Vous ne seriez pas intéressé par hasard ? Pour 5000 pièces d'or peut-être ?~ ~Bien, je ne vois plus d'utilité pour ces vieilles bottes... vous ne seriez pas intéressée par hasard ? Pour 5000 pièces d'or peut-être ?~
+@596 = ~Bien sûr, pourquoi pas ?~
+@597 = ~Ah, non merci.~
+@598 = ~Je suis contente de savoir qu'elles seront entre de bonnes mains.~
+@599 = ~Eh bien, je suppose que je vais les jeter dans ce cas.~
+
+//CHARM TALK
+@600 = ~Hé, <GABBER> ! C'est absolument merveilleux de vous voir ! Venez par ici et serrez-moi dans vos bras.~
+@601 = ~Euh, je n'ai pas vraiment le temps, Aurora.~
+@602 = ~Bien sûr.~
+@603 = ~Pas maintenant. Je dois y aller.~
+@604 = ~Oh je comprends... Je suppose que vous ne voulez pas jeter un oeil à mon stock ? Certaines paires commencent à manquer, mais globalement je pense que tout devrait vous convenir.~
+@605 = ~Ce serait magnifique, merci.~
+@606 = ~Pas cette fois, Aurora. Je passais, c'est tout.~
+@607 = ~Mmmm, c'est ça. J'apprécie vraiment de vous voir, <GABBER>.~
+@608 = ~Une envie de jeter un oeil à mon stock ? Certaines paires commencent à manquer, mais globalement je pense que tout devrait vous convenir.~
+@609 = ~Désolée de vous voir autant dans l'urgence, <GABBER>. Revenez me voir bientôt, s'il vous plaît !~
+@610 = ~De rien.~
+@611 = ~Dans ce cas, adieu <GABBER>. J'espère vous revoir très bientôt.~
+
+//ITEM UPGRADES
+@612 = ~Je suis curieux de savoir si vous êtes capable d'offrir d'autres produits que ceux que vous avez en stock.~ ~Je suis curieuse de savoir si vous êtes capable d'offrir d'autres produits que ceux que vous avez en stock.~
+@613 = ~Je veux vous parler de cet enchanteur que vous connaissez.~
+@614 = ~Alors, qu'en est-il de l'enchanteur ?~
+@615 = ~Est-ce que je possède quelque chose qui pourrait être utilisé dans un enchantement ?~
+@616 = ~Alors, où en est ma commande ?~
+@617 = ~Ha ha ! Là, <GABBER>, vous devez plaisanter ! Est-ce que je n'ai pas assez de chaussures pour vous et votre cohorte en stock ? Pourquoi demandez-vous cela, d'ailleurs ?~
+@618 = ~Par curiosité uniquement, comme je l'ai dit. Alors, avez-vous quelque chose d'autre ?~
+@619 = ~Oh, vos chaussures sont d'assez bonne qualité, c'est certain. Mais je pensais qu'avec peut-être vos compétences, il y avait de la marge pour faire mieux. Je paierai généreusement, bien entendu.~
+@620 = ~Bien, oublions ça. Revenons à nos affaires habituelles.~
+@621 = ~Eh bien, <GABBER>, je peux faire bien des choses, dont certaines pourraient vous surprendre à n'en pas douter. Mais vous en demandez beaucoup. J'honore des commandes spéciales de temps en temps, mais pas sans y mettre le prix. Si vous avez quelque chose en tête, soumettez-le moi et je verrai si je peux faire quelque chose.~
+@622 = ~Vous avez des bottes enchantées spéciales à vendre, vous avez donc certaines relations. Est-il possible de conclure une affaire spéciale ?~
+@623 = ~Je me demandais si vous pouvez vous procurer des produits spéciaux qui ne sont habituellement pas disponibles à la vente.~
+@624 = ~Eh bien, pourquoi n'avoir pas dit dès le début que vous parliez affaires ? Habituellement, je m'en aperçois immédiatement, mais mon temps et mes compétences sont... limités. Que cherchez-vous exactement ?~
+@625 = ~Hmm, je ne suis pas sûre. Ce n'est pas comme si mes vendeurs habituels allaient avoir ce genre de choses. Vous feriez mieux d'engager un enchanteur professionnel qui améliorera vos bottes. Pas que je connaisse un enchanteur. Cela dit, d'un autre côté... hmm. Et bien, en fait, si... Mais ce n'est pas exactement ce que l'on peut attendre d'un spécialiste certifié.~
+@626 = ~Vous voyez, il n'enchante pas vraiment lui-même. A la place, il travaille avec des objets qui sont déjà enchantés. Je ne sais pas si c'est intentionnel ou parce que c'est un nigaud qui ne comprend pas la base des arts magiques. Je n'ai pas de compétences magiques moi-même, donc je ne fais que des suppositions. Entre vous et moi, bien entendu... nous ne voudrions pas lancer de rumeur, n'est-ce pas ?~
+@627 = ~Pour un certain prix, il peut retravailler certains matériaux et les faire en sorte qu'ils fonctionnent mieux qu'avant. Mais il y a un problème, maintenant que j'y pense. J'ai entendu dernièrement qu'il était en manque de matériaux, un peu comme moi, donc je doute qu'il puisse être convaincu de travailler même si vous payiez cinquante mille pièces d'or.~
+@628 = ~En effet, c'est une grosse somme. Mais avant d'y songer, que puis-je attendre de cette personne ?~
+@629 = ~De l'argent, j'en ai. Allez-vous m'en dire plus ?~
+@630 = ~Je peux payer un tel prix, et même davantage si besoin est. Je veux connaître les détails.~
+@631 = ~Même si ?~
+@632 = ~Oh, <GABBER>, c'est tellement mignon ! J'ai dit *même si* vous payiez autant. Il n'a simplement pas de matériaux pour travailler, c'est ça le problème. Vous devez donc prendre votre mal en patience. Mais puisque cela vous intéresse, vous aurez de mes nouvelles si la situation venait à changer.~
+@633 = ~Peut-on influencer cette situation d'une manière ou d'une autre ? J'aimerais vraiment qu'on améliore mon équipement. Le plus tôt serait le mieux.~
+@634 = ~Et quand puis-je espérer, grosso modo, que votre ami se remette au travail ?~
+@635 = ~Quel genre de matériaux lui faut-il ?~
+@636 = ~Dommage. Laissons de côté ce sujet en attendant des temps meilleurs dans ce cas.~
+@637 = ~Précisément. Il n'a pas de matériaux pour les travailler, peu importe donc la somme que vous lui payeriez, cela ne les fera pas apparaître prochainement. Mais puisque cela vous intéresse, je vous donnerai des nouvelles si la situation venait à changer.~
+@638 = ~Ami ? Eh bien... on peut dire cela comme ça... à un moment tout du moins. Mais quant à savoir quand, je n'en sais pas plus que vous.~
+@639 = ~Rien pour le moment. A plus tard.~
+@640 = ~Oh, <GABBER>, il ne fait pas les enchantements, il les remet au goût du jour ! Il a donc besoin de certains matériaux, des choses que l'on ne trouve pas facilement dans les boutiques standards. En d'autres termes, il prend des objets enchantés et il les retravaille un peu. Habituellement, il ressort quelque chose de mieux de son bricolage. Pas toujours apparemment. C'est ce que j'ai entendu dire...~ 
+@641 = ~Est-ce que je pourrais lui fournir ces matériaux ?~
+@642 = ~Savez-vous exactement de quels objets il a besoin ?~
+@643 = ~J'ai des tonnes d'objets magiques. Qu'est-ce qui ferait l'affaire ?~
+@644 = ~Je, ah... ne suis plus vraiment en très bons termes avec lui, <GABBER>. Si vous le voulez vraiment, je peux lui envoyer une requête, mais il voudra un peu d'argent. Cinq cents pièces d'or devraient suffire, je suppose.~
+@645 = ~Les voici.~
+@646 = ~Ne pouvez-vous pas me le présenter, plutôt ?~
+@647 = ~Plus tard, dans ce cas. Revenons à des affaires plus habituelles.~
+@648 = ~Eh bien... il vit un peu reclus. Un gars étrange. Pas vraiment le genre de personne que vous aimeriez rencontrer, tout comme il ne trouve aucun intérêt à rencontrer d'autres personnes.~
+@649 = ~Très bien, voilà votre argent.~ 
+@650 = ~Parfait. Cela va prendre un peu de temps avant d'avoir une réponse de sa part, revenez donc demain. Je vous dirai quelles sont les nouvelles.~
+@651 = ~Magnifique. Revenons maintenant à des affaires plus habituelles.~
+@652 = ~A demain dans ce cas. Bonne journée.~
+@653 = ~Oui, j'ai les informations pour lesquelles vous avez payé si cher. Il m'a dit de quels genres de matériaux il avait besoin. Malheureusement, je ne suis pas magicienne et je ne peux pas discerner à coup sûr si l'enchantement est assez bon ou non. Mais, au moins je m'y connais en bottes - ça c'est plus que certain. Donc, puis-je vous apporter mon aide pour quelque chose ?~
+@654 = ~Est-ce que l'un des objets que je possède peut faire l'affaire ?~
+@655 = ~Pour le moment, revenons à des affaires plus banales.~
+@656 = ~D'après ce que je sais, il est possible de combiner les Bottes Elégantes du Guépard avec les chaussures que l'on appelle "Hémorragie de Mensonges d'Amour". Le processus nécessite également une opale de feu pour lier l'enchantement. Le travail va prendre environ une journée, revenez donc plus tard. Le prix est de quinze mille pièces d'or. Je vais avoir besoin de la moitié tout de suite et de l'autre moitié une fois que les bottes seront faites.~
+@657 = ~Parlez-moi des bottes blindées.~
+@658 = ~Parlez-moi des bottes démoniques.~
+@659 = ~Cela me convient. Voici votre dû.~
+@660 = ~Une autre fois, peut-être. Pour le moment, parlons d'affaires plus conventionnelles.~
+@661 = ~Il parait que l'on peut combiner les 3 couleurs de mes Bottes de tous les Jours avec des Bottes d'Evitement pour fabriquer une nouvelle paire conférant au porteur une armure protectrice vraiment remarquable. Tous ceux qui ne sont pas des bouffons les trouveront un peu... voyantes... mais il n'y a rien de mal à ça, n'est-ce pas ? Le processus nécessite également une opale précieuse, deux jours de travail et vingt cinq mille pièces d'or. La moitié maintenant, le reste plus tard.~
+@662 = ~Parlez-moi des belles bottes rapides.~
+@663 = ~Je pensais que nous avions discuté de quinze mille pièces d'or au maximum ?~
+@664 = ~Voyantes *et* protectrices ? L'affaire est conclue.~
+@665 = ~Vous avez peut-être entendu parler des demi-elfes croisés demi-démons connus sous le nom de fey'ri ? Ou peut-être pas, puisqu'ils ont tous disparu il y a des milliers d'années. Il est difficile d'améliorer les puissantes Bottes démoniques, mais mon roublard d'associé dispose de quelques mauvais tours dans ses larges manches. Il les combinera avec les Bottes de Vitesse et un rubis étoilé, simplement pour trente-cinq mille pièces d'or. La moitié maintenant, le reste quand il aura terminé, dans trois jours.~
+@666 = ~Il vaudrait mieux que cela vaille la peine. Voici votre dû.~
+@667 = ~Eh bien, le travail haut de gamme vous coûtera plus cher. De plus, je dois prendre ma part également, pour maintenir la boutique ouverte.~
+@668 = ~Je vois. Une autre fois, dans ce cas. Pour le moment, parlons d'affaires plus conventionnelles.~
+@669 = ~Souvenez-vous, vous aurez besoin de sept mille cinq cents en plus pour le produit fini. Revenez me voir demain.~
+@670 = ~Souvenez-vous, douze mille cinq cents en plus une fois les bottes terminées. Revenez me voir après demain.~
+@671 = ~Souvenez-vous, dix sept mille cinq cents en plus quand elles seront terminées. Revenez me voir dans trois jours.~
+@672 = ~Oui, je les ai ici. Maintenant, si vous me payez ma part du marché, elles sont à vous.~
+@673 = ~Je pense que je les prendrai plus tard. Revenons aux affaires habituelles si vous le voulez bien.~
+@674 = ~Magnifique ! Voici vos nouvelles bottes. C'est toujours un plaisir, <GABBER>. Revenez me voir si vous en avez besoin d'autres.~
+@675 = ~Voyons voir...~
+@676 = ~Je vois que vous avez un goût prononcé pour les belles chaussures. Croyez-le ou non, avec quelques améliorations, vous pouvez devenir à la fois séduisant *et* rapide.~
+@677 = ~Vous semblez posséder des bottes qui confèrent une protection adéquate. Cependant, si vous avez assez de paires différentes, elles peuvent être combinées pour fabriquer des bottes blindées incomparables.~
+@678 = ~Je vois que vous avez là des bottes légendaires. Mais deux paires de bottes adéquates peuvent être combinées pour en faire une paire assez puissante pour convenir à un Seigneur fey'ri.~
+@679 = ~C'est tout, je pense. Il pourrait y avoir autre chose, mais c'est au-dessus de mes compétences de vous dire si c'est vraiment le cas.~
+@680 = ~Hmm... Non, rien ne fera l'affaire, pour autant que mes compétences me permettent d'en juger.~
+@681 = ~Pourrais-je voir vos marchandises habituelles à la place ?~
+@682 = ~Zzzzz...~
+@683 = ~Je vois.~
+@684 = ~Dites m'en plus.~
+@685 = ~Merci. Oh, et comme je ne vais plus avoir besoin de ces vieilles bottes, vous pouvez les prendre.~
+@686 = ~L'autre nuit, j'ai rencontré un gnome... charmant du nom de Tomthal tenant votre magasin.~
+@687 = ~L'autre nuit, j'ai croisé un gnome... intéressant. Vous le connaissez ?~
+@688 = ~Oh, C'est vrai ? J'espère qu'il n'a pas été trop impoli : c'est un garçon plutôt amer, j'en ai peur. C'est très généreux de sa part de consacrer son temps pour nous aider la nuit, cependant.~
+@689 = ~Oh, mon Dieu... J'ai bien peur de devoir dire qu'il a été tué. C'était un gnome si amer... c'était très généreux de sa part de nous aider en donnant de son temps, mais...~
+@690 = ~Maintenant, y-a-t'il quelque chose que je puisse faire pour vous ?~
+@691 = ~Je suis désolé d'avoir été impoli avec vous par le passé. Avez-vous quelques potins ?~ ~Je suis désolée d'avoir été impolie avec vous par le passé. Avez-vous quelques potins ?~
+
+//KELSEY
+@692 = ~Kelsey Coltrane! Is that you?~
+@693 = ~Uh, yes?~
+@694 = ~Where are those shoes I ordered? They should have been here weeks ago!~
+@695 = ~Um, I'm not on Company business just now, Mistress Aurora, but-~
+@696 = ~Then whose business *are* you on?~
+@697 = ~I'm traveling with <CHARNAME> and helping <PRO_HIMHER> in <PRO_HISHER> quest.~
+@698 = ~Adventuring, is it?~
+@699 = ~Well, yes. You could put it that way.~
+@700 = ~Then watch yourself. And if you see that uncle of yours, tell him I still want those shoes!~
+
+//SOLAUFEIN
+@701 = ~Un drow qui voyage à la surface ? Comme c’est original ! Puis-je vous procurer quoi que ce soit ?~
+@702 = ~Avez-vous des recueils de poésie ?~
+@703 = ~Non, malheureusement pas. Je n’ai jamais été très bouquins, je dois dire. Essel, par contre, les aimait bien. Nous nous sommes assis plus d’une nuit ensemble, tandis qu’il récitait de la poésie.~
+@704 = ~Peut-être cet Essel aurait-il un livre que je pourrais acheter, alors. Savez-vous où il se trouve ?~
+@705 = ~Il est mort, ce pauvre homme. Etait-ce il y a huit... ou dix ans ? Je n’ai rencontré personne dans son genre, depuis.~
+@706 = ~J’ai entendu des poètes humains dire : « La vie de l’homme est comme un festin d’hiver autour d’une belle flambée, alors que la tempête hurle au dehors et que la neige tourbillonne. Un moineau désoeuvré surgit par la porte : pendant un moment, il est accueilli par la chaleur et un abri contre la tourmente, puis, filant par l’autre issue, il est à nouveau perdu. Ainsi est l’homme. Il apparaît nous ne savons quand, saisit rapidement un menu morceau des plaisirs terrestres, puis s’en va, nous ne savons vers où. »~
+@707 = ~Essel aurait adoré cela... (soupire). Voici. Je n’ai peut-être pas de livres pour vous, mais ceci devrait rendre votre vie un peu plus facile. Ça ne doit pas être facile, d’être un drow à la surface.~
+@708 = ~Je... vous remercie.~
+@709 = ~Allons, ce n’est rien. J’adore les hommes qui savent réciter de la poésie.~
+
+//HUBELPOT
+@710 = ~Hubelpot! What are you doing with this lot? And is that a *weapon* I see you carrying?~
+@711 = ~Aye, well, th' <LADYLORD> <CHARNAME> is helpin' meh wi' th' little matter o' th' missin' gold.~
+@712 = ~I remember Morag saying something about gold disappearing. I'm glad you've found someone to help you with that.~
+@713 = ~Now don't you be getting yourself killed! Athkatla's got plenty of warriors, but not so many honest merchants that we can be sparing one!~
+@714 = ~Ah... thank ye. Ah'll be careful.~
+@715 = ~See that you are!~
+@716 = ~Aye, well, th' <LADYLORD> <CHARNAME> helped meh te recover th' guild's gold, an' Ah'm travelin' wi' <PRO_HIMHER> te help repay th' favor.~
+@717 = ~I remember Morag saying something about the trouble; I'm glad you hear someone's helped you get the gold back.~
+@718 = ~You be careful out there, you hear? Athkatla's got plenty of warriors, but not so many honest merchants that we can be sparing one!~
+
+//FADE
+@719 = ~J’ai croisé une... dame dans une maison au nord d’ici. N’est-ce pas votre maison ? Vous n’avez jamais parlé d’une colocataire…~
+@720 = ~Ah oui... cette bonne vieille madame Linvail. Je lui ai loué le rez-de-chaussée. Je ne suis presque jamais là, donc nous nous voyons rarement. Ce qui est probablement mieux.~
+@721 = ~C’est une femme... intéressante.~
+@722 = ~Elle est un peu folle, non ?~
+@723 = ~Oh, elle est plus folle qu’un grouilleux mutant. Quoi que vous fassiez, n’essayez pas ses gâteaux. Oh, et ce chat ! Tymora soit bénie, il n’aime pas monter à l’étage. Ah ! Si seulement elle savait...~
+@724 = ~Continuez.~
+@725 = ~Si elle savait quoi ?~
+@726 = ~Je vois... Puis-je voir votre stock ?~
+@727 = ~Si seulement elle savait qu’un gnome vit dans la cave... Et bien, je n’ai aucune idée de ce qu’elle ferait. Mais bon, elle ne sait même pas que son propre fils est un voleur.~
+@728 = ~Pourquoi n’aime-t-elle pas les gnomes ?~
+@729 = ~Son fils est un voleur ?~
+@730 = ~Il y a un gnome dans votre cave ?~
+@731 = ~Qui sait ? Elle prétend que c’est lié au fait que son fils les emploie, mais elle la ramène sans cesse à propos de ces « vicieux petits monstres », qui veulent la violenter. Un fantasme, sans doute. Je pense que notre Tomthal préférerait sauter au lit avec un gobelin qu’avec une femme dans son genre.~
+@732 = ~Vous dites que son fils est un voleur ?~
+@733 = ~Oh oui, Aran est le chef des Voleurs de l’Ombre, tout le monde sait ça ! Enfin, presque tout le monde... Tout le monde sauf sa propre mère. Pauvre vieille bécasse.~
+@734 = ~Oh oui, Tomthal, mon vendeur de nuit. Il dort là pendant la journée. Il dit qu’il se sent plus près de son foyer, à vivre sous terre.~
+@735 = ~Le fils de madame Linvail est un voleur ?~
+@736 = ~Enfin, il y *avait* un gnome dans la cave... Tomthal, mon vendeur de nuit. Il dormait là pendant la journée. Mais il est mort, à présent...~
+@737 = ~Vous pouvez répéter ça.~
+
+//SILVER HORN
+@738 = ~Un cor d’argent ! Je n’en ai vu qu’un seul autre semblable, avant... Où l’avez-vous trouvé ?~
+@739 = ~Pas loin.~
+@740 = ~Dans une maison au nord d’ici.~
+@741 = ~Mêlez-vous de vos affaires.~
+@742 = ~Vraiment ? Pas dans un coffre au pied du lit de quelqu’un dans une maison du quartier, par hasard ?~
+@743 = ~Pas du tout. Il vient de... du trésor d’un dragon.~
+@744 = ~Et bien oui, en fait, c’est exactement ça.~
+@745 = ~C’est *ma* maison ! Pensez-vous que vous pouvez vous balader en chipant tout ce que vous voyez ? Je devrais vous dénoncer...~
+@746 = ~Je l’ignorais complètement, Aurora. Cet endroit semblait abandonné...~
+@747 = ~Et bien, il n’était pas vissé en place...~
+@748 = ~Comme si je m’en souciais. Faites votre pire.~
+@749 = ~Hum. Comme vous voudrez.~
+@750 = ~C’est vrai ? Je suppose qu’il n’y a pas de petit A entouré d’un cercle gravé à l’intérieur. Et bien si. C’est *mon* cor ! Je devrais vous dénoncer...~
+@751 = ~Abandonné, par les fesses de Tymora ! Je parie que le lit était encore chaud quand vous l’avez chapardé. Mais bon, au moins vous avez été plus ou moins honnête avec moi.~
+@752 = ~Voilà ce qu’on va faire. Je vous le laisse pour mille pièces d’or. Il vaut au moins ça.~
+@753 = ~Très bien. Les voici.~
+@754 = ~Je n’ai pas autant.~
+@755 = ~Aucune chance. Je l’ai piqué dans les règles.~
+@756 = ~Je m’en doutais. Vous *volez* tout ce qui n’est pas fixé au sol. Je me souviendrai de surveiller mes marchandises quand vous êtes dans les parages, désormais.~
+@757 = ~Dans ce cas, je *vais* devoir vous dénoncer. Les autorités entendront parler de ceci. A présent, hors de ma vue !~
+@758 = ~Merci. Autre chose ?~
+@759 = ~Où avez-vous trouvé ce cor, au fait ?~
+@760 = ~Très bien, je prendrai ce que vous avez. Vous avez de la chance que je sois si laxiste. Autre chose ?~
+@761 = ~Oh, un groupe d’aventuriers dont je faisais partie l’a soustrait dans la chambre d’un mage, dans une auberge où nous nous étions arrêtés. Du beau travail, si je puis me permettre. Ce crétin ronflant ne s’est probablement pas rendu compte de sa perte avant que nous soyons à des milles de là.~

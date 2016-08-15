@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")
+    ApplySpell("CSCowl3",CUTSCENE_POWERWORD_KILL)
+    Kill("CSCowl3")
+    CreateCreatureDoor("CSCOWL9",[2484.891],14) // Cowled Wizard
+    DisplayStringHead(Myself,59774) // You bore me mageling.  You may take me in, but you WILL take the girl as well!  
+    ActionOverride("CSCowl7",MoveToObject("CSIren"))
+    ActionOverride("CSCowl4",MoveToObject("CSImoen"))
+    SetGlobal("CutScene01","AR0700",4)
+    StartCutScene("cut01g")
+END

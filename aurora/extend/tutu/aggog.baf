@@ -1,0 +1,47 @@
+IF
+  Detect([PC])
+THEN
+  RESPONSE #25 //Lighthouse: Alaric's Cave
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("FW3601","",[892.257],5))
+    ActionOverride(Player2,LeaveAreaLUA("FW3601","",[954.217],4))
+    ActionOverride(Player3,LeaveAreaLUA("FW3601","",[964.267],4))
+    ActionOverride(Player4,LeaveAreaLUA("FW3601","",[968.332],5))
+    ActionOverride(Player5,LeaveAreaLUA("FW3601","",[1008.363],5))
+    ActionOverride(Player6,LeaveAreaLUA("FW3601","",[1066.375],5))
+  RESPONSE #25 //Ulcaster Ruins
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("FW3901","",[745.809],2))
+    ActionOverride(Player2,LeaveAreaLUA("FW3901","",[695.837],11))
+    ActionOverride(Player3,LeaveAreaLUA("FW3901","",[687.788],14))
+    ActionOverride(Player4,LeaveAreaLUA("FW3901","",[723.760],0))
+    ActionOverride(Player5,LeaveAreaLUA("FW3901","",[791.790],1))
+    ActionOverride(Player6,LeaveAreaLUA("FW3901","",[813.840],4))
+  RESPONSE #25 //Lonely Peaks Ettercap Cave
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("FW4401","",[223.163],12))
+    ActionOverride(Player2,LeaveAreaLUA("FW4401","",[229.225],10))
+    ActionOverride(Player3,LeaveAreaLUA("FW4401","",[237.123],14))
+    ActionOverride(Player4,LeaveAreaLUA("FW4401","",[157.155],13))
+    ActionOverride(Player5,LeaveAreaLUA("FW4401","",[165.111],13))
+    ActionOverride(Player6,LeaveAreaLUA("FW4401","",[139.213],11))
+  RESPONSE #25 //Gnoll Stronghold Carrion Cave
+    SetInterrupt(FALSE)
+    DestroySelf()
+    ActionOverride(Player1,LeaveAreaLUA("FW5103","",[866.381],11))
+    ActionOverride(Player2,LeaveAreaLUA("FW5103","",[868.337],12))
+    ActionOverride(Player3,LeaveAreaLUA("FW5103","",[854.433],10))
+    ActionOverride(Player4,LeaveAreaLUA("FW5103","",[762.377],11))
+    ActionOverride(Player5,LeaveAreaLUA("FW5103","",[814.339],12))
+    ActionOverride(Player6,LeaveAreaLUA("FW5103","",[782.429],11))
+END
+
+IF
+  !Detect([PC])
+THEN
+  RESPONSE #100
+    DestroySelf()
+END

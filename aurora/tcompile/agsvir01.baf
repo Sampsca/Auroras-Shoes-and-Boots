@@ -1,0 +1,63 @@
+IF
+  Allegiance(Myself,ENEMY)
+  Detect([GOODCUTOFF])
+  HaveSpell(WIZARD_BLUR)
+  !GlobalTimerNotExpired("agu","LOCALS")
+  !StateCheck(Myself,STATE_BLUR)
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agu","LOCALS",6)
+    Spell(Myself,WIZARD_BLUR)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  Detect([GOODCUTOFF])
+  HaveSpell(WIZARD_CONJURE_EARTH_ELEMENTAL)
+  !GlobalTimerNotExpired("agu","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agu","LOCALS",18)
+    Spell(Myself,WIZARD_CONJURE_EARTH_ELEMENTAL)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !See([GOODCUTOFF.0.0.MAGE_ALL])
+  !See([GOODCUTOFF.0.0.CLERIC_ALL])
+  !See([GOODCUTOFF.0.0.DRUID_ALL])
+  !See([GOODCUTOFF.0.0.BARD_ALL])
+  !See([GOODCUTOFF])
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  Range(LastSeenBy(),30)
+  HaveSpell(WIZARD_BLINDNESS)
+  !GlobalTimerNotExpired("agu","LOCALS")
+  !StateCheck(Myself,STATE_SILENCED)
+  !CheckStatGT(Myself,75,SPELLFAILUREMAGE)
+  !HasBounceEffects(LastSeenBy())
+  CheckStatLT(LastSeenBy(),50,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("agu","LOCALS",6)
+    Spell(LastSeenBy(),WIZARD_BLINDNESS)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  Range(LastSeenBy(),30)
+  GlobalTimerNotExpired("agu","LOCALS")
+THEN
+  RESPONSE #100
+    AttackOneRound(LastSeenBy())
+END
