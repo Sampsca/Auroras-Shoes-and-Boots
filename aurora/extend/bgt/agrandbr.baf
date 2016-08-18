@@ -5,8 +5,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("agberrs","LOCALS",1)
+    Continue()
   RESPONSE #3
     SetGlobal("agberrs","LOCALS",1)
     IncrementGlobal("agberr","GLOBAL",1)
     GiveItemCreate("agberr01",Myself,1,0,0)
+    Continue()
 END

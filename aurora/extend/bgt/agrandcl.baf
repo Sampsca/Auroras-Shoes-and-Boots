@@ -5,8 +5,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("agitem1s","LOCALS",1)
+    Continue()
   RESPONSE #3
     SetGlobal("agitem1s","LOCALS",1)
     SetGlobal("agitem1","GLOBAL",1)
     GiveItemCreate("agclck01",Myself,0,0,0)
+    Continue()
 END

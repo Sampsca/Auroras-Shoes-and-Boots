@@ -192,11 +192,21 @@ COPY_EXISTING ~elehob01.cre~ ~override~ //Goblin Commando
 BUT_ONLY
 
 COPY_EXISTING ~icgob01.cre~ ~override~ //Goblins
-              ~icgob02.cre~ ~override~
   PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
   PATCH_IF vl BEGIN
     PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
-    WRITE_SHORT 0x28 0xe400 //Animation ID (goblin_axe, was 0xe410 goblin_bow)
+    WRITE_SHORT 0x28 0xe410 //Animation ID (goblin_bow)
+    REMOVE_CRE_ITEM ~bow01~ ~dagg01~ ~sw1h07~
+    REPLACE_CRE_ITEM ~bow05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP TWOHANDED //Short Bow (was bow01 Composite Long Bow)
+    REPLACE_CRE_ITEM ~sw1h07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ //Short Sword
+  END
+BUT_ONLY
+
+COPY_EXISTING ~icgob02.cre~ ~override~ //Goblins
+  PATCH_INCLUDE ~aurora/lib/fj_cre_validity.tpp~
+  PATCH_IF vl BEGIN
+    PATCH_INCLUDE ~aurora/lib/fj_cre_reindex.tpp~
+    WRITE_SHORT 0x28 0xe430 //Animation ID (goblin_elite_bow)
     REMOVE_CRE_ITEM ~bow01~ ~dagg01~ ~sw1h07~
     REPLACE_CRE_ITEM ~bow05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP TWOHANDED //Short Bow (was bow01 Composite Long Bow)
     REPLACE_CRE_ITEM ~sw1h07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ //Short Sword

@@ -4,8 +4,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("agitem4s","LOCALS",1)
+    Continue()
   RESPONSE #5
     SetGlobal("agitem4s","LOCALS",1)
     SetGlobal("agitem4","GLOBAL",1)
     GiveItemCreate("agboot24",Myself,0,0,0)
+    Continue()
 END
