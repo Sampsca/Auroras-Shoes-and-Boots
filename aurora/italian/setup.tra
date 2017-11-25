@@ -1,0 +1,1316 @@
+@1  = ~Le Scarpe e gli Stivali di Aurora~
+@2  = ~Aurora~
+
+@3  = ~Mantello Verde~
+@4  = ~Questo mantello dai colori verdi come la foresta sembra non possedere particolari qualità. Tuttavia, quando lo esamini più da vicino, noti che qualcuno ci ha ricamato un sole dorato con la lettera "A" sul davanti.
+
+STATISTICHE:
+
+Peso: 3~
+
+@5  = ~Anello Riccamente Ornato~
+@6  = ~Questo anello d'oro è assortito con uno smeraldo eccezionalmente grande. Incise all'interno dell'anello ci sono scritte le parole "Alla luce della mia vita."
+
+STATISTICHE:
+
+Abilità Fornita: Carisma +1
+Peso: 0~
+
+@7  = ~Orecchino Singolo~
+@8  = ~Questo grande orecchino d'oro ha la forma del sole ed è assortito con uno smeraldo brillante. Il suo compagno, semmai ne abbia uno, sembra essere perduto.
+
+STATISTICHE:
+
+Abilità Fornita: Protegge dai colpi critici
+Peso: 0~
+
+@9  = ~Mocassini Verdi~
+@10 = ~Questo mocassini usati color verde pallido riescono ancora ad impressionarti per la loro eleganza. Un sole d'oro è ricamato su di ognuno. Posseggono soprattutto un valore sentimentale per il suo proprietario originale, sono stati lanciati contro un drago, bagnati e trascinati dalla corrente di un fiume ed utilizzati per chissà cosa nel corso degli anni.
+
+STATISTICHE:
+
+Peso: 2~
+
+@11 = ~Orecchino~
+
+@12 = ~Spada Lunga Ingioiellata +3~
+@13 = ~La lama a doppio tagli è lunga circa 90 centimetri e termina con una punta aguzza. E' un'arma ottimamente forgiata, e sembra efficiente senza molti ornamenti ad eccezione di un grande smeraldo verde sul suo manico.
+
+STATISTICHE:
+
+THAC0: bonus +3
+Danno: 1D8 + 3
+Tipo di danno: Tagliente
+Peso: 2
+Fattore Velocità: 2
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Non Utilizzabile da:
+ Chierico
+ Druido
+ Mago~
+
+@14 = ~Aurora ha guadagnato quest'arma difendendo un piccolo villaggio costiero dai pirati. Lei si è rifiutata di dargli un nome, sostenendo che dare un nome ad una spada significa portare alla rovina il suo possessore conducendolo ad una rapida ed oscura morte. E' incantata e (per di più) possiede un grande smeraldo verde nel manico.
+
+STATISTICHE:
+
+THAC0: bonus +3
+Danno: 1D8 + 3
+Tipo di danno: Tagliente
+Peso: 2
+Fattore velocità: 2
+Tipo di competenza: Spada lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
+
+@15 = ~Collana Riccamente Ornata~
+@16 = ~Questa è una piacevole collana d'oro con un ciondolo pendente a forma di sole. Uno splendido smeraldo è posto in mezzo al ciondolo, e la lettera "A" è incisa sul dietro.
+
+STATISTICHE:
+
+Peso: 1~
+
+@17 = ~Stivali della Resistenza~
+@18 = ~Nessuno informa mai gli avventurieri principianti di quanta strada dovranno fare. Una speciale calzatura può fare molta differenza, tuttavia, e questi stivali sono disegnati per assicurare di poter sostenere anche l'ultima battaglia del giorno come se fosse la prima.
+
+STATISTICHE:
+
+Abilità fornita: +1 alla Costituzione
+Peso: 4~
+
+@19 = ~Stivali dallo Stile Elevato~
+@20 = ~Questi stivali sono stati creati su richiesta di un bardo che desiderava alti pagamenti dopo ogni suo spettacolo. Hanno viaggiato attraverso molte terre e hanno passato molti proprietari ed ognuno che li ha indossati si è trovato d'accordo su due cose: sono straordinariamente eleganti e causano molto dolore ai piedi.
+
+STATISTICHE:
+
+Abilità Fornite: +2 al Carisma +2, -2 alla Destrezza
+Peso: 3~
+
+@21 = ~Stivali del Lento Cammino~
+@22 = ~Questi stivali furono create molto tempo fa da un monaco angosciato dall'incapacità dei suoi compagni a mantenere un passo veloce durante i suoi viaggi. Non essendo in grado di assisterli nel farli camminare più velocemente, si impose a se stesso di addestrarsi a tenere il loro passo e alla fine creò questo stivali cosicché anche gli altri potevano tenere il suo passo durante il suo cammino.
+
+STATISTICHE:
+
+Abilità fornita: -2 alla Velocità di Movimento
+Peso: 4~
+
+@23 = ~Stivali del Coraggio~
+@24 = ~Anche i più temprati avventurieri a volte hanno paura. A meno che non indossino questi stivali. Aurora non vuole rivelare dove li ha presi, ma questo stivali forniscono a colui che li indossa la protezione da tutte le forme di paura.
+
+STATISTICHE:
+
+Abilità fornita: Protezione dalla Paura
+Peso: 4~
+
+@25 = ~Stivali di Battaglia~
+@26 = ~Non c'é niente di più vantaggioso durante una battaglia nell'avere dalla tua parte la possibilità di sorprendere e questi stivali danno al suo possessore questa possibilità. Sono stati incantati per aumentare le abilità di un combattente.
+
+STATISTICHE:
+
+Abilità fornita: THAC0 +2
+Peso: 4~
+
+@27 = ~Stivali della Noia~
+@28 = ~Come sa ogni avventuriero, ci sono dei giorni che un po' di noia non fa male. Aurora fece creare questi stivali per assicurarsi che quei giorni sarebbero arrivati. Una volta infilati questi stivali, sarà garantito un giorno noioso. Nessuno attaccherà colui che li indossa. Naturalmente il possessore non potrà attaccare nessuno, ma se succederebbe tutto questo il giorno sarebbe davvero molto tedioso, non credi?
+
+STATISTICHE:
+
+Abilità fornita: Nessuno attacca colui che li indossa; il possessore può camminare, parlare e nascondersi ma non é in grado di effettuare nessun altra azione
+Peso: 4~
+
+@29 = ~Questi Stivali Sono Fatti Per Camminare~
+@30 = ~Camminare a lungo può essere molto faticoso. Diventa ancora più problematico se un membro del gruppo sia più lento degli altri. Aurora ha creato queste calzature per rendere colui che le indossa in grado di percorrere anche gli ultimi chilometri supplementari prima di riposare.
+
+STATISTICHE:
+
+Abilità fornita: La Fatica è impostata a 0
+Peso: 3~
+
+@31 = ~Emorragie di Bugie d'Amore~
+@32 = ~Con queste calzature, é veramente possibile portare il desiderio alla morte.
+
+STATISTICHE:
+
+Speciale: Lancia Bellezza della Natura una volta al giorno
+Peso: 2~
+
+@33 = ~Scarpe della Danza~
+@34 = ~Danzare tutta la notte! In queste confortevoli, attraenti scarpe, non dovrai mai temere di avere vesciche o pestare il piede del tuo compagno. Allora cosa stai aspettando? Esci e vai alla festa!
+
+STATISTICHE:
+
+Abilità fornita: +2 alla Destrezza
+Peso: 2~
+
+@35 = ~Bestioline dalle Gambe Lunghe~
+@36 = ~Questi stivali consentono a colui che li indossa di passare da un avversario ad un altro con la velocità del pensiero. Tutto quello che deve fare colui che li indossa è decidere chi sarà il suo prossimo bersaglio. Spostarsi così velocemente fa diminuire la potenza del colpo seguente.
+
+STATISTICHE:
+
+Abilità fornita: Velocità di movimento portata a 25, ma i colpi causano solo il 75% di danno
+Peso: 4~
+
+@37 = ~Scarpe della Sfrontatezza~
+@38 = ~Non é un segreto che un avventuriero deve, all'occasione, associarsi con dei ladri, degli assassini, dei bugiardi, ed altri tipi di feccia. Una reputazione onesta ed integra può essere un vero svantaggio in questa occasioni. Un omicidio gratuito può rimediare alla situazione, ma é più facile e meno problematico avere una coscienza ed indossare questi stivali.
+
+STATISTICHE:
+
+Abilità fornita: -2 alla Reputazione
+Peso: 2~
+
+@39 = ~Stivali dell'Innocenza~
+@40 = ~Non è un segreto che di tanto in tanto l'avventuriero deve trattare ed essere condiscendente con dei paladini, sacerdoti integri moralmente, onesti nobili ed altri presuntuosi simili. Avere una fama spietata e crudele, anche se lodevole in altre circostanze, può essere un notevole svantaggio durante questi incontri. Una grande donazione presso il tempio locale può essere un buon metodo per migliorare le relazioni, ma è molto più facile e meno costoso indossare questi stivali.
+
+STATISTICHE:
+
+Abilità fornita: +2 alla Reputazione
+Peso: 3~
+
+@41 = ~Un Pò di Strada con le Scarpe di Qualcun Altro~
+@42 = ~A volte tutto quello di cui ha bisogno un avventuriero per avere successo é una buona idea ed il modo di pensare degli altri. Questo può essere acquisito attraverso anni di studi ed esperienza. Ma può essere anche acquisito indossando queste scarpe.
+
+STATISTICHE:
+
+Abilità fornita: Inverte l'allineamento di colui che le indossa
+Peso: 2~
+
+@43 = ~Piede Puzzolente~
+@44 = ~I suoi piedi puzzano. Sono davvero puzzolenti. Dopo diversi anni di commenti maligni e di richieste di sedersi dall'altra parte, in qualche altro luogo, ha deciso di portare la situazione a suo vantaggio. E' ancora ricordato come Piede Puzzolente, ma si dice che ora sia rispettato.
+
+STATISTICHE:
+
+Speciale: Lancia Nube Maleodorante una volta al giorno
+Peso: 4~
+
+@45 = ~Stivali della Visita~
+@46 = ~Dopo aver ascoltato le lamentele di sua madre in merito al cattivo odore che Aurora ed i suoi compagni gli lasciavano ogni volta che andavano a farle visita, Aurora ordinò diverse paia di questi stivali. A differenza degli stivali comuni, loro non emanano cattivo odore dopo un giorno di viaggio. Infatti permettono di passare dalla strada a casa senza prima doversi fermare a lavarli.
+
+STATISTICHE:
+
+Speciale: Lancia Zona d'Aria Fresca una volta al giorno
+Peso: 4~
+
+@47 = ~Stivali per Stimolare la Memoria~
+@48 = ~Un mago col quale Aurora viaggiava spesso si lamentava costantemente che non aveva dita sufficienti per indossare tutti gli anelli utili e di cui aveva bisogno, e che i suoi amuleti erano spesso ingarbugliati. Perciò, Aurora ordinò questi stivali per lui.
+
+STATISTICHE:
+
+Abilità fornita: Memorizza 2 incantesimi supplementari di livello 1 ed 1 incantesimo supplementare di livello 2
+Peso: 4
+Utilizzabile da:
+ Mago
+ Bardo~
+
+@49 = ~Stivali del Leopardo~
+@50 = ~Colui che indossa questi stivali può passare la giornata sicuro che non succede nient'altro di storto, perché ha dei gran bei stivali.
+
+STATISTICHE:
+
+Peso: 3~
+
+@51 = ~Stivali Eleganti del Ghepardo~
+@52 = ~Le originali Zampe di Cheetah dette anche Zampe del Ghepardo appartenevano a degli assassini che amavano inseguire le proprie prede. Si muovevano così rapidamente che spesso i loro bersagli non avevano il tempo di reagire, anche se in sella a un cavallo. Naturalmente tutto ciò era molto impressionante, ma gli assassini non avevano il senso dello stile e dell'eleganza, perciò Aurora fece fabbricare un paio simili in pelle di ghepardo ma molto più eleganti. Loro migliorano la velocità di colui che li indossa e allo stesso tempo sono più belli da vedere.
+
+STATISTICHE:
+
+Abilità fornita: Raddoppia la velocità di movimento
+Peso: 3~
+
+@53 = ~Mocassini di Marv il Folle~
+@54 = ~La frase preferita di Marv il Folle era "Sei solo un paranoico se loro non vengono dopo di te". Lui era così convinto che le legioni dei nemici gli davano la caccia che creò questi mocassini per aiutarlo a combattere le sue battaglie. Loro aiutano colui che li indossa ad individuare i suoi nemici prima che loro individuino lui. Purtroppo trasferiscono sul loro possessore anche una parte del noto nervosismo di Marv.
+
+STATISTICHE:
+
+Speciale: Velocità di Attacco portata a zero; 40% di possibilità di essere sotto l'effetto del panico per 6 round
+Peso: 2~
+
+@55 = ~Stivali Verdi per Tutti i Giorni~
+@56 = ~Questi sono dei confortevoli e robusti stivali creati per essere indossati ogni giorno. Aurora li ha colorati di verde, il suo colore preferito, e li ha progettati soprattutto per essere resistenti agli attacchi perforanti.
+
+STATISTICHE:
+
+Abilità fornita: CA -2 contro armi perforanti
+Peso: 4~
+
+@57 = ~Unguento per le mani~
+@58 = ~Aurora giura che quando era un'avventuriera usava questo unguento. Rende le mani leggere ed agili, evitando di avere una scarsa sensibilità causata dalle eccessive screpolature delle mani.
+
+STATISTICHE:
+
+Special: +1 alla Destrezza per 6 turni
+Peso: 1~
+
+@59 = ~Stivali Rosa dell'Azione Furtiva~
+@60 = ~Questi stivali sono perfetti per coloro che desiderano sapersi muovere silenziosamente. Aurora li ha ordinati rosa su richiesta di Imoen.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Muoversi Silenziosamente: +20%
+ Nascondersi nelle Ombre: +15%
+Peso: 4
+Utilizzabile da:
+ Ladro
+ Ranger
+ Monaco~
+
+@61 = ~Balsamo per i Muscoli~
+@62 = ~Questo è un balsamo per lenire le ferite o per i muscoli sotto sforzo.
+
+STATISTICS:
+
+Speciale: Fatica portata a 0
+Peso: 1~
+
+@63 = ~I gioielli indossati alle orecchie sono comuni in molte culture. Alcuni rari orecchini sono stati incantati e conferiscono delle abilità magiche varie. Questo orecchini sono molto ricercati, soprattutto da coloro che svolgono la professione di avventurieri.~
+
+@64 = ~Scarpe~
+@65 = ~Normalmente i calzolai fanno a mano delle scarpe o dei mocassini simili a queste. Solitamente le scarpe sono fatte utilizzando un esemplare, ma le scarpe di ottima qualità sono fatte su misura per i piedi di una persona.
+
+STATISTICHE:
+
+Peso: 2~
+
+@66 = ~Stivali della Locanda~
+@67 = ~Delle volte gli avventurieri stanchi hanno bisogno di una buona, forte bevanda e di un soffice letto in cui poter poi dormire. Tutte le volte che colui che indossa questi stivali ha la necessità di bere e riposare basta che colpisce i talloni di questi stivali per tre volte di seguito e l'intero gruppo sarà trasportato in una locanda a sua scelta.
+
+STATISTICHE:
+
+Speciale: Teletrasporta il gruppo in una locanda a scelta (3 volte al giorno)
+Peso: 4~
+
+@68 = ~Stivali dai Lacci Verdi~
+@69 = ~Aurora ha richiesto la fabbricazione di questi stivali poco dopo aver perso il suo primo paio di "stivali dell'avventuriero" - non appena se lo è potuto permettere, cioè. Allacciare un paio di stivali così affascinanti danno un buon inizio ad ogni giorno, e forniscono un aiuto supplementare alzando le difese i colui che li indossa. A seguito di molti complimenti dei suoi clienti, Aurora ha prodotto altri stivali simili e li ha resi disponibili in grande misura.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento: -1 alla CA, -1 ai Tiri Salvezza
+Peso: 4~
+
+@70 = ~Abito~
+@71 = ~Questo è un comune e leggero abito di lino, con le maniche di ottima seta. Sembra essere un indumento creato per tutte le occasioni e adatto ad ogni professione.
+
+STATISTICS:
+
+Peso: 3~
+
+@72 = ~Abito Verde~
+@73 = ~In cambio dei servizi resi come guide e guardie, ed anche in segno di amicizia, un mago ha incantato questi abiti per i tre membri delle sue guardie del corpo d'elite. Gli abiti forniscono protezione contro varie forme di magia, e rendono colui che lo indossa più agile. In aggiunta, mettono in evidenza il colore degli occhi di colui che lo indossa.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ CA: di base portata a 4
+ Resistenza Magica +15%
+ Destrezza +1
+Peso: 3~
+
+@74 = ~Stivali Gialli per Tutti i Giorni~
+@75 = ~Questi sono dei confortevoli e robusti stivali creati per essere indossati ogni giorno. Aurora li ha colorati di giallo, e sono stati creati soprattutto per resistere agli attacchi contundenti.
+
+STATISTICHE:
+
+Abilità fornita: -2 alla CA contro le armi contundenti
+Peso: 4~
+
+@76 = ~Stivali Blu per Tutti i Giorni~
+@77 = ~Questi sono dei confortevoli e robusti stivali creati per essere indossati ogni giorno. Aurora li ha colorati di un blu scuro, e sono stati creati soprattutto per resistere agli attacchi da taglio.
+
+STATISTICHE:
+
+Abilità fornita: -2 alla CA contro le armi taglienti
+Peso: 4~
+
+@78 = ~Scatola di Scarpe in Legno di Pero~
+@79 = ~Questa scatola leggera e robusta è composta di un legno duro dalle eccellenti nervature ed è rilegata con il ferro. E' compatta e sembra molto funzionale.~
+@80 = ~Aurora ha costruito questa scatola per contenere le sue numerose scarpe e i suoi numerosi stivali. E compatta, solida, ricoperta di legno di pero ed é rilegata con il ferro. Lei ha chiesto ad un suo amico mago di incantarla cosicché possa aprirsi su di un altro mini-piano chiuso. Vi possono essere messi una grande quantità di stivali nella scatola, eppure il peso rimane sempre lo stesso.
+
+STATISTICHE:
+
+Capacità: 40 stivali o scarpe
+Peso: 2~
+
+@81 = ~Stocco Acido +2~
+@82 = ~Questo stocco ornato sull'elsa è composto da una lega inusuale di bronzo e diamante che rimane più dura dell'acciaio. L'elsa dall'età oscura possiede incisioni fatte con l'acido ed è ornata di oro e argento, nella stessa elsa è scolpito in rilievo un blasone sconosciuto. Sebbene la lama può corrodere ogni cosa che tocca, l'arma stessa resiste ad ogni corrosione. Nessuno sa da dove arrivi questa insolita arma, ma si raccontano molte storie e leggende. Pirati, cacciatori di tesori e disgustosi furfanti in egual misura cercano avidamente da lungo tempo questo stocco.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D6 + 1
+ +2 di Danno Acido
+Tipo di danno: Perforante
+Peso: 3
+Fattore velocità: 2
+Tipo di competenza: Spada Corta
+Tipo: ad una mano
+Richiede: 5 alla Forza
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
+
+@83 = ~Coltellaccio del Pirata +2~
+@84 = ~Questa terribile lama d'acciaio curvato una volta apparteneva al famoso  Black Dhavrag, il flagello della Costa della Spada. Con questa spada costantemente nelle sue mani, il re dei pirati saccheggiò molte città della costa dall'Amn fino a Waterdeep, spesso in preda alla furia berserker. Purtroppo per lui (e per il piacere per quasi tutti gli altri), lo perse in una puntata giocando a carte e fu fatto sparire durante la rissa che ne seguì. Il coltellaccio è talmente turpe che il semplice suo tocco può causare la fuga della vittima in preda ad un terrificante terrore.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D6 + 2
+Tipo di danno: Tagliente
+Abilità fornita: +0 alla Destrezza
+Speciale:
+ 10% di possibilità di infliggere Orrore sulla vittima
+ 10% di possibilità di provocare la Furia Berserk al possessore
+Peso: 3
+Fattore velocità: 3
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 8 alla Forza
+Non utilizzabile da:
+ Chierico
+ Mago~
+
+@85 = ~Pietra Incantata Nocciola~
+@86 = ~Il fanfarone Aloysius D'Abetot un tempo viaggiava per tutti i Reami dalla calotta glaciale ai deserti, cercando di saccheggiare qualsiasi cosa vedesse. Faceva affidamento su questa pietra fortunata proveniente da un altro mondo per conservare la sua testa intatta durante le sue razzie. Dopo un giorno particolarmente intenso di furti e rapine, cadde addormentato nel giardino di una taverna con una servotta della locanda, la pietra era al sicuro nella sua borsa (così lui pensava). Ahimé, durante il suo sonnellino, la pietra deve essere stata portata via, perché al suo risveglio si accorse di averla persa, insieme alla sua servotta della taverna. Benché Aloysius e le sue malefatte siano state dimenticate col tempo, la pietra andò avanti a conferire la sua fortuna ad un nuovo proprietario. Stranamente, assomiglia molto ad una ghianda.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento: +1 alla Fortuna; Protegge dai colpi critici
+Peso: 1~
+
+@87 = ~Stivali della velocità: "Le Zampe di Cheetah" o "Le Zampe del Ghepardo" 
+Un tempo questi stivali incantati appartenevano a un assassino che amava inseguire le proprie prede. Si muoveva così rapidamente che spesso i suoi obiettivi non avevano il tempo di reagire, anche se in sella a un cavallo. Con il tempo la fama dell'assassino si diffuse, anche se nessuno seppe mai il suo vero nome, tutti sapevano che dovevano temere le ultime parole pronunciate alle sue vittime: "Potete nascondervi, ma non potete scappare!"
+
+STATISTICHE
+
+Abilità fornita: Velocità di Movimento Raddoppiata
+Peso: 4~
+
+@88 = ~Stivali di repulsione: "Istinto Felino"
+Questi stivali vennero appositamente creati per rilevare armi da lancio in arrivo e aiutare colui che li indossava a evitarle. Vennero originariamente commissionati da un istruttore dell'accademia degli arcieri, stanco di essere vittima degli "incidenti" dei suoi studenti inesperti.
+
+STATISTICHE:
+
+Abilità fornita: CA -5 contro armi da lancio
+Peso: 4~
+
+@89 = ~Stivali da atterraggio: "Il Dono di Talos"
+Molti anni fa, la Fortezza della Penisola Punta di Stella si trovava sotto il potere dispotico di Talos quando un Araldo della Tempesta ben voluto da tutti venne ucciso. Talos promise che la città sarebbe stata distrutta dai terremoti, isolata dalle maree e i cittadini sarebbero morti a causa delle tempeste. Venne confezionato un paio di questi stivali perché venissero indossati da un uomo che sarebbe sopravvissuto per raccontare la storia di questo scoppio di rabbia. Più tardi, viandanti in cerca di fortuna tra le rovine della città s'imbatterono in un vecchio, sconvolto dalla distruzione che aveva visto con i propri occhi. Gli stivali che indossava avrebbero fatto in modo che la leggenda della città distrutta dall'ira di un dio giungesse in terre lontane. Nel corso degli anni, altri hanno trovato utili gli stivali, ed hanno domandato ad abili maghi di creare delle altre paia.
+
+STATISTICHE:
+
+Abilità fornita: Resistenza all'Elettricità +50%
+Peso: 4~
+
+@90 = ~Stivali della Ferocia~
+@91 = ~Stivali della Ferocia: "Furia di Ruathym"
+Valthjof di Ruathym era un capace sciamano degli uomini del nord. Era talmente abile che poteva evocare delle bestie selvagge ed infondere i loro spiriti negli oggetti inanimati. Perciò riuscì ad incantare diverse paia di stivali per la ciurma della nave "Ice Serpent". Loro imperversarono a sud delle Moonshaes e non si fermarono là. A causa della furia berserk degli stivali che possedevano, la loro sete di sangue non cessava mai finché non caddero morti in lontani angoli dei Reami.
+
+STATISTICHE
+
+Speciale: +1 Attacco supplementare ad ogni round per 20 secondi
+Penalità: +8 alla CA; +6 ai Tiri Salvezza; le abilità da ladro ed il lancio di incantesimi sono disabilitati
+Peso: 3~
+
+@92 = ~Stivali della Velocità Fulminea: "Tallone del Codardo"
+Questi stivali modificati erano stati originalmente intesi per portare la velocità dell'indossatore a livelli superiori anche a quelli dei normali stivali di velocità. Rendono l'indossatore veloce come se fosse stato lanciato un incantesimo di velocità su qualcuno che già indossava gli stivali della velocità. Sfortunatamente l'indossatore non può attaccare e la tensione di muoversi così velocemente logora anche il più forte degli eroi. Il loro nomignolo è "tallone del codardo", che riassume il loro uso più ovvio: scappare.
+
+STATISTICHE
+
+Abilità fornita: Velocità di Movimento portata al massimo
+Penalità: Impossibile attaccare o lanciare incantesimi
+Peso: 3~
+
+@93 = ~Le leggende narrano che il mago che ha creato queste calzature magiche vi abbia intrappolato all'interno lo spirito di un vero gargoyle. Ma sfortunatamente non sono riuscite a proteggere il mago dalla vendetta di uno dei compagni del gargoyle stesso.
+
+STATISTICHE:
+
+Abilità fornita: Immunità al colpo alle spalle
+Speciale: Pelle di Pietra 2 volte al giorno (2 pelli per utilizzo)
+Peso: 1~
+
+@94 = ~Installazione di Aurora's Shoes, per Tutu.~
+@95 = ~Installazione di Aurora's Shoes, per Baldur's Gate Trilogy.~
+@96 = ~Installazione di Aurora's Shoes, per Baldur's Gate II.~
+@97 = ~Questo mod non é compatibile con il tuo gioco. Per favore controlla la tua cartella di installazione e prova di nuovo.~
+
+@98 = ~Stivali di Guerra~
+@99 = ~Questi stivali rafforzati placcati di metallo sono decorati con un topazio. Sono stati creati con Stivali del Coraggio e con gli Stivali di Battaglia. Perciò forniscono a colui che li indossa protezione da tutte le forme di paura. Inoltre, posseggono un incantamento che fornisce al portatore un vantaggio supplementare su ogni avversario in battaglia.
+
+STATISTICHE:
+
+Abilità di equipaggiamento:
+ Protezione dalla Paura
+ THAC0 +2
+Peso: 4~
+
+@100 = ~Troverai la mia spada ancora affilata!~ [AGAU001] //ATTACK1 
+@101 = ~Mai un momento noioso!~ [AGAU002] //BATTLE_CRY1
+@102 = ~In quegli stivali? Non hai nessuna possibilità!~ [AGAU003] //BATTLE_CRY2
+@103 = ~Io non ho perso il mio tocco!~ [AGAU004] //CRITICAL_HIT
+@104 = ~Dannazione!~ [AGAU005] //CRITICAL_MISS
+@105 = ~Oof!~ [AGAU007] //DAMAGE
+@106 = ~Scappa finché ti restano ancora le gambe!~ [AGAU008] //DIALOGUE_HOSTILE
+@107 = ~E' stato divertente.~ [AGAU009] //DYING
+@108 = ~Ugh! Devo essermi arrugginita.~ [AGAU006] //HURT
+@109 = ~Ottenere i servizi di Sir Sarles per il tempio
+
+Unger Hilldark mi ha detto che il suo ultimo carico di illithium è stato rubato da un nano di nome Neb. Unger non può chiedere la restituzione dell'illithium perché in Amn la parola di un Duergar non ha valore. Se voglio del vero illithium devo trovare io stesso il bandito. Unger mi ha detto che Neb ha comprato una casa nel Quartiere del Ponte e che era in fuga da Baldur's Gate dove ha 'lasciato famiglie in lacrime'. Il nome suona stranamente familiare.~
+@110 = ~Ottenere i servizi di Sir Sarles per il tempio
+
+Mi sono assicurato i servizi dell'artista, Sir Salers, per la chiesa... Anche se non è certo stato facile. Ha preteso di poter usare dell'illithium puro, che ho dovuto recuperare da un nano assassino di nome Neb. Tuttavia ce l'ho fatta.~
+@111 = ~Vattene dalla mia casa. Io sono un onesto cittadino. Sono solo uno gnomo che sta cercando di guadagnarsi da vivere.~
+@112 = ~Tipico di questa città. Io sono solo un povero uomo d'affari, ma finirò in prigione solo per la mia faccia ombrosa. Questo bastardo che mi ha derubato sembrava uno gnomo, quindi sarà accolto a braccia aperte.~
+@113 = ~Questa è la testa di Neb lo gnomo. Raramente un essere più spregevole ha camminato su questa terra.~
+@114 = ~Ho la testa dello gnomo uccisore di bambini Neb. Mi aspetto una ricompensa per aver reso il servizio di ucciderlo.~
+@115 = ~Ho la testa dello gnomo uccisore di bambini Neb. Mi aspetto una ricompensa per averlo ucciso.~
+@116 = ~Ho qui la testa del criminale, uno gnomo di nome Neb. Sei tu con cui dovrei parlare?~
+@117 = ~<CHARNAME>! Questo...questo è lo stesso gnomo di Baldur's Gate, l'assassino di bambini! Nel nome dell'equilibrio, deve essere consegnato alle autorità!~
+@118 = ~Boo si ricorda! Baldur's Gate! Neb l'assassino di bambini! Muori, gnomo, muori!! RAAAAAGGGGGHHHH!!~
+@119 = ~Io mi ricordo di te! Baldur's Gate! Neb l'assassino di bambini! Muori, gnomo, muori!! RAAAAAGGGGGHHHH!!~
+
+@120 = ~Karaea Harfurthock~
+@121 = ~Pensavo che non me lo avresti mai chiesto!~ [AGKA001] //INITIAL_MEETING
+@122 = ~Sono stanca. Ed ho bisogno davvero di cambiarmi gli... stivali.~ [AGKA002] //TIRED
+@123 = ~Prepararsi! Si va a fare male!~ [AGKA003] //BATTLE_CRY1
+@124 = ~Disperdetevi! Sto arrivando!~ [AGKA004] //BATTLE_CRY2
+@125 = ~Unghhh!~ [AGKA005] //DAMAGE
+@126 = ~Davvero?!~ [AGKA006] //DYING
+@127 = ~Unghh... Se muoio tra noi è finita!~ [AGKA007] //HURT
+@128 = ~Ci sarò!~ [AGKA008] //SELECT_COMMON1
+@129 = ~Si?~ [AGKA009] //SELECT_COMMON2
+@130 = ~(risatina) Non me lo aspettavo neanche io!~ [AGKA010] //CRITICAL_HIT
+@131 = ~Oops! Non volevo farlo!~ [AGKA011] //CRITICAL_MISS
+@132 = ~Ooh! Ora devo ricominciare!~ [AGKA012] //SPELL_DISRUPTED
+@133 = ~Stivali e Marmellate di Karaea~
+@134 = ~Tomthal Harfurthock~
+@135 = ~Hmph.~ [AGTO001] //INITIAL_MEETING
+@136 = ~Ti farò a pezzi!~ [AGTO002] //BATTLE_CRY1
+@137 = ~Muori, vecchia capra.~ [AGTO003] //BATTLE_CRY2
+@138 = ~Ti colpirò fino a farti uscire il tuo folle cervello!~ [AGTO004] //ATTACK1
+@139 = ~Oof.~ [AGTO005] //DAMAGE
+@140 = ~Ach...~ [AGTO006] //DYING
+@141 = ~Ah, dannazione.~ [AGTO007] //HURT
+@142 = ~Beh?~ [AGTO008] //SELECT_COMMON1
+@143 = ~E?~ [AGTO009] //SELECT_COMMON2
+@144 = ~Heh heh heh. Prendi questo!~ [AGTO010] //CRITICAL_HIT
+@145 = ~Bah!~ [AGTO011] //CRITICAL_MISS
+@146 = ~Maledizione!~ [AGTO012] //SPELL_DISRUPTED
+@147 = ~Pugnale da Lancio Avvelenato~
+@148 = ~Carretta~
+
+@150 = ~Stivali Gnomici~
+@151 = ~Questi stivali bassi sono stati ricoperti di robusto cuoio. Le punte sono leggermente rialzate, e le suole sono state progettate per rendere sicura la stabilità su ogni tipo di terreno, sia nel sottosuolo e sia in superficie.
+
+STATISTICHE:
+
+Abilità fornita: Immune a Intralciare, Unto e Ragnatela
+Peso: 2~
+
+@152 = ~Rubino~
+@153 = ~Il rubino é una chiara e profonda pietra cremisi di ossido di alluminio, più dura del diamante. Più è rosso, e più la pietra é di valore, quindi le variazioni più preziose sono facilmente identificabili. I rubini di maggiore qualità provengono dalle profondità del sottosuolo. Si crede che i rubini possano garantire grande fortuna, secondo le superstizioni del Mare delle Stelle Cadute. Nelle ricerche magiche, i rubini sono spesso schiacciati per produrre polveri e inchiostri magici, inoltre sono associati ai combattimenti contro i non morti, e sovente ci vengono adornati dispositivi proprio per questo scopo.~
+
+@154 = ~Rubino Stellato~
+@155 = ~Questo magnifico rubino é una pietra di incomparabile valore. La stella al centro irradia i differenti angoli quando la si ruota, lanciando dei raggi di luce rosso-sangue in tutte le direzioni. Con una gemma così rara e bella si potrebbe riscattare anche un principe.~
+
+@156 = ~Piccone~
+@157 = ~Il piccone militare trae le sue origini dal comune attrezzo utilizzato nelle miniere. Consiste in una pesante punta montata su di un manico. La sua funzione durante un combattimento consiste nel cercare di bucare le armature, comprese le corazze di piastre complete.
+
+Danno: 2D4
+Tipo di danno: perforante
+Peso: 6
+Fattore velocità: 7
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 8 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago 
+ Ladro~
+
+@158 = ~Piccone Svirfneblin~
+@159 = ~Gli gnomi delle profondità, per ovvie ragioni, adorano queste armi: sono l'ideale per estrarre delle gemme preziose dal suolo. I picconi sono anche l'ideale per perforare pesanti armature, anche le corazze di piastre complete. Gli Svirfneblin fabbricano i loro picconi con una forte ma leggera lega metallica dalle proprietà sconosciute. Questo metallo rimane affilato e appuntito anche dopo uno scavo vigoroso o un duro combattimento.
+
+THAC0: +1
+Danno: 2D4 + 1
+Tipo di danno: perforante
+Peso: 5
+Fattore velocità: 6
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 7 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago 
+ Ladro~
+
+@160 = ~Clava Svirfneblin~
+@161 = ~Questa insolita arma é una via di mezzo tra una clava ed una mazza, con alcune caratteristiche di una morning star. La sua testa sferica é composta da delle protuberanze di varie misure, che gli gnomi delle profondità utilizzano per lavorare con precisione le pietra. La testa è unita al manico attraverso un solo pezzo di lega metallica, e senza i bordi caratteristici di una mazza. Quindi si maneggia più come una clava rispetto ad ogni altra arma.
+
+THAC0: +1
+Danno: 1D6 + 2
+Tipo di danno: schiacciamento
+Peso: 3
+Fattore velocità: 3
+Tipo di competenza: Clava
+Tipo: ad una mano
+Richiede: 5 alla Forza
+Non utilizzabile da:
+ Mago~
+
+@162 = ~Questa bottiglia contiene un preparato di vino di origine sconosciuta. Si dice che un avventuriero proveniente da Scornubel una volta bevve un vino sconosciuto simile e che poi si rivelò essere un vino fungoso fatto in casa proveniente dal Bosco dei Denti Aguzzi. L'uomo scomparve per una decina di anni e ricomparve più tardi in una capanna di pescatori sull'Isola di Snowdown senza ricordarsi nulla del suo passato. Si spera che questo non sia un vino simile a quello, ma sarebbe comunque saggio identificarlo prima di berlo.~
+
+@163 = ~Gogondy~
+@164 = ~Questa bottiglia in ferro battuto ha un tappo di granito e vi sono incise delle strane rune in linguaggio Svirfneblin. Contiene una strana bevanda dall'odore inebriante e dal colore rosso intenso. Gli gnomi delle profondità adorano questo vino a causa delle sue proprietà magiche, che va oltre la comprensione delle altre razze.
+
+Speciale: Sconosciuto
+Peso: 1~
+
+@165 = ~Questa bottiglia in ferro battuto ha un tappo di granato e vi sono incise delle mistiche rune in linguaggio Svirfneblin. Contiene una strana bevanda dall'odore aspro e dal colore rosso intenso. Gli gnomi delle profondità adorano questo vino a causa del suo potere di donare delle visioni. Questo vino particolare é stato addolcito per permettere ai non-Svirfneblin di beneficiare di queste visioni, sebbene l'esatta natura delle visioni variano in base a colui che la beve.
+
+Speciale: Sconosciuto
+Peso: 1~
+
+@166 = ~Vino alla Fragola~
+@167 = ~Questo é un vino d'annata di qualità superiore proveniente dalla vendemmia della costa del Lago Esmel di più di una decina di anni fa, nell'Anno del Verme (1356). Piuttosto secco per essere un vino di bacca, ha un retrogusto frizzante, inoltre sono stati aggiunti dei chiodi di garofano e delle scorze d'arancia. Il suo aroma evoca delle fragole fresche, delle foglie di querce secche e delle piogge primaverili. Elegante di corposità media, offre una rara possibilità di rilassarsi ovunque. Si dice che si gusta appieno con il fagiano di Calimshan.
+
+Speciale:
+ Ubriacarsi +20% per 3 turni
+ Resistenza alla Paura per 3 turni
+ Carisma +1 o -1 (50% di possibilità per una delle due probabilità)
+Peso: 1~
+
+@168 = ~Bacche~
+@169 = ~Attraverso Abeir-Toril crescono numerosi tipi di bacche, dalla comune mora alla rarissima bacca solik. Alcune bacche sono velenose, quindi sarebbe saggio identificare e sapere di che tipo di bacche si tratti prima di masticarle.~
+
+@170 = ~Uva Spina~
+@171 = ~Le uve spine sono originarie dell'ovest di Faerûn, e crescono da Waterdeep a Chult ad Utter East. Sebbene un po' amarognole, acide ed un pò agre nel loro stato naturale, le uve spine sono molto ricercate per le loro proprietà nutrizionali. Molta gente di Faerûn la mangia appena colta e la utilizza nelle torte, nelle crostate e ci fa anche le marmellate.
+
+STATISTICHE:
+
+Speciale:
+ 50% di possibilità di guarire 5 punti ferita
+ 25% di possibilità di ridurre la fatica di -50%
+ 25% possibilità di rigenerare 1 punto ferita ad ogni round per 1 turno
+Peso: 0~
+
+@172 = ~Crostata~
+@173 = ~Le crostate sono dei grandi pasticcini solitamente riempiti con della frutta, sebbene alcune sono fatte con la crema, con degli aromi o anche con altre sostanze esotiche. Questa crostata ha un profumo delizioso e dall'aspetto sembra avere un buon sapore.~
+
+@174 = ~Crostata di Uva Spina~
+@175 = ~La crostata favorita di Karaea deriva da una ricetta che lei ha imparato subito dopo essere uscita in superficie. Comunque lei l'ha modificata per creare le sua ricetta personale. Questa crostata dolce piace già al primo assaggio.
+
+STATISTICHE:
+
+Speciale:
+ Fatica impostata a 0
+ Rigenera 1 punti ferita a round per 5 turni
+ Tiro Salvezza -5 per 5 turni
+Peso: 1~
+
+@176 = ~Pane e Marmellata~
+@177 = ~Questo grande pezzo di pane fresco cotto é cosparso di nutriente, cremoso burro e ricoperto con un abbondante quantità di marmellata. E' un piacere semplice e rincuorante.
+
+STATISTICHE:
+
+Speciale: Fatica ridotta a -50%
+Peso: 1~
+
+@178 = ~Marmellata~
+@179 = ~Questo é un vaso di marmellata. Potrebbe avere qualsiasi sapore - non lo saprai mai finché non lo verificherai!~
+
+@180 = ~Burro di Mele~
+@181 = ~Sono aspre e friabili mele raccolte in tardo autunno e aromatizzate con il miscuglio segreto di Karaea (che sicuramente contiene più di un pizzico di noce moscata) che creano una vera delizia per il palato. Aprendo il vaso, il viaggiatore è assorto piacevolmente dai ricordi della sua casa, del suo cuore e della sua famiglia.
+
+STATISTICHE:
+
+Speciale:
+ Cura malattie
+ Riduce l'ubriachezza della metà
+Peso: 1~
+
+@182 = ~Marmellata di More~
+@183 = ~Le more crescono per la maggior parte nelle zone selvagge del nord di Faerûn, rendendo facile il compito ai perspicaci produttori di questa marmellata, potendo scegliere il meglio. Solo le bacche più nere e più stagionate sono state utilizzate per questa eccezionale confetture, la quintessenza della marmellata.
+
+Potresti accidentalmente macchiarti il vestito, provate a versare dell'acqua bollente nella parte macchiata e facendola asciugare al sole. In alternativa, potresti acquistare un economico colorante violaceo dal tuo locale venditore di coloranti e dare al tuo vestito un aspetto completamente nuovo.
+
+STATISTICHE:
+
+Speciale: Cura il veleno
+Peso: 1~
+
+@184 = ~Marmellata di Mirtilli~
+@185 = ~Introdotti da alcuni dei primi esploratori della Maztica, i mirtilli si sono rapidamente diffusi attraverso il nord della Costa della Spada. I produttori di marmellate l'hanno rapidamente aggiunta al loro repertorio. Un'eccezionale raccolta di mirtilli, presi direttamente sul luogo, fanno parte di questa marmellata deliziosa. Dolce, un po' aspra, ti riempie di energia appena l'assaggi.
+
+STATISTICHE:
+
+Speciale:
+ Costituzione +1 per 2 turni
+ Cura le Regressioni Mentali 
+Peso: 1~
+
+@186 = ~Marmellata di Bacche della Salute~
+@187 = ~Una combinazione ingegnosa di pratiche di magia e di gastronomia è all'origine di questa deliziosa marmellata. Un solo boccone e ti sentirai subito meglio.
+
+STATISTICHE:
+
+Speciale: Guarisce 18 punti ferita
+Peso: 1~
+
+@188 = ~Marmellata di Mirtilli Rossi~
+@189 = ~I mirtilli rossi crescono in climi rigidi, come quelli delle Isole Moonshae e dalla Valle del Vento Gelido. Questi frutti rossi sono abbastanza aspri, ma vengono cotti ed addolciti per creare eccellenti marmellate, succhi e sciroppi. La gente del nord apprezza questa bacche per le loro proprietà, utili nel freddo nord. 
+
+Karaea solo recentemente ha iniziato a sperimentare questi frutti, utilizzando ricette prese in prestito da altri. Il risultato è un irresistibile marmellata che riscalderà il tuo cuore (se ne hai ne hai uno).
+
+STATISTICHE:
+
+Speciale:
+ Protezione dal Freddo +65% per 2 turni
+ 5% di possibilità di causare una temporanea follia (Berserk) per 2 round
+Peso: 1~
+
+@190 = ~Marmellata di Gelsi~
+@191 = ~Si pensa che il gelso sia originario dello Splendente Sud, sebbene ora sia così diffuso da non poter determinare il suo esatto luogo di origine. Questa marmellata dolce e di colore rosso scuro fa venire l'acquolina in bocca. 
+
+Purtroppo, mentre il frutto maturo é un sano spuntino, il frutto non maturo occasionalmente può provocare delle allucinazioni. Prova la fortuna con questa marmellata.
+
+STATISTICHE:
+
+Speciale:
+ Protezione dal Fuoco +65% per 2 turni
+ 5% di possibilità di causare allucinazioni (Orrore) per 2 round
+Peso: 1~
+
+@192 = ~Marmellata di Lamponi~
+@193 = ~Originariamente portato dal lontano est, da Koryo e dall'Ama Basin, il lampone si é poi gradualmente diffuso ad ovest divenendo una delle bacche più popolari del Faerûn. Questa marmellata è fatta con delle ottime bacche di prima qualità scelte tra le più dolci e dal colore rosso rubino,. I lamponi ti riportano alla memoria i caldi giorni estivi. Le proprietà salutari della marmellata includono una capacità visiva migliore ed una visione più chiara.
+
+STATISTICHE:
+
+Speciale:
+ Infravisione per 2 turni
+ Cure la cecità
+Peso: 1~
+
+@194 = ~Marmellata di Fragole~
+@195 = ~Da quando questo squisito frutto é stato introdotto da Maztica nel Faerûn, è diventato uno dei frutti preferiti dalla gente. La gente di tutti i ceti sociali l'ha scelta per il suo gusto eccelso nelle marmellate, nelle crostate ed anche nei vini. Questa marmellata, fatta solo con le fragole più rosse e mature, piacerà anche ai palati più difficili.
+
+STATISTICHE:
+
+Speciale: Protezione dall'Acido +50% per 2 turni
+Peso: 1~
+
+@196 = ~Marmellata di Goji~
+@197 = ~Il Goji é molto popolare nello Shou Lung, dove le bacche essiccate vengono aggiunte al budino di riso o infuse per farne del tè o anche della birra. La luminosa bacca rossa é diffusa in tutto l'ovest ed é divenuta molto popolare nel Faerûn, dove cresce allo stato selvatico in siepi e può essere facilmente raccolta dai mercanti ambulanti e dai produttori di marmellate.
+
+STATISTICHE:
+
+Speciale:
+ 75% di possibilità di avere Ristorare Minore
+ 10% possibilità di fatica +25%
+Peso: 1~
+
+@198 = ~Stocco~
+@199 = ~Lo stucco é una spada dritta a doppia lama con un manico elaborato. E' disegnato per essere una spada leggera e dal tocco secco e perforante. Il termine "stocco" é spesso utilizzato per descrivere un'arma civile, in contrapposizione alle armi pesanti e mortali dei soldati e dei mercenari. Gli stocchi sono di moda presso i nobili ed i modo particolare presso i duellanti e gli schermitori.
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+Tipo di danno: Perforante
+Peso: 4
+Fattore velocità: 4
+Tipo di competenza: Spada Corta
+Tipo: a due mani
+Richiede: 5 alla Forza
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
+
+@200 = ~Coltellaccio~
+@201 = ~Il coltellaccio é una spada con una singola lama curva e larga attaccata ad un manico. La lama è corta e pesante. E' la spada favorita delle bande di pirati e si può trovare facilmente nei luoghi portuali, ma sono rari nell'entroterra.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di danno: Tagliente
+Peso: 4
+Fattore velocità: 5
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 8 alla Forza
+Non utilizzabile da:
+ Chierico
+ Mago~
+
+@202 = ~Sacco Appesantito~
+@203 = ~Questo arnese è piuttosto insolito a prima vista e consiste in un sacco di cuoio riempito con qualcosa di pesante, probabilmente del piombo. Il sacco é annodato alla sua apertura ed una cinghia gli passa intorno. A causa della sua dimensione e della sua forma, potrebbe essere più utile come arma piuttosto che come bagaglio per portare oggetti di valore.~
+
+@204 = ~Blackjack~
+@205 = ~Questa arma é conosciuta con molti nomi - il più comune é blackjack, ma a volte anche come "clava", "randello" o anche come "protettore di vita", tutti nomi che determinano il loro utilizzo. Questa piccola arma, facilmente occultabile composta di piombo ed avvolta di cuoio con attaccata ad una cinghia di cuoio flessibile rinforzato con una molla elicoidale. Se viene utilizzato correttamente, il blackjack infligge un minimo di danni, ma fa perdere i sensi ai nemici invece di ucciderli. Perciò l'arma è considerata una sorta di "approccio più umano" dai ladri che desiderano alleggerire le loro sfortunate vittime dai loro preziosi evitando di ucciderle.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D3 - 1
+Speciale: 25% di possibilità di rendere il bersaglio inconscio
+Tipo di danno: pugni
+Peso: 5
+Fattore velocità: 5
+Tipo di competenza: Clava
+Tipo: ad una mano
+Richiede: 10 alla Destrezza
+Utilizzabile da:
+ Tutti~
+
+@206 = ~Passe-partout~
+@207 = ~Il Passe-partout é uno strumento essenziale per il ladro. Consiste in un piccolo spillo di metallo, con diverse pieghe o dentellature utilizzato per aprire serrature in assenza dell'apposita chiave.~
+
+@208 = ~Passe-partout di Bronzo~
+@209 = ~Questo è un sottile pezzo di bronzo curvato e schiacciato alla sua estremità. E' un oggetto essenziale per il ladro scaltro che desidera aprire le serrature senza possedere le apposite chiavi. Questo passe-partout é abbastanza semplice ed é di bronzo. Probabilmente è adatto ad aprire serrature piuttosto semplici ma sarà inadatto ad aprire serrature anche di media difficoltà, salvo che "colui che scassina la serratura" sia molto abile.
+
+STATISTICHE:
+
+Abilità fornita: Scassinare +10%
+Richiede: 10 alla Destrezza
+Utilizzabile da:
+ Ladro~
+
+@210 = ~Maschera~
+@211 = ~Una maschera é normalmente portata per coprirsi il viso salvo gli occhi ed a volte l'intero volto. Il suo scopo solitamente è quello di nascondere l'identità di colui che la indossa da sguardi indiscreti. Altre maschere vengono indossate per proteggersi o per dei rituali e possono giocare dei ruoli specifici in feste particolari o in cerimonie religiose.~
+
+@212 = ~Maschera dell'Elusione~
+@213 = ~Si può dire che, il modo migliore di evitare gli inseguimenti sia quello di essere irriconoscibile. La maschera ricamata possiede l'abilità di lanciare un dweomer, un'aura magica, che circonda immediatamente il ladro. Questo incantamento lo renderà una persone così comune ed ordinaria che colui che insegue non si soffermerà più di due volta a guardare chi indosserà questa maschera, e questo è un vantaggio di enorme valore per colui che fa la professione del ladro. Tuttavia ha un utilizzo limitato prima che i passanti capiscano il travestimento ed inoltre l'effetto tende a dissiparsi dopo un pò.
+
+Abilità fornita: Protegge dai colpi critici
+Speciale: Muoversi silenziosamente +50%
+Peso: 1
+Utilizzabile da:
+ Ladro~
+
+@214 = ~Braccialetto~
+@215 = ~Un braccialetto é un pezzo di gioiello indossato intorno al polso. Di solito alcuni braccialetti sono costituiti di bande metalliche o da catene; altri sono costituiti da fili di perle o gemme. Alcuni braccialetti sono incantati ed hanno poteri protettivi.~
+
+@216 = ~Braccialetto della Saggezza~
+@217 = ~Questa corda di perle d'argento si dice sia stata dedicata dagli elfi del mare, a Deep Sashelas, il Signore delle Profondità Marine, ovvero il dio elfico degli oceani e degli stessi elfi del mare. Dona a colui che lo indossa un bonus alla sua saggezza ed inoltre l'abilità di curare malattie tre volte al giorno.
+
+Abilità fornita: Saggezza +1
+Speciale: Cura Malattia (3 volte al giorno)
+Peso: 1~
+
+@218 = ~Spada Bastarda +2, Lama di Ghiaccio~
+@219 = ~Questa lama finemente lavorata é fredda al tocco ed é lunga circa un metro e mezzo. Strane rune si estendono lungo tutta la lama esponendo una leggenda sconosciuta in lingua nordica. La leggenda runica trasmette delle proprietà che appartenevano alla terra della spada natia verso il suo proprietario. Il manico ha una lunghezza di una mano e mezza ed è avvolto da una resistente fascia di cuoio e appesantito con un semplice pomello di ferro a forma di medaglione.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 2D4 + 2
+ 10% possibilità di fare un +1 di punto di danno da freddo
+Classe Armatura: bonus +1
+Abilità fornita: Resistenza al Freddo +10%
+Tipo di danno: tagliente
+Peso: 7
+Fattore velocità: 6
+Tipo di competenza: Spada Bastarda
+Tipo: ad una mano
+Richiede: 11 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~
+
+@220 = ~Spilla~
+@221 = ~Le spille sono dei pezzi di gioielli decorativi create per essere fissate agli indumenti e indossate sopra al collo o sul collo. La maggior parte delle spille sono fatte di metallo, spesso d'argento o d'oro ma a volte anche di bronzo o di un altro materiale. Le spille sono di solito decorate con dello smalto oppure con delle gemme. Possono essere indossate solamente come ornamento oppure avere una funzione più pratica come fare da gancio ad un mantello. Alcune spille sono invece incantate per altri scopi.~
+
+@222 = ~Spilla di Tempus~
+@223 = ~Questa spilla riccamente ornata é stata lavorata per dargli la forma di una spilla intrecciata dalla testa spaventosa. Attaccata a questa c'è una barra che termina in altre due teste. L'intero pezzo è forgiato da una lega di bronzo e placcata d'oro, ed é disegnata per essere indossata al collo come u mantello o indossata come fermaglio. La punta della spilla somiglia vagamente ad una spada o ad un pugnale fiammeggiante. Come tale simboleggia la fede in Tempus. Si dice che alcune delle sue Guardie di Battaglia d'elite indossino spille di questa natura, ed il Signore delle Battaglie accorda una benedizione di ispirazione ai seguaci più meritevoli.
+
+STATISTICHE:
+
+Abilità fornita: Memorizza un incantesimo supplementare di livello 2
+Richiede: 14 alla Saggezza
+Utilizzabile da:
+  Chierico (solo se é Neutrale o Caotico)~
+
+@224 = ~Ascia da Battaglia +2, Armatura Mordente~
+@225 = ~Quest'ascia proveniente dalle terre del nord é un pò più pesante rispetto ad una cintura o ad un'ascia classica. La vecchia testa dell'ascia è scolpita con un intricato disegno. E' anche "barbuta", che ne indica un aumento della lunghezza all'estremità inferiore della lama, aggiungendo rigidità all'arma i colpi duri e netti. La barba è inoltre utile per uncinare I bordi degli scudi dei nemici. I guerrieri nordici decorano le loro armi con caratteri runici che ne identificano il proprietario. A causa del fatto che la Gente del Nord crede che le rune siano magiche, questo rende l'arma più forte in battaglia.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D8 + 2
+Speciale: 5% di possibilità di uncinare lo scudo o un lembo del nemico
+ (-1 di penalità alla CA del bersaglio per 5 round)
+Tipo di danno: tagliente
+Peso: 5
+Fattore velocità: 5
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 10 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~
+
+@226 = ~Elmo del Nord~
+@227 = ~Questo elmo di ottima fattura é lavorato con un intricato disegno attraverso ed intorno alla testa ed alla protezione nasale. La placche dei cardini delle guance sono abbellita dai tradizionali disegni rappresentanti un lupo. Questo straordinario esemplare ha un significato rituale per la Gente del Nord.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: Nessuno
+Abilità di Equipaggiamento:
+ Protegge contro i colpi critici
+ Resistenza al Freddo +20%
+Peso: 2
+Non utilizzabile da:
+ Mago
+ Ladro~
+
+@228 = ~Bastone dello Sciame d'Insetti +2~
+@229 = ~Questo bastone é estremamente nodoso e apparentemente sembra costituito da due tipi di legno cresciuti insieme. La maggior parte della sua lunghezza é ricoperta con degli ottimi intagli raffiguranti degli insetti alati mordenti e pungenti (api, mosche, tafani, vespe e così via). Qualsiasi personaggio che sia un sacerdote (chierico o druido) che lo possiede può comandare al bastone di creare uno sciame di questo tipo di insetti, utilizzando nello stesso tempo una delle cariche del bastone.
+
+STATISTICS:
+
+Abilities (una carica):
+Piaga degli Insetti
+ Danno: 1 Punto ferita ogni 2 secondi per 6 round
+ Speciale: Fallimento dell'Incantesimo; paura
+ Raggio d'azione: Raggio visivo del Lanciatore
+
+THAC0: bonus +2 
+Danno: 1D6 + 2
+Tipo di danno: schiacciamento
+Peso: 3
+Fattore velocità: 2
+Tipo di competenza: Armi Contundenti
+Tipo: a due mani
+Richiede: 5 alla Forza
+Utilizzabile da:
+ Chierico
+ Druido~
+
+@230 = ~Anello dell'Immunità~
+@231 = ~Questo anello concede immunità a tutti gli incantesimi, attacchi ed individuazioni delle creature invisibili permanenti.~
+
+@232 = ~Magnifico Elisir~
+@233 = ~Di tutti i racconti di potenti magie che sono pervenute da Halruaa, la leggenda dei magnifici elisir è forse la più notevole. Il primo miscuglio del magnifico elisir probabilmente trae le sue origini dalla stessa Netheril. Indipendentemente dalle loro origini, questi liquidi possedevano una natura caotica che rendeva il loro impiego rischioso e dunque poco interessante. La formula della loro creazione alla fine fu quindi perduta e dimenticata dal tempo. Tuttavia, alcuni nascondigli contenenti roba imprevedibile ne fanno ricomparire di tanto in tanto qualcuno.
+
+Un magnifico elisir é un liquido semitrasparente, color acquamarina che brilla e turbina dolcemente senza fine. Il suo gusto è descritto come un buon vino sul fuoco. I possibili effetti di ogni elisir sono casuali, e vanno dalla morte istantanea fino all'ottenimento di una o più abilità innate.
+
+Speciale: Effetto sconosciuto (effetto permenente ma casuale)
+Peso: 1~
+
+@234 = ~Scatola per Calzature di Mogano~
+@235 = ~Karaea ha creato questa scatola per sistemare le sue numerose scarpe e i suoi numerosi stivali. E' compatta, resistente di color mogano e rinforzata con il ferro. Un amico mago le ha incantato la scatola in modo che si possa aprire un altro mini-piano indipendente. Una grande quantità di stivali possono essere sistemati nella scatola, ed inoltre il peso rimane lo stesso.
+
+STATISTICHE:
+
+Capacità: 40 stivali o scarpe
+Peso: 2~
+
+@236 = ~Scatola per Calzature di Ebano~
+@237 = ~Karaea ha creato questa scatola per sistemare le sue numerose scarpe e i suoi numerosi stivali. E' compatta, resistente di color ebano e rinforzata con il ferro. Un amico mago le ha incantato la scatola in modo che si possa aprire un altro mini-piano indipendente. Una grande quantità di stivali possono essere sistemati nella scatola, ed inoltre il peso rimane lo stesso.
+
+STATISTICS:
+
+Capacità: 40 stivali o scarpe
+Peso: 2~
+
+@238 = ~Armi da Mischia di Carnevale~
+@239 = ~Negozio di Black Lily~
+@240 = ~Negozio di Silence~
+
+@241 = ~Buona Giornata!~ [T-SVA01A] //SELECT_COMMON1
+@242 = ~Si.~ [T-SVA01B] //SELECT_COMMON2
+@243 = ~Ho veramente bisogno di parlare con te.~ [T-SVA01C] //SELECT_COMMON3
+@244 = ~Ho ha ha ha!~ [T-SVA01D] //SELECT_COMMON4
+@245 = ~Uccidi questa feccia! Prendeteli!~ [T-SVA02A] //BATTLE_CRY1
+@246 = ~Sangue e maledizione!~ [T-SVA02B] //BATTLE_CRY2
+@247 = ~i miei poteri ti cancelleranno!~ [T-SVA02C] //BATTLE_CRY1
+@248 = ~Muori!~ [T-SVA02D] //BATTLE_CRY2
+@249 = ~Ci vediamo!~ [T-SVA03A] //MORALE
+
+@250 = ~Stivali Goblin~
+@251 = ~Oltre un centinaio di anni fa, la sciamana goblin Kemunshalzeka si assicurò di ottenere che un terribile Lupo Vampiro la servisse. Durante una feroce battaglia con gli elfi della foresta, una raffica di frecce incantate uccise il lupo. Kemunshalzeka sconfisse gli elfi con la sua potente magia e dopo la battaglia, tolse la pelle dal corpo del lupo per farne questi stivali. Naturalmente, nessuno riesce davvero a far uscire questo lupo, dal suo stato di creatura non morte. Certo è che il possessore di questi stivali riesce ad evocare ancora una volta il lupo in caso di necessità. Anche se muore, il lupo potrà essere nuovamente a disposizione al tramonto seguente. Inoltre gli stivali proteggono il suo proprietario dalla maggior parte dei lupi, sebbene non dai lupi mannari.
+
+STATISTICHE:
+
+Abilità fornita: Immune agli attacchi dei lupi
+Speciale: Evoca un Lupo Vampiro una volta al giorno
+Peso: 2~
+
+@252 = ~Aiuto! Aiuto!~ [T-SVA03B] //MORALE
+@253 = ~Sono ferito! Guariscimi!~ [T-SVA07] //HURT
+@254 = ~Sei in GRANDE pericolo se mi disturbi. Aspetta!~ [T-SVA08] //DIALOGUE_HOSTILE
+
+@255 = ~Goblin Arciere~
+@256 = ~Goblin Guardia del Corpo~
+@257 = ~Goblin Arciere d'Elite~
+@258 = ~Capo dei Goblin~
+@259 = ~Goblin Sciamano~
+@260 = ~Gnomo Schiavo~
+@261 = ~Anello Svirfneblin~
+
+@262 = ~Orecchini di Denti Incatenati~
+@263 = ~Le catene di questo orecchini sembrano essere modellati da un metallo nero e non di questo mondo. Attaccati ci sono dei lunghi denti stretti di qualche strana creatura. Da un esame più attento, riesci a scoprire che questo orecchini sono in realtà anche un paio di Passe-partout di ottima fattura. Se necessario il possessore li può utilizzare per aprire le serrature più difficili.
+
+Abilità di Equipaggiamento:
+ Scassinare +5%
+ Protegge contro i colpi critici
+Richiede: 10 alla Destrezza
+Utilizzabile da:
+ Ladro~
+
+@264 = ~Set di Passe-partout in Ferro~
+@265 = ~Questo é un set di Passe-partout di ottima fattura dalle forme differenti che può essere utilizzato per aprire una varia gamma di serrature dalla più semplice alla più difficile. Uno degli strumenti può anche essere utilizzato per cercare e rimuovere le trappole. Sebbene non abbia lo stesso valore per gli intrepidi scassinatori come il raro ed il ricercatissimo Passe-partout di mithril o di adamantite, questo set è comunque molto utile.
+
+STATISTICHES:
+
+Abilità di Equipaggiamento:
+ Scassinare +15%
+ Cerca/Rimuovi Trappole +5%
+Richiede: 10 alla Destrezza
+Utilizzabile da:
+ Ladro~
+
+@266 = ~Pila di Ossa~
+@267 = ~Questa quantità di ossa marcite é tutto quello che rimane di un povero avventuriero sfortunato. Ci sono ben poche tracce che possono determinare chi fosse, ma lui o lei era probabilmente un umano, elfo o un umanoide dalla stazza simile agli elfi. Indubbiamente, l'avventuriero è andato incontro ad una fine violenta, a giudicare dai segni e dalle ossa frantumate. Probabilmente sono passati molti anni da quando è successo il fatto, forse anche un centinaio di anni, se ci si affida al colore e alle condizioni delle ossa.
+
+STATISTICHE:
+
+Peso: 15~
+
+@268 = ~Nota Malridotta~
+@269 = ~Questo é un vecchio e malridotto pezzo di pergamena ricoperto di polvere di ossa e macchiata di sangue appartenente ad un cadavere marcito da lungo tempo. Malgrado le sue condizioni, una parte della nota è a malapena leggibile.
+
+"...potrebbe interessare gli Anziani... arrivato a ciò che sembra essere una grotta... molti astuti dispositivi che la fanno sembrare... parte della roccia circostante... Spero che i parassiti di cui mi sono liberato la scorsa notte non hanno la loro tana in questo orribile luogo... forse la favola dello Scudo di  Gwalhaudh è una menzogna... vedrò..."~
+
+@270 = ~Scudo del Cavaliere +1~
+@271 = ~Sebbene sulla superficie di questo scudo ci siano molti punti rovinati dovuti al tempo o al grande utilizzo non sembrano averlo minimamente indebolito. Lo scudo appare essere di bronzo, benché sembra sia più solido del ferro. Inoltre, non mostra nessun segno verde del verderame che solitamente ricopre un oggetto di bronzo dopo parecchi anni. Deve essere stato forgiato con qualche lega sconosciuta ai moderni fabbri di metallo. Lo scudo è di forma triangolare, la forma tipica dello scudo di un cavaliere in stile classico, diviso in due parti da una croce composta da una lega di metallo scura e con in rilievo un  blasone diviso in quattro rappresentante dei castelli e dei leoni selvaggi incoronati. Si tratta chiaramente di un cavaliere famoso, probabilmente di un duca o un re. Forse potrebbe essere il leggendario Scudo di Gwalhaudh il Puro, andato perduto molti anni fa. Lo scudo si suppone che potrebbe tenere a bada le creature malvagie, poiché sono riluttanti a toccarlo o anche ad avvicinarvisi.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: 2
+Abilità fornita: Protezione dal Male
+Peso: 6
+Richiede: 12 alla Forza
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Personaggi di Allineamento malvagio~
+
+@272 = ~Oggetto Wolf Attribuito al Lupo~
+@273 = ~Questo oggetto attribuisce al lupo le sue innate caratteristiche come come lenta rigenerazione.~
+
+@274 = ~Stivali dei Drow~
+@275 = ~Poco dopo la loro Discesa, i drow hanno iniziato a fabbricare questi stivali nei negozi artigianali del Sottosuolo. I fabbri elfi oscuri iniziarono con il fare delle copie degli stivali elfici alterandoli, in base ai materiali che avevano a disposizione. Diversamente dagli altri oggetti drow, gli stivali non sono create con l'adamantite, e quindi non degenereranno con la luce. Invece questo tipo do stivali sono composti da seta incantata di ragno che dona al suo possessore l'immunità alle ragnatele. Inoltre, gli stivali conferiscono l'abilità di evocare a Myrlochar, o uno "Spirito di Ragno", incurante di dove potrebbe trovarsi il suo proprietario. Questi servitori oscuri extraplanari di Lolth possiedono la capacità di risucchiare permanentemente punti ferita dalle loro vittime e trasferirli a loro stessi.
+
+STATISTICHE
+
+Abilità di Equipaggiamento:
+ Muoversi silenziosamente: +15%
+ Immunità alla Ragnatela
+Speciale: Evoca un Myrlochar una volta al giorno
+Peso: 3~
+
+@276 = ~Stivali dei Daemonfey~
+@277 = ~Seimila anni fa, un fiero clan di elfi del sole abitavano in quello che adesso é Cormanthor. Questi elfi ambiziosi  trafficavano con i demoni per guadagnare potere e si riproducevano con loro per rafforzare il loro legame di sangue. Alla fine, altri elfi vennero a sapere di questo oltraggio e distrussero i mezzidemoni della Casa Dlardrageth. Alcuni riuscirono a sopravvivere per riprodursi con altre razze demoniache, generando i tiefling fey'ri ed abomini simili. Ancora meno individui appartenenti a quella discendenza originale riuscirono a fuggire alla battaglia iniziale e scomparirono dalla storia nelle foreste del Nord. Ma di quegli abomini pochissimi elfi demoni mezzosangue sfuggiti si riprodussero con altri elfi ed alla fine divennero noti con il nome di Daemonfey. I loro stivali sono imbevuti di poteri infernali tali che con essi si può evocare un alleato dagli abissi. Delle volte questa evocazione può avere pericolose conseguenze per il proprietario degli stivali.
+
+STATISTICHE
+
+Abilità di Equipaggiamento:
+ Resistenza alla Magia: +10%
+ Capacità di movimento +4
+Speciale:
+ Evoca un Cambion o un Alu-Fiend una volta al giorno (25% di possibilità che la creatura evocata diventi ostile)
+ Risucchio temporaneo di livello per 8 turni (50% di possibilità)
+Non utilizzabile da:
+ Personaggi Legali
+Peso: 3~
+
+@278 = ~Gemma Occhi di Tigre~
+@279 = ~l'Occhio di tigre è una agata marrone scuro con delle striature marrone dorate molto intense da cui deriva appunto il suo stesso nome. Le leggende narrano che queste gemme occhi di tigre sono utili per in respingere gli spiriti. Sebbene non si conosce se ciò sia vero o no, l'agata dà le basi per essere utilizzata sia nella preparazione di pozioni che nella creazione di segni magici.~
+
+@280 = ~Ossidiana Fiocco di Neve~
+@281 = ~Questa varietà di ossidiana si può trovare qua e là tra i Reami in grandi depositi di origine vulcanica. E' nera con delle macchie grigiastre dalla forma simile ai fiori che spesso, in particolare se un pò di pietra viene tagliata, si nota un'irradiazione di disegni simmetrici che somigliano a dei fiocchi di neve. E' friabile e poco resistente, ma è spesso utilizzata per piccoli lavori d'intaglio. Nei Reami, si può trovare in vendita già lavorata e sotto forma di gemma, o venduta in "blocchi" oppure in pezzi larghi ed irregolari.~
+
+@282 = ~Gemma Ametista~
+@283 = ~Questo minerale prende la forma di cristalli dal colore profondamente violaceo, si trovano spesso in mezzi ai geodi ma anche nelle grandi vene di superficie che a volte si estendono per centinaia mi metri. Mentre la maggior parte degli esemplari hanno delle piccole imperfezioni o tracce di altri minerali che li offuscano, alcuni non hanno simili imperfezioni o difetti e sono tagliati in gemme di alta qualità. Si ritiene che le ametiste proteggano dalla sbornia, ed in quanto tali sono di solito utilizzate come ornamenti per boccali o calici, in particolare quelli utilizzati dalla nobiltà. Queste voci su questa protezione, comunque, è più una superstizione che la vera realtà.~
+
+@284 = ~Gemma Topazio~
+@285 = ~Il topazio è una gemma dorata e trasparente che si trova sotto forma di grandi cristalli nei depositi di granito. Di solito sono di colore marrone o giallo, e diventano rosa se esposti ad alte temperature. Il topazio è molto solido e non si consuma facilmente. Viene utilizzato come una gemma da guarnizione nei congegni che offrono protezione dagli effetti magici.~
+
+@286 = ~Gemma d'Ambra~
+@287 = ~L'Ambra è una resina dorata e fossilizzata, di solito viene lisciata e levigata ma non sfaccettata. E' morbida e fragile e spesso utilizzata come un rimedio fortunato per allontanare le malattie e le piaghe. Alcune ambre conservano altri fossili, come piante ed insetti primitivi. Queste variazioni di ambre sono valutate molto di più nei Reami. Delle palline di ambra legate alla cintura vengono utilizzate come mezzo di scambio dai barbari del nord, ma sono classificate anche tra la gente civilizzata come gemme di valore.~
+
+@288 = ~Opale di Fuoco~
+@289 = ~Questo opale fiammeggiante color rosso arancio di solito ha un solo colore ma delle volte possiede delle chiazze dorate o verdi. Questa gemma  semitrasparente è spesso tagliata e sfaccettata per essere utilizzata come gioiello alla stessa maniera degli zaffiri e dei rubini. Può essere trovato nei pressi di sorgenti di acqua calda e geyser, e viene spesso utilizzato per creare gioielli come ciondoli o anelli.~
+
+@290 = ~Opale a Strisce~
+@291 = ~Opale a Strisce è il nome dato ad un tipo di prezioso opale con delle strisce variegate o ondeggianti che mostrano un gioco di colori. Desiderato ardentemente dagli antichi clan di elfi, sono divenuti assai rari in questi ultimi tempi. Questa gemma pallida e levigata delle volte è utilizzata in congegni protettivi o di divinazione.~
+
+@292 = ~E' un ordinario specchio di media grandezza e portatile.~
+@293 = ~Questo è un ordinario specchio di media grandezza e portatile con una cornice di lega di stagno. Presenta un riflesso eccezionalmente chiaro, quindi il metallo dietro il vetro deve essere d'argento. Sebbene non sia pratico per una difesa normale, chiunque porta questo specchio come scudo ha la possibilità di riflettere gli attacchi portati con lo sguardo dei basilischi ed altre creature simili.
+
+STATISTICHE:
+
+Abilità fornita:
+ 25% di possibilità di riflettere gli attacchi con lo sguardo 
+Peso: 1~
+
+@294 = ~Questa robusta scatola di legno è verniciata con della lacca e rinforzata con del bronzo. E' piccola ma pratica e può contenere dei piccoli oggetti.
+
+STATISTICHE:
+
+Capacità: 12 oggetti
+Peso: 5~
+
+@295 = ~Stivali del Rapido Amore~
+@296 = ~Questi stivali sono stati creati dagli Stivali Eleganti del Ghepardo o di Cheetah e dalle scarpe conosciute con il nome di "Emorragie di Bugie d'Amore", nelle quali è realmente possibile far morire qualcuno d'amore. Le originali Zampe di Cheetah che erano posseduti da mortali assassini che amavano dare la caccia alle loro prede. Si muovevano con una velocità tale che le loro vittime spesso non avevano il tempo di reagire, anche se si trovavano a cavallo. Naturalmente questo era molto impressionante, ma gli assassini non avevano il senso dello stile. Questi stivali sono stato creati sempre con la pelle di ghepardo ma con una linea più affascinante, colorati di rosso e con inserito un opale di fuoco. Incrementano la velocità di colui che li indossa ed allo stesso tempo ne migliorano il suo aspetto.
+
+STATISTICHE:
+
+Abilità fornita: Capacità di movimento raddoppiata
+Speciale: Lancia Bellezza della Natura una volta al giorno
+Peso: 3~
+
+@297 = ~Stivali Gnomici Puzzolenti~
+@298 = ~Questi stivali bassi sono stati fabbricati per mezzo dei robusti Stivali Gnomici e dei malfamati stivali conosciuti come "Piede Puzzolente". I secondi hanno acquisito il loro nome dal loro primo proprietario che, dopo diversi anni di a subire commenti sprezzanti e richieste di andarsi a sedere da qualche altra parte, decise di trarre vantaggio dalla sua situazione. Gli stivali sono stati completamente ripuliti con l'inserimento di un'ambra. Ancora portano il titolo di "Puzzolenti" ma in segno di profondo rispetto per i loro poteri. Le punte sono rivolte leggermente verso l'alto e le piante di questi stivali gnomici sono inoltre disegnate per ottenere un sicuro equilibrio su qualsiasi terreno, sia nel sottosuolo che in superficie.
+
+Abilità fornita: Libertà d'azione
+Speciale: Lancia Nube maleodorante una volta al giorno
+Peso: 2~
+
+@299 = ~Stivali dalla Triplice Corazza~
+@300 = ~Questi stivali prendono il loro nome dal loro unico esemplare a tre colori, sebbene siano modellati per mezzo di quattro paia di stivali. Infatti sono compresi gli Stivali per Tutti i Giorni verdi, gialli e blu e dagli Stivali di Repulsione conosciuti come "Istinto Felino". La magia di questi stivali è stata specificatamente modellata per rivelare i proiettili in arrivo ed aiutare colui che li indossa ad evitarli. Furono inizialmente stati commissionati da un istruttore di di un'accademia del tiro con l'arco, che era stanco di soffrire per gli "incidenti" alle mani dei suoi studenti inesperti. Inoltre, forniscono una piccola protezione alla classe armatura por gli altri tipi di attacchi. Gli stivali sono decorati con un multicolorato opale a strisce. Si dice in giro che i giullari danno un grande valore a questi stivali.
+
+STATISTICS:
+
+Abilità fornita: AC -2, -5 contro i proiettili
+Peso: 4~
+
+@301 = ~Stivali Drow della Notte~
+@302 = ~Poco dopo la loro Discesa, i drow hanno iniziato a fabbricare questi stivali nei negozi artigianali del Sottosuolo. I fabbri elfi oscuri iniziarono con il fare delle copie degli stivali elfici alterandoli, in base ai materiali che avevano a disposizione. Diversamente dagli altri oggetti drow, gli stivali non sono create con l'adamantite, e quindi non degenereranno con la luce. Invece questo tipo do stivali sono composti da seta incantata di ragno che dona al suo possessore l'immunità alle ragnatele. Inoltre, gli stivali conferiscono l'abilità di evocare a Myrlochar, o uno "Spirito di Ragno", incurante di dove potrebbe trovarsi il suo proprietario. Questi servitori oscuri extraplanari di Lolth possiedono la capacità di risucchiare permanentemente punti ferita dalle loro vittime e trasferirli a loro stessi. Questi stivali sono stati combinati con gli Stivali Elfici per conferire le abilità originali del loro prototipo. Inoltre affrettano colui che li indossa ed hanno inserita un'ametista dal colore profondamente violacea.
+
+STATISTICHE
+
+Abilità di Equipaggiamento:
+ Muoversi Silenziosamente: +30%
+ Nascondersi nelle Ombre: +15%
+ Capacità di movimento raddoppiata
+ Immune a Ragnatela
+Speciale: Evoca un Myrlochar due volte al giorno
+Peso: 3~
+
+@303 = ~Stivali Nobili del Demone~
+@304 = ~Seimila anni fa, un fiero clan di elfi del sole abitavano in quello che adesso é Cormanthor. Questi elfi ambiziosi  trafficavano con i demoni per guadagnare potere e si riproducevano con loro per rafforzare il loro legame di sangue. Alla fine, altri elfi vennero a sapere di questo oltraggio e distrussero i mezzidemoni della House Dlardrageth. Alcuni riuscirono a sopravvivere per riprodursi con altre razze demoniache, generando i tiefling fey'ri ed abomini simili. Ancora meno individui appartenenti a quella discendenza originale riuscirono a fuggire alla battaglia iniziale e scomparirono dalla storia nelle foreste del Nord. Ma di quegli abomini pochissimi elfi demoni mezzosangue sfuggiti si riprodussero con altri elfi ed alla fine divennero noti con il nome di Daemonfey. I loro stivali sono imbevuti di poteri infernali tali che con essi si può evocare un alleato dagli abissi. Questi particolari stivali sono stati fatti con gli Stivali della Velocità e un rubino stellato di incomparabile bellezza, facendone un'appropriata calzatura per un principe dei demoni.
+
+STATISTICHE
+
+Abilità di Equipaggiamento:
+ Resistenza alla Magia: +15%
+ Capacità di movimento raddoppiata
+Speciale: Evoca un Cambion o un Alu-Fiend una volta al giorno
+Non utilizzabile da:
+ Personaggi Legali
+Peso: 3~
+
+@305 = ~Scudo Riflettente +1~
+@306 = ~Originariamente questo scudo sembra sia di un bronzo molto resistente che sembra anche più solido del ferro. Inoltre, non mostra nessun segno verde del verderame che solitamente ricopre un oggetto di bronzo dopo parecchi anni. Deve essere stato forgiato con qualche lega sconosciuta ai moderni fabbri di metallo. Possiede una copertura riflettente di metallo simile all'argento e di diamante. Lo scudo è di forma triangolare, la forma tipica dello scudo di un cavaliere in stile classico, diviso in due parti da una croce composta da una lega di metallo scura e con in rilievo un  blasone diviso in quattro rappresentante dei castelli e dei leoni selvaggi incoronati. Si tratta chiaramente di un cavaliere famoso, probabilmente di un duca o un re. Forse potrebbe essere il leggendario Scudo di Gwalhaudh il Puro, andato perduto molti anni fa. Oltre a riflettere lo sguardo delle creature come i basilischi, lo scudo può anche tenere alla larga le creature malvagie, poiché sono riluttanti a toccarlo o anche ad avvicinarvisi.
+
+STATISTICS:
+
+Bonus alla Classe Armatura: 2
+Abilità di Equipaggiamento:
+ Protezione dal Male
+ Riflette gli attacchi con lo sguardo
+Peso: 6
+Richiede: 12 alla Forza
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Personaggi di allineamento Malvagio~
+
+@307 = ~Ritratti piccoli per gli NPCs~
+@308 = ~Mercanti e NPCs minori~
+@309 = ~Solo Mercanti~
+@310 = ~Questo componente richiede il componente principale.~
+
+@311 = ~Accorciare le introduzioni di BG2~
+@312 = ~Questo componente richiede BG2 o BGT.~
+
+@313 = ~Cambiare i prezzi d'acquisto nei negozi~
+@314 = ~Cambiare i prezzi di vendita nei negozi~
+@315 = ~Cambiare i prezzi delle gemme e dei gioielli~
+@316 = ~Cambiare l'oro portato dalle creature~
+
+@317 = ~Riduci al 10%~
+@318 = ~Riduci al 25%~
+@319 = ~Riduci al 50%~
+@320 = ~Riduci al 50% (raccomandato)~
+@321 = ~Riduci al 67%~
+@322 = ~Riduci al 67% (raccomandato)~
+@323 = ~Riduci al 75%~
+@324 = ~Riduci al 90%~
+@325 = ~Aumenta del 110%~
+@326 = ~Aumenta del 125%~
+@327 = ~Aumenta del 150%~
+@328 = ~Aumenta del 150% (raccomandato)~
+@329 = ~Aumenta del 200%~
+@330 = ~Aumenta del 300%~
+@331 = ~Aumenta del 500%~
+
+@332 = ~Questa piccolissima serra contiene molti tipi di bacche ed è illuminata da delle luci speciali che simulano il sole.~
+@333 = ~Questo giardino interno contiene molti tipi di bacche ed è illuminata da delle luci speciali che simulano il sole.~
+@334 = ~Una delle numerose corde che pendono dal soffitto della grotta, adornate con dozzine di teschi di gnomi.~
+
+@335 = ~Accorciare la scena del sotterraneo~
+@336 = ~Accorciare la scena del sotterraneo e della Passeggiata di Waukeen~
+@337 = ~Accorciare la scena della battaglia di Gorion~
+@338 = ~Myrlochar~
+@339 = ~Morso di Myrlochar~
+
+@340 = ~Buona giornata.~ [AGAU013]
+@341 = ~Salve.~ [AGAU050]
+@342 = ~Io ho qualcosa per ognuno.~ [AGAU053]
+@343 = ~Questo componente richiede Tutu o BGT.~
+@344 = ~Fatica Ridotta~
+@345 = ~Questo piccone gnomico ne ha viste di tutti i colori e non è molto resistente.~
+@346 = ~Strano Congegno~
+@347 = ~Questo è uno strano congegno metallico con diversi ingranaggi. La sua funzione sembra sconosciuta.~
+@348 = ~Vecchio Orologio~
+@349 = ~Aurora ed il suo assistente gnomico hanno acquistato diversi oggetti insoliti nel corso dei loro commerci, e questo è uno di quelli più strani. Sembra trattarsi di una serie ingranaggi intrecciati tra loro con delle frecce alloggiate in un riparo di ottone eroso dal tempo. Uno gnomo traffichino affermando di provenire dal mondo di Krynn lo ha dato in pegno al negozio in cambio di un paio di stivali che, diceva lui, *doveva* avere. Sebbene Aurora ed il suo stesso socio svirneblin erano profondamente sospettosi del congegno, questo non é ancora esploso. Tuttavia, a causa dei suoi intricati congegni, non è molto preciso. Il suo solo vantaggio oltre ad avere una bella meridiana è che presumibilmente funziona senza la luce del sole.
+
+STATISTICHE:
+
+Speciale: Mostra approssimativamente l'orario
+Peso: 1~
+
+@350 = ~Stivali del Pub~
+@351 = ~Fuoco dello Spirito~
+@352 = ~Licantropia~
+@353 = ~Guadagnata l'abilità di Mutare Forma~
+@354 = ~La Forza è stata abbassata permanentemente di 1 punto~
+@355 = ~L'intelligenza stata abbassata permanentemente di 1 punto~
+@356 = ~La Saggezza è stata abbassata permanentemente di 1 punto~
+@357 = ~La Destrezza è stata abbassata permanentemente di 1 punto~
+@358 = ~La Costituzione è stata abbassata permanentemente di 1 punto~
+@359 = ~Il Carisma è stato abbassato permanentemente di 1 punto~
+@360 = ~Guadagnata Abilità Innata~
+@361 = ~Grandezza Raggiunta: +3 Abilità Speciali~
+@362 = ~Capitano Gnoll~
+@363 = ~Capitano Hobgoblin~
+@364 = ~Mago Hobgoblin~
+
+@365 = ~Si sta randomizzando il piazzamento degli oggetti. Potrebbe richiedere unpò di tempo ...~
+@366 = ~è corrotto~
+@367 = ~sotto la lunghezza minima~
+@368 = ~intestazione messa male~
+@369 = ~le strutture prolungate verso il punto di intestazione~
+
+@373 = ~Si sta installando Aurora's Shoes per Classic Adventures~
+@374 = ~Questo componente non è pertinente per Classic Adventures.~
+@375 = ~Riduci al 17%~
+@376 = ~Cambia le ricompense in denaro per le quest~
+@377 = ~delle linee esistenti nelle vostre tabelle rndtreas.2da e rndmagic.2da. Hai bisogno di 6 o meno linee in uno dei due affinché questo componente funzioni interamente.~
+@378 = ~Tesori casuali realistici~
+@379 = ~Rimuovi i tesori duplicati casualmente ~
+@380 = ~Solo le creature intelligenti possiedono delle pergamene casuali~
+@381 = ~Entrambi 1 e 2 (nessun tesoro perso)~
+@382 = ~Ciò potrebbe richiedere un pò di tempo ...~
+@383 = ~Entrambi 1 e 2 (25% di perdita dei tesori)~
+@384 = ~Entrambi 1 e 2 (50% di perdita dei tesori)~
+@385 = ~Entrambi 1 e 2 (75% di perdita dei tesori)~
+@386 = ~Rimossi tutti i tesori casuali~
+@387 = ~Versione cartacea (PnP) degli Orrori con Elmo e degli Orrori di Battaglia ~
+@388 = ~Nessuna creatura attinente trovata.~
+@389 = ~Questo è un grande servizio che hai reso alla gente di questa zona, ma questo compensa a mala pena i precedenti atti di violenza che hai commesso all'interno di queste mura. Non avrai altro che l'oro che ho con me, e poi te ne andrai via dalla mia vista! Devi essere grato che la guardia non ti metta in catene come tua ricompensa!~
+@390 = ~Sono impressionato! Sei buono come le tue parole ed evidentemente molto letale nel tuo lavoro. Ti darò la paga che meriti: raddoppiata rispetto al nostro precedente accordo. Voglio rimanere in contatto con te soprattutto se il Trono di Ferro è sul punto di agire come tu dici.~
+@391 = ~Un migliaio di monete d'oro, e lei è tua!~
+@392 = ~Non avrai che 2,000 monete d'oro~
+@393 = ~il triplo~
+@394 = ~Mille monete d'oro~
+@395 = ~Perché non cinquanta~
+@396 = ~Perché non dieci volte questo~
+@397 = ~[Vv]entimila~
+@398 = ~[Qq]uindicimila~
+@399 = ~[Dd]iecimila~
+@400 = ~[Nn]ovemila~
+@401 = ~[Oo]ttomila~
+@402 = ~[Ss]ettemila~
+@403 = ~[Ss]eimila[- ]cinquecento~
+@404 = ~[Ss]eimila~
+@405 = ~e fino a cinque~
+@406 = ~e fino a 5000~
+@407 = ~Cinque adesso, cinque~
+@408 = ~Metà adesso, metà~
+@409 = ~[Cc]inquemila~
+@410 = ~[Qq]uattromila~
+@411 = ~[Tt]remila~
+@412 = ~[Dd]uemila e cinquecento~
+@413 = ~[Dd]uemila~
+@414 = ~[Mm]ille e cinquecento~
+@415 = ~[Mm]ille e duecento~
+@416 = ~[Uu]n migliaio\|[Mm]ille\|[Ii]l migliaio~
+@417 = ~[Nn]ovecento~
+@418 = ~[Oo]ttocento~
+@419 = ~[Ss]ettecento~
+@420 = ~[Ss]eicento~
+@421 = ~[Cc]inquecento~
+@422 = ~[Qq]uattrocento~
+@423 = ~[Tt]recento~
+@424 = ~[Dd]uecento~
+@425 = ~Si sta copiando e sistemando~
+@426 = ~Ignora qualsiasi messaggio "INSTALLED WITH WARNINGS" - è previsto per questo componente.~
+@427 = ~linea~
+@428 = ~di~
+@429 = ~aggiunte nuove gemme.~
+@430 = ~rimpiazzate le pergamene casuali.~
+@431 = ~Le introduzioni di BG1UB sono riponderate.~
+@432 = ~rimpiazzate le pergamene degli indovinelli.~
+@433 = ~Commando di Coboldi realistici~
+@434 = ~Solo degli Accomodamenti~
+@435 = ~Ali~
+@436 = ~Alu-Fiend~
+
+@437 = ~Questo è il modo con cui va fatto ed è stato fatto!~ [T-SVA09] //CRITICAL_HIT
+@438 = ~No...~ [T-SVA10] //CRITICAL_MISS
+@439 = ~Salve.~ [T-SVN01A] //SELECT_COMMON1
+@440 = ~Si.~ [T-SVN01B] //SELECT_COMMON2
+@441 = ~Vieni e discutiamo un pò.~ [T-SVN01C] //SELECT_COMMON3
+@442 = ~Oh ho ho ho!~ [T-SVN01D] //SELECT_COMMON4
+@443 = ~Prendiamoli!~ [T-SVN02A] //BATTLE_CRY1
+@444 = ~Ti ridurrò unpò le tue dimensioni!~ [T-SVN02B] //BATTLE_CRY2
+@445 = ~Prendi questo!~ [T-SVN02C] //BATTLE_CRY1
+@446 = ~Il male cadrà davanti a me!~ [T-SVN02D] //BATTLE_CRY2
+@447 = ~Ti saluto.~ [T-SVN03A] //MORALE
+@448 = ~Ti prego aiutami!~ [T-SVN03B] //MORALE
+@449 = ~Sono ferito!~ [T-SVN07] //HURT
+@450 = ~Ti andrai a farti pistare di botte!~ [T-SVN08] //DIALOGUE_HOSTILE
+@451 = ~Beh, occhio a questo!~ [T-SVN09] //CRITICAL_HIT
+@452 = ~No...~ [T-SVN10] //CRITICAL_MISS
+@453 = ~Worg Maggiore~
+
+@454 = ~BGMain.exe sembra essere già stato sistemato; saltando .exe modificazioni ...~
+@455 = ~BGMain.exe non valido - assicurati che il tuo ToB .exe abbia la patch alla versione v26498!~
+@456 = ~Sistemando BGMain.exe per abilitare nuove animazioni ...~
+@457 = ~Accorciare le scene del Sotterraneo, della Passeggiate di Waukeen e di Spellhold~
+@458 = ~Si stanno rimpiazzando le animazioni delle creature _LOW (potrebbe volerci un po' di tempo) ...~
+@459 = ~La pagina del tuo codice ANSI è fissata ad un valore di~
+@460 = ~Si stanno aggiornando le animazioni per adeguarle alla tua tabella dei codici ...~
+@461 = ~Si stanno sistemando i riferimenti di area per le creature~
+@462 = ~Si stanno correggendo i riferimenti di area per le creature (ciò potrebbe richiedere un po' di tempo) ...~
+@463 = ~Yuan-Ti~
+@464 = ~Mago Yuan-Ti~

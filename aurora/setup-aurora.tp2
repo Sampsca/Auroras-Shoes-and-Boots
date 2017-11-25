@@ -1,7 +1,7 @@
 BACKUP ~aurora/backup~
 AUTHOR ~www.shsforums.net/forum/418-auroras-shoes/~
-VERSION ~v5.2.0~
-README ~aurora/aurora-%LANGUAGE%.html~
+VERSION ~v5.2.1~
+README ~aurora/aurora-%LANGUAGE%.html~ ~aurora/aurora-english.html~
 
 //! Platform variables //////////////////////////////////////////////////////
 ALWAYS
@@ -62,7 +62,8 @@ END
 //! Languages ///////////////////////////////////////////////////////////////
 AUTO_TRA ~aurora/%s~
 LANGUAGE ~English~ ~english~ ~aurora/english/setup.tra~
-LANGUAGE ~Fran‡ais~ ~french~ ~aurora/french/setup.tra~
+LANGUAGE ~Francais~ ~french~ ~aurora/french/setup.tra~
+LANGUAGE ~Italiano~ ~italian~ ~aurora/italian/setup.tra~
 
 //! Main component //////////////////////////////////////////////////////////
 BEGIN @1 //Aurora's Shoes and Boots
