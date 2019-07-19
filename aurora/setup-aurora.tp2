@@ -1,6 +1,6 @@
 BACKUP ~aurora/backup~
 AUTHOR ~www.shsforums.net/forum/418-auroras-shoes/~
-VERSION ~v5.2.1~
+VERSION ~v5.2.2~
 README ~aurora/aurora-%LANGUAGE%.html~ ~aurora/aurora-english.html~
 
 //! Platform variables //////////////////////////////////////////////////////
@@ -64,6 +64,7 @@ AUTO_TRA ~aurora/%s~
 LANGUAGE ~English~ ~english~ ~aurora/english/setup.tra~
 LANGUAGE ~Francais~ ~french~ ~aurora/french/setup.tra~
 LANGUAGE ~Italiano~ ~italian~ ~aurora/italian/setup.tra~
+LANGUAGE ~Russian~ ~russian~ ~aurora/russian/setup.tra~
 
 //! Main component //////////////////////////////////////////////////////////
 BEGIN @1 //Aurora's Shoes and Boots
@@ -2300,8 +2301,16 @@ ACTION_IF (~%plt%~ STRING_EQUAL ~bg2~ = 1) OR (~%plt%~ STRING_EQUAL ~bgt~ = 1) B
         STRING_SET ~Je me souviens de toi ! La Porte de Baldur ! Neb le tueur d'enfants ! Meurs, nain, MEURS !! RAAAAAGGGGGHHHH !!~ @119
       END ELSE BEGIN
         ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~polski~ = 1) BEGIN
-          STRING_SET ~Pami�tam ci�! Wrota Baldura! Neb, zab�jca dzieci! Umrzesz krasnoludzie, umrzesz!! RAAAAAGGGGGHHHH!!~ @119
-        END
+          STRING_SET ~Pamiêtam ciê! Wrota Baldura! Neb, zabójca dzieci! Umrzesz krasnoludzie, umrzesz!! RAAAAAGGGGGHHHH!!~ @119
+        END ELSE BEGIN
+          ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~russian~ = 1) BEGIN
+            STRING_SET ~Я помню тебя! Врата Балдура! Нэб, убийца детей! Умри, гном, умри! Р-Р-Р-Р-Р-Р-Р-РА-А-А-А-А!~ @119
+          END ELSE BEGIN
+            ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~italian~ = 1) BEGIN
+              STRING_SET ~Io mi ricordo di te! Baldur's Gate! Neb l'assassino di bambini! Muori, gnomo, muori!! RAAAAAGGGGGHHHH!!~ @119
+            END
+          END
+         END
       END
     END
   END
