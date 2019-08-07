@@ -2301,13 +2301,13 @@ ACTION_IF (~%plt%~ STRING_EQUAL ~bg2~ = 1) OR (~%plt%~ STRING_EQUAL ~bgt~ = 1) B
         STRING_SET ~Je me souviens de toi ! La Porte de Baldur ! Neb le tueur d'enfants ! Meurs, nain, MEURS !! RAAAAAGGGGGHHHH !!~ @119
       END ELSE BEGIN
         ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~polski~ = 1) BEGIN
-          STRING_SET ~PamiГЄtam ciГЄ! Wrota Baldura! Neb, zabГіjca dzieci! Umrzesz krasnoludzie, umrzesz!! RAAAAAGGGGGHHHH!!~ @119
+          STRING_SET ~Pamiкtam ciк! Wrota Baldura! Neb morderca dzieci! Zginiesz, krasnoludzie, zginiesz! RAAAAAGGGGGHHH!~ @119
         END ELSE BEGIN
           ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~russian~ = 1) BEGIN
-            STRING_SET ~РЇ РїРѕРјРЅСЋ С‚РµР±СЏ! Р’СЂР°С‚Р° Р‘Р°Р»РґСѓСЂР°! РќСЌР±, СѓР±РёР№С†Р° РґРµС‚РµР№! РЈРјСЂРё, РіРЅРѕРј, СѓРјСЂРё! Р -Р -Р -Р -Р -Р -Р -Р Рђ-Рђ-Рђ-Рђ-Рђ!~ @119
+            STRING_SET ~Я помню тебя! Город Балдур! Неб - детоубийца! Ты умрешь, гном, ты умрешь!! РААААГГГГХХХ!!!~ @119
           END ELSE BEGIN
             ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~italian~ = 1) BEGIN
-              STRING_SET ~Io mi ricordo di te! Baldur's Gate! Neb l'assassino di bambini! Muori, gnomo, muori!! RAAAAAGGGGGHHHH!!~ @119
+              STRING_SET ~Mi ricordo di te! Baldur's Gate! Neb l'assassino di bambini! Muori, nano, muori!! RAAAAAGGGGGHHHH!!~ @119
             END
           END
          END
