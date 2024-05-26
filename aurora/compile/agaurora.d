@@ -3709,6 +3709,33 @@ GiveItemCreate("agboot23",LastTalkedToBy(),0,0,0)~
 == IF_FILE_EXISTS sola @708 /* ~I... thank you.~ */
 == agaurora @709 /* ~Think nothing of it. I love a man who can recite poetry.~ */ EXTERN agaurora now
 
+//Solaufein By Jastey
+
+CHAIN
+IF WEIGHT #-1 ~
+OR(2)
+  Global("ag_greeting","GLOBAL",1)
+  Global("ag_greeting","GLOBAL",2)
+Global("ag_chat_sola","GLOBAL",0)
+Global("ag_atimer2","GLOBAL",0)
+InParty("C#SOLAUFEIN")
+InMyArea("C#SOLAUFEIN")
+!StateCheck("C#SOLAUFEIN",CD_STATE_NOTVALID)
+~ THEN agaurora banter_sola
+@701 /* ~A drow traveling on the surface? How unusual! Is there anything I can get for you?~ */ DO ~
+SetGlobal("ag_chat_sola","GLOBAL",1)
+SetGlobal("ag_atimer2","GLOBAL",1)~
+== IF_FILE_EXISTS C#SOLA12 @702 /* ~Do you have any books of poetry?~ */
+== agaurora @703 /* ~No, unfortunately I don't. Never was much for books, myself. Essel, now, he used to enjoy them. Many's the night we sat together while he recited poetry...~ */
+== IF_FILE_EXISTS C#SOLA12 @704 /* ~Perhaps this Essel would have a book I could buy then. Do you know where he is?~ */
+== agaurora @705 /* ~He died, poor fellow. Eight? Or was it ten years ago? Haven't met anyone like him since.~ */
+== IF_FILE_EXISTS C#SOLA12 @706 /* ~I have heard human poets say "The life of man is like a winter feast around a blazing fire, while the storm howls or the snow drifts abroad. A distressed sparrow darts within the doorway: for a moment it is cheered by warmth and shelter from the blast; then, shooting through the other entrance, it is lost again. Such is man. He comes we know not whence, hastily snatches a scanty share of worldly pleasure, then goes we know not whither."~ */
+== agaurora @707 /* ~Essel would have loved that... (sigh) Here. I may not have any books for you, but these should make your life little easier. It can't be easy, being a drow on the surface.~ */
+DO ~
+GiveItemCreate("agboot23",LastTalkedToBy(),0,0,0)~
+== IF_FILE_EXISTS sola @708 /* ~I... thank you.~ */
+== agaurora @709 /* ~Think nothing of it. I love a man who can recite poetry.~ */ EXTERN agaurora now
+
 //Hubelpot (only one of these will fire)
 //If before Hubelpot's quest is taken care of:
 
