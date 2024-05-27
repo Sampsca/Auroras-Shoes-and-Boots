@@ -32,6 +32,7 @@ THEN
     IncrementGlobal("agm","LOCALS",1)
     SetGlobalTimer("agh","LOCALS",6)
     ForceSpell(LastSeenBy(),WIZARD_MAGIC_MISSILE)
+	ForceSpell(LastSeenBy(),WIZARD_MAGIC_MISSILE)
 END
 
 IF
